@@ -9,6 +9,7 @@ def playSeq():
         ans = input()
         if ans.lower() == 'play':
             print('3...\n2...\n1...\nGO!')
+            time.sleep(1)
             Hz = random.randint(300, 1000)
             winsound.Beep(Hz, 2000)
             userHz = random.randint(200, 1000)

@@ -9,6 +9,6 @@ for row in range(1, int(rows) + 1):
     f.write(str(row) + ' ' * (MAX_DIGITS + 1 - len(str(row))))
     for column in range(1, int(columns) + 1):
         res = row * column
-        f.write(str(res) + ' ' * ((MAX_DIGITS - len(str(res)))))
+        f.write(str(res) + ' ' * ((MAX_DIGITS + 1 - len(str(res)))))
     f.write('\n')
 f.close()
