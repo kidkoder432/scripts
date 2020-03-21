@@ -37,19 +37,18 @@ have 1 class you will fill out only 1 box.</li>
 <input type = 'submit' value = 'Calculate' onclick = 'processForm()'/>
 </form>
 <script>
-
     function processForm(){
         var total = 0;
         var classes = Number(document.getElementById('# of Classes').value);
         var grade;
         for(i = 1; i <= classes; i++){
-            grade = document.getElementById('Class ' + i).value;
+            grade = document.getElementById('Class ' + i).value.toLowerCase();
             if(grade != null){
-                if(grade.indexOf(Range(101)) > -1){
+                if(! isNan(grade)){
                     total = total + Number(grade);
                 }
-                grade = grade.toLowerCase(); 
-                if(grade.indexOf('a') > -1){
+                 
+                else if(grade.indexOf('a') > -1){
                     total = total + 4;
                 }
                 else if(grade.indexOf('b') > -1){
