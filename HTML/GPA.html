@@ -45,11 +45,11 @@ have 1 class you will fill out only 1 box.</li>
         for(i = 1; i <= classes; i++){
             grade = document.getElementById('Class ' + i).value;
             if(grade != null){
-                grade = grade.toLowerCase();   
                 if(typeof grade == 'number'){
                     total = total + Number(grade);
                 }
-                else if(grade.indexOf('a') > -1){
+                grade = grade.toLowerCase(); 
+                if(grade.indexOf('a') > -1){
                     total = total + 4;
                 }
                 else if(grade.indexOf('b') > -1){
@@ -67,10 +67,10 @@ have 1 class you will fill out only 1 box.</li>
             }
         }
         var div = 0;
-        var mode = String(document.getElementById('Mode').value);
-        if(mode.toLowerCase() == 'letter'){
+        var mode = String(document.getElementById('Mode').value).toLowerCase();
+        if(mode == 'letter'){
             div = 6;
-        }
+        } 
         else {
             div = 25;
         }
