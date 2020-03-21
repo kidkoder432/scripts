@@ -1,5 +1,5 @@
 import jiphy
-jiphy.to.javascript(import random, winsound, time, sys, keyboard
+jiphy.to.javascript('''import random, winsound, time, sys, keyboard
 
 def playSeq():
     print('Welcome to SoundTest!')
@@ -66,6 +66,6 @@ def playSeq():
         else:
             continue
 
-playSeq())
+playSeq()''')
 
 
