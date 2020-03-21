@@ -66,10 +66,13 @@ have 1 class you will fill out only 1 box.</li>
                 }
             }
         }
-        var div = 25;
-        var mode = document.getElementById('Mode').value;
+        var div = 0;
+        var mode = String(document.getElementById('Mode').value);
         if(mode.toLowerCase() == 'letter'){
             div = 6;
+        }
+        else {
+            div = 25;
         }
 
         var gpa = total / (classes * div);
