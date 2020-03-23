@@ -42,7 +42,7 @@ have 1 class you will fill out only 1 box.</li>
         var classes = Number(document.getElementById('# of Classes').value);
         var grade;
         for(i = 1; i <= classes; i++){
-            grade = document.getElementById('Class ' + i).value.toLowerCase();
+            grade = toLowerCase(document.getElementById('Class ' + i).value);
             if(grade != null){
                 if(! isNan(grade)){
                     total = total + Number(grade);
@@ -65,11 +65,11 @@ have 1 class you will fill out only 1 box.</li>
             }
         }
         var div = 0;
-        var mode = String(document.getElementById('Mode').value).toLowerCase();
+        var mode = toLowerCase(document.getElementById('Mode').value);
         if(mode == 'letter'){
             div = 1;
         } 
-        else{
+        else {
             div = 25;
         }
 
