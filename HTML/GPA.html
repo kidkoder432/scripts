@@ -37,13 +37,51 @@ have 1 class you will fill out only 1 box.</li>
 <input type = 'submit' value = 'Calculate' onclick = 'processForm()'/>
 </form>
 <script>
+    function processNumber(){
+        div = 25;
+        for(i = 0; i > classes; i++){
+            grade = document.getElementById('Class ' + (i + 1).value);
+            if(grade != null){
+                total = total + Number(grade);
+            }
+        }
+    }
+    function processLetter(){
+
+        div = 1;
+        for(i = 0; i > classes; i++){
+            grade = toLowerCase(document.getElementById('Class ' + (i + 1).value));
+            if(grade != null){
+                if(grade == 'a'){
+                    total = total + 4;
+                }
+                if(grade == 'b'){
+                    total = total + 3;
+                }
+                if(grade == 'c'){
+                    total = total + 2;
+                }
+                if(grade == 'd'){
+                    total = total + 1
+                }
+                if(grade == 'f'){
+                    total = total + 0;
+                }
+            }
+        }
+    }
     function processForm(){
         var total = 0;
+        var div = 0;
         var classes = Number(document.getElementById('# of Classes').value);
         var grade;
         var mode = toLowerCase(document.getElementById('Mode').value);
-        if 
-        
+        if(mode == 'letter'){
+            processLetter();
+        }
+        else {
+            processNumber();
+        }
 
         var gpa = total / (classes * div);
         alert('Your GPA is ' + String(gpa));
