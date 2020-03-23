@@ -44,34 +44,34 @@ have 1 class you will fill out only 1 box.</li>
         for(i = 1; i <= classes; i++){
             grade = toLowerCase(document.getElementById('Class ' + i).value);
             if(grade != null){
-                if(! isNan(grade)){
+            /*    if (!isNan(grade)) {
                     total = total + Number(grade);
                 }
-                else if(grade.indexOf('a') > -1){
+                <!-- else if (grade.indexOf('a') > -1) {
                     total = total + 4;
                 }
-                else if(grade.indexOf('b') > -1){
+                else if (grade.indexOf('b') > -1) {
                     total = total + 3;
                 }
-                else if(grade.indexOf('c') > -1){
+                else if (grade.indexOf('c') > -1) {
                     total = total + 2;
                 }
-                else if(grade.indexOf('d') > -1){
+                else if (grade.indexOf('d') > -1) {
                     total = total + 1;
                 }
-                else if(grade.indexOf('f') > -1){
+                else if (grade.indexOf('f') > -1) {
                     total = total + 0;
-                }
+                } */
             }
         }
         var div = 0;
-        var mode = toLowerCase(toString(document.getElementById('Mode').value)) ;
-        if(mode == 'letter'){
-            div = 1;
-        } 
-        else {
-            div = 25;
-        }
+        //var mode = toLowerCase(toString(document.getElementById('Mode').value)) ;
+        //if(mode == 'letter'){
+        //    div = 1;
+        //} 
+        //else {
+        div = 25;
+       // }
 
         var gpa = total / (classes * div);
         alert('Your GPA is ' + String(gpa));
