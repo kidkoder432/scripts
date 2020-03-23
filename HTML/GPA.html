@@ -37,53 +37,40 @@ have 1 class you will fill out only 1 box.</li>
 <input type = 'submit' value = 'Calculate' onclick = 'processForm()'/>
 </form>
 <script>
-    function processNumber(){
-        div = 25;
-        for(i = 0; i > classes; i++){
-            grade = document.getElementById('Class ' + (i + 1).value);
-            if(grade != null){
-                total = total + Number(grade);
-            }
-        }
-        return div, total;
-    }
-    function processLetter(){
-
-        div = 1;
-        for(i = 0; i > classes; i++){
-            grade = toLowerCase(document.getElementById('Class ' + (i + 1).value));
-            if(grade != null){
-                if(grade == 'a' || 'a+' || 'a-'){
-                    total = total + 4;
-                }
-                if(grade == 'b' || 'b+' || 'b-'){
-                    total = total + 3;
-                }
-                if(grade == 'c' || 'c+' || 'c-'){
-                    total = total + 2;
-                }
-                if(grade == 'd' || 'd+' || 'd-'){
-                    total = total + 1;
-                }
-                if(grade == 'f'){
-                    total = total + 0;
-        
-                }
-            }
-        }
-        return div, total;
-    }
     function processForm(){
         var total = 0;
-        var div = 0;
         var classes = Number(document.getElementById('# of Classes').value);
         var grade;
+        for(i = 1; i <= classes; i++){
+            grade = toLowerCase(document.getElementById('Class ' + i).value);
+            if(grade != null){
+                if(! isNan(grade)){
+                    total = total + Number(grade);
+                }
+                else if(grade.indexOf('a') > -1){
+                    total = total + 4;
+                }
+                else if(grade.indexOf('b') > -1){
+                    total = total + 3;
+                }
+                else if(grade.indexOf('c') > -1){
+                    total = total + 2;
+                }
+                else if(grade.indexOf('d') > -1){
+                    total = total + 1;
+                }
+                else if(grade.indexOf('f') > -1){
+                    total = total + 0;
+                }
+            }
+        }
+        var div = 0;
         var mode = toLowerCase(document.getElementById('Mode').value);
         if(mode == 'letter'){
-            div, total = processLetter();
-        }
+            div = 1;
+        } 
         else {
-            div, total = processNumber();
+            div = 25;
         }
 
         var gpa = total / (classes * div);
