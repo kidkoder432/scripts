@@ -45,6 +45,7 @@ have 1 class you will fill out only 1 box.</li>
                 total = total + Number(grade);
             }
         }
+        return div, total;
     }
     function processLetter(){
 
@@ -52,23 +53,25 @@ have 1 class you will fill out only 1 box.</li>
         for(i = 0; i > classes; i++){
             grade = toLowerCase(document.getElementById('Class ' + (i + 1).value));
             if(grade != null){
-                if(grade == 'a'){
+                if(grade == 'a' || 'a+' || 'a-'){
                     total = total + 4;
                 }
-                if(grade == 'b'){
+                if(grade == 'b' || 'b+' || 'b-'){
                     total = total + 3;
                 }
-                if(grade == 'c'){
+                if(grade == 'c' || 'c+' || 'c-'){
                     total = total + 2;
                 }
-                if(grade == 'd'){
-                    total = total + 1
+                if(grade == 'd' || 'd+' || 'd-'){
+                    total = total + 1;
                 }
                 if(grade == 'f'){
                     total = total + 0;
+        
                 }
             }
         }
+        return div, total;
     }
     function processForm(){
         var total = 0;
@@ -77,10 +80,10 @@ have 1 class you will fill out only 1 box.</li>
         var grade;
         var mode = toLowerCase(document.getElementById('Mode').value);
         if(mode == 'letter'){
-            processLetter();
+            div, total = processLetter();
         }
         else {
-            processNumber();
+            div, total = processNumber();
         }
 
         var gpa = total / (classes * div);
