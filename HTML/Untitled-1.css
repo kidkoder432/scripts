@@ -3,13 +3,13 @@ margin-left: 10px;
 font-family: sans-serif;
 background-color: #01113d;
 }
-h1, p, ol {
+h1, p, ol{
     color: #ffffff;
 }
 input {
     border-color: #ffffff;
     box-shadow: #01113d;
     background-color: #01113d;
-    text-decoration-color: #ffffff;
+    text-emphasis-color: #ffffff;
 }
 
