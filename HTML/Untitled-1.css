@@ -1,5 +1,5 @@
 body {
-padding-left: 10;
+margin-left: 10px;
 font-family: sans-serif;
 background-color: #01113d;
 }
@@ -7,9 +7,9 @@ h1, p, ol {
     color: #ffffff;
 }
 input {
-    border-color: #01113d;
+    border-color: #ffffff;
     box-shadow: #01113d;
     background-color: #01113d;
-    color: #01113d;
+    text-decoration-color: #ffffff;
 }
 
