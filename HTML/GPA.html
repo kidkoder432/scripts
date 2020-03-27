@@ -39,29 +39,29 @@ have 1 class you will fill out only 1 box.</li>
 <script>
     function processForm(){
         var total = 0;
-        var classes = toNumber(document.getElementById('# of Classes').value);
+        var classes = Number(document.getElementById('# of Classes').value);
         var grade;
         for(i = 1; i <= classes; i++){
             grade = toLowerCase(document.getElementById('Class ' + i).value);
             if(grade != null){
                 
-                if (grade.indexOf('a') > -1) {
+                if (grade.prototype.indexOf('a') > -1) {
                     total = total + 4;
                 }
-                else if (grade.indexOf('b') > -1) {
+                else if (grade.prototype.indexOf('b') > -1) {
                     total = total + 3;
                 }
-                else if (grade.indexOf('c') > -1) {
+                else if (grade.prototype.indexOf('c') > -1) {
                     total = total + 2;
                 }
-                else if (grade.indexOf('d') > -1) {
+                else if (grade.prototype.indexOf('d') > -1) {
                     total = total + 1;
                 }
-                else if (grade.indexOf('f') > -1){
+                else if (grade.prototype.indexOf('f') > -1){
                     total = total + 0;
                 }
                 else {
-                    total = total + toNumber(grade);
+                    total = total + Number(grade);
                 } 
             }
         }
@@ -75,8 +75,9 @@ have 1 class you will fill out only 1 box.</li>
     }
 
     var gpa = total / (classes * div);
-    alert('Your GPA is ' + toString(gpa));
+    alert('Your GPA is ' + String(gpa));
     }
+       
 </script>
 </body>
 </html>
