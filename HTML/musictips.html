@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mahesh Kale's tips and Song archive'</title>
+    </head>
+    <body>
+        <h1>Mahesh Kale's tips and Song archive</h1>
+        <p>Welcome to the song archive. Enter a song and it will be<br> 
+        played for you in Mahesh Kale's voice.</p>
+        <input type="text" name="Song" id="Song"/>
+        <input type="button" value="Play" onclick="playSong()"/>
+        <audio id = 'Player'>
+            <source src="pop.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+            function playSong(){
+                var player = document.getElementById('Player');
+                player.play();
+            }
+        </script>
+    </body>
+
+    
+</script>
+
+</html>
