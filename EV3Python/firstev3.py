@@ -1,5 +1,5 @@
 #from ev3dev.ev3 import *
-#!usr/bin/env/python3
+#!/usr/bin/env/python3
 import time
 
 print('EV3', 'Python rules!')  # comma means continue on same line
