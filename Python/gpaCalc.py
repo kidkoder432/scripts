@@ -1,12 +1,12 @@
 while True:
     grade, total = 0, 0
     div = 25
-    mode = input('Which mode do you want to use? (letter or number) >')
+    mode = input('Which mode do you want to use? (letter or number) > ')
     if mode.lower().startswith('l'):
         div = 1
-    numClasses = int(input('How many classes? >'))
+    numClasses = int(input('How many classes? > '))
     for c in range(numClasses):
-        grade = input('Enter your grade for Class %s.' %(c + 1))
+        grade = input('Enter your grade for Class %s. > ' %(c + 1))
         if 'a' in grade.lower():
             total += 4
         elif 'b' in grade.lower():
