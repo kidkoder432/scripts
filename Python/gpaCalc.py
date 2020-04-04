@@ -1,5 +1,5 @@
 while True:
-    grade ,total = 0
+    grade, total = 0, 0
     div = 25
     mode = input('Which mode do you want to use? (letter or number) >')
     if mode.lower.startswith('l'):
