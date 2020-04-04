@@ -1,12 +1,13 @@
 while True:
-    classes = []
-    grade = 0
-    total = 0
+    grade, div, total = 0
+    mode = input('Which mode do you want to use? (letter or number) >')
+    if mode.lower.startswith('l'):
+        div = 1
     numClasses = int(input('How many classes? >'))
     for c in range(numClasses):
         grade = input('Enter your grade for Class %s.' %(c + 1))
         total += float(grade)
-    print('Your GPA is %s.' %(round(total / (numClasses * 100 / 4), 2)))
+    print('Your GPA is %s.' %(round(total / (numClasses * div), 2)))
     totalGrade = total / numClasses
     if 90 <= totalGrade <= 100:
         letter = 'n A'
