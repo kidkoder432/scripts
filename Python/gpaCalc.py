@@ -4,6 +4,7 @@ while True:
     mode = input('Which mode do you want to use? (letter or number) > ')
     if mode.lower().startswith('l'):
         div = 1
+        div2 = 0.04
     numClasses = int(input('How many classes? > '))
     for c in range(numClasses):
         grade = input('Enter your grade for Class %s. > ' %(c + 1))
@@ -20,7 +21,7 @@ while True:
         else:
             total += float(grade)
     print('Your GPA is %s.' %(round(total / (numClasses * div), 2)))
-    totalGrade = total / numClasses
+    totalGrade = total / numClasses / div2
     if 90 <= totalGrade <= 100:
         letter = 'n A'
         if totalGrade == 100:
