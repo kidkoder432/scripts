@@ -1,5 +1,5 @@
 import re
-message = 'dsuhfsafhndusgfndugddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddbfjnihnvuyfnbhfdfb999-999-9999suhgf'
+message = 'dsuhfsafhndusgfndugdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd999-545-6666ddddbfjnihnvuyfnbhfdfb999-999-9999suhgf'
 phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
-mo = phoneNumRegex.search(message)
+mo = phoneNumRegex.findall(message)
 print(mo.group())
