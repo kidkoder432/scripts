@@ -1,4 +1,4 @@
-import pprint, boxPrint
+import pprint
 
 message = '''The Project Gutenberg EBook of Romeo and Juliet, by William Shakespeare
 
