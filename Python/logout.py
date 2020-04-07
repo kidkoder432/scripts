@@ -1,8 +1,9 @@
 import pygame, pyautogui, time
 from pygame.locals import *
-def isTimeout():
+pygame.init()
+prev = time.time()
 for event in pygame.event.get():
     while (event.type == KEYDOWN or event.type == MOUSEMOTION) and not isTimeout():
-        event = pygame.event.get()        
+        print(now)        
         
     
