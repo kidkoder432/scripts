@@ -4,4 +4,6 @@ while True:
     if input('Should I start typing?(y/n): ').lower().startswith('y'):
         time.sleep(5)
         print('Starting...')
-        pyautogui.press(whatToType.split())
+        for l in list(whatToType):
+            pyautogui.press(l)
+            time.sleep(0.05)
