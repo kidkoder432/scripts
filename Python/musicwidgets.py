@@ -1,5 +1,15 @@
 import winsound as w, re
-def 
+def mlinput(prompt):
+    ui = None
+    print(prompt)
+    totalui = []
+    while ui != '':
+        ui = input()
+        totalui.append(ui)
+    return '\n'.join(totalui)
+
+
+     
 def tabla():
     print('''Welcome to Tabla!''')
 def musicMaker():
