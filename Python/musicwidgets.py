@@ -1,6 +1,8 @@
 import winsound as w, re
-
-def getTune():
+def 
+def tabla():
+    print('''Welcome to Tabla!''')
+def musicMaker():
     print('''Welcome to MusicMaker!
     How to Use:
         syntax:
@@ -13,4 +15,5 @@ def getTune():
             ' = Used to indicate the scale. Use none for medium scale, one apostrophe for high scale, and two for low scale
             tempo = The tempo at which to play the music. Value from 1 to 500
             {play} = How long to play a note.''')
+    
     
