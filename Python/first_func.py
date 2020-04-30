@@ -13,7 +13,7 @@ def s(n):
         total = total + f
     return total
 
-total = 478 #random.randint(0, 10000)
+total = random.randint(0, 10000)
 print(total)
 while True:
     total = s(total)
