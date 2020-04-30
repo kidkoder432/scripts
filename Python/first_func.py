@@ -15,7 +15,7 @@ def s(n):
 
 total = random.randint(0, 10000)
 print(total)
-while True:
+while s(total) != 0:
     total = s(total)
     print('The function s(n) returned ' + str(total))
     for i in range(len(factors)):
