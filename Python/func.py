@@ -25,6 +25,6 @@ def playTone( freq , length):
 if __name__ == '__main__':
     frequency = 1500 #Hz
     duration = 2 #seconds
-    PyAudio = pyaudio.PyAudio
+    PyAudio = pyaudio.PyAudio()
 
     playTone(frequency , duration)

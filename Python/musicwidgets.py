@@ -1,4 +1,4 @@
-import func as f, time
+import winsound as w, time
 def mlinput(prompt):
     ui = None
     print(prompt)
@@ -9,7 +9,9 @@ def mlinput(prompt):
     return '\n'.join(totalui)  
 def musicMaker():
     print('''Welcome to MusicMaker!
-''')
+             Syntax:
+                 "  " used to indicate the next group of notes
+                 " " used to indicate a fast note delay''')
     SCALE = {'S': 208, 
              'r': 221,
              'R': 234,
@@ -29,13 +31,19 @@ def musicMaker():
             w.Beep(SCALE.get(n), 1000)
     while True:
         seq = mlinput('Please enter a sequence of notes. >>> ')
-        for note in seq:
-            try: 
-                if note == '-':
-					f.playtone(SCALE.get(note), 300)
-            except TypeError:
-                pass
-			    
+        for note in seq.split('  '):
+            note = note.split(' ')
+            for n in note:
+                try:
+                    if len(note) > 1:
+                        w.Beep(SCALE.get(n), 150)
+                    elif seq[seq.index(note) + 1] == '-': 
+                        w.Beep(SCALE.get(n), 600)
+                    else:
+                        w.Beep(SCALE.get(n), 300)
+                except TypeError:
+                    pass
 musicMaker()        
+    
     
     

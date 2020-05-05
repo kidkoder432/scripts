@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<link type = 'text/css' rel = 'stylesheet' href = 'Untitled-1.css'/>
+<head>
+<title>GPA Calculator</title>
+</head>
+<body>
+
+
+<h1>GPA Calculator</h1>
+<p>Here's how to calculate your GPA:</p>
+<ol>
+<li>Enter the mode you want to use. 
+Type Number for percentage grading(i.e 98.76%)
+or Letter for letter grading(i.e. A-).</li>
+<li>Enter the number of classes you have.</li>
+<li>Enter your grade as a percentage for each class. 
+Note that there are ten textboxes: you only need to 
+fill the number of boxes that corresponds to the 
+number of classes you have. For example, if you 
+have 1 class you will fill out only 1 box.</li>
+<li>Click Calculate to see the result!</li>
+</ol>
+<form>
+<p>Mode:</p> <input type = 'text' name = 'Mode' id = 'Mode'/><br><br>
+<p># of Classes:</p> <input type = 'text' name = '# of Classes' id = '# of Classes'/><br><br>
+<p>Class 1:</p> <input type = 'text' name = 'Class 1' id = 'Class 1'/><br><br>
+<p>Class 2:</p> <input type = 'text' name = 'Class 2' id = 'Class 2'/><br><br>
+<p>Class 3:</p> <input type = 'text' name = 'Class 3' id = 'Class 3'/><br><br>
+<p>Class 4:</p> <input type = 'text' name = 'Class 4' id = 'Class 4'/><br><br>
+<p>Class 5:</p> <input type = 'text' name = 'Class 5' id = 'Class 5'/><br><br>
+<p>Class 6:</p> <input type = 'text' name = 'Class 6' id = 'Class 6'/><br><br>
+<p>Class 7:</p> <input type = 'text' name = 'Class 7' id = 'Class 7'/><br><br>
+<p>Class 8:</p> <input type = 'text' name = 'Class 8' id = 'Class 8'/><br><br>
+<p>Class 9:</p> <input type = 'text' name = 'Class 9' id = 'Class 9'/><br><br>
+<p>Class 10:</p> <input type = 'text' name = 'Class 10' id = 'Class 10'/><br><br>
+<input type = 'submit' value = 'Calculate' onclick = 'processForm()'/>
+</form>
+<script>
+    function processForm(){
+        var total = 0;
+        var classes = Number(document.getElementById('# of Classes').value);
+        var grade;
+        for(i = 1; i <= classes; i++){
+            grade = toLowerCase(document.getElementById('Class ' + i).value);
+            if(grade != null){
+                
+                if (grade.prototype.indexOf('a') > -1) {
+                    total = total + 4;
+                }
+                else if (grade.prototype.indexOf('b') > -1) {
+                    total = total + 3;
+                }
+                else if (grade.prototype.indexOf('c') > -1) {
+                    total = total + 2;
+                }
+                else if (grade.prototype.indexOf('d') > -1) {
+                    total = total + 1;
+                }
+                else if (grade.prototype.indexOf('f') > -1){
+                    total = total + 0;
+                }
+                else {
+                    total = total + Number(grade);
+                } 
+            }
+        }
+    var div = 0;
+    var mode = toLowerCase(document.getElementById('Mode').value) ;
+    if(mode == 'letter'){
+    div = 1;
+    } 
+    else {
+    div = 25;
+    }
+
+    var gpa = total / (classes * div);
+    alert('Your GPA is ' + String(gpa));
+    }
+       
+</script>
+</body>
+</html>
+
