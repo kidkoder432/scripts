@@ -1,3 +1,5 @@
-import os, subprocess
-prog = str(input('Which program should i run? > '))
-subprocess.call("python3 " + prog + '.py')
+import os
+prog = input('Which program should I run? > ')
+os.chdir('home/runner/scripts/Python')
+execfile(prog)
+
