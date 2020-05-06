@@ -32,8 +32,8 @@ def musicMaker():
     while True:
         seq = mlinput('Please enter a sequence of notes. >>> ')
         for note in seq.split('  '):
-            note = note.split(' ')
-            for n in note:
+            
+            for n in note.split(' '):
                 try:
                     if len(note) > 1:
                         w.Beep(SCALE.get(n), 150)
@@ -41,9 +41,8 @@ def musicMaker():
                         w.Beep(SCALE.get(n), 600)
                     else:
                         w.Beep(SCALE.get(n), 300)
-                except TypeError:
+                except (TypeError, IndexError):
                     pass
 musicMaker()        
-    
     
     

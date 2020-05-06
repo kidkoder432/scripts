@@ -6,7 +6,7 @@ def bmi(height, weight):
     height = height * height
     bmi = weight / height
     print('Your BMI is ' + str(bmi) +'.')
-    if bmi >= 18 and bmi <= 25:
+    if bmi > 18 and bmi < 25:
             print('You are in good health.')
     elif bmi < 18:
         print('You are underweight.')
