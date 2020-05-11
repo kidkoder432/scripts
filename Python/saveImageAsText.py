@@ -1,0 +1,16 @@
+from PIL import Image
+import gzip
+import os
+path = input('Enter the file path of the images. For example: C:\\Users\\findp\\Pictures > ')
+os.chdir(path)
+fname= input('Which file would you like to open? Note: can only be in ' + os.getcwd() + ' > ') 
+im = Image.open(fname)
+w, h = im.size
+f = gzip.open('imageBytes.txt', 'wt')
+#f.write('Image data for ' + fname)
+for y in range(h):
+    for x in range(w):
+        f.write(str(im.getpixel((x, y))))
+        f.write('  ')
+    f.write('        ')
+f.close()
