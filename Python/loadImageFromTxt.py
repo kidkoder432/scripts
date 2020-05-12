@@ -34,5 +34,7 @@ for y in range(len(content)):
                 del col[0]
             col = tuple(col)
             im.putpixel((x, y), col)
+            del column[x]
     except:
         im.save('image.png')
+    del content[y]
