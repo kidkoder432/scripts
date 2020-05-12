@@ -4,8 +4,8 @@ f = gzip.open('imageBytes.txt', 'r')
 content = f.read().decode('utf-8')
 content = content.split('        ')
 im = Image.new('RGB', (len(content), len(content[0].split('  '))))
-for y in range(len(content)):
-    try:
+try:
+    for y in range(len(content)):
         column = content[y].split('  ')
         for col in column:
             x = column.index(col)
@@ -34,7 +34,5 @@ for y in range(len(content)):
                 del col[0]
             col = tuple(col)
             im.putpixel((x, y), col)
-            del column[x]
-    except:
-        im.save('image.png')
-    del content[y]
+except:
+    im.save('image.png')
