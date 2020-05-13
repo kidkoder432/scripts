@@ -9,8 +9,8 @@ w, h = im.size
 f = gzip.open('imageBytes.txt', 'wt')
 #f.write('Image data for ' + fname)
 for y in range(h):
-    for x in range(w):
-        f.write(str(im.getpixel((x, y))))
-        f.write('  ')
     f.write('        ')
+    for x in range(w):
+        f.write('  ')
+        f.write(str(im.getpixel((x, y))))
 f.close()
