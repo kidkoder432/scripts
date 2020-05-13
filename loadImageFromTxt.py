@@ -23,9 +23,11 @@ for y in range(len(rows) - 1):
                 col.append(int(col[c]))
             del col[:3]
             col = tuple(col)
-        print(67)
-        print(col)
-        im.putpixel((x, y), col)
+            print(67)
+            print(col)
+            im.putpixel((x, y), col)
+        except:
+            pass
 
     print('Finished row %s' %(y))
 im.save(saveImageAsText.fname + '_MOD'+ '.bmp')
