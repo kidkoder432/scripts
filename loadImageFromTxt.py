@@ -6,7 +6,7 @@ f = gzip.open('imageBytes.txt', 'r')
 content = f.read().decode('utf-8')
 #pyperclip.copy(content)
 rows = content.split('        ')
-im = Image.new('RGB', (len(rows[0].split('  ')),len(rows) - 1))
+im = Image.new('RGB', (len(rows[1].split('  ')),len(rows) - 1))
 for y in range(1, len(rows) - 1):
     row = rows[y].split('  ')
     for x in range(1, len(row)):
