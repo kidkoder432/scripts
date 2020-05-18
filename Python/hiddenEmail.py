@@ -1,7 +1,7 @@
-﻿import pyperclip
+﻿import pyperclip, random
 def genRandomText(length):
     text = []
-    sym = list('`1234567890-=\][poiuytrewqasdfghjkl;'/.,mnbvcxz?><MNBVCXZASDFGHJKL:"}{POIUYTREWQ~!@#$%^&*()_+').append(' ')
+    sym = list('''`1234567890-=\][poiuytrewqasdfghjkl;'/.,mnbvcxz?><MNBVCXZASDFGHJKL:"}{POIUYTREWQ~!@#$%^&*()_+''').append(' ')
     for i in range(length):
         text.append(random.choice(sym))
     return ''.join(text)    
