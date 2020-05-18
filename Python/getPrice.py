@@ -9,7 +9,7 @@ def getAmazonPrice(url):
     price = elems[0].text.strip()
     return price
 
-getAmazonPrice('https://www.amazon.com/gp/product/B00WJ049VU?pf_rd_p=183f5289-9dc0-416f-942e-e8f213ef368b&pf_rd_r=NQMCR3T4HBC8QWVA2MM8')
+price = getAmazonPrice('https://www.amazon.com/gp/product/B00WJ049VU?pf_rd_p=183f5289-9dc0-416f-942e-e8f213ef368b&pf_rd_r=NQMCR3T4HBC8QWVA2MM8')
 print(price)
 
 
