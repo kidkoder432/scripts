@@ -12,5 +12,4 @@ def main():
         speed = float(input('Please enter the timing between each letter. >'))
         typePrint(val, speed)
 
-if __name__ == '__main__':
-    main() 
+main() 
