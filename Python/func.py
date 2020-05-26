@@ -9,9 +9,9 @@ def playTone( freq , length):
     num_frames = int(bit_rate * play_time)
     total_frames = num_frames % bit_rate
     wave_info = ''    
-    for x in xrange(num_frames):
+    for x in range(num_frames):
      wave_info = wave_info+chr(int(math.sin(x/((bit_rate/frequency)/math.pi))*127+128))    
-    for x in xrange(total_frames): 
+    for x in range(total_frames): 
      wave_info = wave_info+chr(128)
     p = PyAudio()
     stream = p.open(format = p.get_format_from_width(1), 

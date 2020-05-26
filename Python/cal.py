@@ -19,8 +19,6 @@ def makeDayFiles():
             f.close()
            # print(fileName)
         index += 1
-
-
 def writeTimes(fileName):
     global contents
     if os.stat(fileName).st_size == 0:
