@@ -1,5 +1,5 @@
 import pyautogui as p, time, os
-os.chdir('c:\\users\\findp\\3d objects\\book')
+os.chdir('c:\\users\\findp\\onedrive\\documents\\prajwal_files\\book')
 input('Press Enter when ready to start. > ')
 for i in range(18):
     p.click(960, 340)
