@@ -1,6 +1,6 @@
 import winsound, time
 NOTES = {
-'S': 
+'S': 220
 }
 print('''WELCOME TO TAGTUNE!
 

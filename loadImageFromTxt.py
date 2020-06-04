@@ -24,4 +24,4 @@ for y in range(1, len(rows) - 1):
         col = tuple(col)
         im.putpixel((x - 1, y - 1), col)
     print('Finished row %s' %(y))
-    im.save(saveImageAsText.fname + '_MOD'+ '.jpg')
+im.save(saveImageAsText.fname + '_MOD'+ '.jpg')
