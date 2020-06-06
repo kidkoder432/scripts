@@ -1,6 +1,3 @@
-UPPERLETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower() + ' \t\n'
-
 def loadDictionary():
     dictionaryFile = open('python\\saptaks.txt')
     englishWords = {}
@@ -9,18 +6,18 @@ def loadDictionary():
     dictionaryFile.close()
     return englishWords
 
-SAPTAKS = loadDictionary()
 
 def getEnglishCount(message):
+    SAPTAKS = loadDictionary()
     message = list(message)
 
     if message == []:
         return 0.0 # No words at all, so return 0.0.
     while "'" in message:
         del message[message.index("'")]
-    for saptak in list(SAPTAKS.keys()):
-        for i in range(len(message) - 1):
-            if ''.join(message[i:i + 1]) in saptak:
+    for i in range(len(message) - 2):
+        for saptak in list(SAPTAKS.keys()):
+            if ''.join(message[i:i + 2]) in saptak:
                 SAPTAKS[saptak] += 1
     return SAPTAKS
 while True:
@@ -28,8 +25,10 @@ while True:
     SAPTAKS = getEnglishCount(phrase)
     high = 0
     for freq in list(SAPTAKS.values()):
-        if freq >= high:
+        if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
-    print("I'm most certain that it is %s." %(keys[list(SAPTAKS.values()).index(high)]))
-
+    if freq > 5:
+        print("I'm most certain that it is %s." %(keys[list(SAPTAKS.values()).index(high)]))
+    else:
+        print("I'm not sure.")
