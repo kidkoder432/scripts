@@ -25,11 +25,10 @@ def getEnglishCount(message):
     return SAPTAKS
 while True:
     phrase = input('Enter a phrase and I will guess what raga it is in! >')
-    getEnglishCount(phrase)
-    print(SAPTAKS)
+    SAPTAKS = getEnglishCount(phrase)
     high = 0
     for freq in list(SAPTAKS.values()):
-        if freq > high:
+        if freq >= high:
             high = freq
     keys = list(SAPTAKS.keys())
     print("I'm most certain that it is %s." %(keys[list(SAPTAKS.values()).index(high)]))
