@@ -1,6 +1,3 @@
-UPPERLETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower() + ' \t\n'
-
 def loadDictionary():
     dictionaryFile = open('saptaks.txt')
     englishWords = {}
@@ -25,14 +22,6 @@ def getEnglishCount(message):
         if word in ENGLISH_WORDS:
             matches += 1
     return float(matches) / len(possibleWords)
-
-
-def removeNonLetters(message):
-    lettersOnly = []
-    for symbol in message:
-        if symbol in LETTERS_AND_SPACE:
-            lettersOnly.append(symbol)
-    return ''.join(lettersOnly)
 
 
 def isEnglish(message, wordPercentage=75):
