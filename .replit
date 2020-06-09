@@ -1,2 +1,2 @@
-language = "python3"
-run = ""
+language = "bash"
+run = "cd Python; echo Run a program by typing its name. If the program is not in the Python folder, change directories with the cd command.; bash"
