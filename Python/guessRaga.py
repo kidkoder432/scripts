@@ -1,5 +1,10 @@
+import platform
+if platform.system() == 'Windows':
+    f = 'python\\saptaks.txt'
+else:
+    f = 'Python/saptaks.txt'
 def loadDictionary():
-    dictionaryFile = open('python\\saptaks.txt')
+    dictionaryFile = open(f)
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
@@ -28,7 +33,7 @@ while True:
         if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
-    if freq > 3:
+    if high > 3:
         print("I'm most certain that it is %s." %(keys[list(SAPTAKS.values()).index(high)]))
     else:
         print("I'm not sure.")
