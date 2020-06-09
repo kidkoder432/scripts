@@ -28,7 +28,7 @@ while True:
         if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
-    if freq > 5:
+    if freq > 3:
         print("I'm most certain that it is %s." %(keys[list(SAPTAKS.values()).index(high)]))
     else:
         print("I'm not sure.")
