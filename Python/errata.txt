@@ -1,0 +1,23 @@
+What's my favorite color?
+True or false: I can't use 3D glasses.
+Which vegetable do I hate?
+Which came first, the chicken or the egg?
+
+
+white
+true
+capsicum
+the egg
+
+
+
+
+
+
+
+
+
+
+
+
+note: questions and answers must be in the same order 
