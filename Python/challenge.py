@@ -1,7 +1,7 @@
-subjects = ['I', 'You']
-verbs = ['love', 'play']
-nouns = ['football', 'hockey']
+subjects = list(range(100))
+verbs = list(range(100))
+nouns = list(range(100))
 for i in subjects:
     for k in verbs:
         for l in nouns:
-            print(i +' ' + k + ' ' + l)
+            print(str(i) +' ' + str(k) + ' ' + str(l))
