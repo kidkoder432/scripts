@@ -1,18 +1,9 @@
-import platform
+import platform, pprint
 if platform.system() == 'Windows':
     f = 'python\\saptaks.txt'
 else:
     f = 'Python/saptaks.txt'
 
-def indices(lst, element):
-    result = []
-    offset = -1
-    while True:
-        try:
-            offset = lst.index(element, offset+1)
-        except ValueError:
-            return result
-        result.append(offset)
 def loadDictionary():
     dictionaryFile = open(f)
     englishWords = {}
@@ -39,14 +30,18 @@ while True:
     phrase = input('Enter a phrase and I will guess what raga it is in! >')
     SAPTAKS = getEnglishCount(phrase)
     high = 0
+    guesses = []
     for freq in list(SAPTAKS.values()):
         if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
-    guess = keys[list(SAPTAKS.values()).indices(SAPTAKS, high)][:keys[list(SAPTAKS.values()).index(high)].index(':')]
-    
-    if high > 6:
-        print("I'm most certain that it is %s." %(guess))
+    for i in keys:
+        guess = i
+        if SAPTAKS[guess] >= high:
+            guesses.append(guess[:guess.index(':')])
+    guesses = ' or '.join(guesses)
+    if high > 5:
+        print("I'm most certain that it is %s." %(guesses))
     else:
         print("I'm not sure.")
 
