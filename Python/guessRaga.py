@@ -20,10 +20,12 @@ def getEnglishCount(message):
         return 0.0 # No words at all, so return 0.0.
     while "'" in message:
         del message[message.index("'")]
-    for i in range(len(message) - 2):
-        for saptak in list(SAPTAKS.keys()):
-            if ''.join(message[i:i + 2]) in saptak:
-                SAPTAKS[saptak] += 1
+    for x in range(2, len(message)):
+        for i in range(len(message) - x):
+            for saptak in list(SAPTAKS.keys()):
+                if ''.join(message[i:i + x]) in saptak:
+                    SAPTAKS[saptak] += 1
+                    
     return SAPTAKS
 while True:
     phrase = input('Enter a phrase and I will guess what raga it is in! >')
@@ -33,7 +35,9 @@ while True:
         if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
+    oof = keys[list(SAPTAKS.values()).index(high)][:keys[list(SAPTAKS.values()).index(high)].index(':')]
+    
     if high > 3:
-        print("I'm most certain that it is %s." %(keys[list(SAPTAKS.values()).index(high)]))
+        print("I'm most certain that it is %s." %(oof))
     else:
         print("I'm not sure.")
