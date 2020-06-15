@@ -1,6 +1,6 @@
 import os, shutil, send2trash
-if os.path.exists('e:\\backup files'):
-    send2trash.send2trash('e:\\backup files')
+if os.path.exists('e:\\backup_files'):
+    send2trash.send2trash('e:\\backup_files')
     print('Backup removed.')
 
 def get_size(start_path = '.'):
@@ -26,7 +26,7 @@ def copytree(src, dst, symlinks=False, ignore=None):
             shutil.copy2(s, d)
 if os.path.exists('E:\\'):
     print('Copying...')
-    copytree('c:\\users\\findp\\onedrive\\documents\\prajwal_files', 'e:\\backup files')
+    copytree('c:\\users\\findp\\onedrive\\documents\\prajwal_files', 'e:\\backup_files')
     print('Done.')
 else:
     print('No drive found.')

@@ -7,7 +7,7 @@ keys = list(monthDay.keys())
 def makeDayFiles():
     if year % 4 == 0:
         f = open('Feburary 29.txt', 'a+')
-        f.close
+        f.close()
     else:
         pass
     
