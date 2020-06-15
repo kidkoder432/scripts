@@ -1,4 +1,9 @@
 {
     "python.formatting.provider": "black",
+<<<<<<< HEAD
     "python.pythonPath": "/usr/bin/python3"
+=======
+    "python.pythonPath": "C:\\Users\\findp\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+    
+>>>>>>> c97bac58404d0fc0b200b9adbcacce0e6181e1c4
 }
