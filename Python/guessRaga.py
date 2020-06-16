@@ -1,4 +1,4 @@
-import platform, pprint
+import platform
 if platform.system() == 'Windows':
     f = 'python\\saptaks.txt'
 else:

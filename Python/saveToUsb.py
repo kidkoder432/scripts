@@ -1,4 +1,4 @@
-import os, shutil, send2trash
+import os, shutil, send2trash, time
 if os.path.exists('e:\\backup_files'):
     send2trash.send2trash('e:\\backup_files')
     print('Backup removed.')
@@ -24,9 +24,17 @@ def copytree(src, dst, symlinks=False, ignore=None):
             shutil.copytree(s, d, symlinks, ignore)
         else:
             shutil.copy2(s, d)
+backup = input('Which folder should I back up? Note: can only be up to %s GB in size. > ' %(shutil.disk_usage(os.path.realpath('E:\\'))[2] / 1000000000))
 if os.path.exists('E:\\'):
     print('Copying...')
-    copytree('c:\\users\\findp\\onedrive\\documents\\prajwal_files', 'e:\\backup_files')
+    start = int(time.time())
+    copytree(backup, 'e:\\backup_files')
+    end = int(time.time())
+    speed = (get_size(backup) / 1000000) / (end - start)
+    print('''Summary:
+    Copied %s files
+    Total size: %s MB
+    Speed: %s MB/s''' %(len([name for name in os.listdir(backup) if os.path.isfile(name)]), get_size(backup) / 1000000, speed))
     print('Done.')
 else:
     print('No drive found.')
