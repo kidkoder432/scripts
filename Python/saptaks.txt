@@ -9,3 +9,4 @@ Chandrakauns: SgMdNS SNdMgS
 Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
 Durga: SRMPDS SDPMRS
 Ahir-Bhairav: SrGMPDnS SnDPMGrS
+Deshkar: SRGPDS SDPGRS
