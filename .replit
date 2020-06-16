@@ -1,2 +1,2 @@
 language = "bash"
-run = "echo Run a program by typing its name. If the program is not in the scripts folder, type the name of the folder it is in {case-sensitive}, followed by a forward slash and the script name.; bash"
+run = "sh githelp.sh"
