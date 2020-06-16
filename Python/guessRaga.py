@@ -41,17 +41,6 @@ while True:
         guess = i
         if SAPTAKS[guess] >= high:
             guesses.append(guess[:guess.index(':')])
-    bg = dg = 0 # how many times the program thinks Bhoopali and how many times it thinks Deshkar.
-    if 'Bhoopali' and 'Deshkar' in guesses:
-        for nt in list(phrase):
-            if nt in ['P', 'D', 'S']:
-                dg += 1
-            else:
-                bg += 1
-        if bg > dg:
-            del guesses[guesses.index('Deshkar')]
-        elif dg > bg:
-            del guesses[guesses.index('Bhoopali')]
     guesses = ' or '.join(guesses)
     if high > 5:
         print("I'm most certain that it is %s." %(guesses))
