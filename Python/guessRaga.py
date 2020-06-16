@@ -1,6 +1,6 @@
 # Guess The Raga Program - By Prajwal Agrawal
 # This program CANNOT be run from an external program; it MUST be run by changing 
-# directories to here and then being run
+# directories to here and then being run.
 
 import platform
 if platform.system() == 'Windows':
