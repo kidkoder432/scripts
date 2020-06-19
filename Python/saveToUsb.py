@@ -31,10 +31,14 @@ if os.path.exists('E:\\'):
     copytree(backup, 'e:\\backup_files')
     end = int(time.time())
     speed = (get_size(backup) / 1000000) / (end - start)
+    numFiles = 0
+    for r,d,f in os.walk(backup):
+        for file in f:
+            numFiles += 1
     print('''Summary:
     Copied %s files
     Total size: %s MB
-    Speed: %s MB/s''' %(len([name for name in os.listdir(backup) if os.path.isfile(name)]), get_size(backup) / 1000000, speed))
+    Speed: %s MB/s''' %(numFiles, get_size(backup) / 1000000, speed))
     print('Done.')
 else:
     print('No drive found.')
