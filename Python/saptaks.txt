@@ -9,7 +9,7 @@ Chandrakauns: SgMdNS SNdMgS
 Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
 Durga: SRMPDS SDPMRS
 Ahir-Bhairav: SrGMPDnS SnDPMGrS
-Deshkar: SRGPDS SDPGRS
+Deshkar: SRGPDS SDPDGPGRS
 Jhinjoti: SRMPDS SnDPMGRGS
 Jaunpuri: SRMPdnS SnDPMgRS
 Bihag: NSGMPNS SNDPmPGMGRS
@@ -17,5 +17,9 @@ Hamsadhwani: SRGPNS SNPGRS
 Todi: SrgmPdNS SNDPmgrS
 Kedar: SMGPmPDNS SNDPmPDPMRS
 Bhairav: SrGMPdNS SNdPMGrS
-Marwa: NrGmDNS 
-
+Marwa: NrGmDNS SNDmGrS
+Darbari Kanada: SRgMPdnS SdnPMPgMRS
+Kafi: SRgMPDnS SnDPMgRS
+Dhani: nSgMPnS SnPMgRS
+Bhairavi: SrgMPdnS SndPMgrS
+Saraswati: SRmPDS SnDPmRS
