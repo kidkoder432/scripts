@@ -1,7 +1,7 @@
 import os, shutil, send2trash, time
 if os.path.exists('e:\\backup_files'):
-    send2trash.send2trash('e:\\backup_files')
-    print('Backup removed.')
+    print('The program cannot proceed because a backup already exists. Please delete the backup and press Enter when done.')
+    input()
 
 def get_size(start_path = '.'):
     total_size = 0
@@ -25,20 +25,23 @@ def copytree(src, dst, symlinks=False, ignore=None):
         else:
             shutil.copy2(s, d)
 backup = input('Which folder should I back up? Note: can only be up to %s GB in size. > ' %(shutil.disk_usage(os.path.realpath('E:\\'))[2] / 1000000000))
-if os.path.exists('E:\\'):
-    print('Copying...')
-    start = int(time.time())
-    copytree(backup, 'e:\\backup_files')
-    end = int(time.time())
-    speed = (get_size(backup) / 1000000) / (end - start)
-    numFiles = 0
-    for r,d,f in os.walk(backup):
-        for file in f:
-            numFiles += 1
-    print('''Summary:
-    Copied %s files
-    Total size: %s MB
-    Speed: %s MB/s''' %(numFiles, get_size(backup) / 1000000, speed))
-    print('Done.')
-else:
-    print('No drive found.')
+while True:
+    if os.path.exists('E:\\') and get_size(backup) < shutil.disk_usage(os.path.realpath('E:\\'))[2]:
+        print('Copying...')
+        start = int(time.time())
+        copytree(backup, 'e:\\backup_files')
+        end = int(time.time())
+        speed = (get_size(backup) / 1000000) / (end - start)
+        numFiles = 0
+        for r,d,f in os.walk(backup):
+            for file in f:
+                numFiles += 1
+        print('''Summary:
+        Copied %s files
+        Total size: %s MB
+        Speed: %s MB/s''' %(numFiles, get_size(backup) / 1000000, speed))
+        print('Done.')
+        break
+    else:
+        print('The drive has not been plugged in, or its capacity is too small to store the backup. Please resolve these issues and press Enter when done.')
+        input()
