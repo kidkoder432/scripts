@@ -1,7 +1,7 @@
 Bhimpalasi: nSgMPnS SnDPMgRS
 Des: NSRMPNS SnDPMGRGNS
 Sarang: SRMPNS SnPMRS
-Bageshri: SgMDnS SNDMgRS
+Bageshri: SgMDnS SNDMPDgMgRS
 Yaman: NRGmDNS SNDPmGRS PRGm-GRS
 Pooriya Kalyan: NrGmDNS SNDPmGrS GmrGrmG
 Malkauns: SgMdnS SndMgS
@@ -10,3 +10,12 @@ Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
 Durga: SRMPDS SDPMRS
 Ahir-Bhairav: SrGMPDnS SnDPMGrS
 Deshkar: SRGPDS SDPGRS
+Jhinjoti: SRMPDS SnDPMGRGS
+Jaunpuri: SRMPdnS SnDPMgRS
+Bihag: NSGMPNS SNDPmPGMGRS
+Hamsadhwani: SRGPNS SNPGRS
+Todi: SrgmPdNS SNDPmgrS
+Kedar: SMGPmPDNS SNDPmPDPMRS
+Bhairav: SrGMPdNS SNdPMGrS
+Marwa: NrGmDNS 
+
