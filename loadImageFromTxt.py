@@ -25,6 +25,6 @@ for y in range(1, len(rows) - 1):
         col = tuple(col)
         im.putpixel((x - 1, y - 1), col)
     print('Finished row %s' %(y))
+    end = time.time()
+    print('Time taken: %s' %(end - now))
 im.save(saveImageAsText.fname + '_MOD'+ '.jpg')
-end = time.time()
-print('Time taken: %s' %(end - now))
