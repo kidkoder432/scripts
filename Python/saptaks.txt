@@ -3,7 +3,7 @@ Des: NSRMPNS SnDPMGRGNS
 Sarang: SRMPNS SnPMRS
 Bageshri: SgMDnS SNDMPDgMgRS
 Yaman: NRGmDNS SNDPmGRS PRGm-GRS
-Pooriya Kalyan: NrGmDNS SNDPmGrS GmrGrmG
+Pooriya Kalyan: NrGmDNS SNDPmGrS GmrG PD
 Malkauns: SgMdnS SndMgS
 Chandrakauns: SgMdNS SNdMgS
 Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
