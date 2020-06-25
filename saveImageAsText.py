@@ -4,6 +4,7 @@ import os, time
 path = input('Enter the file path of the images. For example: C:\\Users\\findp\\Pictures > ')
 os.chdir(path)
 fname= input('Which file would you like to open? Note: can only be in ' + os.getcwd() + ' > ') 
+now = time.time()
 im = Image.open(fname)
 w, h = im.size
 f = gzip.open('imageBytes.txt', 'wt')
@@ -14,5 +15,7 @@ for y in range(h):
         f.write('  ')
         f.write(str(im.getpixel((x, y))))
     print('Finished row %s.' %(y + 1))
+    end = time.time()
+    print('Time: %s' %(end - now))
 f.close()
 

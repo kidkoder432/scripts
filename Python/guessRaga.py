@@ -21,6 +21,7 @@ def getEnglishCount(message):
     message = list(message)
     while "-" in message:
         del message[message.index("-")]
+
     for x in range(2, len(message)):
         for i in range(len(message) - x):
             for saptak in list(SAPTAKS.keys()):
@@ -30,6 +31,9 @@ def getEnglishCount(message):
 
 while True:
     phrase = input('Enter a phrase and I will guess what raga it is in! >')
+    if len(phrase) < 6:
+        print('The phrase you entered is too short. Please enter a longer phrase.')
+        continue
     SAPTAKS = getEnglishCount(phrase)
     high = 0
     guesses = []
