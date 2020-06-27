@@ -18,10 +18,6 @@ def loadDictionary():
 
 def getEnglishCount(message):
     SAPTAKS = loadDictionary()
-    message = list(message)
-    while "-" in message:
-        del message[message.index("-")]
-
     for x in range(2, len(message)):
         for i in range(len(message) - x):
             for saptak in list(SAPTAKS.keys()):
@@ -30,7 +26,9 @@ def getEnglishCount(message):
     return SAPTAKS
 
 while True:
-    phrase = input('Enter a phrase and I will guess what raga it is in! >')
+    phrase = list(input('Enter a phrase and I will guess what raga it is in! >'))
+    while "-" in phrase:
+        del phrase[phrase.index("-")]
     if len(phrase) < 6:
         print('The phrase you entered is too short. Please enter a longer phrase.')
         continue
@@ -47,6 +45,6 @@ while True:
             guesses.append(guess[:guess.index(':')])
     guesses = ' or '.join(guesses)
     if high > 5:
-        print("I'm most certain that it is %s." %(guesses))
+        print("I think that the raga is %s." %(guesses))
     else:
         print("I'm not sure.")

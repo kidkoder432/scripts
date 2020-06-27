@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Guess The Raga
+        </title>
+        <link type="text/css" rel="stylesheet" href="Untitled-1.css"/>
+        
+    </head>
+    <body>
+        <h1>
+            Guess The Raga
+        </h1>
+        <p>
+            How to use: <br>
+            1. Type a phrase. For example: nSgMPnDPgMgRS<br>
+            2. Click Guess to see what the computer thinks!
+        </p>
+        <input type="text" id="phrase" name="phrase" placeholder="Phrase"/>
+        <input type="submit" id="guess" value="Guess" onclick="process()"> 
+        <p id="out"></p>
+        <script>
+            function process(){
+                var guesses = [];
+                var SAPTAKS = {}
+                var RAGA_INDEX = ['Bhimpalasi: nSgMPnS SnDPMgRS RnSMPgM',
+                              'Pooriya Kalyan: NrGmDNS SNDPmGrS', 
+                              'Des: NSRMPNS SnDPMGRGNS'];
+                var length = RAGA_INDEX.length;
+                for(var i = 0; i < length; i++){
+                    SAPTAKS[RAGA_INDEX[i]] = 0;
+                }
+                document.getElementById("out").innerHTML =  "The result is " + guesses; 
+            }
+        </script>
+    </body>
+</html>
