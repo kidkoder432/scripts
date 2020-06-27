@@ -29,6 +29,22 @@
                 for(var i = 0; i < length; i++){
                     SAPTAKS[RAGA_INDEX[i]] = 0;
                 }
+                phrase = document.getElementById("phrase").split('')
+                while('-' in phrase){
+                    delete phrase[phrase.indexOf('-')]
+                }
+                for(var x = 2; x < phrase.length; x++){
+                    for(var i = 0; i < phrase.length - x; i++){
+                        for(var saptak in Object.keys(SAPTAKS)){
+                            if(message.slice(i, i + x).join('') in saptak){
+                                SAPTAKS[saptak] += 1
+                            }
+                        }
+                    }
+                }
+                for(var f in Object.values(SAPTAKS)){
+                    
+                }
                 document.getElementById("out").innerHTML =  "The result is " + guesses; 
             }
         </script>
