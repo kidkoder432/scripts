@@ -21,6 +21,7 @@
         <script>
             function process(){
                 var guesses = [];
+                var high = 0;
                 var SAPTAKS = {}
                 var RAGA_INDEX = ['Bhimpalasi: nSgMPnS SnDPMgRS RnSMPgM',
                               'Pooriya Kalyan: NrGmDNS SNDPmGrS', 
@@ -29,23 +30,38 @@
                 for(var i = 0; i < length; i++){
                     SAPTAKS[RAGA_INDEX[i]] = 0;
                 }
-                phrase = document.getElementById("phrase").split('')
+                phrase = document.getElementById("phrase").split('');
                 while('-' in phrase){
-                    delete phrase[phrase.indexOf('-')]
+                    delete phrase[phrase.indexOf('-')];
                 }
                 for(var x = 2; x < phrase.length; x++){
                     for(var i = 0; i < phrase.length - x; i++){
                         for(var saptak in Object.keys(SAPTAKS)){
                             if(message.slice(i, i + x).join('') in saptak){
-                                SAPTAKS[saptak] += 1
+                                SAPTAKS[saptak] += 1;
                             }
                         }
                     }
                 }
                 for(var f in Object.values(SAPTAKS)){
+                    if (f > high){
+                        high = f;
+                    }
+                }
+                var keys = Object.keys(SAPTAKS);
+                for(var i in keys){
+                    if(SAPTAKS[i] >= high){
+                        guess.push(SAPTAKS.slice(0, i.indexOf(':')))
+                    }
+                }
+                guesses = guesses.join(' or ')
+                if(high > 5){
+                    document.getElementById("out").innerHTML =  "The result is " + guesses; 
+                }
+                else{
+                    document.getElementById("out").innerHTML =  "I'm not sure."; 
                     
                 }
-                document.getElementById("out").innerHTML =  "The result is " + guesses; 
             }
         </script>
     </body>
