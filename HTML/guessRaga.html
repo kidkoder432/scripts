@@ -20,12 +20,35 @@
         <p id="out"></p>
         <script>
             function process(){
+                var RAGA_INDEX = `
+                Bhimpalasi: nSgMPnS SnDPMgRS
+Des: NSRMPNS SnDPMGRGNS
+Sarang: SRMPNS SnPMRS
+Bageshri: SgMDnS SNDMPDgMgRS
+Yaman: NRGmDNS SNDPmGRS PRGm-GRS
+Pooriya Kalyan: NrGmDNS SNDPmGrS GmrG PD
+Malkauns: SgMdnS SndMgS
+Chandrakauns: SgMdNS SNdMgS
+Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
+Durga: SRMPDS SDPMRS
+Ahir-Bhairav: SrGMPDnS SnDPMGrS
+Deshkar: SRGPDS SDPDGPGRS
+Jhinjoti: SRMPDS SnDPMGRGS
+Jaunpuri: SRMPdnS SnDPMgRS
+Bihag: NSGMPNS SNDPmPGMGRS
+Hamsadhwani: SRGPNS SNPGRS
+Todi: SrgmPdNS SNDPmgrS
+Kedar: SMGPmPDNS SNDPmPDPMRS
+Bhairav: SrGMPdNS SNdPMGrS
+Marwa: NrGmDNS SNDmGrS
+Darbari Kanada: SRgMPdnS SdnPMPgMRS
+Kafi: SRgMPDnS SnDPMgRS
+Dhani: PnSgMPnS SnPMgS
+Bhairavi: SrgMPdnS SndPMgrS
+Saraswati: SRmPDS SnDPmRS`.split('\n')
                 var guesses = [];
                 var high = 0;
-                var SAPTAKS = {}
-                var RAGA_INDEX = ['Bhimpalasi: nSgMPnS SnDPMgRS RnSMPgM',
-                              'Pooriya Kalyan: NrGmDNS SNDPmGrS', 
-                              'Des: NSRMPNS SnDPMGRGNS'];
+                var SAPTAKS = {};
                 var length = RAGA_INDEX.length;
                 for(var i = 0; i < length; i++){
                     SAPTAKS[RAGA_INDEX[i]] = 0;
