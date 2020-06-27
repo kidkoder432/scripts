@@ -30,30 +30,36 @@
                 for(var i = 0; i < length; i++){
                     SAPTAKS[RAGA_INDEX[i]] = 0;
                 }
-                phrase = document.getElementById("phrase").split('');
+                phrase = document.getElementById("phrase").value.split('');
                 while('-' in phrase){
                     delete phrase[phrase.indexOf('-')];
                 }
+                console.log(Object.keys(SAPTAKS).length)
                 for(var x = 2; x < phrase.length; x++){
                     for(var i = 0; i < phrase.length - x; i++){
-                        for(var saptak in Object.keys(SAPTAKS)){
-                            if(message.slice(i, i + x).join('') in saptak){
-                                SAPTAKS[saptak] += 1;
+                        for(var saptak = 0; saptak < Object.keys(SAPTAKS).length; saptak++){
+                            if(Object.keys(SAPTAKS)[saptak].includes(phrase.slice(i, i + x).join(''))){
+                                SAPTAKS[Object.keys(SAPTAKS)[saptak]] += 1;
                             }
                         }
                     }
                 }
-                for(var f in Object.values(SAPTAKS)){
-                    if (f > high){
-                        high = f;
+                
+                for(var f = 0; f < Object.values(SAPTAKS).length; f++){
+                    console.log(f)
+                    freq = Object.values(SAPTAKS)[f]
+                    if (freq > high){
+                        high = freq;
                     }
                 }
+                
                 var keys = Object.keys(SAPTAKS);
-                for(var i in keys){
-                    if(SAPTAKS[i] >= high){
-                        guess.push(SAPTAKS.slice(0, i.indexOf(':')))
+                for(var i = 0; i < keys.length; i++){
+                    if(SAPTAKS[Object.keys(SAPTAKS)[i]] >= high){
+                        guesses.push(Object.keys(SAPTAKS)[i].slice(0, Object.keys(SAPTAKS)[i].indexOf(':')))
                     }
                 }
+                
                 guesses = guesses.join(' or ')
                 if(high > 5){
                     document.getElementById("out").innerHTML =  "The result is " + guesses; 
