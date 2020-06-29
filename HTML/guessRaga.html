@@ -1,27 +1,50 @@
-<html>
+<html class="center">
     <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Guess The Raga
         </title>
-        <link type="text/css" rel="stylesheet" href="Untitled-1.css"/>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
         
     </head>
     <body>
-        <h1>
-            Guess The Raga
-        </h1>
-        <p>
-            How to use: <br>
-            1. Type a phrase. For example: nSgMPnDPgMgRS<br>
-            2. Click Guess to see what the computer thinks!
-        </p>
-        <input type="text" id="phrase" name="phrase" placeholder="Phrase"/>
-        <input type="submit" id="guess" value="Guess" onclick="process()"> 
-        <p id="out"></p>
-        <script>
-            function process(){
-                var RAGA_INDEX = `
-                Bhimpalasi: nSgMPnS SnDPMgRS
+		<div class="body"> 
+			<h1>
+				Guess The Raga
+			</h1>
+		</div>
+		<div class="body">
+			<p class="para"> 
+				How to use: <br>
+	            1. Type a phrase. For example: nSgMPnDPgMgRS. The phrase must be at least 7 notes long (not including pauses) for good accuracy.<br>
+				2. Click <strong>Guess</strong> to see what the computer thinks!        
+			</p>
+		</div>
+			<div class="body">
+				<input type="text" id="phrase" name="phrase" placeholder="Phrase" size=46/>
+				<input type="submit" id="guess" value="Guess" onclick="process()"> 
+				<p id="out"></p>
+				<p id="stat"></p>
+			</div>
+			<script>
+				function process(){
+					phrase = document.getElementById("phrase").value;
+					if(phrase.length == 0){
+						document.getElementById('out').innerHTML = "Phrase is empty.";
+						abort();
+					}
+					for( var i = 0; i < phrase.length; i++){
+						if(! "SrRgGM- mPdDnN".split('').includes(phrase[i])){
+							document.getElementById('out').innerHTML = 'Invalid phrase. Contains non-note symbols.';
+							abort();
+						}
+					}
+					
+					proceed = confirm('Are you sure you want to submit the phrase ' + phrase + ' ?');
+					if(proceed == true) {
+						
+						var RAGA_INDEX = `
+Bhimpalasi: nSgMPnS SnDPMgRS
 Des: NSRMPNS SnDPMGRGNS
 Sarang: SRMPNS SnPMRS
 Bageshri: SgMDnS SNDMPDgMgRS
@@ -34,7 +57,7 @@ Durga: SRMPDS SDPMRS
 Ahir-Bhairav: SrGMPDnS SnDPMGrS
 Deshkar: SRGPDS SDPDGPGRS
 Jhinjoti: SRMPDS SnDPMGRGS
-Jaunpuri: SRMPdnS SnDPMgRS
+Jaunpuri: SRMPdnS SndPMgRS
 Bihag: NSGMPNS SNDPmPGMGRS
 Hamsadhwani: SRGPNS SNPGRS
 Todi: SrgmPdNS SNDPmgrS
@@ -43,55 +66,78 @@ Bhairav: SrGMPdNS SNdPMGrS
 Marwa: NrGmDNS SNDmGrS
 Darbari Kanada: SRgMPdnS SdnPMPgMRS
 Kafi: SRgMPDnS SnDPMgRS
+Todi: SrgmPdNS SNdPmgrS
+
 Dhani: PnSgMPnS SnPMgS
 Bhairavi: SrgMPdnS SndPMgrS
 Saraswati: SRmPDS SnDPmRS`.split('\n')
-                var guesses = [];
-                var high = 0;
-                var SAPTAKS = {};
-                var length = RAGA_INDEX.length;
-                for(var i = 0; i < length; i++){
-                    SAPTAKS[RAGA_INDEX[i]] = 0;
-                }
-                phrase = document.getElementById("phrase").value.split('');
-                while('-' in phrase){
-                    delete phrase[phrase.indexOf('-')];
-                }
-                console.log(Object.keys(SAPTAKS).length)
-                for(var x = 2; x < phrase.length; x++){
-                    for(var i = 0; i < phrase.length - x; i++){
-                        for(var saptak = 0; saptak < Object.keys(SAPTAKS).length; saptak++){
-                            if(Object.keys(SAPTAKS)[saptak].includes(phrase.slice(i, i + x).join(''))){
-                                SAPTAKS[Object.keys(SAPTAKS)[saptak]] += 1;
-                            }
-                        }
-                    }
-                }
-                
-                for(var f = 0; f < Object.values(SAPTAKS).length; f++){
-                    console.log(f)
-                    freq = Object.values(SAPTAKS)[f]
-                    if (freq > high){
-                        high = freq;
-                    }
-                }
-                
-                var keys = Object.keys(SAPTAKS);
-                for(var i = 0; i < keys.length; i++){
-                    if(SAPTAKS[Object.keys(SAPTAKS)[i]] >= high){
-                        guesses.push(Object.keys(SAPTAKS)[i].slice(0, Object.keys(SAPTAKS)[i].indexOf(':')))
-                    }
-                }
-                
-                guesses = guesses.join(' or ')
-                if(high > 5){
-                    document.getElementById("out").innerHTML =  "I think the raga is " + guesses; 
-                }
-                else{
-                    document.getElementById("out").innerHTML =  "I'm not sure."; 
-                    
-                }
-            }
-        </script>
+						var guesses = [];
+						var high = 0;
+						var SAPTAKS = {};
+						var length = RAGA_INDEX.length;
+						for(var i = 0; i < length; i++){
+							SAPTAKS[RAGA_INDEX[i]] = 0;
+						}
+						phrase = document.getElementById("phrase").value.split('');
+						while('-' in phrase){
+							delete phrase[phrase.indexOf('-')];
+						}
+						if(phrase.length < 7){
+							document.getElementById('out').innerHTML = 'Phrase is too short.';
+							abort();
+						}
+						
+						for(var x = 2; x <= phrase.length; x++){
+							for(var i = 0; i <= phrase.length - x; i++){
+								console.log(phrase.slice(i, i + x).join(''));
+								for(var saptak = 0; saptak < Object.keys(SAPTAKS).length; saptak++){
+									
+									if(Object.keys(SAPTAKS)[saptak].includes(phrase.slice(i, i + x).join(''))){
+				
+										SAPTAKS[Object.keys(SAPTAKS)[saptak]] += 1;
+									}
+								}
+							}
+						}
+						
+						for(var f = 0; f < Object.values(SAPTAKS).length; f++){
+							freq = Object.values(SAPTAKS)[f]
+							if (freq > high){
+								high = freq;
+							}
+						}
+						
+						var keys = Object.keys(SAPTAKS);
+						for(var i = 0; i < keys.length; i++){
+							if(SAPTAKS[Object.keys(SAPTAKS)[i]] >= high){
+								guesses.push(Object.keys(SAPTAKS)[i].slice(0, Object.keys(SAPTAKS)[i].indexOf(':')))
+							}
+						}
+						
+						guesses = guesses.join(' or ');
+						if(high > 8){
+							document.getElementById("out").innerHTML =  "I think the raga is " + guesses;
+							var totalPhrases = tri(phrase.length - 1); 
+							console.log('Accuracy percentage: ' + high / totalPhrases * 100);
+							console.log((high));
+							console.log(totalPhrases);
+							// DEBUG
+							localStorage.setItem(phrase.join(''), [guesses, high, totalPhrases]);
+						}
+						else{
+							document.getElementById("out").innerHTML =  "I'm not sure."; 
+							
+						}
+					}	
+				}
+				function tri(n){
+					var total = 0;
+					for(var i = n; i > 0; i--){
+						total += i;
+					}
+					return total;
+				}
+			</script>
+		</div>
     </body>
 </html>
