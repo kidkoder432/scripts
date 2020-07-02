@@ -8,23 +8,32 @@
         
     </head>
     <body>
-		<div class="body"> 
+	
+		<!-- <nav><ul>
+			<li class="selected"><a href="index.html">Home</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+		</ul></nav> -->
+		<div class="body pretext">
+			<h1>Welcome!</h1>
+			<p>Are you new to Hindustani Classical music?<br>Are you always forming tunes in your head, but can never figure out what raga they are in?<br>Well, you've come to the right place!<br><br><br></p></div>
+		<div class="body anim">
+			
 			<h1>
-				Guess The Raga
+				What's the Raga?
 			</h1>
-		</div>
 		<div class="body">
 			<p class="para"> 
 				How to use: <br>
 	            1. Type a phrase. For example: nSgMPnDPgMgRS. The phrase must be at least 7 notes long (not including pauses) for good accuracy.<br>
-				2. Click <strong>Guess</strong> to see what the computer thinks!        
+				2. Click "<strong>What's the Raga</strong>" to see which raga your phrase is in!        
 			</p>
+			
 		</div>
 			<div class="body">
 				<input type="text" id="phrase" name="phrase" placeholder="Phrase" size=46/>
-				<input type="submit" id="guess" value="Guess" onclick="process()"> 
+				<input type="submit" id="guess" value="What's the Raga?" class="gu" onclick="process()"> 
 				<p id="out"></p>
-				<p id="stat"></p>
+				<p>Feedback? Questions? Comments? Send them at   <a>findprajju@gmail.com</a></p> 
 			</div>
 			<script>
 				function process(){
@@ -64,10 +73,9 @@ Todi: SrgmPdNS SNDPmgrS
 Kedar: SMGPmPDNS SNDPmPDPMRS
 Bhairav: SrGMPdNS SNdPMGrS
 Marwa: NrGmDNS SNDmGrS
+Asavari: SRgMPdnS SndPMgRS
 Darbari Kanada: SRgMPdnS SdnPMPgMRS
 Kafi: SRgMPDnS SnDPMgRS
-Todi: SrgmPdNS SNdPmgrS
-
 Dhani: PnSgMPnS SnPMgS
 Bhairavi: SrgMPdnS SndPMgrS
 Saraswati: SRmPDS SnDPmRS`.split('\n')
@@ -116,7 +124,7 @@ Saraswati: SRmPDS SnDPmRS`.split('\n')
 						
 						guesses = guesses.join(' or ');
 						if(high > 8){
-							document.getElementById("out").innerHTML =  "I think the raga is " + guesses;
+							document.getElementById("out").innerHTML =  "Your phrase is most likely a " + guesses + " phrase.";
 							var totalPhrases = tri(phrase.length - 1); 
 							console.log('Accuracy percentage: ' + high / totalPhrases * 100);
 							console.log((high));
