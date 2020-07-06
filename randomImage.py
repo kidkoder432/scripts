@@ -1,7 +1,7 @@
 from PIL import Image
 import os, secrets
 random = secrets.SystemRandom()
-SIZE = (1, 1)
+SIZE = (10, 10)
 path = input('Enter the save location for the random image > ')
 if path:
     os.chdir(path)
