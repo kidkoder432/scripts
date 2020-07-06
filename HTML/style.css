@@ -1,0 +1,70 @@
+/* @keyframes pre {
+	0% {top: 300px;}
+	100% {top: 50px;}
+}
+@keyframes main {
+	0%{top: 300px;}
+	100%{top: 50px;}
+}
+.anim {
+	animation: main 6s forwards;
+}
+.pretext {
+	animation: pre 6s forwards;
+} */
+
+a {
+	color: #00aaff;
+	text-decoration: none;
+}
+a:hover {
+	color: #00aaff;
+	text-decoration: none;
+}
+a:active {
+	color: #00aaff;
+	text-decoration: none;
+}
+.body {
+	align-content: center;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	background-color: #0066cc;
+	width: 100%;
+	border-radius: 8px;
+
+}
+nav ul li {
+	display: inline;
+	padding: 16px
+
+}
+nav ul li a {
+	text-decoration: none;
+}
+body {
+	font-family: sans-serif;
+	background-image: linear-gradient(#ff9933, #ff66cc);
+	margin-top: 10vh;
+
+}
+h1, p {
+    color: #ffffff;
+}
+input {
+	border-radius: 10px
+}
+
+a:link {
+	text-decoration: underline;
+	color: #ffffff;
+}
+a:visited {
+	text-decoration: underline;
+	color: #ffffff;
+}
+a:hover {
+	color: #990000
+}
