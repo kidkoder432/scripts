@@ -7,7 +7,7 @@ if path:
     os.chdir(path)
 nums = list(range(1, 1001))
 for n in nums:
-    fname = n #input('Enter the file name > ')
+    fname = str(n) + '.jpg' #input('Enter the file name > ')
     im = Image.new('RGB', SIZE)
     for w in range(SIZE[0]):
         for h in range(SIZE[1]):
