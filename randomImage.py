@@ -5,7 +5,7 @@ SIZE = (1, 1)
 path = input('Enter the save location for the random image > ')
 if path:
     os.chdir(path)
-nums = list(range(1, 16777217))
+nums = list(range(1, 1001))
 for n in nums:
     fname = str(n) + '.jpg' #input('Enter the file name > ')
     im = Image.new('RGB', SIZE)
