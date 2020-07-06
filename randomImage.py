@@ -1,11 +1,11 @@
 from PIL import Image
 import os, secrets
 random = secrets.SystemRandom()
-SIZE = (10, 10)
+SIZE = (1, 1)
 path = input('Enter the save location for the random image > ')
 if path:
     os.chdir(path)
-nums = list(range(1, 1001))
+nums = list(range(1, 16777217))
 for n in nums:
     fname = str(n) + '.jpg' #input('Enter the file name > ')
     im = Image.new('RGB', SIZE)
