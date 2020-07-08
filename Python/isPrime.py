@@ -5,10 +5,11 @@ def isPrime(number):
         if equal == 0:
             print('The number is composite.')
             print('It is divisible by ' + str(div))
-            return
+            return False
         else:
             pass
     print('The number is prime.')
+    return True
     
 def main():
     while True:
