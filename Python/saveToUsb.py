@@ -1,5 +1,5 @@
 import os, shutil, send2trash, time
-if os.path.exists('e:\\backup_files'):
+if os.path.exists('e:\\files'):
     print('The program cannot proceed because a backup already exists. Please delete the backup and press Enter when done.')
     input()
 
@@ -16,6 +16,7 @@ def get_size(start_path = '.'):
 
 
 def copytree(src, dst, symlinks=False, ignore=None):
+    os.mkdir(dst)
     for item in os.listdir(src):
         s = os.path.join(src, item)
         d = os.path.join(dst, item)
@@ -24,12 +25,12 @@ def copytree(src, dst, symlinks=False, ignore=None):
             shutil.copytree(s, d, symlinks, ignore)
         else:
             shutil.copy2(s, d)
-backup = input('Which folder should I back up? Note: can only be up to %s GB in size. > ' %(shutil.disk_usage(os.path.realpath('E:\\'))[2] / 1000000000))
+backup = 'c:\\users\\findp\\onedrive\\documents\\prajwal_files'#input('Which folder should I back up? Note: can only be up to %s GB in size. > ' %(shutil.disk_usage(os.path.realpath('E:\\'))[2] / 1000000000))
 while True:
     if os.path.exists('E:\\') and get_size(backup) < shutil.disk_usage(os.path.realpath('E:\\'))[2]:
         print('Copying...')
         start = int(time.time())
-        copytree(backup, 'e:\\backup_files')
+        copytree(backup, 'e:\\files')
         end = int(time.time())
         speed = (get_size(backup) / 1000000) / (end - start)
         numFiles = 0

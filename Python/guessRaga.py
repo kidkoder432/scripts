@@ -39,12 +39,12 @@ while True:
         if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
-    for i in keys:
-        guess = i
-        if SAPTAKS[guess] >= high:
-            guesses.append(guess[:guess.index(':')])
-    guesses = ' or '.join(guesses)
-    if high > 5:
+    # for i in keys:
+    #     guess = i
+    #     if SAPTAKS[guess] >= high:
+    #         guesses.append(guess[:guess.index(':')])
+    # guesses = ' or '.join(guesses)
+    if high > 10:
         print("I think that the raga is %s." %(guesses))
     else:
         print("I'm not sure.")
