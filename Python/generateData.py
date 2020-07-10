@@ -1,12 +1,10 @@
 
-import platform
-if platform.system() == 'Windows':
-    f = 'python\\saptaks.txt'
-else:
-    f = 'Python/saptaks.txt'
+import platform, os
+DATA = {}
+os.chdir('python')
 
 def loadDictionary():
-    dictionaryFile = open(f)
+    dictionaryFile = open("saptaks.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
@@ -24,19 +22,12 @@ def getEnglishCount(message):
 import itertools
 phrases = []
 i = 5
-s = 0
-print(i)
+print("Generating phrases...")
 for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-    for x in range(4):
-        if p[x].lower() != p[x+1].lower():
-            s += 1
-    if s == 4:
-        s = 0
-        print(p)
-        phrases.append(p)
+    phrases.append(p)
+print("Evaluating phrases...")
 for phrase in phrases:
-    while "-" in phrase:
-        del phrase[phrase.index("-")]
+    print('Evaluating phrase: ' + ''.join(phrase))
     SAPTAKS = getEnglishCount(phrase)
     high = 0
     guesses = []
@@ -46,6 +37,16 @@ for phrase in phrases:
     keys = list(SAPTAKS.keys())
     for i in keys:
         guess = i
-        if SAPTAKS[guess] >= high:
+        if SAPTAKS[guess] >= high and high >= 7:
             guesses.append(guess[:guess.index(':')])
     guesses = '  '.join(guesses)
+    if guesses:
+        DATA[phrase] = guesses
+print('Writing data...')
+f = open('data.csv', 'w')
+for k in list(DATA.keys()):
+    f.write(''.join(k) + ', ' + DATA[k])
+    f.write('\n')
+f.close()
+print('Done.')
+print('Collected ' + len(DATA) + ' entries')
