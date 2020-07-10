@@ -18,8 +18,8 @@ def loadDictionary():
 
 def getEnglishCount(message):
     SAPTAKS = loadDictionary()
-    for x in range(2, len(message)):
-        for i in range(len(message) - x):
+    for x in range(2, len(message) + 1):
+        for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
                 if ''.join(message[i:i + x]) in saptak:
                     SAPTAKS[saptak] += 1             
@@ -39,11 +39,11 @@ while True:
         if freq > high:
             high = freq
     keys = list(SAPTAKS.keys())
-    # for i in keys:
-    #     guess = i
-    #     if SAPTAKS[guess] >= high:
-    #         guesses.append(guess[:guess.index(':')])
-    # guesses = ' or '.join(guesses)
+    for i in keys:
+        guess = i
+        if SAPTAKS[guess] >= high:
+            guesses.append(guess[:guess.index(':')])
+    guesses = ' or '.join(guesses)
     if high > 10:
         print("I think that the raga is %s." %(guesses))
     else:
