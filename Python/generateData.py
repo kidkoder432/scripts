@@ -49,4 +49,4 @@ for k in list(DATA.keys()):
     f.write('\n')
 f.close()
 print('Done.')
-print('Collected ' + len(DATA) + ' entries')
+print('Collected ' + str(len(DATA)) + ' entries')
