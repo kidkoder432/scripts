@@ -37,7 +37,7 @@ for phrase in phrases:
     keys = list(SAPTAKS.keys())
     for i in keys:
         guess = i
-        if SAPTAKS[guess] >= high and high >= 7:
+        if SAPTAKS[guess] >= high and high >= 6:
             guesses.append(guess[:guess.index(':')])
     guesses = '  '.join(guesses)
     if guesses:
