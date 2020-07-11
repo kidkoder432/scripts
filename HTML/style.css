@@ -12,7 +12,7 @@
 .pretext {
 	animation: pre 6s forwards;
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 a {
 	color: #00aaff;
 	text-decoration: none;
@@ -25,6 +25,9 @@ a:active {
 	color: #00aaff;
 	text-decoration: none;
 }
+
+	
+
 .body {
 	align-content: center;
 	text-align: center;
@@ -45,8 +48,9 @@ nav ul li a {
 	text-decoration: none;
 }
 body {
-	font-family: sans-serif;
-	background-image: linear-gradient(#ff9933, #ff66cc);
+	font-family: "Comfortaa", cursive;
+	/* background: url(notes.jpg), linear-gradient(#ff9933, #ff66cc); */
+	background: linear-gradient(#ff9933, #ff66cc);
 	margin-top: 10vh;
 
 }
@@ -55,16 +59,4 @@ h1, p {
 }
 input {
 	border-radius: 10px
-}
-
-a:link {
-	text-decoration: underline;
-	color: #ffffff;
-}
-a:visited {
-	text-decoration: underline;
-	color: #ffffff;
-}
-a:hover {
-	color: #990000
 }

@@ -2,7 +2,7 @@
     <head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Guess The Raga
+            What's The Raga?
         </title>
         <link type="text/css" rel="stylesheet" href="style.css"/>
         
@@ -11,7 +11,7 @@
 	
 		<!-- <nav><ul>
 			<li class="selected"><a href="index.html">Home</a></li>
-			<li><a href="feedback.html">Feedback</a></li>
+<li><a href="feedback.html">Feedback</a></li>
 		</ul></nav> -->
 		<div class="body pretext">
 			<h1>Welcome!</h1>
@@ -49,13 +49,15 @@
 						}
 					}
 					
-					proceed = confirm('Are you sure you want to submit the phrase ' + phrase + ' ?');
+					proceed = confirm('Are you sure you want to submit the phrase ' + phrase + '?');
 					if(proceed == true) {
 						
 						var RAGA_INDEX = `
 Bhimpalasi: nSgMPnS SnDPMgRS
 Des: NSRMPNS SnDPMGRGNS
 Sarang: SRMPNS SnPMRS
+Jog: SGMPnS SnPMGMgS
+Hindol: SGmDNS SNDMGmGS
 Bageshri: SgMDnS SNDMPDgMgRS
 Yaman: NRGmDNS SNDPmGRS PRGm-GRS
 Pooriya Kalyan: NrGmDNS SNDPmGrS GmrG PD
@@ -63,6 +65,7 @@ Malkauns: SgMdnS SndMgS
 Chandrakauns: SgMdNS SNdMgS
 Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
 Durga: SRMPDS SDPMRS
+Maru Bihag: SGmPNS SNDPmGmGRS
 Ahir-Bhairav: SrGMPDnS SnDPMGrS
 Deshkar: SRGPDS SDPDGPGRS
 Jhinjoti: SRMPDS SnDPMGRGS
@@ -129,11 +132,12 @@ Saraswati: SRmPDS SnDPmRS`.split('\n')
 							console.log('Accuracy percentage: ' + high / totalPhrases * 100);
 							console.log((high));
 							console.log(totalPhrases);
+							console.log(SAPTAKS)
 							// DEBUG
-							localStorage.setItem(phrase.join(''), [guesses, high, totalPhrases]);
+							localStorage.setItem(phrase.join(''), [guesses, high, totalPhrases]);                                  
 						}
 						else{
-							document.getElementById("out").innerHTML =  "I'm not sure."; 
+							document.getElementById("out").innerHTML =  "I'm not sure which raga your phrase is in. Perhaps you entered it incorrectly?"; 
 							
 						}
 					}	
