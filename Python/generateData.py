@@ -1,7 +1,7 @@
 print('Phase 1: Generating data...')
 import platform, os
 DATA = {}
-os.chdir('python')
+
 
 def loadDictionary():
     dictionaryFile = open("saptaks copy.txt")
@@ -50,8 +50,6 @@ for k in list(DATA.keys()):
 f.close()
 print('Done.')
 print('Collected ' + str(len(DATA)) + ' entries')
-if os.getcwd() != '/Python':
-    os.chdir("Python")
 print('Phase 2: Updating index...')
 f = open('data.csv', 'r')
 fi = open('saptaks.txt')
@@ -59,7 +57,9 @@ ALL_RAGAS = str(fi.read()).split('\n')
 fi.close()
 content = str(f.read())
 RAGA_INDEX = ALL_RAGAS
-for r in content.split('\n'):
+content = content.split('\n')
+del content[-1]
+for r in content:
     phrase = r.split(', ')[0]
     ragas = r.split(', ')[1].split('/')
     for raga in ragas:
