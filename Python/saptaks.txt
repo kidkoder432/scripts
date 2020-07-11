@@ -3,7 +3,7 @@ Des: NSRMPNS SnDPMGRGNS
 Sarang: SRMPNS SnPMRS
 Bageshri: SgMDnS SNDMPDgMgRS
 Yaman: NRGmDNS SNDPmGRS PRGm-GRS
-Pooriya Kalyan: NrGmDNS SNDPmGrS GmrG PD
+Pooriya-Kalyan: NrGmDNS SNDPmGrS GmrG PD
 Malkauns: SgMdnS SndMgS
 Chandrakauns: SgMdNS SNdMgS
 Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
@@ -18,7 +18,7 @@ Todi: SrgmPdNS SNDPmgrS
 Kedar: SMGPmPDNS SNDPmPDPMRS
 Bhairav: SrGMPdNS SNdPMGrS
 Marwa: NrGmDNS SNDmGrS
-Darbari Kanada: SRgMPdnS SdnPMPgMRS
+Darbari-Kanada: SRgMPdnS SdnPMPgMRS
 Kafi: SRgMPDnS SnDPMgRS
 Dhani: PnSgMPnS SnPMgS
 Bhairavi: SrgMPdnS SndPMgrS

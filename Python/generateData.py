@@ -39,7 +39,7 @@ for phrase in phrases:
         guess = i
         if SAPTAKS[guess] >= high and high >= 6:
             guesses.append(guess[:guess.index(':')])
-    guesses = '  '.join(guesses)
+    guesses = '/'.join(guesses)
     if guesses:
         DATA[phrase] = guesses
 print('Writing data...')
