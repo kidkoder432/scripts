@@ -4,7 +4,7 @@ DATA = {}
 
 
 def loadDictionary():
-    dictionaryFile = open("saptaks copy.txt")
+    dictionaryFile = open("raga-index.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
@@ -37,7 +37,9 @@ for phrase in phrases:
     keys = list(SAPTAKS.keys())
     for i in keys:
         guess = i
-        if SAPTAKS[guess] >= high and high >= 7:
+        if SAPTAKS[guess] >= high and high >= 7 and len(phrase) == 5:
+            guesses.append(guess[:guess.index(':')])
+        if SAPTAKS[guess] >= high and high >= 11 and len(phrase) == 6:
             guesses.append(guess[:guess.index(':')])
     guesses = '/'.join(guesses)
     if guesses:
@@ -52,7 +54,7 @@ print('Done.')
 print('Collected ' + str(len(DATA)) + ' entries')
 print('Phase 2: Updating index...')
 f = open('data.csv', 'r')
-fi = open('saptaks.txt')
+fi = open('raga-index.txt')
 ALL_RAGAS = str(fi.read()).split('\n')
 fi.close()
 content = str(f.read())
@@ -66,10 +68,10 @@ for r in content:
         print(raga)
         for scale in ALL_RAGAS:
             if raga == scale[:scale.index(':')]:
-                print('FOund phrase')
                 RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
 fi = open('saptaks.txt', 'w')
-print(RAGA_INDEX)
+for r in RAGA_INDEX:
+    print(len(r.split(' ')))
 fi.write('\n'.join(RAGA_INDEX))
 fi.close()
 print('Finished operations.')

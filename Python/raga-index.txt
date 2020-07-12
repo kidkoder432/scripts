@@ -5,12 +5,12 @@ Jog: SGMPnS SnPMGMgS
 Hindol: SGmDNS SNDMGmGS
 Bageshri: SgMDnS SNDMPDgMgRS
 Yaman: NRGmDNS SNDPmGRS PRGm-GRS
-Pooriya-Kalyan: NrGmDNS SNDPmGrS GmrG PD
+Pooriya Kalyan: NrGmDNS SNDPmGrS GmrG PD
 Malkauns: SgMdnS SndMgS
 Chandrakauns: SgMdNS SNdMgS
 Bhoopali: SRGPDS SDPGRS PRGRS DRSRGRS
 Durga: SRMPDS SDPMRS
-Maru-Bihag: SGmPNS SNDPmGmGRS
+Maru Bihag: SGmPNS SNDPmGmGRS
 Ahir-Bhairav: SrGMPDnS SnDPMGrS
 Deshkar: SRGPDS SDPDGPGRS
 Jhinjoti: SRMPDS SnDPMGRGS
@@ -22,7 +22,7 @@ Kedar: SMGPmPDNS SNDPmPDPMRS
 Bhairav: SrGMPdNS SNdPMGrS
 Marwa: NrGmDNS SNDmGrS
 Asavari: SRgMPdnS SndPMgRS
-Darbari-Kanada: SRgMPdnS SdnPMPgMRS
+Darbari Kanada: SRgMPdnS SdnPMPgMRS
 Kafi: SRgMPDnS SnDPMgRS
 Dhani: PnSgMPnS SnPMgS
 Bhairavi: SrgMPdnS SndPMgrS
