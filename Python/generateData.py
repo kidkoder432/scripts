@@ -22,8 +22,9 @@ def getEnglishCount(message):
 import itertools
 phrases = []
 i = 5
+x = ['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N']
 print("Generating phrases...")
-for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
+for p in itertools.product(x, repeat=i):
     phrases.append(p)
 print("Evaluating phrases...")
 for phrase in phrases:
