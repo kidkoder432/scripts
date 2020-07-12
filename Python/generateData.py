@@ -1,10 +1,10 @@
-
+print('Phase 1: Generating data...')
 import platform, os
 DATA = {}
-# os.chdir('python')
+os.chdir('python')
 
 def loadDictionary():
-    dictionaryFile = open("saptaks.txt")
+    dictionaryFile = open("saptaks copy.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
@@ -50,3 +50,28 @@ for k in list(DATA.keys()):
 f.close()
 print('Done.')
 print('Collected ' + str(len(DATA)) + ' entries')
+if os.getcwd() != '/Python':
+    os.chdir("Python")
+print('Phase 2: Updating index...')
+f = open('data.csv', 'r')
+fi = open('saptaks.txt')
+ALL_RAGAS = str(fi.read()).split('\n')
+fi.close()
+content = str(f.read())
+RAGA_INDEX = ALL_RAGAS
+for r in content.split('\n'):
+    phrase = r.split(', ')[0]
+    ragas = r.split(', ')[1].split('/')
+    for raga in ragas:
+        print(raga)
+        for scale in ALL_RAGAS:
+            if raga == scale[:scale.index(':')]:
+                print('FOund phrase')
+                RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
+fi = open('saptaks.txt', 'w')
+print(RAGA_INDEX)
+fi.write('\n'.join(RAGA_INDEX))
+fi.close()
+print('Finished operations.')
+f.close()
+        
