@@ -1,7 +1,7 @@
 
 import platform, os
 DATA = {}
-os.chdir('python')
+# os.chdir('python')
 
 def loadDictionary():
     dictionaryFile = open("saptaks.txt")
@@ -21,11 +21,10 @@ def getEnglishCount(message):
     return SAPTAKS
 import itertools
 phrases = []
-i = 5
-x = ['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N']
 print("Generating phrases...")
-for p in itertools.product(x, repeat=i):
-    phrases.append(p)
+for i in range(5, 7):
+    for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
+        phrases.append(p)
 print("Evaluating phrases...")
 for phrase in phrases:
     print('Evaluating phrase: ' + ''.join(phrase))
@@ -38,7 +37,7 @@ for phrase in phrases:
     keys = list(SAPTAKS.keys())
     for i in keys:
         guess = i
-        if SAPTAKS[guess] >= high and high >= 6:
+        if SAPTAKS[guess] >= high and high >= 7:
             guesses.append(guess[:guess.index(':')])
     guesses = '/'.join(guesses)
     if guesses:
