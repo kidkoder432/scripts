@@ -22,7 +22,7 @@ def getEnglishCount(message):
 import itertools
 phrases = []
 print("Generating phrases...")
-for i in range(5, 7):
+for i in range(5, 8):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         phrases.append(p)
 print("Evaluating phrases...")
@@ -37,9 +37,11 @@ for phrase in phrases:
     keys = list(SAPTAKS.keys())
     for i in keys:
         guess = i
-        if SAPTAKS[guess] >= high and high >= 7 and len(phrase) == 5:
+        if SAPTAKS[guess] >= 7 and len(phrase) == 5:
             guesses.append(guess[:guess.index(':')])
-        if SAPTAKS[guess] >= high and high >= 10 and len(phrase) == 6:
+        if SAPTAKS[guess] >= 10 and len(phrase) == 6:
+            guesses.append(guess[:guess.index(':')])
+        if SAPTAKS[guess] >= 14 and len(phrase == 7):
             guesses.append(guess[:guess.index(':')])
     guesses = '/'.join(guesses)
     if guesses:
