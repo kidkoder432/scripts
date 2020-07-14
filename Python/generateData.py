@@ -1,56 +1,53 @@
 print('Phase 1: Generating data...')
 import platform, os
 DATA = {}
-
+thresholds = [7, 10, 14, 19, 25, 32, 40, 49]
 
 def loadDictionary():
-    dictionaryFile = open("raga-index.txt")
-    englishWords = {}
-    for word in dictionaryFile.read().split('\n'):
-        englishWords[word] = 0
-    dictionaryFile.close()
-    return englishWords
+	dictionaryFile = open("raga-index.txt")
+	englishWords = {}
+	for word in dictionaryFile.read().split('\n'):
+		englishWords[word] = 0
+	dictionaryFile.close()
+	return englishWords
 
 def getEnglishCount(message):
-    SAPTAKS = loadDictionary()
-    for x in range(2, len(message) + 1):
-        for i in range(len(message) - x + 1):
-            for saptak in list(SAPTAKS.keys()):
-                if ''.join(message[i:i + x]) in saptak:
-                    SAPTAKS[saptak] += 1             
-    return SAPTAKS
+	SAPTAKS = loadDictionary()
+	for x in range(2, len(message) + 1):
+		for i in range(len(message) - x + 1):
+			for saptak in list(SAPTAKS.keys()):
+				if ''.join(message[i:i + x]) in saptak:
+					SAPTAKS[saptak] += 1			 
+	return SAPTAKS
 import itertools
 phrases = []
 print("Generating phrases...")
 for i in range(5, 8):
-    for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-        phrases.append(p)
+	for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
+		phrases.append(p)
 print("Evaluating phrases...")
 for phrase in phrases:
-    print('Evaluating phrase: ' + ''.join(phrase))
-    SAPTAKS = getEnglishCount(phrase)
-    high = 0
-    guesses = []
-    for freq in list(SAPTAKS.values()):
-        if freq > high:
-            high = freq
-    keys = list(SAPTAKS.keys())
-    for i in keys:
-        guess = i
-        if SAPTAKS[guess] >= 7 and len(phrase) == 5:
-            guesses.append(guess[:guess.index(':')])
-        if SAPTAKS[guess] >= 10 and len(phrase) == 6:
-            guesses.append(guess[:guess.index(':')])
-        if SAPTAKS[guess] >= 14 and len(phrase == 7):
-            guesses.append(guess[:guess.index(':')])
-    guesses = '/'.join(guesses)
-    if guesses:
-        DATA[phrase] = guesses
+	print('Evaluating phrase: ' + ''.join(phrase))
+	SAPTAKS = getEnglishCount(phrase)
+	high = 0
+	guesses = []
+	for freq in list(SAPTAKS.values()):
+		if freq > high:
+			high = freq
+	keys = list(SAPTAKS.keys())
+	for i in keys:
+		guess = i
+		for x in range(len(thresholds)):
+			if SAPTAKS[guess] >= thresholds[x] and len(phrase) == x + 5:
+				guesses.append(guess[:guess.index(':')])
+	guesses = '/'.join(guesses)
+	if guesses:
+		DATA[phrase] = guesses
 print('Writing data...')
 f = open('data.csv', 'w')
 for k in list(DATA.keys()):
-    f.write(''.join(k) + ', ' + DATA[k])
-    f.write('\n')
+	f.write(''.join(k) + ', ' + DATA[k])
+	f.write('\n')
 f.close()
 print('Done.')
 print('Collected ' + str(len(DATA)) + ' entries')
@@ -64,19 +61,19 @@ RAGA_INDEX = ALL_RAGAS
 content = content.split('\n')
 del content[-1]
 for r in content:
-    phrase = r.split(', ')[0]
-    ragas = r.split(', ')[1].split('/')
-    for raga in ragas:
-        print(raga)
-        for scale in ALL_RAGAS:
-            if raga == scale[:scale.index(':')]:
-                RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
+	phrase = r.split(', ')[0]
+	ragas = r.split(', ')[1].split('/')
+	for raga in ragas:
+		print(raga)
+		for scale in ALL_RAGAS:
+			if raga == scale[:scale.index(':')]:
+				RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
 fi = open('saptaks.txt', 'w')
 for r in RAGA_INDEX:
-    print(len(r.split(' ')))
+	print(len(r.split(' ')))
 print(len(RAGA_INDEX.split(' ')))
 fi.write('\n'.join(RAGA_INDEX))
 fi.close()
 print('Finished operations.')
 f.close()
-        
+		
