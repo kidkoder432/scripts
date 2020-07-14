@@ -96,4 +96,6 @@ for phrase in c:
 for p in range(len(patterns)):
 	c[p] = patterns[p]
 
-print(c)
+for t in c:
+	print(t)
+	print()
