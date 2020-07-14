@@ -102,8 +102,11 @@ print('Writing data...')
 f = open('data.csv', 'w')
 for i in range(len(r)):
 	print('Data being written: ' + ', '.join(c[i]) + ', ' + r[i])
+<<<<<<< HEAD
 	f.write(', '.join(c[i]) + ', ' + r[i])
 	f.write('\n')
+=======
+>>>>>>> 18dfb782a42d3945f197bf9b4489c09482b93b91
 f.close()
 print('done')
 
