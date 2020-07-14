@@ -80,8 +80,10 @@
 print('Phase 3: Finding patterns...')
 f = open('data.csv')
 c = []
+r = []
 for i in str(f.read()).split('\n'):
 	c.append(i.split(', ')[0])
+	r.append(i.split(', ')[1])
 	print(i.split(', ')[0])
 f.close()
 del c[-1]
@@ -92,10 +94,11 @@ for phrase in c:
 	for i in range(2, len(phrase) + 1):
 		for x in range(len(phrase) - (i - 1)):
 			p.append(phrase[x:i + x])
-	patterns.append(', '.join(p))	
+	patterns.append(p)	
 for p in range(len(patterns)):
 	c[p] = patterns[p]
 
-for t in c:
-	print(t)
-	print()
+f = open('data.csv', 'w')
+for i in rage(len(r)):
+	f.write(', '.join(c[i]) + ', ' + r[i])
+f.close()
