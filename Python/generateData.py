@@ -100,7 +100,7 @@ for p in range(len(patterns)):
 print('Writing data...')
 f = open('data.csv', 'w')
 for i in range(len(r)):
-	print('Data being written: ' + )
+	print('Data being written: ' + ', '.join(c[i]) + ', ' + r[i])
 	f.write(', '.join(c[i]) + ', ' + r[i])
 f.close()
 
