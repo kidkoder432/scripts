@@ -92,7 +92,7 @@ for phrase in c:
 	for i in range(2, len(phrase) + 1):
 		for x in range(len(phrase) - (i - 1)):
 			p.append(phrase[x:i + x])
-	patterns.append(''.join(p))	
+	patterns.append(', '.join(p))	
 for p in range(len(patterns)):
 	c[p] = patterns[p]
 
