@@ -76,4 +76,7 @@ fi.write('\n'.join(RAGA_INDEX))
 fi.close()
 print('Finished operations.')
 f.close()
+
+print('Phase 3: Finding patterns...')
+
 		
