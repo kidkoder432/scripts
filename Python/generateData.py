@@ -1,7 +1,7 @@
 print('Phase 1: Generating data...')
 import platform, os
 DATA = {}
-thresholds = [7, 10, 14, 19, 25, 32, 40, 49]
+thresholds = [7, 10]
 
 def loadDictionary():
 	dictionaryFile = open("raga-index.txt")
@@ -22,7 +22,7 @@ def getEnglishCount(message):
 import itertools
 phrases = []
 print("Generating phrases...")
-for i in range(5, 8):
+for i in range(5, 7):
 	for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
 		phrases.append(p)
 print("Evaluating phrases...")
