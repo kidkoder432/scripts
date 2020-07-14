@@ -85,7 +85,6 @@ r = []
 for i in str(f.read()).split('\n'):
 	c.append(i.split(', ')[0])
 	r.append(i.split(', ')[1])
-	print(i.split(', ')[0])
 f.close()
 print('Generating patterns...')
 patterns = []
@@ -94,7 +93,9 @@ for phrase in c:
 	for i in range(2, len(phrase) + 1):
 		for x in range(len(phrase) - (i - 1)):
 			p.append(phrase[x:i + x])
-	patterns.append(p)	
+	print(p)
+	patterns.append(p)
+	p = []	
 for p in range(len(patterns)):
 	c[p] = patterns[p]
 print('Writing data...')
@@ -102,6 +103,7 @@ f = open('data.csv', 'w')
 for i in range(len(r)):
 	print('Data being written: ' + ', '.join(c[i]) + ', ' + r[i])
 	f.write(', '.join(c[i]) + ', ' + r[i])
+	f.write('\n')
 f.close()
-
+print('done')
 
