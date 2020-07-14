@@ -82,12 +82,14 @@ f = open('data.csv')
 c = []
 for i in str(f.read()).split('\n'):
 	c.append(i.split(', ')[0])
+	print(i.split(', ')[0])
 f.close()
+del c[-1]
+
 patterns = []
 for phrase in c:
 	for i in range(2, len(phrase) + 1):
 		for x in range(len(phrase) - (i - 1)):
-			patterns.append(phrase[x:i + x])
-			print(phrase[x:i + x])
-		
-f = open('data.csv', 'w')
+			patterns.append(phrase[x:i + x])	
+for p in range(len(patterns)):
+	c[p] = patterns[p]
