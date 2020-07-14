@@ -51,32 +51,37 @@
 # f.close()
 # print('Done.')
 # print('Collected ' + str(len(DATA)) + ' entries')
-print('Phase 2: Updating index...')
-f = open('data.csv', 'r')
-fi = open('raga-index.txt')
-ALL_RAGAS = str(fi.read()).split('\n')
-fi.close()
-content = str(f.read())
-RAGA_INDEX = ALL_RAGAS
-content = content.split('\n')
-del content[-1]
-for r in content:
-	phrase = r.split(', ')[0]
-	ragas = r.split(', ')[1].split('/')
-	for raga in ragas:
-		print(raga)
-		for scale in ALL_RAGAS:
-			if raga == scale[:scale.index(':')]:
-				RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
-fi = open('saptaks.txt', 'w')
-for r in RAGA_INDEX:
-	print(len(r.split(' ')))
-print(len(''.join(RAGA_INDEX).split(' ')))
-fi.write('\n'.join(RAGA_INDEX))
-fi.close()
-print('Finished operations.')
-f.close()
+# print('Phase 2: Updating index...')
+# f = open('data.csv', 'r')
+# fi = open('raga-index.txt')
+# ALL_RAGAS = str(fi.read()).split('\n')
+# fi.close()
+# content = str(f.read())
+# RAGA_INDEX = ALL_RAGAS
+# content = content.split('\n')
+# del content[-1]
+# for r in content:
+# 	phrase = r.split(', ')[0]
+# 	ragas = r.split(', ')[1].split('/')
+# 	for raga in ragas:
+# 		print(raga)
+# 		for scale in ALL_RAGAS:
+# 			if raga == scale[:scale.index(':')]:
+# 				RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
+# fi = open('saptaks.txt', 'w')
+# for r in RAGA_INDEX:
+# 	print(len(r.split(' ')))
+# print(len(''.join(RAGA_INDEX).split(' ')))
+# fi.write('\n'.join(RAGA_INDEX))
+# fi.close()
+# print('Finished operations.')
+# f.close()
 
 print('Phase 3: Finding patterns...')
-
+f = open('data.csv')
+c = []
+for i in str(f.read()).split('\n'):
+	c.append(i.split(', ')[0])
+	print(i.split(', ')[0])
+f.close()
 		
