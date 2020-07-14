@@ -71,7 +71,7 @@ for r in content:
 fi = open('saptaks.txt', 'w')
 for r in RAGA_INDEX:
 	print(len(r.split(' ')))
-print(len(RAGA_INDEX.split(' ')))
+print(len(''.join(RAGA_INDEX).split(' ')))
 fi.write('\n'.join(RAGA_INDEX))
 fi.close()
 print('Finished operations.')
