@@ -1,56 +1,56 @@
-print('Phase 1: Generating data...')
-import platform, os
-DATA = {}
-thresholds = [7, 10]
+# print('Phase 1: Generating data...')
+# import platform, os
+# DATA = {}
+# thresholds = [7, 10]
 
-def loadDictionary():
-	dictionaryFile = open("raga-index.txt")
-	englishWords = {}
-	for word in dictionaryFile.read().split('\n'):
-		englishWords[word] = 0
-	dictionaryFile.close()
-	return englishWords
+# def loadDictionary():
+# 	dictionaryFile = open("raga-index.txt")
+# 	englishWords = {}
+# 	for word in dictionaryFile.read().split('\n'):
+# 		englishWords[word] = 0
+# 	dictionaryFile.close()
+# 	return englishWords
 
-def getEnglishCount(message):
-	SAPTAKS = loadDictionary()
-	for x in range(2, len(message) + 1):
-		for i in range(len(message) - x + 1):
-			for saptak in list(SAPTAKS.keys()):
-				if ''.join(message[i:i + x]) in saptak:
-					SAPTAKS[saptak] += 1			 
-	return SAPTAKS
-import itertools
-phrases = []
-print("Generating phrases...")
-for i in range(5, 7):
-	for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-		phrases.append(p)
-print("Evaluating phrases...")
-for phrase in phrases:
-	print('Evaluating phrase: ' + ''.join(phrase))
-	SAPTAKS = getEnglishCount(phrase)
-	high = 0
-	guesses = []
-	for freq in list(SAPTAKS.values()):
-		if freq > high:
-			high = freq
-	keys = list(SAPTAKS.keys())
-	for i in keys:
-		guess = i
-		for x in range(len(thresholds)):
-			if SAPTAKS[guess] >= thresholds[x] and len(phrase) == x + 5:
-				guesses.append(guess[:guess.index(':')])
-	guesses = '/'.join(guesses)
-	if guesses:
-		DATA[phrase] = guesses
-print('Writing data...')
-f = open('data.csv', 'w')
-for k in list(DATA.keys()):
-	f.write(''.join(k) + ', ' + DATA[k])
-	f.write('\n')
-f.close()
-print('Done.')
-print('Collected ' + str(len(DATA)) + ' entries')
+# def getEnglishCount(message):
+# 	SAPTAKS = loadDictionary()
+# 	for x in range(2, len(message) + 1):
+# 		for i in range(len(message) - x + 1):
+# 			for saptak in list(SAPTAKS.keys()):
+# 				if ''.join(message[i:i + x]) in saptak:
+# 					SAPTAKS[saptak] += 1			 
+# 	return SAPTAKS
+# import itertools
+# phrases = []
+# print("Generating phrases...")
+# for i in range(5, 7):
+# 	for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
+# 		phrases.append(p)
+# print("Evaluating phrases...")
+# for phrase in phrases:
+# 	print('Evaluating phrase: ' + ''.join(phrase))
+# 	SAPTAKS = getEnglishCount(phrase)
+# 	high = 0
+# 	guesses = []
+# 	for freq in list(SAPTAKS.values()):
+# 		if freq > high:
+# 			high = freq
+# 	keys = list(SAPTAKS.keys())
+# 	for i in keys:
+# 		guess = i
+# 		for x in range(len(thresholds)):
+# 			if SAPTAKS[guess] >= thresholds[x] and len(phrase) == x + 5:
+# 				guesses.append(guess[:guess.index(':')])
+# 	guesses = '/'.join(guesses)
+# 	if guesses:
+# 		DATA[phrase] = guesses
+# print('Writing data...')
+# f = open('data.csv', 'w')
+# for k in list(DATA.keys()):
+# 	f.write(''.join(k) + ', ' + DATA[k])
+# 	f.write('\n')
+# f.close()
+# print('Done.')
+# print('Collected ' + str(len(DATA)) + ' entries')
 print('Phase 2: Updating index...')
 f = open('data.csv', 'r')
 fi = open('raga-index.txt')
