@@ -1,6 +1,6 @@
-from myai import *
+import myai
 feeling = input('Hello, %s. How are you today? > ' %(input('Hello. What is your name? > '))).lower()
-yn = getYesNo(feeling)
+yn = myai.happyOrSad(feeling)
 if yn == 0 and len(feeling.split(' ')) > 1:
     print('''I'm sorry you feel that way. Is there anything I can do to help?''')
 elif len(feeling) == 0:
