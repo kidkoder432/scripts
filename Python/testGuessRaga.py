@@ -19,15 +19,21 @@ def tri(n):
     for i in range(n):
         t += i
     return t
+def isValid(phrase):
+    for x in range(len(phrase) - 1):
+        if phrase[x].lower() == phrase[x+1].lower():
+            return False
+    return True
 import random, itertools
 print('Welcome To Guess Raga Test!')
 print('Follow the prompts. Hit CTRL-C to save and quit.')
 phrases = [p for p in itertools.product(list('SRGMPDNrgmdn'), repeat=6)]
 nt, npt = [True, True]
 f = open('log.csv')
+phrasesTested = len(str(f.read()).split('\n')) - 1
 nt = 'Phrase, Computer Guesses, User Guesses' not in str(f.read())
 npt = 'Phrases tested' not in str(f.read())
-phrasesTested = len(str(f.read()).split('\n')) - 1
+print(phrasesTested)
 f.close()
 f = open('log.csv', 'a')
 if nt:
@@ -37,10 +43,10 @@ threshold = 0.3
 try:
     while phrasesTested < 1000:
         phrase=list(random.choice(phrases))
-        print('Phrase # %s: ' + ''.join(phrase) %(phrasesTested + 1))
-        if not input('Is this phrase valid? > ').lower().startswith('y'):
+        if not isValid(phrase):
             phrase = []
             continue
+        print('Phrase # %s: %s' %(phrasesTested + 1, ''.join(phrase)))
         SAPTAKS = getEnglishCount(phrase)
         high = 0
         guesses = []
@@ -62,12 +68,15 @@ try:
                     break
 
         else:
+            guesses = ['Not Sure']
             print('I\'m not sure which raga your phrase is in.')
-            userGuesses = input('Which ragas is it really in? Enter your guesses seperated by "&" > ')
+            userGuesses = input('Which ragas is it really in? Enter your guesses separated by "&". Or enter a blank if you\'re not sure either. > ')
         f.write('\n')
+        if userGuesses == '':
+            userGuesses = 'Not Sure'
         f.write(''.join(phrase) + ', ' + '/'.join(guesses) + ', ' + '/'.join(userGuesses.split('&')))
         phrasesTested += 1
         phrase = []
 except KeyboardInterrupt:
-    print('Saving progress...')
+    print('\nSaving progress...')
     f.close()
