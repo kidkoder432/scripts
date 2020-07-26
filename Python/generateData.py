@@ -1,7 +1,7 @@
 print('Phase 1: Generating data...')
 import platform, os
 DATA = {}
-thresholds = [7, 11]
+threshold = 0.7
 
 def loadDictionary():
 	dictionaryFile = open("raga-index.txt")
@@ -19,6 +19,11 @@ def getEnglishCount(message):
 				if ''.join(message[i:i + x]) in saptak:
 					SAPTAKS[saptak] += 1			 
 	return SAPTAKS
+def tri(n):
+	t=0
+	for i in range(n):
+		t+=i
+	return t
 import itertools
 phrases = []
 print("Generating phrases...")
@@ -37,9 +42,8 @@ for phrase in phrases:
 	keys = list(SAPTAKS.keys())
 	for i in keys:
 		guess = i
-		for x in range(len(thresholds)):
-			if SAPTAKS[guess] >= thresholds[x] and len(phrase) == x + 5:
-				guesses.append(guess[:guess.index(':')])
+		if SAPTAKS[guess] / tri(len(phrase)) >= threshold:
+			guesses.append(guess[:guess.index(':')])
 	guesses = '/'.join(guesses)
 	if guesses:
 		DATA[phrase] = guesses
