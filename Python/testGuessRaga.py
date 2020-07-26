@@ -1,24 +1,4 @@
-def loadDictionary():
-    dictionaryFile = open('saptaks.txt')
-    englishWords = {}
-    for word in dictionaryFile.read().split('\n'):
-        englishWords[word] = 0
-    dictionaryFile.close()
-    return englishWords
-
-def getEnglishCount(message):
-    SAPTAKS = loadDictionary()
-    for x in range(2, len(message) + 1):
-        for i in range(len(message) - x + 1):
-            for saptak in list(SAPTAKS.keys()):
-                if ''.join(message[i:i + x]) in saptak:
-                    SAPTAKS[saptak] += 1             
-    return SAPTAKS
-def tri(n):
-    t = 0
-    for i in range(n):
-        t += i
-    return t
+from guessRaga import *
 def isValid(phrase):
     for x in range(len(phrase) - 1):
         if phrase[x].lower() == phrase[x+1].lower():
@@ -47,7 +27,7 @@ try:
             phrase = []
             continue
         print('Phrase # %s: %s' %(phrasesTested + 1, ''.join(phrase)))
-        SAPTAKS = getEnglishCount(phrase)
+        SAPTAKS = getRagaCount(phrase)
         high = 0
         guesses = []
         for freq in list(SAPTAKS.values()):
