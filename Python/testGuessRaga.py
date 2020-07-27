@@ -1,4 +1,4 @@
-from guessRaga import *
+from guessRaga import getRagas, tri
 def isValid(phrase):
     for x in range(len(phrase) - 1):
         if phrase[x].lower() == phrase[x+1].lower():
