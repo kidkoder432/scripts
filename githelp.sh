@@ -5,4 +5,7 @@ git pull
 # echo "Pushing..."
 # git commit -a -m .
 # git push --set-upstream origin master
-bash
+,
+    "files.autoSave": "off"
+
+
