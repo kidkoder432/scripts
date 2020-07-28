@@ -2,7 +2,7 @@ print('Phase 1: Generating data...')
 import platform, os
 from guessRaga import getRagas
 def isRaga(phrase, raga):
-	if raga.lower() in getRagas(phrase, 0.7, '/').lower():
+	if raga.lower() in getRagas(phrase, 0.72, '/').lower():
 		return True
 	else:
 		return False
@@ -17,11 +17,13 @@ for i in range(5, 7):
 print("Evaluating phrases...")
 for phrase in phrases:
     print('Evaluating phrase: ' + ''.join(phrase))
-    guesses = getRagas(phrase, 0.72, '/')
+    guesses = isRaga(phrase, 'Bhimpalasi')
     if guesses:
-        DATA[phrase] = guesses
+        DATA[phrase] = 1
+    else:
+        DATA[phrase] = 0
 print('Writing data...')
-f = open('data.csv', 'w')
+f = open('isBhimpalasi.csv', 'w+')
 for k in list(DATA.keys()):
     f.write(''.join(k) + ', ' + DATA[k])
     f.write('\n')
