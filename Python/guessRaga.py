@@ -10,18 +10,31 @@ def loadDictionary(): # open raga database
         englishWords[word] = 0
     dictionaryFile.close()
     return englishWords    
-def getRagaCount(message): # guessing code
+def getRagas(message, joiner=' or '): # guessing code
     SAPTAKS = loadDictionary()
     PHRASES = {}
-    for x in range(2, len(message) + 1):
+    for x in range(2, 7):
         for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
                 if ''.join(message[i:i + x]) in saptak:
                     SAPTAKS[saptak] += 1
-                    PHRASES[saptak[:saptak.index(':')]] = ''.join(message[i:i + x])        
-    return SAPTAKS
+                    PHRASES[saptak[:saptak.index(':')]] = ''.join(message[i:i + x])
 
-def getRagas(phrase):    # main interface
+    high = 0
+	guesses = []
+	for freq in list(SAPTAKS.values()):
+		if freq > high:
+			high = freq
+	keys = list(SAPTAKS.keys())
+	for i in keys:
+		guess = i
+		if SAPTAKS[guess] / tri(len(phrase)) >= threshold:
+			guesses.append(guess[:guess.index(':')])
+	guesses = joiner.join(guesses)        
+    return guesses
+
+def main():   # main interface
+    phrase = input('Enter a phrase and I will guess what raga it is in! > ')  
     threshold = 0.4 # threshold at which guesser algorithm starts guessing ragas
     if len(phrase) == 0:
         return 'Your phrase is empty.'
@@ -32,27 +45,12 @@ def getRagas(phrase):    # main interface
         phrase.replace('-', '')
     if len(phrase) < 8:
         return 'Your phrase is too short. Please enter a longer phrase.'
-    SAPTAKS = getRagaCount(phrase)
-    high = 0
-    guesses = []
-    for freq in list(SAPTAKS.values()):
-        if freq > high:
-            high = freq
-    keys = list(SAPTAKS.keys())
-
-    for i in keys:
-        guess = i
-        accuracy = SAPTAKS[guess] / tri(len(phrase))
-        if accuracy >= threshold:
-            guesses.append(guess[:guess.index(':')])
-    guesses = ' or '.join(guesses)
+    guesses = getRagas(phrase)
     if guesses:
         return 'I think your phrase is a ' + guesses + ' phrase.'
     else:
         return 'I\'m not sure which raga your phrase is in.'
-def main():
-    while True:
-        phrs = input('Enter a phrase and I will guess what raga it is in! > ')
-        print(getRagas(phrs))
+
 if __name__ == '__main__':
-    main()
+    while True:
+        main()
