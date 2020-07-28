@@ -18,19 +18,18 @@ f = open('raga-index.txt')
 c = str(f.read())
 f.close()
 print("Evaluating phrases...")
+for phrase in phrases:
+    print('Evaluating phrase: ' + ''.join(phrase))
+    guesses = getRagas(phrase, 0.72, '/')
+    if guesses:
+        DATA[phrase] = guesses
 for raga in c.split('\n'):
-    for phrase in phrases:
-        print('Evaluating phrase: ' + ''.join(phrase))
-        guesses = isRaga(phrase, raga[:raga.index(': ')])
-        if guesses:
-            DATA[phrase] = '1'
-        else:
-            DATA[phrase] = '0'
     print('Writing data...')
     f = open('is%s.csv', 'w+' % (raga[:raga.index(': ')]))
     for k in list(DATA.keys()):
-        f.write(''.join(k) + ', ' + DATA[k])
-        f.write('\n')
+        if raga[raga.index(': ')] in DATA[k]:
+            f.write(''.join(k) + ', ' + DATA[k])
+            f.write('\n')
     f.close()
     print('Done.')
     print('Collected ' + str(len(DATA)) + ' entries')
