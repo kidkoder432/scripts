@@ -10,7 +10,7 @@ def loadDictionary(): # open raga database
         englishWords[word] = 0
     dictionaryFile.close()
     return englishWords    
-def getRagas(message, joiner=' or '): # guessing code
+def getRagas(message, threshold=0.5, joiner=' or '): # guessing code
     SAPTAKS = loadDictionary()
     PHRASES = {}
     for x in range(2, 7):
@@ -19,18 +19,17 @@ def getRagas(message, joiner=' or '): # guessing code
                 if ''.join(message[i:i + x]) in saptak:
                     SAPTAKS[saptak] += 1
                     PHRASES[saptak[:saptak.index(':')]] = ''.join(message[i:i + x])
-
-    high = 0
-	guesses = []
-	for freq in list(SAPTAKS.values()):
-		if freq > high:
-			high = freq
-	keys = list(SAPTAKS.keys())
-	for i in keys:
-		guess = i
-		if SAPTAKS[guess] / tri(len(phrase)) >= threshold:
-			guesses.append(guess[:guess.index(':')])
-	guesses = joiner.join(guesses)        
+    high = 0 
+    guesses = []           
+    for freq in list(SAPTAKS.values()):
+        if freq > high:
+            high = freq
+    keys = list(SAPTAKS.keys())
+    for i in keys:
+        guess = i
+        if SAPTAKS[guess] / tri(len(message)) >= threshold:
+            guesses.append(guess[:guess.index(':')])
+    guesses = joiner.join(guesses)        
     return guesses
 
 def main():   # main interface
@@ -45,7 +44,7 @@ def main():   # main interface
         phrase.replace('-', '')
     if len(phrase) < 8:
         return 'Your phrase is too short. Please enter a longer phrase.'
-    guesses = getRagas(phrase)
+    guesses = getRagas(phrase, threshold)
     if guesses:
         return 'I think your phrase is a ' + guesses + ' phrase.'
     else:
