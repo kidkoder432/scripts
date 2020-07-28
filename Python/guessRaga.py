@@ -4,7 +4,7 @@ def tri(n): #triangular number calculator
         t += i
     return t
 def loadDictionary(): # open raga database
-    dictionaryFile = open("saptaks.txt")
+    dictionaryFile = open("raga-index.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0

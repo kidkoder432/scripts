@@ -17,13 +17,11 @@ for i in range(5, 7):
 print("Evaluating phrases...")
 for phrase in phrases:
     print('Evaluating phrase: ' + ''.join(phrase))
-    guesses = isRaga(phrase, 'Bhimpalasi')
+    guesses = getRagas(phrase)
     if guesses:
-        DATA[phrase] = 1
-    else:
-        DATA[phrase] = 0
+        DATA[phrase] = guesses
 print('Writing data...')
-f = open('isBhimpalasi.csv', 'w+')
+f = open('data.csv', 'w+')
 for k in list(DATA.keys()):
     f.write(''.join(k) + ', ' + DATA[k])
     f.write('\n')
