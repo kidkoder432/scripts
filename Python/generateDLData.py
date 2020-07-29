@@ -5,7 +5,7 @@ DATA = {}
 import itertools
 phrases = []
 print("Generating and evaluatiing phrases...")
-for i in range(5, 6):
+for i in range(5, 8):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         SAPTAKS = loadDictionary()
         print('Evaluating phrase: ' + ''.join(p))
