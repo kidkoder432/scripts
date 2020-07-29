@@ -12,7 +12,7 @@ print("Generating and evaluatiing phrases...")
 for i in range(5, 8):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         print('Evaluating phrase: ' + ''.join(p))
-        guesses = getRagas(p, 0.72, '/')
+        guesses = getRagas(SAPTAKS, p, 0.72, '/')
         if guesses:
             DATA[p] = guesses
 for raga in c.split('\n'):
