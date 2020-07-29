@@ -1,6 +1,6 @@
 def tri(n): #triangular number calculator
     t = 0
-    for i in range(n):
+    for i in range(n + 1):
         t += i
     return t
 def loadDictionary(): # open raga database
