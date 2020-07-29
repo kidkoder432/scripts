@@ -1,6 +1,7 @@
 print('Phase 1: Generating data...')
 import platform, os
-from guessRaga import getRagas
+from guessRaga import getRagas, loadDictionary
+SAPTAKS = loadDictionary()
 def isRaga(phrase, raga):
 	if raga.lower() in getRagas(phrase, 0.72, '/').lower():
 		return True
@@ -17,7 +18,7 @@ for i in range(5, 7):
 print("Evaluating phrases...")
 for phrase in phrases:
     print('Evaluating phrase: ' + ''.join(phrase))
-    guesses = getRagas(phrase)
+    guesses = getRagas(SAPTAKS, phrase, threshold)
     if guesses:
         DATA[phrase] = guesses
 print('Writing data...')

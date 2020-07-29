@@ -1,34 +1,26 @@
 print('Phase 1: Generating data...')
 import platform, os
-from guessRaga import getRagas
-def isRaga(phrase, raga):
-	if raga.lower() in getRagas(phrase, 0.72, '/').lower():
-		return True
-	else:
-		return False
+from guessRaga import getRagas, loadDictionary
+SAPTAKS = loadDictionary()
 DATA = {}
-threshold = 0.7
 import itertools
 phrases = []
-print("Generating phrases...")
-for i in range(5, 8):
-    for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-        phrases.append(p)
 f = open('raga-index.txt')
 c = str(f.read())
 f.close()
-print("Evaluating phrases...")
-for phrase in phrases:
-    print('Evaluating phrase: ' + ''.join(phrase))
-    guesses = getRagas(phrase, 0.72, '/')
-    if guesses:
-        DATA[phrase] = guesses
+print("Generating and evaluatiing phrases...")
+for i in range(5, 8):
+    for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
+        print('Evaluating phrase: ' + ''.join(p))
+        guesses = getRagas(p, 0.72, '/')
+        if guesses:
+            DATA[p] = guesses
 for raga in c.split('\n'):
     print('Writing data...')
     fname = 'is' + raga[:raga.index(': ')] + '.csv'
     f = open(fname, 'w+')
     for k in list(DATA.keys()):
-        if raga[raga.index(': ')] in DATA[k]:
+        if raga[:raga.index(': ')] in DATA[k]:
             f.write(''.join(k) + ', ' + '1')
         else:
             f.write(''.join(k) + ', ' + '0')
