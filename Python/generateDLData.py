@@ -1,21 +1,18 @@
 print('Phase 1: Generating data...')
 import platform, os
-from guessRaga import getRagas, loadDictionary
-SAPTAKS = loadDictionary()
+from guessRaga import getRagas
+SAPTAKS = {'Bhimpalasi: nSgMPnS SnDPMgRS': 0}
 DATA = {}
 import itertools
 phrases = []
-f = open('raga-index.txt')
-c = str(f.read())
-f.close()
 print("Generating and evaluatiing phrases...")
-for i in range(5, 8):
+for i in range(5, 6):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         print('Evaluating phrase: ' + ''.join(p))
         guesses = getRagas(SAPTAKS, p, 0.72, '/')
         if guesses:
             DATA[p] = guesses
-for raga in c.split('\n'):
+for raga in list(SAPTAKS.keys()):
     print('Writing data...')
     fname = 'is' + raga[:raga.index(': ')] + '.csv'
     f = open(fname, 'w+')
