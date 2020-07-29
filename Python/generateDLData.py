@@ -1,7 +1,7 @@
 print('Phase 1: Generating data...')
 import platform, os
-from guessRaga import getRagas, loadDictionary
-SAPTAKS = loadDictionary()
+from guessRaga import getRagas
+SAPTAKS = {'Bhimpalasi: nSgMPnS SnDPMgRS': 0}
 DATA = {}
 import itertools
 phrases = []
