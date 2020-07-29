@@ -12,10 +12,10 @@ def loadDictionary(): # open raga database
     return englishWords    
 def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
     SAPTAKS = data
-    for x in range(2, 7):
+    for x in range(1, len(message)):
         for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
-                if ''.join(message[i:i + x]) in saptak:
+                if ''.join(message[i:i + x]) in saptak[saptak.index(': '):]:
                     SAPTAKS[saptak] += 1
     high = 0 
     guesses = []           
