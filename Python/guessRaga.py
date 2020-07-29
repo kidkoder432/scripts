@@ -33,7 +33,7 @@ def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
 def main():   # main interface
     SAPTAKS = loadDictionary()
     phrase = input('Enter a phrase and I will guess what raga it is in! > ')  
-    threshold = 0.4 # threshold at which guesser algorithm starts guessing ragas
+    threshold = 0.72 # threshold at which guesser algorithm starts guessing ragas
     if len(phrase) == 0:
         return 'Your phrase is empty.'
     for note in phrase:
@@ -41,13 +41,13 @@ def main():   # main interface
             return 'Your phrase has a letter which is not a note. Please reenter your phrase.'
     while '-' in phrase:
         phrase.replace('-', '')
-    if len(phrase) < 8:
+    if len(phrase) < 5:
         return 'Your phrase is too short. Please enter a longer phrase.'
-    guesses = getRagas(SAPTAKS, phrase, threshold)
+    guesses = getRagas(SAPTAKS, ''.join(tuple(phrase)), threshold, '/')
     if guesses:
-        return 'I think your phrase is a ' + guesses + ' phrase.'
+        print('I think your phrase is a ' + guesses + ' phrase.')
     else:
-        return 'I\'m not sure which raga your phrase is in.'
+        print('I\'m not sure which raga your phrase is in.')
 
 if __name__ == '__main__':
     while True:
