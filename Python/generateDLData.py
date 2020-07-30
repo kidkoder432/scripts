@@ -18,13 +18,12 @@ def conv(phrase):
 import itertools, random
 print("Generating and evaluatiing phrases...")
 PHRASES = [list(p) for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=7) if isValid(p)]
-for j in range(500000):
-    p = random.choice(PHRASES)
+for j in PHRASES:
     SAPTAKS = loadDictionary()
-    print('Evaluating phrase: ' + ''.join(p))
+    print('Evaluating phrase: ' + ''.join(j))
     guesses = getRagas(SAPTAKS, ''.join(p), 0.72, '/')
     if guesses:
-        DATA[''.join(p)] = guesses
+        DATA[''.join(j)] = guesses
 for raga in list(SAPTAKS.keys()):
     print('Writing data...')
     fname = 'is' + raga[:raga.index(':')] + '.csv'
