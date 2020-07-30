@@ -11,8 +11,8 @@ Basant: SMGmdNS SNdPmGmGrS
 Bhairav: SrGMPdNS SNdPMGMGrS
 Bhairavi: SgMdnSRgrS SndPMPgMrS
 Bhatiyar: SrGMmDNS rNDPMGPGrS
-Bhimapalas: SgMPnS SnDPMPgRS
-Bhinnashadja: SGMDNS SNDMGS
+Bhimapalasi: SgMPnS SnDPMPgRS
+Bhinna Shadja: SGMDNS SNDMGS
 Bhoop: SRGPDS SDPGRS
 Bhoopal Todi: SrgPdS SdPgrS
 Bibhas: SrGPdS SdPGrS
@@ -24,7 +24,7 @@ Vrindavani Sarang: SRMPNS SnPMRS
 Chandrakauns: SgMdNS SNdMgS
 Charukeshi: SRGMPdnS SndPMGRS
 Chhayanat: SRGMPmPDNS SNDnDPPmDPmPMGRS
-Darbari: SRMgMPdnS SndnPgMRS
+Darbari Kanada: SRMgMPdnS SndnPgMRS
 Des: SRMPNS SnDMPDMGRGS
 Deskar: SRGPDS SDPGRS
 Dhani: SgMPnS SnPMgS
@@ -32,17 +32,17 @@ Durga: SRMPDS SDPMRS
 Gorakh Kalyan: SRMDnS SnDMRMPMRS
 Goud Malhar: SMRPMPnDNS SnPGPDPMGRS
 Gujari Todi: SrgmdNS SNdmgrS
-Gunakri: SrMPdS SdPMrS
-Hamir: SGMNDNS SNDPmPGMRS
+Gunakali: SrMPdS SdPMrS
+Hameer: SGMNDNS SNDPmPGMRS
 Hansadhwani: SRGPNS SNPGRS
 Hindol: SGmDNS SNDmGS
 Janasammohini: SRGPDnS SnDPGRS
 Jaijaivanti: SRGMPNS SnDPMGRgRS
 Jait: SrGPDS SDPGrS
 Jog: SGMPnS SnPMGgS
-Jogkouns: SGMdNS SNdndPMGgS
+Jogkauns: SGMdNS SNdndPMGgS
 Jogiya: SrMPdS SNdPMGrS
-Jounpuri: SRMPdnS SndPdMPgRS
+Jaunpuri: SRMPdnS SndPdMPgRS
 Kafi: SRMPDnDS SnDPMgRS
 Kalavati: SGPDnS SnDPGS
 Kalingada: SrGMPdNS SNdPMGrS
@@ -74,8 +74,8 @@ Rageshri: SGMDnS SnDMGRS
 Rajakalyan: NRGmDNS SNDmGRS
 Ramadasimalhar: SRGMPnDNS SnPgMRS
 Ramakali: SGMdNS SNdPmPdndPGMGrS
-Salagavarali: SrgPDnS SnDPgrS
-Saraswati: SRmPDnS SnDPmRS
+Salag Varali: SrgPDnS SnDPgrS
+Saraswati: SRmPDS SnDPmRS
 Shahanakanada: SRgMPgMDnS SnPgMRS
 Shankara: SGPNDS SNPGPRGRS
 Shivaranjani: SRgPDS SDPgRS
@@ -90,5 +90,5 @@ Tilakakamod: SRMPNS SPDMGSRGS
 Tilanga: SGMPNS SnPGMGRS
 Todi: SrgmdNS SNdPmgrS
 Yaman: NRGmDNS SNDPmGRS
-Yamanakalyan: NRGmDNS SNDPmGMGRS
-Zinzhoti: SRMPDnDS SnDMGSMRS
+Yaman Kalyan: NRGmDNS SNDPmGMGRS
+Jinjhoti: SRMPDnDS SnDMGSMRS
