@@ -2,6 +2,14 @@ print('Phase 1: Generating data...')
 import platform, os
 from guessRaga import getRagas, loadDictionary
 DATA = {}
+def conv(phrase):
+    t = 0
+    multiplier = 10 ** (len(phrase) - 1)
+    notes = ['','S','r','R','g','G','M','m','P','d','D','n','N']
+    for n in phrase:
+        t += notes.index(n) * multiplier
+        multiplier /= 10
+    return t
 import itertools
 phrases = []
 print("Generating and evaluatiing phrases...")
@@ -28,3 +36,16 @@ for raga in list(SAPTAKS.keys()):
     print('Done.')
     print('Collected ' + str(len(DATA)) + ' entries')
 print('Finished operations.')
+SAPTAKS = loadDictionary()
+for raga in list(SAPTAKS.keys()):
+    f = open('is'+ raga[:raga.index(':')]+'.csv')
+    cont = str(f.read())
+    f.close()
+    for c in cont.split('\n'):
+        print(c)
+        c = c.split(', ')
+        if c:
+            f = open('is'+raga[:raga.index(':')]+'.csv', 'w')
+            c[0] = str(conv(c[0]))
+            f.write(', '.join(c))
+            f.write('\n')
