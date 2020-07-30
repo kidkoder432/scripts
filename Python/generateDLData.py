@@ -13,7 +13,7 @@ def conv(phrase):
 import itertools
 phrases = []
 print("Generating and evaluatiing phrases...")
-for i in range(5, 8):
+for i in range(5, 6):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         SAPTAKS = loadDictionary()
         print('Evaluating phrase: ' + ''.join(p))
@@ -27,25 +27,12 @@ for raga in list(SAPTAKS.keys()):
     for k in list(DATA.keys()):
         print(DATA[k], raga[:raga.index(':')])
         if raga[:raga.index(':')] in DATA[k]:
-            f.write(''.join(k) + ', ' + '1')
+            f.write(str(conv(''.join(k))) + ', ' + '1')
         else:
-            f.write(''.join(k) + ', ' + '0')
+            f.write(str(conv(''.join(k))) + ', ' + '0')
         f.write('\n')
 
     f.close()
     print('Done.')
     print('Collected ' + str(len(DATA)) + ' entries')
 print('Finished operations.')
-SAPTAKS = loadDictionary()
-for raga in list(SAPTAKS.keys()):
-    f = open('is'+ raga[:raga.index(':')]+'.csv')
-    cont = str(f.read())
-    f.close()
-    for c in cont.split('\n'):
-        print(c)
-        c = c.split(', ')
-        if c:
-            f = open('is'+raga[:raga.index(':')]+'.csv', 'w')
-            c[0] = str(conv(c[0]))
-            f.write(', '.join(c))
-            f.write('\n')
