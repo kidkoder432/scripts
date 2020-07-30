@@ -1,28 +1,39 @@
 def tri(n): #triangular number calculator
     t = 0
-    for i in range(n):
+    for i in range(n + 1):
         t += i
     return t
 def loadDictionary(): # open raga database
-    dictionaryFile = open("saptaks.txt")
+    dictionaryFile = open("raga-index.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
     dictionaryFile.close()
     return englishWords    
-def getRagaCount(message): # guessing code
-    SAPTAKS = loadDictionary()
-    PHRASES = {}
-    for x in range(2, len(message) + 1):
+def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
+    SAPTAKS = data
+    for x in range(1, len(message)):
         for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
-                if ''.join(message[i:i + x]) in saptak:
+                if ''.join(message[i:i + x]) in saptak[saptak.index(': '):]:
                     SAPTAKS[saptak] += 1
-                    PHRASES[saptak[:saptak.index(':')]] = ''.join(message[i:i + x])        
-    return SAPTAKS
+    high = 0 
+    guesses = []           
+    for freq in list(SAPTAKS.values()):
+        if freq > high:
+            high = freq
+    keys = list(SAPTAKS.keys())
+    for i in keys:
+        guess = i
+        if SAPTAKS[guess] / tri(len(message)) >= threshold:
+            guesses.append(guess[:guess.index(':')])
+    guesses = joiner.join(guesses)        
+    return guesses
 
-def getRagas(phrase):    # main interface
-    threshold = 0.4 # threshold at which guesser algorithm starts guessing ragas
+def main():   # main interface
+    SAPTAKS = loadDictionary()
+    phrase = input('Enter a phrase and I will guess what raga it is in! > ')  
+    threshold = 0.72 # threshold at which guesser algorithm starts guessing ragas
     if len(phrase) == 0:
         return 'Your phrase is empty.'
     for note in phrase:
@@ -30,29 +41,14 @@ def getRagas(phrase):    # main interface
             return 'Your phrase has a letter which is not a note. Please reenter your phrase.'
     while '-' in phrase:
         phrase.replace('-', '')
-    if len(phrase) < 8:
+    if len(phrase) < 5:
         return 'Your phrase is too short. Please enter a longer phrase.'
-    SAPTAKS = getRagaCount(phrase)
-    high = 0
-    guesses = []
-    for freq in list(SAPTAKS.values()):
-        if freq > high:
-            high = freq
-    keys = list(SAPTAKS.keys())
-
-    for i in keys:
-        guess = i
-        accuracy = SAPTAKS[guess] / tri(len(phrase))
-        if accuracy >= threshold:
-            guesses.append(guess[:guess.index(':')])
-    guesses = ' or '.join(guesses)
+    guesses = getRagas(SAPTAKS, ''.join(tuple(phrase)), threshold, '/')
     if guesses:
-        return 'I think your phrase is a ' + guesses + ' phrase.'
+        print('I think your phrase is a ' + guesses + ' phrase.')
     else:
-        return 'I\'m not sure which raga your phrase is in.'
-def main():
-    while True:
-        phrs = input('Enter a phrase and I will guess what raga it is in! > ')
-        print(getRagas(phrs))
+        print('I\'m not sure which raga your phrase is in.')
+
 if __name__ == '__main__':
-    main()
+    while True:
+        main()

@@ -10,21 +10,9 @@ def mlinput(prompt):
 def musicMaker():
     print('''Welcome to MusicMaker!
              Syntax:
-                 "  " used to indicate the next group of notes
-                 " " used to indicate a fast note delay''')
-    SCALE = {'S': 208, 
-             'r': 221,
-             'R': 234,
-             'g': 249, 
-             'G': 261,
-             'M': 278, 
-             'm': 296, 
-             'P': 311, 
-             'd': 331, 
-             'D': 350,
-             'n': 371,
-             'N': 394,
-             "S'": 416}
+                 " " used to indicate the next group of notes
+                 "" used to indicate a fast note delay''')
+
     for n in (list(SCALE.keys())):
         if n.isupper():
             print(n)
