@@ -27,7 +27,7 @@ try:
             phrase = []
             continue
         print('Phrase # %s: %s' %(phrasesTested + 1, ''.join(phrase)))
-        SAPTAKS = getRagaCount(phrase)
+        guesses = getRagas(SAPTAKS, phrase)
         high = 0
         guesses = []
         for freq in list(SAPTAKS.values()):
