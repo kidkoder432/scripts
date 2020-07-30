@@ -10,9 +10,6 @@ while True:
     red /= 255
     green /= 255
     blue /= 255
-    #red = round(red)
-    #green = round(green)
-    #blue = round(blue)
 
     turtle.bgcolor(red, green, blue)
 
