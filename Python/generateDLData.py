@@ -15,18 +15,16 @@ def conv(phrase):
         t += notes.index(n) * multiplier
         multiplier /= 10
     return t
-import itertools
-phrases = []
+import itertools, random
 print("Generating and evaluatiing phrases...")
-for i in range(5, 6):
-    for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-        SAPTAKS = loadDictionary()
-        print('Evaluating phrase: ' + ''.join(p))
-        if not isValid(p):
-            continue    
-        guesses = getRagas(SAPTAKS, ''.join(p), 0.72, '/')
-        if guesses:
-            DATA[p] = guesses
+PHRASES = [list(p) for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=7) if isValid(p)]
+for j in range(500000):
+    p = random.choice(PHRASES)
+    SAPTAKS = loadDictionary()
+    print('Evaluating phrase: ' + ''.join(p))
+    guesses = getRagas(SAPTAKS, ''.join(p), 0.72, '/')
+    if guesses:
+        DATA[''.join(p)] = guesses
 for raga in list(SAPTAKS.keys()):
     print('Writing data...')
     fname = 'is' + raga[:raga.index(':')] + '.csv'
