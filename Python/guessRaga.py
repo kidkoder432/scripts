@@ -17,11 +17,7 @@ def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
             for saptak in list(SAPTAKS.keys()):
                 if ''.join(message[i:i + x]) in saptak[saptak.index(': '):]:
                     SAPTAKS[saptak] += 1
-    high = 0 
     guesses = []           
-    for freq in list(SAPTAKS.values()):
-        if freq > high:
-            high = freq
     keys = list(SAPTAKS.keys())
     for i in keys:
         guess = i
