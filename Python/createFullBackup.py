@@ -9,6 +9,7 @@ if os.path.exists('e:\\backup_files'):
 def copytree(src, dst, symlinks=False, ignore=None):
     os.mkdir(dst, exist_ok = True)
     for r, d, f in os.walk(src):
+        print(r,d,f)
         for file in f:
             shutil.copy2(os.path.join(r, file), dst)
 while True:            
