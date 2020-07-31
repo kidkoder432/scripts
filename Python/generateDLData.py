@@ -21,7 +21,7 @@ PHRASES = [list(p) for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm'
 for j in PHRASES:
     SAPTAKS = loadDictionary()
     print('Evaluating phrase: ' + ''.join(j))
-    guesses = getRagas(SAPTAKS, ''.join(j), 0.72, '/')
+    guesses = getRagas(SAPTAKS, ''.join(j ), 0.72, '/')
     if guesses:
         DATA[''.join(j)] = guesses
 for raga in list(SAPTAKS.keys()):

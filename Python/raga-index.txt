@@ -4,7 +4,7 @@ Ahir Bhairav: SrGMPDnS SnDPMGMGrS
 Amritvarshini: SGmPNS SNPmGS
 Bageshree: SgMDnS SnDMPDMgRS
 Bageshrikauns: SgMDnS SnDMgS
-Bahar: SMnDNS SnPgMRS
+Bahaar: SMPnDNS SnPgMRS
 Bairagi: SrMPnS SnPMMrS
 Barawa: SRMPDnDS SnDPgRMGPMgRS
 Basant: SMGmdNS SNdPmGmGrS
@@ -13,8 +13,8 @@ Bhairavi: SgMdnSRgrS SndPMPgMrS
 Bhatiyar: SrGMmDNS rNDPMGPGrS
 Bhimapalasi: SgMPnS SnDPMPgRS
 Bhinna Shadja: SGMDNS SNDMGS
-Bhoop: SRGPDS SDPGRS
-Bhoopal Todi: SrgPdS SdPgrS
+Bhoopali: SRGPDS SDPGRS
+Bhoopali Todi: SrgPdS SdPgrS
 Bibhas: SrGPdS SdPGrS
 Bihag: SGMPNS SNDPmPGMGRS
 Bihagda: SGMPNS SNDPDnDPGMGRS
@@ -26,11 +26,11 @@ Charukeshi: SRGMPdnS SndPMGRS
 Chhayanat: SRGMPmPDNS SNDnDPPmDPmPMGRS
 Darbari Kanada: SRMgMPdnS SndnPgMRS
 Des: SRMPNS SnDMPDMGRGS
-Deskar: SRGPDS SDPGRS
+Deshkar: SRGPDS SDPGRS
 Dhani: SgMPnS SnPMgS
 Durga: SRMPDS SDPMRS
 Gorakh Kalyan: SRMDnS SnDMRMPMRS
-Goud Malhar: SMRPMPnDNS SnPGPDPMGRS
+Gaud Malhar: SMRPMPnDNS SnPGPDPMGRS
 Gujari Todi: SrgmdNS SNdmgrS
 Gunakali: SrMPdS SdPMrS
 Hameer: SGMNDNS SNDPmPGMRS
