@@ -8,4 +8,4 @@ for i in range(time * 10):
     print('Time left: %s' %((time - i)), end='\r')
     os.system('play -n --no-show-progress synth %s sin %s' % (dur / 2, frequency))
     sleep(dur / 2)
-    dur /= 1.01
+    dur /= 1.04
