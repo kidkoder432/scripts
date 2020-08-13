@@ -1,831 +1,141 @@
-SSrgM, Parameshwari
-SSrgm, Gujari Todi or Todi
-SSrgP, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-SSrGM, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-SSrGP, Bibhas or Jait
-SSrMP, Bairagi or Gunakali or Jogiya
-SSrmP, Shree
-SSRgr, Bhairavi
-SSRgM, Abhogi or Kirvani or Shahanakanada
-SSRgP, Kolahas or Shivaranjani
-SSRGS, Tilakakamod
-SSRGM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SSRGP, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
-SSRMg, Darbari Kanada
-SSRMP, Adana or Barawa or Vrindavani Sarang or Des or Durga or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-SSRMD, Gorakh Kalyan
-SSRmP, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-SSgMP, Bhimpalasi or Dhani or Patadeep
-SSgMd, Bhairavi or Chandrakauns or Malakauns
-SSgMD, Bageshree or Bageshrikauns
-SSgmP, Madhukauns or Madhuvanti or Multani
-SSGRG, Bilawal
-SSGMP, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-SSGMd, Jogkauns or Ramakali
-SSGMD, Bhinna Shadja or Rageshri
-SSGMN, Hameer
-SSGmP, Amritvarshini
-SSGmd, Paraj
-SSGmD, Hindol or Sohani
-SSGPD, Kalavati
-SSGPN, Shankara
-SSMRS, Jinjhoti
-SSMRP, Gaud Malhar or Malhar
-SSMGm, Basant or Marubihag
-SSMGP, Kedar
-SSMPn, Bahaar
-SSPDM, Tilakakamod
-SSdPg, Bhoopali Todi
-SSdPG, Bibhas
-SSdPM, Gunakali
-SSdnP, Adana
-SSDMg, Abhogi
-SSDPg, Shivaranjani
-SSDPG, Bhoopali or Deshkar or Jait or Kamod
-SSDPM, Durga
-SSnPg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SSnPG, Gaud Malhar or Tilanga
-SSnPM, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
-SSnPm, Madhukauns
-SSndM, Malakauns
-SSndP, Bhairavi or Charukeshi or Jaunpuri
-SSndn, Darbari Kanada
-SSnDM, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-SSnDP, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-SSNPG, Hansadhwani or Shankara
-SSNPm, Amritvarshini
-SSNdM, Chandrakauns
-SSNdm, Gujari Todi or Lalat
-SSNdP, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Todi
-SSNdn, Jogkauns
-SSNdN, Paraj
-SSNDM, Bhinna Shadja
-SSNDm, Hindol or Pooriya or Rajakalyan or Sohani
-SSNDP, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SSNDn, Bilawal or Chhayanat
-SrSrS, Sohani
-SrSGm, Sohani
-SrSND, Pooriya or Sohani
-SrgrS, Bhoopali Todi or Bilaskhani Todi or Gujari Todi or Parameshwari or Salag Varali or Todi
-SrgMS, Parameshwari
-SrgMr, Parameshwari
 SrgMg, Parameshwari
-SrgMM, Parameshwari
 SrgMD, Parameshwari
-SrgMn, Parameshwari
-SrgmS, Gujari Todi or Todi
-Srgmr, Gujari Todi or Todi
-Srgmg, Gujari Todi or Todi
-Srgmm, Gujari Todi or Todi
-SrgmP, Todi
-Srgmd, Gujari Todi or Todi
-SrgmN, Gujari Todi or Todi
-SrgPS, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-SrgPr, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-SrgPg, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-SrgPM, Bilaskhani Todi
-SrgPP, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-SrgPd, Bhoopali Todi or Bilaskhani Todi
 SrgPD, Salag Varali
-SrgPn, Bilaskhani Todi or Salag Varali
-SrGrS, Ahir Bhairav or Bhairav or Bhatiyar or Bibhas or Jait or Kalingada or Pooriya
-SrGMS, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-SrGMr, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-SrGMG, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-SrGMM, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-SrGMm, Bhatiyar or Lalat
-SrGMP, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-SrGMd, Bhairav or Kalingada
-SrGMD, Ahir Bhairav or Bhatiyar
-SrGMn, Ahir Bhairav
-SrGMN, Bhairav or Bhatiyar or Kalingada
-SrGmd, Pooriyadhanashree or Poorvi
-SrGmD, Marwa or Pooriya
-SrGPS, Bibhas or Jait
-SrGPr, Bibhas or Jait
-SrGPG, Bhatiyar or Bibhas or Jait
-SrGPP, Bibhas or Jait
 SrGPd, Bibhas
 SrGPD, Jait
-SrMrS, Bairagi or Gunakali
-SrMGr, Jogiya
-SrMMr, Bairagi
-SrMPS, Bairagi or Gunakali or Jogiya
-SrMPr, Bairagi or Gunakali or Jogiya
-SrMPG, Jogiya
-SrMPM, Bairagi or Gunakali or Jogiya
-SrMPP, Bairagi or Gunakali or Jogiya
-SrMPd, Gunakali or Jogiya
 SrMPn, Bairagi
-SrMPN, Jogiya
-SrmGr, Shree
-SrmPS, Shree
-SrmPr, Shree
-SrmPG, Shree
-SrmPm, Shree
-SrmPP, Shree
 SrmPd, Shree
 SrmPN, Shree
 SrndM, Bilaskhani Todi
-SrNdP, Pooriyadhanashree or Shree
-SrNDm, Marwa
+SrNdP, Shree
 SrNDP, Bhatiyar
+SrNDd, Bhatiyar
 SRgrS, Bhairavi
-SRgrr, Bhairavi
-SRgrR, Bhairavi
-SRgrg, Bhairavi
-SRgrM, Bhairavi
-SRgrP, Bhairavi
-SRgrd, Bhairavi
-SRgrn, Bhairavi
-SRgRS, Abhogi or Jaijaivanti or Kirvani or Kolahas or Shivaranjani
-SRgMS, Abhogi or Kirvani or Shahanakanada
-SRgMr, Bhairavi
-SRgMR, Abhogi or Kirvani or Shahanakanada
-SRgMg, Abhogi or Kirvani or Shahanakanada
-SRgMM, Abhogi or Kirvani or Shahanakanada
-SRgMP, Kirvani or Shahanakanada
-SRgMd, Bhairavi or Kirvani
-SRgMD, Abhogi or Shahanakanada
-SRgMn, Shahanakanada
-SRgMN, Kirvani
-SRgPS, Kolahas or Shivaranjani
-SRgPR, Kolahas or Shivaranjani
-SRgPg, Kolahas or Shivaranjani
-SRgPP, Kolahas or Shivaranjani
-SRgPD, Kolahas or Shivaranjani
-SRgPn, Kolahas
-SRGSS, Tilakakamod
+SRgRS, Jaijaivanti
+SRgRr, Jaijaivanti
+SRgMR, Shahanakanada
 SRGSR, Tilakakamod
-SRGSG, Tilakakamod
-SRGSM, Tilakakamod
 SRGSP, Tilakakamod
-SRGSD, Tilakakamod
-SRGSN, Tilakakamod
-SRGRS, Bhoopali or Charukeshi or Chhayanat or Deshkar or Hansadhwani or Janasammohini or Shankara or Shuddhakalyan
-SRGRg, Jaijaivanti
-SRGMS, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMR, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMg, Jaijaivanti or Ramadasimalhar
-SRGMG, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMm, Chhayanat
-SRGMP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMd, Charukeshi
-SRGMD, Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMn, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGMN, Chhayanat or Jaijaivanti or Ramadasimalhar
-SRGmD, Rajakalyan or Yaman or Yaman Kalyan
-SRGPS, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
-SRGPR, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
-SRGPG, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
+SRGMR, Ramadasimalhar
 SRGPm, Shuddhakalyan
-SRGPP, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
-SRGPD, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-SRGPn, Janasammohini
-SRGPN, Hansadhwani or Shuddhakalyan
-SRMRS, Adana or Vrindavani Sarang or Darbari Kanada or Durga or Gorakh Kalyan or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Jinjhoti
-SRMRM, Gorakh Kalyan
-SRMgS, Darbari Kanada
-SRMgR, Barawa or Darbari Kanada or Kafi
-SRMgg, Darbari Kanada
+SRGPN, Hansadhwani
 SRMgM, Darbari Kanada
-SRMgP, Darbari Kanada
-SRMgd, Darbari Kanada
-SRMgn, Darbari Kanada
-SRMGS, Tilakakamod or Jinjhoti
-SRMGR, Des
 SRMGP, Barawa
-SRMPS, Adana or Barawa or Vrindavani Sarang or Des or Durga or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-SRMPR, Adana or Barawa or Vrindavani Sarang or Des or Durga or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-SRMPg, Adana or Barawa or Jaunpuri or Kafi or Nayakikanada
-SRMPG, Barawa or Des or Tilakakamod or Jinjhoti
-SRMPM, Adana or Barawa or Vrindavani Sarang or Des or Durga or Gorakh Kalyan or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-SRMPP, Adana or Barawa or Vrindavani Sarang or Des or Durga or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-SRMPd, Adana or Darbari Kanada or Jaunpuri
-SRMPD, Barawa or Des or Durga or Kafi or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-SRMPn, Adana or Barawa or Vrindavani Sarang or Des or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Jinjhoti
-SRMPN, Vrindavani Sarang or Des or Soora Malhar or Sorath or Tilakakamod
-SRMDS, Gorakh Kalyan
-SRMDR, Gorakh Kalyan
 SRMDM, Gorakh Kalyan
-SRMDP, Gorakh Kalyan
-SRMDD, Gorakh Kalyan
 SRMDn, Gorakh Kalyan
-SRmRS, Saraswati
-SRmPS, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-SRmPR, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-SRmPG, Kamod or Shyamakalyan
-SRmPM, Kamod or Shuddhasaranga or Shyamakalyan
-SRmPm, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-SRmPP, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-SRmPD, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-SRmPn, Saraswati
-SRmPN, Kamod or Shuddhasaranga or Shyamakalyan
-SRPMP, Gaud Malhar
-SRPnD, Malhar
-SgRMG, Barawa
+SRmPM, Shuddhasaranga
 SgMrS, Bhairavi
-SgMRS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SgMgS, Bageshrikauns or Chandrakauns or Dhani or Malakauns
-SgMgR, Bageshree or Patadeep
-SgMPS, Bhimpalasi or Dhani or Patadeep
-SgMPR, Bhimpalasi or Patadeep
-SgMPg, Bhairavi or Bhimpalasi or Dhani or Patadeep or Shahanakanada
-SgMPM, Bhimpalasi or Dhani or Patadeep
-SgMPP, Bhimpalasi or Dhani or Patadeep
-SgMPd, Darbari Kanada or Kirvani
-SgMPD, Bageshree or Bhimpalasi or Patadeep
-SgMPn, Bhimpalasi or Dhani
+SgMPg, Bhimpalasi
 SgMPN, Patadeep
-SgMdS, Bhairavi or Chandrakauns or Malakauns
-SgMdr, Bhairavi
-SgMdR, Bhairavi
-SgMdg, Bhairavi or Chandrakauns or Malakauns
-SgMdM, Bhairavi or Chandrakauns or Malakauns
 SgMdP, Bhairavi
-SgMdd, Bhairavi or Chandrakauns or Malakauns
-SgMdn, Bhairavi or Malakauns
 SgMdN, Chandrakauns
-SgMDS, Abhogi or Bageshree or Bageshrikauns
-SgMDR, Bageshree
-SgMDg, Bageshree or Bageshrikauns
-SgMDM, Bageshree or Bageshrikauns
-SgMDP, Bageshree
-SgMDD, Bageshree or Bageshrikauns
-SgMDn, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-SgmgS, Madhukauns
-Sgmgr, Multani
-SgmgR, Madhuvanti
-SgmPS, Madhukauns or Madhuvanti or Multani
-SgmPr, Multani
-SgmPR, Madhuvanti
-SgmPg, Madhukauns or Madhuvanti or Multani
-SgmPm, Madhukauns or Madhuvanti or Multani
-SgmPP, Madhukauns or Madhuvanti or Multani
-SgmPd, Multani
-SgmPD, Madhuvanti
 SgmPn, Madhukauns
-SgmPN, Madhuvanti or Multani
-SgmdN, Gujari Todi or Todi
-SgPdS, Bhoopali Todi or Bilaskhani Todi
-SgPDS, Shivaranjani
-SgPDn, Kolahas or Salag Varali
-SGSRG, Tilakakamod
-SGSMR, Jinjhoti
-SGRSG, Bilawal
-SGRSN, Bilawal
-SGRgR, Jaijaivanti
-SGRGS, Bilawal or Des
 SGRGR, Bilawal
-SGRGG, Bilawal
-SGRGM, Bilawal
+SGRGg, Bilawal
 SGRGP, Bilawal
-SGRGD, Bilawal
-SGRGn, Bilawal
-SGRGN, Bilawal
-SGMRS, Hameer or Kamod or Nand or Shyamakalyan
-SGMGS, Bhinna Shadja
-SGMGr, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-SGMGR, Bihag or Bihagda or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-SGMGg, Jog or Jogkauns
-SGMGM, Bihag or Bihagda or Nand or Natabhairava or Ramakali or Tilanga
-SGMmM, Lalat
-SGMmD, Bhatiyar
-SGMPS, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-SGMPR, Bihag or Bihagda or Khamaj or Mand or Nand or Natabhairava or Tilanga
-SGMPg, Jog
-SGMPG, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-SGMPM, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-SGMPm, Bihag or Chhayanat
-SGMPP, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-SGMPd, Bhairav or Charukeshi or Kalingada or Natabhairava
-SGMPD, Ahir Bhairav or Bihag or Bihagda or Khamaj or Mand or Nand
-SGMPn, Bihagda or Jog or Khamaj or Ramadasimalhar or Tilanga
-SGMPN, Bihag or Bihagda or Jaijaivanti or Mand or Nand or Natabhairava or Tilanga
-SGMdS, Jogkauns or Ramakali
-SGMdr, Ramakali
-SGMdg, Jogkauns
-SGMdG, Jogkauns or Ramakali
-SGMdM, Jogkauns or Ramakali
-SGMdm, Ramakali
-SGMdP, Jogkauns or Ramakali
-SGMdd, Jogkauns or Ramakali
-SGMdn, Jogkauns or Ramakali
-SGMdN, Jogkauns or Ramakali
-SGMDS, Bhinna Shadja or Rageshri
-SGMDR, Rageshri
-SGMDG, Bhinna Shadja or Rageshri
-SGMDM, Bhinna Shadja or Rageshri
+SGMRS, Hameer
+SGMRr, Hameer
+SGMGM, Natabhairava
+SGMPS, Nand
+SGMPm, Bihag
+SGMPd, Natabhairava
+SGMPn, Jog
 SGMDP, Nand
-SGMDD, Bhinna Shadja or Rageshri
+SGMDd, Nand
 SGMDn, Rageshri
-SGMDN, Bhinna Shadja or Nand
+SGMDN, Bhinna Shadja
 SGMNS, Hameer
-SGMNR, Hameer
-SGMNG, Hameer
-SGMNM, Hameer
-SGMNm, Hameer
-SGMNP, Hameer
 SGMND, Hameer
-SGMNN, Hameer
-SGmrG, Pooriya
-SGmGS, Amritvarshini or Hindol
-SGmGr, Basant or Sohani
-SGmGM, Paraj
-SGmPS, Amritvarshini
-SGmPG, Amritvarshini
+SGMNn, Hameer
 SGmPm, Amritvarshini
-SGmPP, Amritvarshini
-SGmPN, Amritvarshini or Marubihag
+SGmPN, Amritvarshini
 SGmdS, Paraj
-SGmdr, Paraj
-SGmdG, Paraj
-SGmdM, Paraj
-SGmdm, Paraj
 SGmdP, Paraj
-SGmdd, Paraj
-SGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-SGmDS, Hindol or Sohani
-SGmDr, Sohani
-SGmDG, Hindol or Sohani
-SGmDm, Hindol or Sohani
-SGmDD, Hindol or Sohani
-SGmDN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-SGPRS, Shankara
+SGmdN, Paraj
 SGPRG, Shankara
-SGPGS, Kalavati
-SGPGr, Bhatiyar
-SGPGP, Shankara
-SGPMg, Barawa
-SGPmP, Kedar
-SGPdS, Bibhas
-SGPDS, Bhoopali or Deshkar or Jait or Kalavati or Shuddhakalyan
-SGPDG, Kalavati
-SGPDP, Gaud Malhar or Kalavati
-SGPDD, Kalavati
-SGPDn, Janasammohini or Kalavati
+SGPDP, Kalavati
+SGPDd, Kalavati
+SGPDn, Kalavati
 SGPDN, Bilawal
-SGPNS, Hansadhwani or Shankara
-SGPNR, Shankara
-SGPNG, Shankara
 SGPNP, Shankara
 SGPND, Shankara
-SGPNN, Shankara
-SMRSS, Jinjhoti
+SGPNn, Shankara
 SMRSR, Jinjhoti
-SMRSG, Jinjhoti
-SMRSM, Malhar or Jinjhoti
-SMRSP, Jinjhoti
-SMRSD, Jinjhoti
-SMRSn, Malhar or Jinjhoti
-SMRMP, Gorakh Kalyan or Jinjhoti
-SMRPS, Gaud Malhar or Malhar
-SMRPR, Gaud Malhar or Malhar
+SMRSM, Jinjhoti
+SMRSn, Jinjhoti
 SMRPg, Malhar
 SMRPG, Gaud Malhar
-SMRPM, Gaud Malhar or Malhar
-SMRPP, Gaud Malhar or Malhar
-SMRPD, Gaud Malhar or Malhar
-SMRPn, Gaud Malhar or Malhar
-SMRPN, Gaud Malhar or Malhar
-SMgrS, Bilaskhani Todi or Parameshwari
-SMgRS, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-SMgMP, Darbari Kanada
-SMGSR, Tilakakamod
+SMRPM, Gaud Malhar
+SMRPD, Gaud Malhar
 SMGSM, Jinjhoti
-SMGrS, Ahir Bhairav or Basant or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-SMGRS, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Marubihag or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-SMGRg, Jaijaivanti
-SMGRG, Des
-SMGgS, Jog or Jogkauns
-SMGMG, Ahir Bhairav or Bhairav or Natabhairava
-SMGMD, Nand
-SMGmS, Basant or Marubihag
-SMGmr, Basant
-SMGmR, Marubihag
-SMGmG, Basant or Marubihag
-SMGmM, Basant or Marubihag
-SMGmm, Basant or Marubihag
-SMGmP, Basant or Marubihag
+SMGRS, Gaud Malhar
+SMGRr, Gaud Malhar
+SMGmP, Marubihag
 SMGmd, Basant
-SMGmD, Marubihag
-SMGmN, Basant or Marubihag
-SMGPS, Kedar
-SMGPR, Kedar
-SMGPG, Bhatiyar or Kedar
-SMGPM, Barawa or Kedar
+SMGPM, Kedar
 SMGPm, Kedar
-SMGPP, Kedar
 SMGPD, Kedar
 SMGPN, Kedar
-SMMrS, Bairagi
-SMmMd, Lalat
-SMmDN, Bhatiyar
-SMPgR, Bhimpalasi or Jaunpuri
-SMPgM, Bahaar or Bhairavi or Shahanakanada
-SMPMR, Gorakh Kalyan
-SMPmP, Chhayanat
-SMPdS, Gunakali or Jogiya
-SMPdn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-SMPdN, Bhairav or Kalingada or Kirvani or Natabhairava
-SMPDS, Durga
-SMPDM, Bageshree or Des
-SMPDn, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-SMPDN, Mand or Nand
-SMPnS, Bahaar or Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
-SMPnR, Bahaar
-SMPng, Bahaar
-SMPnM, Bahaar
+SMPDn, Jinjhoti
 SMPnP, Bahaar
-SMPnD, Bahaar or Gaud Malhar or Ramadasimalhar
-SMPnn, Bahaar
-SMPnN, Bahaar
-SMPNS, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-SMdnS, Bhairavi or Malakauns
-SMdNS, Chandrakauns or Jogkauns or Lalat or Ramakali
-SMDPM, Nand
-SMDnS, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
-SMDNS, Bhinna Shadja
-SMNDN, Hameer
-SmrGr, Pooriya
-SmgrS, Gujari Todi or Multani or Todi
-SmgRS, Madhuvanti
-SmGrS, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-SmGRS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-SmGMG, Paraj or Poorvi or Yaman Kalyan
-SmGmr, Pooriya
-SmGmG, Basant
-SmMGr, Lalat
-SmMdN, Lalat
-SmPGM, Bihag or Hameer or Shyamakalyan
-SmPMG, Chhayanat
-SmPdn, Ramakali
-SmPDS, Saraswati
-SmPDP, Kamod or Kedar
-SmPDN, Chhayanat
-SmPnS, Madhukauns
-SmPNS, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-SmdmM, Lalat
-SmdNS, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-SmdNd, Paraj
-SmDPm, Chhayanat
-SmDNS, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-SmDNr, Marwa or Pooriya
-SPRGR, Shankara
-SPgrS, Bhoopali Todi or Salag Varali
-SPgRS, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-SPgRM, Barawa
-SPgMr, Bhairavi
-SPgMR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SPgMD, Shahanakanada
-SPGrS, Bhatiyar or Bibhas or Jait
-SPGRS, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-SPGMR, Hameer or Kamod or Shyamakalyan
-SPGMG, Bihag or Bihagda or Ramakali or Tilanga
-SPGPR, Shankara
-SPGPD, Gaud Malhar
-SPMrS, Gunakali
-SPMRS, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-SPMgS, Dhani
-SPMgR, Barawa or Kafi or Kirvani or Patadeep
-SPMGr, Jogiya or Kalingada
-SPMGR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-SPMGg, Jog or Jogkauns
-SPMGM, Ahir Bhairav or Bhairav or Nand or Natabhairava
-SPMGP, Bhatiyar
-SPMMr, Bairagi
-SPMPg, Bhairavi or Bhimpalasi
-SPMPn, Gaud Malhar
-SPmRS, Saraswati
-SPmgS, Madhukauns
-SPmgr, Multani or Todi
-SPmgR, Madhuvanti
-SPmGS, Amritvarshini
-SPmGr, Pooriyadhanashree
-SPmGR, Marubihag or Shuddhakalyan or Yaman
-SPmGM, Paraj or Poorvi or Yaman Kalyan
-SPmGm, Basant
-SPmPG, Bihag or Hameer or Shyamakalyan
-SPmPM, Chhayanat
-SPmPd, Ramakali
-SPmPD, Chhayanat or Kedar
-SPmPN, Kedar
-SPmDP, Chhayanat
-SPPmD, Chhayanat
-SPdMP, Jaunpuri
-SPdmG, Shree
-SPdnS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-SPdnd, Ramakali
-SPdNS, Bhairav or Kalingada or Kirvani or Natabhairava
-SPDMS, Tilakakamod
-SPDMR, Sorath or Tilakakamod
-SPDMg, Bageshree
-SPDMG, Des or Tilakakamod
-SPDMM, Tilakakamod
+SPDMG, Tilakakamod
 SPDMP, Tilakakamod
-SPDMD, Tilakakamod
-SPDMN, Tilakakamod
-SPDPM, Gaud Malhar or Kedar
-SPDPN, Kamod
-SPDnS, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-SPDnD, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-SPDNS, Bilawal or Chhayanat or Mand
-SPDNP, Nand
-SPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-SPNDS, Shankara
-SdMgS, Chandrakauns or Malakauns
-SdMgr, Bilaskhani Todi
-SdMPg, Jaunpuri
-Sdmgr, Gujari Todi
-SdmGr, Shree
-SdmMG, Lalat
-Sdmdm, Lalat
-SdPgS, Bhoopali Todi
 SdPgr, Bhoopali Todi
-SdPgg, Bhoopali Todi
 SdPgP, Bhoopali Todi
-SdPgd, Bhoopali Todi
-SdPGS, Bibhas
 SdPGr, Bibhas
-SdPGG, Bibhas
-SdPGM, Ramakali
 SdPGP, Bibhas
-SdPGd, Bibhas
-SdPMS, Gunakali
 SdPMr, Gunakali
-SdPMg, Kirvani
-SdPMG, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-SdPMM, Gunakali
-SdPMP, Bhairavi or Gunakali
-SdPMd, Gunakali
-SdPmg, Multani or Todi
-SdPmG, Basant or Paraj or Pooriyadhanashree or Poorvi
-SdPmP, Ramakali
-SdPdS, Bhoopali Todi or Bibhas or Gunakali
-SdPdM, Jaunpuri
-SdPdm, Shree
-SdnSR, Adana or Bhairavi
-SdnSd, Adana
-SdnPS, Adana
-SdnPR, Adana
-SdnPg, Adana or Darbari Kanada
-SdnPM, Adana
-SdnPP, Adana
+SdPMP, Gunakali
+SdnPg, Adana
 SdnPd, Adana
-SdnPn, Adana
-SdndP, Jogkauns or Ramakali
-SdNdS, Paraj
-SdNdP, Paraj
-SDMRS, Sorath
-SDMRM, Gorakh Kalyan
-SDMgS, Abhogi or Bageshrikauns
-SDMgr, Parameshwari
-SDMgR, Abhogi or Bageshree
-SDMgg, Abhogi
+SDMgR, Abhogi
 SDMgM, Abhogi
-SDMgD, Abhogi
-SDMGS, Bhinna Shadja or Tilakakamod or Jinjhoti
-SDMGR, Des or Rageshri
-SDMPD, Bageshree or Des
-SDMPN, Soora Malhar
-SDMDS, Abhogi
-SDmGS, Hindol
-SDmGr, Marwa or Sohani
-SDmGR, Rajakalyan
-SDmGm, Pooriya
-SDPgS, Shivaranjani
-SDPgr, Salag Varali
-SDPgR, Barawa or Kolahas or Shivaranjani
-SDPgg, Shivaranjani
+SDPgR, Shivaranjani
 SDPgP, Shivaranjani
-SDPgD, Shivaranjani
-SDPGS, Bhoopali or Deshkar or Jait or Kalavati or Kamod
 SDPGr, Jait
-SDPGR, Bhoopali or Deshkar or Janasammohini or Kamod
-SDPGG, Bhoopali or Deshkar or Jait or Kamod
-SDPGM, Bihagda or Kamod
-SDPGm, Kamod
-SDPGP, Bhoopali or Deshkar or Jait or Kamod
-SDPGD, Bhoopali or Deshkar or Jait or Kamod
-SDPGN, Kamod
-SDPMS, Durga
-SDPMR, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-SDPMg, Kafi or Patadeep
-SDPMG, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-SDPMM, Durga
-SDPMP, Bhimpalasi or Durga
-SDPMD, Durga
-SDPmR, Saraswati
-SDPmg, Madhuvanti
-SDPmG, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-SDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-SDPPm, Chhayanat
-SDPDS, Bhoopali or Deshkar or Durga or Jait or Shivaranjani
-SDPDM, Sorath
-SDPDP, Kamod
-SDPDn, Bihagda
+SDPGM, Kamod
+SDPMR, Durga
+SDPMP, Durga
 SDPNS, Kamod
-SDnDS, Barawa or Kafi or Jinjhoti
-SDnDM, Soora Malhar
-SDnDP, Bihagda or Bilawal or Chhayanat
-SDNSr, Sohani
-SDNrS, Marwa or Pooriya
-SDNPS, Nand
 SnSRg, Bhairavi
-SnPgS, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SnPgR, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SnPgg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SnPgG, Ramadasimalhar
-SnPgM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SnPgP, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SnPgD, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-SnPgn, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-SnPgN, Bahaar or Malhar or Ramadasimalhar
-SnPGS, Gaud Malhar or Tilanga
-SnPGR, Gaud Malhar or Tilanga
-SnPGG, Gaud Malhar or Tilanga
-SnPGM, Gaud Malhar or Tilanga
-SnPGP, Gaud Malhar or Tilanga
-SnPGD, Gaud Malhar
-SnPGn, Gaud Malhar or Tilanga
-SnPGN, Gaud Malhar or Tilanga
-SnPMS, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
+SnPGM, Tilanga
+SnPGP, Gaud Malhar
 SnPMr, Bairagi
-SnPMR, Vrindavani Sarang or Madmaad Sarang
-SnPMg, Dhani or Jog
-SnPMG, Gaud Malhar or Jog
-SnPMM, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
-SnPMP, Bairagi or Vrindavani Sarang or Dhani or Gaud Malhar or Jog or Madmaad Sarang
-SnPMn, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
-SnPMN, Vrindavani Sarang
-SnPmS, Madhukauns
+SnPMg, Dhani
+SnPMG, Jog
+SnPMM, Bairagi
+SnPMm, Bairagi
 SnPmg, Madhukauns
-SnPmm, Madhukauns
 SnPmP, Madhukauns
-SnPmn, Madhukauns
-SnPDP, Gaud Malhar
-SnPnS, Bairagi or Dhani or Jog or Madmaad Sarang or Madhukauns or Nayakikanada
-SnPnD, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-SnPNS, Vrindavani Sarang or Tilanga
-SndMS, Malakauns
-SndMg, Bilaskhani Todi or Malakauns
-SndMM, Malakauns
-SndMP, Jaunpuri
+SndMg, Malakauns
 SndMd, Malakauns
-SndMn, Malakauns
-SndPS, Bhairavi or Charukeshi or Jaunpuri
-SndPr, Bhairavi
-SndPR, Bhairavi or Charukeshi or Jaunpuri
-SndPg, Bhairavi or Jaunpuri
-SndPG, Charukeshi or Ramakali
-SndPM, Bhairavi or Charukeshi or Jogkauns or Jaunpuri
-SndPP, Bhairavi or Charukeshi or Jaunpuri
-SndPd, Bhairavi or Charukeshi or Jaunpuri
-SndPn, Bhairavi or Charukeshi or Jaunpuri
-SndnS, Bhairavi or Charukeshi or Darbari Kanada or Jaunpuri or Malakauns
-SndnR, Darbari Kanada
-Sndng, Darbari Kanada
-SndnM, Darbari Kanada
+SndnS, Darbari Kanada
 SndnP, Darbari Kanada
 Sndnd, Darbari Kanada
-Sndnn, Darbari Kanada
-SnDSR, Barawa or Kafi or Jinjhoti
-SnDSM, Jinjhoti
-SnDSn, Barawa or Kafi or Jinjhoti
-SnDMS, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-SnDMr, Parameshwari
-SnDMR, Bageshree or Des or Gorakh Kalyan or Rageshri or Soora Malhar or Sorath or Jinjhoti
-SnDMg, Bageshree or Bageshrikauns or Parameshwari
-SnDMG, Des or Rageshri or Jinjhoti
-SnDMM, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-SnDMP, Bageshree or Des or Gorakh Kalyan or Soora Malhar or Jinjhoti
-SnDMD, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-SnDMn, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-SnDMN, Des
-SnDPS, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-SnDPr, Ahir Bhairav or Salag Varali
-SnDPR, Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Khamaj or Kolahas or Saraswati or Soora Malhar or Sorath
-SnDPg, Barawa or Bhimpalasi or Jaijaivanti or Kafi or Kolahas or Salag Varali
-SnDPG, Ahir Bhairav or Barawa or Bihagda or Janasammohini or Jaijaivanti or Kalavati or Khamaj
-SnDPM, Ahir Bhairav or Barawa or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar or Sorath
 SnDPm, Saraswati
-SnDPP, Ahir Bhairav or Barawa or Bhimpalasi or Chhayanat or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-SnDPD, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-SnDPn, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-SnDPN, Jaijaivanti or Soora Malhar or Sorath
-SnDnS, Ahir Bhairav or Bageshree or Bageshrikauns or Gorakh Kalyan or Janasammohini or Kalavati or Khamaj or Kolahas or Parameshwari or Rageshri or Salag Varali
-SnDnD, Barawa or Kafi or Soora Malhar or Jinjhoti
-SnDNS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
+SnDPn, Bhimpalasi
 SNSrS, Sohani
-SNrSN, Pooriya
-SNrGr, Pooriya
 SNrGM, Lalat
-SNrGm, Pooriya or Pooriyadhanashree or Poorvi
-SNRGm, Rajakalyan or Yaman or Yaman Kalyan
-SNPRG, Shankara
-SNPGS, Hansadhwani or Shankara
-SNPGR, Hansadhwani or Shankara
-SNPGG, Hansadhwani or Shankara
-SNPGP, Hansadhwani or Shankara
-SNPGD, Shankara
-SNPGN, Hansadhwani or Shankara
-SNPmS, Amritvarshini
 SNPmG, Amritvarshini
-SNPmm, Amritvarshini
+SNPmM, Amritvarshini
 SNPmP, Amritvarshini
-SNPmN, Amritvarshini
-SNPNS, Amritvarshini or Hansadhwani
-SNPND, Shankara
-SNdSG, Paraj
-SNdSN, Paraj
-SNdMS, Chandrakauns
 SNdMg, Chandrakauns
-SNdMM, Chandrakauns
 SNdMd, Chandrakauns
-SNdMN, Chandrakauns
-SNdmS, Gujari Todi or Lalat
-SNdmr, Gujari Todi or Lalat
 SNdmg, Gujari Todi
-SNdmG, Lalat
-SNdmM, Lalat
-SNdmm, Gujari Todi or Lalat
-SNdmd, Gujari Todi or Lalat
-SNdmN, Gujari Todi or Lalat
-SNdPS, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Todi
-SNdPr, Basant or Bhairav or Jogiya or Kalingada or Multani or Poorvi or Ramakali or Todi
-SNdPR, Kirvani or Natabhairava
-SNdPg, Kirvani or Multani or Todi
-SNdPG, Basant or Bhairav or Jogiya or Kalingada or Natabhairava or Poorvi or Ramakali
-SNdPM, Basant or Bhairav or Jogkauns or Jogiya or Kalingada or Kirvani or Natabhairava or Poorvi or Ramakali
-SNdPm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-SNdPP, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Todi
-SNdPd, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Shree or Todi
-SNdPn, Ramakali
-SNdPN, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Todi
-SNdnS, Jogkauns
-SNdng, Jogkauns
-SNdnG, Jogkauns
-SNdnM, Jogkauns
-SNdnP, Jogkauns
-SNdnd, Jogkauns or Ramakali
-SNdnn, Jogkauns
-SNdnN, Jogkauns
-SNdNS, Basant or Bhairav or Chandrakauns or Gujari Todi or Jogkauns or Kalingada or Kirvani or Lalat or Natabhairava or Paraj or Poorvi or Ramakali or Todi
-SNdNr, Paraj
-SNdNG, Paraj
-SNdNM, Paraj
-SNdNm, Paraj
-SNdNP, Paraj
+SNdPG, Ramakali
+SNdPN, Multani
+SNdnd, Jogkauns
 SNdNd, Paraj
-SNdNN, Paraj
-SNDMS, Bhinna Shadja
 SNDMG, Bhinna Shadja
-SNDMM, Bhinna Shadja
 SNDMD, Bhinna Shadja
-SNDMN, Bhinna Shadja
-SNDmS, Hindol or Pooriya or Rajakalyan or Sohani
-SNDmr, Pooriya or Sohani
-SNDmR, Rajakalyan
-SNDmG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-SNDmm, Hindol or Pooriya or Rajakalyan or Sohani
-SNDmD, Hindol or Pooriya or Rajakalyan or Sohani
-SNDmN, Hindol or Pooriya or Rajakalyan or Sohani
-SNDPS, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SNDPR, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SNDPg, Madhuvanti or Patadeep
-SNDPG, Bihag or Bihagda or Hameer or Kedar or Mand or Marubihag or Nand or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-SNDPM, Bhatiyar or Bihag or Bihagda or Bilawal or Hameer or Kedar or Mand or Marubihag or Nand or Patadeep or Shuddhasaranga or Shyamakalyan or Yaman Kalyan
-SNDPm, Bihag or Chhayanat or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SNDPP, Bihag or Bihagda or Chhayanat or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SNDPD, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SNDPn, Bihagda
-SNDPN, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-SNDnS, Bilawal or Chhayanat
-SNDnR, Bilawal or Chhayanat
-SNDnG, Bilawal or Chhayanat
-SNDnM, Bilawal or Chhayanat
-SNDnm, Chhayanat
-SNDnP, Bilawal or Chhayanat
-SNDnD, Bihagda or Bilawal or Chhayanat
-SNDnn, Bilawal or Chhayanat
-SNDnN, Bilawal or Chhayanat
-SNDNS, Bhinna Shadja or Bilawal or Chhayanat or Hameer or Hindol or Mand or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-SNDNr, Pooriya
-SNDNP, Nand
-SNDND, Hameer
+SNDmr, Pooriya
+SNDPS, Nand
+SNDNS, Hameer
 rSrgM, Parameshwari
-rSrgm, Gujari Todi or Todi
-rSrgP, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-rSrGM, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-rSrGP, Bibhas or Jait
-rSrMP, Bairagi or Gunakali or Jogiya
 rSrmP, Shree
 rSRgr, Bhairavi
-rSgMr, Bhairavi
 rSgMd, Bhairavi
 rSgmP, Multani
-rSGMG, Ramakali
 rSGMd, Ramakali
 rSGmd, Paraj
 rSGmD, Sohani
@@ -837,5097 +147,1046 @@ rSDPG, Jait
 rSnPM, Bairagi
 rSndP, Bhairavi
 rSnDM, Parameshwari
-rSnDP, Ahir Bhairav or Salag Varali
-rSNrS, Pooriya
-rSNrG, Pooriya
-rSNdS, Paraj
-rSNdm, Gujari Todi or Lalat
-rSNdP, Basant or Bhairav or Jogiya or Kalingada or Multani or Paraj or Poorvi or Ramakali or Todi
 rSNdN, Paraj
-rSNDS, Pooriya
-rSNDr, Pooriya
-rSNDG, Pooriya
-rSNDm, Pooriya or Sohani
-rSNDD, Pooriya
 rSNDN, Pooriya
-rrSND, Pooriya
-rrgMD, Parameshwari
-rrgmd, Gujari Todi or Todi
-rrgPd, Bhoopali Todi or Bilaskhani Todi
-rrgPD, Salag Varali
-rrGrS, Pooriya
-rrGMm, Bhatiyar or Lalat
-rrGMP, Ahir Bhairav or Bhairav or Kalingada
-rrGmd, Pooriyadhanashree or Poorvi
-rrGmD, Marwa or Pooriya
-rrGPd, Bibhas
-rrGPD, Jait
-rrMPd, Gunakali or Jogiya
-rrMPn, Bairagi
-rrmPN, Shree
-rrndM, Bilaskhani Todi
-rrNdP, Pooriyadhanashree or Shree
-rrNDm, Marwa
-rrNDP, Bhatiyar
-rRgrS, Bhairavi
-rgMrS, Bhairavi
-rgMgr, Parameshwari
-rgMdn, Bhairavi
-rgMDS, Parameshwari
-rgMDr, Parameshwari
-rgMDg, Parameshwari
+rSNnS, Pooriya
+rSNnr, Pooriya
+rSNnR, Pooriya
+rSNng, Pooriya
+rSNnG, Pooriya
+rSNnM, Pooriya
+rSNnm, Pooriya
+rSNnP, Pooriya
+rSNnd, Pooriya
+rSNnD, Pooriya
+rSNnn, Pooriya
+rSNnN, Pooriya
 rgMDM, Parameshwari
-rgMDD, Parameshwari
 rgMDn, Parameshwari
-rgmgr, Gujari Todi or Todi
-rgmPN, Multani
-rgmdS, Gujari Todi or Todi
-rgmdr, Gujari Todi or Todi
-rgmdg, Gujari Todi or Todi
-rgmdm, Gujari Todi or Todi
+rgmdm, Gujari Todi
 rgmdP, Todi
-rgmdd, Gujari Todi or Todi
-rgmdN, Gujari Todi or Todi
-rgPgr, Bhoopali Todi or Salag Varali
-rgPdS, Bhoopali Todi or Bilaskhani Todi
-rgPdr, Bhoopali Todi or Bilaskhani Todi
-rgPdg, Bhoopali Todi or Bilaskhani Todi
 rgPdM, Bilaskhani Todi
-rgPdP, Bhoopali Todi or Bilaskhani Todi
-rgPdd, Bhoopali Todi or Bilaskhani Todi
-rgPdn, Bilaskhani Todi
-rgPDS, Salag Varali
-rgPDr, Salag Varali
-rgPDg, Salag Varali
+rgPdP, Bhoopali Todi
 rgPDP, Salag Varali
-rgPDD, Salag Varali
+rgPDd, Salag Varali
 rgPDn, Salag Varali
-rGrSS, Pooriya
-rGrSr, Pooriya
-rGrSG, Pooriya
-rGrSm, Pooriya
-rGrSD, Pooriya
 rGrSN, Pooriya
-rGrGr, Pooriya
-rGrGm, Pooriya
-rGMGr, Ahir Bhairav or Bhairav or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-rGMGM, Ahir Bhairav or Bhairav
-rGMGP, Bhatiyar
-rGMmS, Bhatiyar or Lalat
-rGMmr, Bhatiyar or Lalat
-rGMmG, Bhatiyar or Lalat
-rGMmM, Bhatiyar or Lalat
-rGMmm, Bhatiyar or Lalat
-rGMmP, Bhatiyar
-rGMmd, Lalat
-rGMmD, Bhatiyar
-rGMmN, Bhatiyar or Lalat
-rGMPS, Ahir Bhairav or Bhairav or Kalingada
-rGMPr, Ahir Bhairav or Bhairav or Kalingada
-rGMPG, Ahir Bhairav or Bhairav or Kalingada
-rGMPM, Ahir Bhairav or Bhairav or Kalingada
-rGMPP, Ahir Bhairav or Bhairav or Kalingada
-rGMPd, Bhairav or Kalingada
 rGMPD, Ahir Bhairav
-rGMPn, Ahir Bhairav
-rGMPN, Bhairav or Kalingada
-rGMdN, Lalat or Ramakali
-rGmrS, Pooriya
 rGmrG, Pooriya
-rGmGr, Basant or Marwa or Pooriyadhanashree
-rGmGM, Poorvi
-rGmGm, Pooriya
-rGmdS, Pooriyadhanashree or Poorvi
-rGmdr, Pooriyadhanashree or Poorvi
-rGmdG, Pooriyadhanashree or Poorvi
-rGmdM, Poorvi
-rGmdm, Pooriyadhanashree or Poorvi
-rGmdP, Pooriyadhanashree or Poorvi
-rGmdd, Pooriyadhanashree or Poorvi
-rGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-rGmDS, Marwa or Pooriya
-rGmDr, Marwa or Pooriya
-rGmDG, Marwa or Pooriya
-rGmDm, Marwa or Pooriya
-rGmDD, Marwa or Pooriya
-rGmDN, Marwa or Pooriya or Sohani
-rGPGr, Bhatiyar or Bibhas or Jait
+rGPGr, Bhatiyar
 rGPdS, Bibhas
-rGPdr, Bibhas
-rGPdG, Bibhas
 rGPdP, Bibhas
-rGPdd, Bibhas
 rGPDS, Jait
-rGPDr, Jait
-rGPDG, Jait
 rGPDP, Jait
-rGPDD, Jait
-rMgrS, Bilaskhani Todi or Parameshwari
-rMGrS, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-rMGMG, Ahir Bhairav or Bhairav
-rMGmd, Basant
-rMGPG, Bhatiyar
+rGPDd, Jait
+rMGrS, Jogiya
 rMMrS, Bairagi
-rMmMd, Lalat
-rMmDN, Bhatiyar
-rMPgM, Bhairavi
-rMPMr, Gunakali
-rMPMG, Jogiya
-rMPMM, Bairagi
-rMPdS, Gunakali or Jogiya
-rMPdr, Gunakali or Jogiya
-rMPdG, Jogiya
-rMPdM, Gunakali or Jogiya
-rMPdP, Gunakali or Jogiya
-rMPdd, Gunakali or Jogiya
-rMPdN, Bhairav or Jogiya or Kalingada
-rMPDn, Ahir Bhairav
 rMPnS, Bairagi
-rMPnr, Bairagi
-rMPnM, Bairagi
 rMPnP, Bairagi
-rMPnn, Bairagi
-rMdnS, Bhairavi
-rMdNS, Lalat or Ramakali
-rMDnS, Parameshwari
-rmrGr, Pooriya
-rmgrS, Gujari Todi or Multani or Todi
-rmGrS, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-rmGMG, Paraj or Poorvi
-rmGmr, Pooriya
-rmGmG, Basant
-rmMGr, Lalat
-rmMdN, Lalat
-rmPdm, Shree
-rmPdn, Ramakali
-rmPNS, Multani or Shree
-rmPNr, Shree
-rmPNG, Shree
-rmPNm, Shree
-rmPNP, Shree
+rmGrS, Shree
+rmPNS, Shree
 rmPNd, Shree
-rmPNN, Shree
-rmdmM, Lalat
-rmdNS, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-rmdNd, Paraj
-rmDNS, Bhatiyar or Sohani
-rmDNr, Marwa or Pooriya
-rPgrS, Bhoopali Todi or Salag Varali
-rPgMr, Bhairavi
-rPGrS, Bhatiyar or Bibhas or Jait
-rPGMG, Ramakali
-rPMrS, Gunakali
-rPMGr, Jogiya or Kalingada
-rPMGM, Ahir Bhairav or Bhairav
-rPMGP, Bhatiyar
-rPMMr, Bairagi
-rPMPg, Bhairavi
-rPmgr, Multani or Todi
-rPmGr, Pooriyadhanashree
-rPmGM, Paraj or Poorvi
-rPmGm, Basant
-rPmPd, Ramakali
-rPdmG, Shree
-rPdnd, Ramakali
-rPdNS, Bhairav or Kalingada
-rPDnS, Ahir Bhairav or Salag Varali
-rdMgr, Bilaskhani Todi
-rdmgr, Gujari Todi
-rdmGr, Shree
-rdmMG, Lalat
-rdmdm, Lalat
-rdPgr, Bhoopali Todi
-rdPGr, Bibhas
-rdPGM, Ramakali
-rdPMr, Gunakali
-rdPMG, Bhairav or Jogiya or Kalingada
-rdPMP, Bhairavi
-rdPmg, Multani or Todi
-rdPmG, Basant or Paraj or Pooriyadhanashree or Poorvi
-rdPmP, Ramakali
-rdPdm, Shree
-rdnSR, Bhairavi
-rdndP, Ramakali
-rdNdS, Paraj
-rdNdP, Paraj
-rDMgr, Parameshwari
-rDmGr, Marwa or Sohani
-rDmGm, Pooriya
-rDPgr, Salag Varali
-rDPGr, Jait
-rDPMG, Ahir Bhairav or Bhatiyar
-rDNSr, Sohani
-rDNrS, Marwa or Pooriya
-rnSRg, Bhairavi
-rnPMM, Bairagi
-rndMS, Bilaskhani Todi
-rndMr, Bilaskhani Todi
 rndMg, Bilaskhani Todi
-rndMM, Bilaskhani Todi
-rndMP, Bilaskhani Todi
-rndMd, Bilaskhani Todi
-rndMn, Bilaskhani Todi
-rndPG, Ramakali
-rndPM, Bhairavi
-rnDMg, Parameshwari
-rnDPg, Salag Varali
-rnDPM, Ahir Bhairav
-rNSrS, Sohani
-rNrGM, Lalat
-rNrGm, Pooriya or Pooriyadhanashree or Poorvi
-rNdmg, Gujari Todi
-rNdmG, Shree
-rNdmd, Lalat
-rNdPS, Pooriyadhanashree or Shree
-rNdPr, Pooriyadhanashree or Shree
-rNdPG, Pooriyadhanashree or Shree
-rNdPM, Bhairav or Jogiya or Kalingada
-rNdPm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Shree or Todi
-rNdPP, Pooriyadhanashree or Shree
-rNdPd, Pooriyadhanashree or Shree
-rNdPN, Pooriyadhanashree or Shree
-rNdNS, Pooriyadhanashree
-rNdNd, Paraj
-rNDmS, Marwa
-rNDmr, Marwa
-rNDmG, Marwa or Pooriya or Sohani
-rNDmm, Marwa
+rNrGm, Pooriyadhanashree
+rNdPm, Pooriyadhanashree
+rNdPd, Shree
+rNdPN, Shree
+rNDmG, Marwa
+rNDmM, Marwa
 rNDmD, Marwa
-rNDmN, Marwa
-rNDPS, Bhatiyar
-rNDPr, Bhatiyar
 rNDPG, Bhatiyar
 rNDPM, Bhatiyar
-rNDPm, Bhatiyar
-rNDPP, Bhatiyar
-rNDPD, Bhatiyar
-rNDPN, Bhatiyar
-rNDNS, Bhatiyar
-rNDNr, Marwa
-RSRgr, Bhairavi
-RSRgM, Abhogi or Kirvani or Shahanakanada
-RSRgP, Kolahas or Shivaranjani
-RSRGS, Tilakakamod
-RSRGM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RSRGP, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
 RSRMg, Darbari Kanada
-RSRMG, Barawa
-RSRMP, Adana or Barawa or Vrindavani Sarang or Des or Durga or Gorakh Kalyan or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
 RSRMD, Gorakh Kalyan
-RSRmP, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-RSgMP, Bhimpalasi or Patadeep
-RSgMd, Bhairavi
 RSgMD, Bageshree
 RSgmP, Madhuvanti
-RSGRS, Bilawal
 RSGRG, Bilawal
-RSGMR, Hameer
-RSGMG, Bihag or Bihagda or Natabhairava or Tilanga
-RSGMP, Bihag or Bihagda or Khamaj or Mand or Nand or Natabhairava or Tilanga
-RSGMD, Nand or Rageshri
+RSGMD, Rageshri
 RSGMN, Hameer
-RSGPR, Shankara
 RSGPN, Shankara
-RSMRS, Malhar or Jinjhoti
-RSMRP, Gaud Malhar or Malhar
+RSMRS, Jinjhoti
+RSMRr, Jinjhoti
 RSMGm, Marubihag
 RSMGP, Kedar
 RSMPn, Bahaar
-RSPDM, Tilakakamod
-RSdnS, Adana
 RSdnP, Adana
 RSDMg, Abhogi
 RSDPg, Shivaranjani
-RSDPG, Bhoopali or Deshkar or Kamod
 RSDPM, Durga
-RSDPN, Kamod
-RSnPg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-RSnPG, Gaud Malhar or Tilanga
-RSnPM, Vrindavani Sarang or Madmaad Sarang
-RSndP, Bhairavi or Charukeshi or Jaunpuri
 RSndn, Darbari Kanada
-RSnDS, Barawa or Kafi or Jinjhoti
-RSnDM, Bageshree or Des or Gorakh Kalyan or Rageshri or Soora Malhar or Jinjhoti
-RSnDP, Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Khamaj or Kolahas or Saraswati or Soora Malhar or Sorath
-RSNPG, Hansadhwani or Shankara
-RSNdP, Kirvani or Natabhairava
 RSNDm, Rajakalyan
-RSNDP, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-RSNDn, Bilawal or Chhayanat
-RSNDN, Hameer
-RRgrS, Bhairavi
-RRgRS, Jaijaivanti
-RRgMP, Kirvani or Shahanakanada
-RRgMD, Abhogi
-RRgPD, Kolahas or Shivaranjani
-RRGRS, Shankara
-RRGMP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RRGmD, Rajakalyan or Yaman or Yaman Kalyan
-RRGPD, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-RRGPN, Hansadhwani
-RRMgM, Darbari Kanada
-RRMGP, Barawa
-RRMPM, Gorakh Kalyan
-RRMPd, Adana or Jaunpuri
-RRMPD, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-RRMPn, Madmaad Sarang or Nayakikanada
-RRMPN, Vrindavani Sarang or Des or Sorath or Tilakakamod
-RRMDn, Gorakh Kalyan
-RRmPD, Kamod or Saraswati
-RRmPN, Shuddhasaranga or Shyamakalyan
-RRPMP, Gaud Malhar
-RRPnD, Malhar
-RgrSS, Bhairavi
-RgrSr, Bhairavi
 RgrSR, Bhairavi
 RgrSg, Bhairavi
-RgrSM, Bhairavi
-RgrSP, Bhairavi
-RgrSd, Bhairavi
 RgrSn, Bhairavi
-RgRSS, Jaijaivanti
 RgRSR, Jaijaivanti
-RgRSg, Jaijaivanti
-RgRSG, Jaijaivanti
-RgRSM, Jaijaivanti
-RgRSP, Jaijaivanti
-RgRSD, Jaijaivanti
 RgRSn, Jaijaivanti
-RgRSN, Jaijaivanti
-RgRgR, Jaijaivanti
-RgRGM, Jaijaivanti
-RgRMG, Barawa
 RgMrS, Bhairavi
-RgMRS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-RgMRg, Shahanakanada
-RgMgR, Abhogi or Kirvani
-RgMPS, Kirvani or Shahanakanada
-RgMPR, Kirvani or Shahanakanada
-RgMPg, Kirvani or Shahanakanada
-RgMPM, Kirvani or Shahanakanada
-RgMPP, Kirvani or Shahanakanada
-RgMPd, Darbari Kanada or Kirvani
-RgMPD, Shahanakanada
-RgMPn, Bhimpalasi or Shahanakanada
-RgMPN, Kirvani or Patadeep
+RgMRS, Shahanakanada
+RgMRr, Shahanakanada
+RgMPg, Shahanakanada
+RgMPM, Kirvani
+RgMPd, Kirvani
 RgMdn, Bhairavi
 RgMDS, Abhogi
-RgMDR, Abhogi
-RgMDg, Abhogi
 RgMDM, Abhogi
-RgMDD, Abhogi
-RgMDn, Bageshree or Shahanakanada
-RgmPN, Madhuvanti
-RgPgR, Kolahas or Shivaranjani
-RgPDS, Kolahas or Shivaranjani
-RgPDR, Kolahas or Shivaranjani
-RgPDg, Kolahas or Shivaranjani
-RgPDP, Kolahas or Shivaranjani
-RgPDD, Kolahas or Shivaranjani
+RgMDn, Shahanakanada
+RgPDS, Shivaranjani
 RgPDn, Kolahas
 RGSRG, Tilakakamod
-RGSRM, Des or Tilakakamod
-RGSMR, Jinjhoti
-RGSPD, Tilakakamod
-RGSnD, Des
-RGRSS, Shankara
-RGRSR, Shankara
+RGSRM, Tilakakamod
 RGRSG, Shankara
-RGRSP, Shankara
-RGRSD, Shankara
 RGRSN, Shankara
+RGRrS, Shankara
+RGRrr, Shankara
+RGRrR, Shankara
+RGRrg, Shankara
+RGRrG, Shankara
+RGRrM, Shankara
+RGRrm, Shankara
+RGRrP, Shankara
+RGRrd, Shankara
+RGRrD, Shankara
+RGRrn, Shankara
+RGRrN, Shankara
 RGRgR, Jaijaivanti
 RGRGS, Des
-RGRGR, Shankara
 RGRGP, Bilawal
-RGMRS, Hameer or Kamod or Ramadasimalhar or Shyamakalyan
-RGMGR, Bihag or Bihagda or Charukeshi or Chhayanat or Jaijaivanti or Natabhairava or Tilanga or Yaman Kalyan
-RGMPS, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RGMPR, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RGMPg, Jaijaivanti or Ramadasimalhar
-RGMPG, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RGMPM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
+RGMGR, Yaman Kalyan
+RGMGg, Yaman Kalyan
+RGMPg, Ramadasimalhar
 RGMPm, Chhayanat
-RGMPP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RGMPd, Charukeshi or Natabhairava
-RGMPD, Chhayanat or Jaijaivanti or Khamaj or Mand or Nand or Ramadasimalhar
-RGMPn, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-RGMPN, Bihag or Bihagda or Chhayanat or Jaijaivanti or Ramadasimalhar or Tilanga
-RGMDP, Nand
-RGMDn, Rageshri
-RGMND, Hameer
-RGmGR, Rajakalyan or Yaman
-RGmGM, Yaman Kalyan
-RGmPN, Marubihag
-RGmDS, Rajakalyan or Yaman or Yaman Kalyan
-RGmDR, Rajakalyan or Yaman or Yaman Kalyan
-RGmDG, Rajakalyan or Yaman or Yaman Kalyan
-RGmDM, Yaman Kalyan
-RGmDm, Rajakalyan or Yaman or Yaman Kalyan
-RGmDP, Yaman or Yaman Kalyan
-RGmDD, Rajakalyan or Yaman or Yaman Kalyan
-RGmDN, Rajakalyan or Yaman or Yaman Kalyan
+RGMPP, Chhayanat
+RGMPd, Charukeshi
+RGMPD, Chhayanat
+RGMPn, Ramadasimalhar
+RGMPN, Jaijaivanti
+RGmDm, Rajakalyan
 RGPRG, Shankara
-RGPGR, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-RGPMg, Barawa
-RGPMG, Bilawal
-RGPmG, Shuddhakalyan
-RGPmP, Kedar
-RGPDS, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-RGPDR, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-RGPDG, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-RGPDM, Bilawal
-RGPDm, Shuddhakalyan
-RGPDP, Bhoopali or Bilawal or Deshkar or Gaud Malhar or Janasammohini or Shuddhakalyan
-RGPDD, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-RGPDn, Bilawal or Janasammohini
-RGPDN, Bilawal or Shuddhakalyan
+RGPDN, Bilawal
 RGPNS, Hansadhwani
-RGPNR, Hansadhwani
-RGPNG, Hansadhwani
 RGPNP, Hansadhwani
 RGPND, Shankara
-RGPNN, Hansadhwani
+RGPNn, Shankara
 RMRMP, Gorakh Kalyan
-RMRMD, Gorakh Kalyan
-RMRPM, Gaud Malhar
-RMRPn, Malhar
-RMgRS, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-RMgRM, Barawa
-RMgMS, Darbari Kanada
 RMgMR, Darbari Kanada
 RMgMg, Darbari Kanada
-RMgMM, Darbari Kanada
 RMgMP, Darbari Kanada
-RMgMd, Darbari Kanada
-RMgMn, Darbari Kanada
 RMGSR, Tilakakamod
 RMGSM, Jinjhoti
-RMGRS, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-RMGRg, Jaijaivanti
 RMGRG, Des
-RMGMG, Natabhairava
-RMGMD, Nand
-RMGmP, Marubihag
-RMGPS, Barawa
-RMGPR, Barawa
 RMGPg, Barawa
-RMGPG, Barawa
 RMGPM, Barawa
-RMGPm, Kedar
-RMGPP, Barawa
 RMGPD, Barawa
-RMGPn, Barawa
-RMPgR, Barawa or Bhimpalasi or Jaunpuri
-RMPgM, Adana or Bhairavi or Nayakikanada or Shahanakanada
-RMPMS, Gorakh Kalyan
-RMPMR, Vrindavani Sarang or Durga or Gorakh Kalyan or Madmaad Sarang or Soora Malhar
-RMPMg, Barawa or Kafi
-RMPMM, Gorakh Kalyan
+RMPgR, Jaunpuri
+RMPMR, Gorakh Kalyan
 RMPMP, Gorakh Kalyan
 RMPMD, Gorakh Kalyan
-RMPMn, Gorakh Kalyan
-RMPmP, Chhayanat
-RMPdS, Adana or Jaunpuri
-RMPdR, Adana or Jaunpuri
-RMPdg, Adana or Jaunpuri
-RMPdM, Adana or Jaunpuri
-RMPdP, Adana or Jaunpuri
-RMPdd, Adana or Jaunpuri
-RMPdn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-RMPdN, Kirvani or Natabhairava
-RMPDS, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-RMPDR, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-RMPDg, Barawa or Kafi
-RMPDG, Barawa or Jinjhoti
-RMPDM, Bageshree or Barawa or Des or Durga or Kafi or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-RMPDP, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-RMPDD, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-RMPDn, Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-RMPDN, Mand or Nand or Soora Malhar
-RMPnS, Bhimpalasi or Madmaad Sarang or Nayakikanada
-RMPnR, Madmaad Sarang or Nayakikanada
-RMPng, Nayakikanada
-RMPnM, Madmaad Sarang or Nayakikanada
-RMPnP, Madmaad Sarang or Nayakikanada
-RMPnD, Bahaar or Gaud Malhar or Ramadasimalhar
-RMPnn, Madmaad Sarang or Nayakikanada
-RMPNS, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-RMPNR, Vrindavani Sarang or Des or Sorath or Tilakakamod
-RMPNG, Des or Tilakakamod
-RMPNM, Vrindavani Sarang or Des or Sorath or Tilakakamod
-RMPNP, Vrindavani Sarang or Des or Sorath or Tilakakamod
-RMPND, Des or Sorath or Tilakakamod
-RMPNn, Vrindavani Sarang or Des or Sorath
-RMPNN, Vrindavani Sarang or Des or Sorath or Tilakakamod
-RMdnS, Bhairavi
-RMDMR, Gorakh Kalyan
-RMDPM, Nand
-RMDnS, Bageshree or Gorakh Kalyan or Rageshri or Shahanakanada
-RMDnR, Gorakh Kalyan
-RMDnM, Gorakh Kalyan
-RMDnP, Gorakh Kalyan
+RMPdM, Jaunpuri
+RMPdP, Jaunpuri
+RMDnS, Gorakh Kalyan
 RMDnD, Gorakh Kalyan
-RMDnn, Gorakh Kalyan
-RMNDN, Hameer
-RmgRS, Madhuvanti
-RmGRS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-RmGMG, Yaman Kalyan
-RmPGM, Bihag or Hameer or Kamod or Shyamakalyan
-RmPMR, Shuddhasaranga
-RmPMG, Chhayanat
-RmPmR, Saraswati
-RmPmP, Shyamakalyan
-RmPDS, Kamod or Saraswati
-RmPDR, Kamod or Saraswati
-RmPDG, Kamod
-RmPDM, Kamod
-RmPDm, Kamod or Saraswati
-RmPDP, Kamod or Kedar or Saraswati
-RmPDD, Kamod or Saraswati
-RmPDn, Saraswati
-RmPDN, Chhayanat or Kamod
-RmPNS, Kamod or Kedar or Madhuvanti or Marubihag or Shuddhasaranga or Shyamakalyan
-RmPNR, Shuddhasaranga or Shyamakalyan
-RmPNG, Shyamakalyan
-RmPNM, Shuddhasaranga or Shyamakalyan
-RmPNm, Shuddhasaranga or Shyamakalyan
-RmPNP, Shuddhasaranga or Shyamakalyan
-RmPND, Shuddhasaranga or Shyamakalyan
-RmPNN, Shuddhasaranga or Shyamakalyan
-RmDPm, Chhayanat
-RmDNS, Rajakalyan or Yaman or Yaman Kalyan
-RPRGR, Shankara
-RPgRS, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-RPgRM, Barawa
-RPgMr, Bhairavi
-RPgMR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-RPgMD, Shahanakanada
-RPGRS, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-RPGMR, Hameer or Kamod or Shyamakalyan
-RPGMG, Bihag or Bihagda or Tilanga
-RPGPR, Shankara
+RmPGM, Shyamakalyan
+RmPDS, Saraswati
+RPgMR, Malhar
 RPGPD, Gaud Malhar
-RPMRS, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-RPMRP, Gaud Malhar
-RPMgR, Barawa or Kafi or Kirvani or Patadeep
-RPMGR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-RPMGM, Nand or Natabhairava
-RPMGP, Gaud Malhar
-RPMPS, Gaud Malhar
-RPMPR, Gaud Malhar
-RPMPg, Bhairavi or Bhimpalasi
+RPMGR, Gaud Malhar
+RPMGg, Gaud Malhar
 RPMPG, Gaud Malhar
 RPMPM, Gaud Malhar
-RPMPP, Gaud Malhar
 RPMPD, Gaud Malhar
 RPMPn, Gaud Malhar
-RPMPN, Gaud Malhar
-RPmRS, Saraswati
-RPmgR, Madhuvanti
-RPmGR, Marubihag or Shuddhakalyan or Yaman
-RPmGM, Yaman Kalyan
-RPmPG, Bihag or Hameer or Shyamakalyan
-RPmPM, Chhayanat
-RPmPD, Chhayanat or Kedar
-RPmPN, Kedar
-RPmDP, Chhayanat
-RPPmD, Chhayanat
-RPdMP, Jaunpuri
-RPdnS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-RPdNS, Kirvani or Natabhairava
-RPDMR, Sorath
-RPDMg, Bageshree
-RPDMG, Des or Tilakakamod
-RPDPM, Gaud Malhar or Kedar
-RPDPN, Kamod
-RPDnS, Janasammohini or Khamaj or Kolahas
-RPDnD, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-RPDNS, Bilawal or Chhayanat or Mand
-RPDNP, Nand
-RPnPg, Malhar
-RPnDS, Malhar
-RPnDR, Malhar
-RPnDg, Malhar
-RPnDM, Malhar
-RPnDP, Malhar
-RPnDD, Malhar
-RPnDn, Malhar
-RPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-RPNDS, Shankara
-RdMPg, Jaunpuri
-RdPMg, Kirvani
-RdPMG, Charukeshi or Natabhairava
-RdPMP, Bhairavi
-RdPdM, Jaunpuri
-RdnSR, Bhairavi
-RdnPg, Adana or Darbari Kanada
-RDMRS, Sorath
-RDMRM, Gorakh Kalyan
-RDMgR, Abhogi or Bageshree
-RDMGS, Tilakakamod or Jinjhoti
-RDMGR, Des or Rageshri
-RDMPD, Bageshree or Des
-RDMPN, Soora Malhar
-RDmGR, Rajakalyan
-RDPgR, Barawa or Kolahas or Shivaranjani
-RDPGR, Bhoopali or Deshkar or Janasammohini
-RDPGM, Bihagda or Kamod
-RDPMR, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-RDPMg, Kafi or Patadeep
-RDPMG, Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-RDPMP, Bhimpalasi
-RDPmR, Saraswati
-RDPmg, Madhuvanti
-RDPmG, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-RDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-RDPPm, Chhayanat
-RDPDM, Sorath
-RDPDn, Bihagda
-RDPNS, Kamod
-RDnDS, Barawa or Kafi or Jinjhoti
-RDnDM, Soora Malhar
-RDnDP, Bihagda or Bilawal or Chhayanat
-RDNPS, Nand
-RnSRg, Bhairavi
-RnPgM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-RnPGM, Tilanga
-RnPGP, Gaud Malhar
-RnPMR, Vrindavani Sarang or Madmaad Sarang
-RndPM, Bhairavi or Charukeshi
-RndPd, Jaunpuri
-RndnP, Darbari Kanada
-RnDMR, Gorakh Kalyan
-RnDMG, Rageshri or Jinjhoti
-RnDMP, Bageshree or Des or Soora Malhar
-RnDPg, Barawa or Kolahas
-RnDPG, Bihagda or Janasammohini
-RnDPM, Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-RnDPm, Saraswati
-RnDPP, Chhayanat
-RnDPD, Sorath
-RnDNS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-RNRGm, Rajakalyan or Yaman or Yaman Kalyan
-RNPGR, Hansadhwani
-RNPGP, Shankara
-RNdPM, Kirvani or Natabhairava
-RNDmG, Rajakalyan
-RNDPM, Mand or Nand or Patadeep or Shuddhasaranga
-RNDPm, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-RNDPD, Bihagda
-RNDnD, Bilawal or Chhayanat
-RNDNS, Hameer
-gSrgM, Parameshwari
-gSrgm, Gujari Todi or Todi
-gSrgP, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-gSRgr, Bhairavi
-gSRgM, Abhogi or Kirvani or Shahanakanada
-gSRgP, Kolahas or Shivaranjani
-gSRGM, Jaijaivanti or Ramadasimalhar
-gSRMg, Darbari Kanada
-gSRMP, Adana or Barawa or Jaunpuri or Kafi or Nayakikanada
-gSgMP, Bhimpalasi or Dhani or Patadeep
-gSgMd, Bhairavi or Chandrakauns or Malakauns
-gSgMD, Bageshree or Bageshrikauns
-gSgmP, Madhukauns or Madhuvanti or Multani
+RPDPM, Gaud Malhar
+gSgMP, Dhani
+gSgMD, Bageshrikauns
+gSgmP, Madhukauns
 gSGMP, Jog
 gSGMd, Jogkauns
-gSMRP, Malhar
-gSMPn, Bahaar
-gSdPg, Bhoopali Todi
-gSdnP, Adana
-gSDMg, Abhogi
-gSDPg, Shivaranjani
-gSnPg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gSnPM, Dhani or Jog
 gSnPm, Madhukauns
 gSndM, Malakauns
-gSndP, Bhairavi or Jaunpuri
-gSndn, Darbari Kanada
-gSnDM, Bageshree or Bageshrikauns or Parameshwari
-gSnDP, Barawa or Bhimpalasi or Jaijaivanti or Kafi or Kolahas or Salag Varali
+gSnDM, Bageshrikauns
 gSNdM, Chandrakauns
-gSNdm, Gujari Todi
-gSNdP, Kirvani or Multani or Todi
 gSNdn, Jogkauns
-gSNDP, Madhuvanti or Patadeep
-grSrg, Bhoopali Todi or Bilaskhani Todi or Gujari Todi or Parameshwari or Salag Varali or Todi
-grSRg, Bhairavi
-grSgM, Bhairavi
-grSgm, Multani
-grSdP, Bhoopali Todi
-grSnd, Bhairavi
-grSnD, Parameshwari or Salag Varali
-grSNd, Gujari Todi or Multani or Todi
 grgMD, Parameshwari
-grgmd, Gujari Todi or Todi
-grgPd, Bhoopali Todi or Bilaskhani Todi
 grgPD, Salag Varali
 grndM, Bilaskhani Todi
-gRSRg, Abhogi or Kirvani or Kolahas or Shivaranjani
-gRSRG, Jaijaivanti
-gRSRM, Barawa or Jaunpuri or Kafi
-gRSgM, Bageshree or Bhimpalasi or Patadeep
-gRSgm, Madhuvanti
-gRSDM, Abhogi
-gRSDP, Shivaranjani
-gRSnd, Jaunpuri
-gRSnD, Bageshree or Barawa or Bhimpalasi or Jaijaivanti or Kafi or Kolahas
-gRSNd, Kirvani
-gRSND, Madhuvanti or Patadeep
-gRgrS, Bhairavi
 gRgRS, Jaijaivanti
-gRgMP, Kirvani or Shahanakanada
+gRgRr, Jaijaivanti
+gRgMP, Kirvani
 gRgMD, Abhogi
-gRgPD, Kolahas or Shivaranjani
-gRGMP, Jaijaivanti or Ramadasimalhar
-gRMgR, Barawa
-gRMgM, Darbari Kanada
-gRMGS, Barawa
-gRMGR, Barawa
-gRMGg, Barawa
-gRMGG, Barawa
-gRMGM, Barawa
+gRGMP, Jaijaivanti
 gRMGP, Barawa
-gRMGD, Barawa
-gRMGn, Barawa
-gRMPg, Barawa or Jaunpuri
-gRMPM, Barawa
-gRMPd, Adana or Jaunpuri
-gRMPD, Barawa or Kafi
-gRMPn, Nayakikanada
-gRPnD, Malhar
-ggRMG, Barawa
-ggMrS, Bhairavi
-ggMRS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-ggMPg, Shahanakanada
-ggMPd, Darbari Kanada or Kirvani
-ggMPn, Bhimpalasi or Dhani
-ggMPN, Patadeep
-ggMdn, Bhairavi or Malakauns
-ggMdN, Chandrakauns
-ggMDS, Abhogi
-ggMDn, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-ggmPn, Madhukauns
-ggmPN, Madhuvanti or Multani
-ggmdN, Gujari Todi or Todi
-ggPdS, Bhoopali Todi or Bilaskhani Todi
-ggPDS, Shivaranjani
-ggPDn, Kolahas or Salag Varali
-gGRgR, Jaijaivanti
-gGMPn, Jog or Ramadasimalhar
-gGMPN, Jaijaivanti
-gGMdN, Jogkauns
-gGPMg, Barawa
-gMrSS, Bhairavi
-gMrSr, Bhairavi
+gRMPd, Jaunpuri
 gMrSR, Bhairavi
 gMrSg, Bhairavi
-gMrSM, Bhairavi
-gMrSP, Bhairavi
-gMrSd, Bhairavi
 gMrSn, Bhairavi
-gMRSS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gMRSR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gMRSg, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gMRSG, Ramadasimalhar
-gMRSM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gMRSP, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gMRSd, Adana or Darbari Kanada
-gMRSD, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-gMRSn, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gMRSN, Bahaar or Malhar or Ramadasimalhar
-gMRgM, Shahanakanada
-gMRGM, Ramadasimalhar
-gMRMg, Darbari Kanada
-gMRMP, Adana or Nayakikanada
-gMRPg, Malhar
+gMRSd, Adana
 gMRPn, Malhar
-gMgrS, Bilaskhani Todi or Parameshwari
-gMgRS, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-gMgMR, Darbari Kanada
+gMgrS, Parameshwari
 gMgMP, Darbari Kanada
-gMGRg, Jaijaivanti
-gMGgS, Jog or Jogkauns
-gMGPM, Barawa
-gMPgS, Shahanakanada
-gMPgR, Bhimpalasi or Jaunpuri or Shahanakanada
-gMPgg, Shahanakanada
-gMPgM, Bhairavi or Bhimpalasi or Darbari Kanada or Shahanakanada
-gMPgP, Shahanakanada
-gMPgD, Shahanakanada
-gMPgn, Shahanakanada
-gMPMg, Dhani or Kirvani or Patadeep
-gMPMP, Bhimpalasi
-gMPdS, Darbari Kanada or Kirvani
-gMPdR, Darbari Kanada or Kirvani
-gMPdg, Darbari Kanada or Kirvani
-gMPdM, Darbari Kanada or Kirvani
-gMPdP, Darbari Kanada or Kirvani
-gMPdd, Darbari Kanada or Kirvani
-gMPdn, Adana or Darbari Kanada or Jaunpuri
+gMPgR, Bhimpalasi
+gMPdP, Kirvani
 gMPdN, Kirvani
 gMPDM, Bageshree
-gMPDn, Barawa or Kafi
-gMPnS, Bhimpalasi or Dhani or Jog or Nayakikanada
-gMPnR, Bhimpalasi
-gMPng, Bhimpalasi or Dhani
-gMPnM, Bhimpalasi or Dhani
-gMPnP, Bhimpalasi or Dhani
-gMPnD, Bahaar or Bhimpalasi or Ramadasimalhar
-gMPnn, Bhimpalasi or Dhani
-gMPNS, Jaijaivanti or Patadeep
-gMPNR, Patadeep
-gMPNg, Patadeep
-gMPNM, Patadeep
-gMPNP, Patadeep
+gMPnP, Dhani
+gMPNS, Patadeep
 gMPND, Patadeep
-gMPNN, Patadeep
-gMdMg, Chandrakauns or Malakauns
-gMdPM, Bhairavi
-gMdnS, Bhairavi or Malakauns
-gMdnr, Bhairavi
-gMdnR, Bhairavi
-gMdng, Bhairavi or Malakauns
-gMdnM, Bhairavi or Malakauns
-gMdnP, Bhairavi
-gMdnd, Bhairavi or Malakauns
-gMdnn, Bhairavi or Malakauns
-gMdNS, Chandrakauns or Jogkauns
-gMdNg, Chandrakauns
-gMdNM, Chandrakauns
+gMPNn, Patadeep
+gMdNS, Chandrakauns
 gMdNd, Chandrakauns
-gMdNN, Chandrakauns
-gMDSS, Abhogi
 gMDSR, Abhogi
-gMDSg, Abhogi
-gMDSM, Abhogi
 gMDSD, Abhogi
-gMDMg, Abhogi or Bageshree or Bageshrikauns or Parameshwari
-gMDMP, Bageshree
-gMDnS, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-gMDnr, Parameshwari
-gMDnR, Bageshree or Shahanakanada
-gMDng, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-gMDnM, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-gMDnP, Bageshree or Shahanakanada
-gMDnD, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-gMDnn, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-gmgrS, Gujari Todi or Multani or Todi
+gMDnP, Shahanakanada
 gmgRS, Madhuvanti
-gmPmg, Madhukauns or Madhuvanti or Multani
+gmgRr, Madhuvanti
 gmPnS, Madhukauns
-gmPng, Madhukauns
-gmPnm, Madhukauns
 gmPnP, Madhukauns
-gmPnn, Madhukauns
-gmPNS, Madhuvanti or Multani
-gmPNr, Multani
-gmPNR, Madhuvanti
-gmPNg, Madhuvanti or Multani
-gmPNm, Madhuvanti or Multani
-gmPNP, Madhuvanti or Multani
 gmPNd, Multani
 gmPND, Madhuvanti
-gmPNN, Madhuvanti or Multani
-gmdmg, Gujari Todi
-gmdPm, Todi
-gmdNS, Gujari Todi or Todi
-gmdNr, Gujari Todi or Todi
-gmdNg, Gujari Todi or Todi
-gmdNm, Gujari Todi or Todi
-gmdNP, Todi
-gmdNd, Gujari Todi or Todi
-gmdNN, Gujari Todi or Todi
-gPgrS, Bhoopali Todi or Salag Varali
-gPgRS, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-gPgRM, Barawa
-gPgMr, Bhairavi
-gPgMR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gPgMD, Shahanakanada
-gPMgS, Dhani
-gPMgR, Barawa or Kafi or Kirvani or Patadeep
-gPMGR, Jaijaivanti
-gPMGg, Jog or Jogkauns
-gPMPg, Bhairavi or Bhimpalasi
-gPmgS, Madhukauns
-gPmgr, Multani or Todi
-gPmgR, Madhuvanti
-gPdSS, Bhoopali Todi or Bilaskhani Todi
-gPdSr, Bhoopali Todi or Bilaskhani Todi
-gPdSg, Bhoopali Todi or Bilaskhani Todi
-gPdSM, Bilaskhani Todi
-gPdSP, Bhoopali Todi or Bilaskhani Todi
-gPdSd, Bhoopali Todi or Bilaskhani Todi
-gPdSn, Bilaskhani Todi
-gPdMg, Bilaskhani Todi
-gPdMP, Jaunpuri
-gPdPg, Bhoopali Todi
-gPdnS, Adana or Darbari Kanada or Jaunpuri
-gPdNS, Kirvani
-gPDSS, Shivaranjani
+gmPNn, Madhuvanti
+gPdSd, Bhoopali Todi
 gPDSR, Shivaranjani
-gPDSg, Shivaranjani
-gPDSP, Shivaranjani
 gPDSD, Shivaranjani
-gPDMg, Bageshree
-gPDPg, Kolahas or Salag Varali or Shivaranjani
-gPDnS, Kolahas or Salag Varali
-gPDnr, Salag Varali
-gPDnR, Kolahas
-gPDng, Kolahas or Salag Varali
-gPDnP, Kolahas or Salag Varali
-gPDnD, Barawa or Kafi or Kolahas or Salag Varali
-gPDnn, Kolahas or Salag Varali
-gPnDN, Bahaar or Malhar or Ramadasimalhar
-gdMgS, Chandrakauns or Malakauns
-gdMgr, Bilaskhani Todi
-gdMPg, Jaunpuri
-gdmgr, Gujari Todi
-gdPgr, Bhoopali Todi
-gdPMg, Kirvani
-gdPMG, Jogkauns
-gdPMP, Bhairavi
-gdPmg, Multani or Todi
-gdPdM, Jaunpuri
-gdnSR, Bhairavi
-gdnPg, Adana or Darbari Kanada
-gdndP, Jogkauns
-gDMgS, Bageshrikauns
-gDMgr, Parameshwari
-gDMgR, Abhogi or Bageshree
-gDMPD, Bageshree
-gDPgr, Salag Varali
-gDPgR, Barawa or Kolahas or Shivaranjani
-gDPMg, Kafi or Patadeep
-gDPMG, Jaijaivanti
-gDPMP, Bhimpalasi
-gDPmg, Madhuvanti
-gDnDS, Barawa or Kafi
-gnSRg, Bhairavi
-gnPgM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-gnPMg, Dhani
-gnPMG, Jog
-gnPmg, Madhukauns
-gndMg, Bilaskhani Todi or Malakauns
-gndPM, Bhairavi or Jogkauns
-gndPd, Jaunpuri
-gndnP, Darbari Kanada
-gnDMg, Bageshrikauns or Parameshwari
-gnDMP, Bageshree
-gnDPg, Barawa or Kolahas or Salag Varali
-gnDPM, Bhimpalasi or Jaijaivanti or Kafi
-gnDNS, Bahaar or Malhar or Ramadasimalhar
-gNdMg, Chandrakauns
-gNdmg, Gujari Todi
-gNdPM, Kirvani
-gNdPm, Multani or Todi
-gNdnd, Jogkauns
-gNDPM, Patadeep
-gNDPm, Madhuvanti
-GSrGM, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-GSrGP, Bibhas or Jait
-GSrMP, Jogiya
-GSrmP, Shree
 GSRGS, Tilakakamod
-GSRGR, Tilakakamod
-GSRGG, Tilakakamod
-GSRGM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar or Tilakakamod
-GSRGP, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan or Tilakakamod
-GSRGD, Tilakakamod
-GSRGN, Tilakakamod
-GSRMG, Tilakakamod
-GSRMP, Barawa or Des or Tilakakamod or Jinjhoti
-GSRmP, Kamod or Shyamakalyan
-GSGRG, Bilawal
-GSGMP, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-GSGMd, Jogkauns or Ramakali
-GSGMD, Bhinna Shadja or Rageshri
-GSGMN, Hameer
+GSGMD, Bhinna Shadja
 GSGmP, Amritvarshini
-GSGmd, Paraj
-GSGmD, Hindol or Sohani
+GSGmD, Hindol
 GSGPD, Kalavati
-GSGPN, Shankara
 GSMRS, Jinjhoti
-GSMRR, Jinjhoti
-GSMRG, Jinjhoti
+GSMRr, Jinjhoti
 GSMRM, Jinjhoti
-GSMRP, Gaud Malhar or Jinjhoti
-GSMRD, Jinjhoti
-GSMRn, Jinjhoti
-GSMGS, Jinjhoti
-GSMGm, Basant or Marubihag
-GSMGP, Kedar
-GSMPD, Jinjhoti
 GSPDM, Tilakakamod
-GSdPG, Bibhas
-GSDPG, Bhoopali or Deshkar or Jait or Kamod
-GSnPg, Ramadasimalhar
-GSnPG, Gaud Malhar or Tilanga
-GSnPM, Jog
-GSndP, Charukeshi
-GSnDS, Jinjhoti
-GSnDM, Des or Rageshri or Jinjhoti
-GSnDP, Ahir Bhairav or Barawa or Janasammohini or Jaijaivanti or Kalavati or Khamaj
-GSNPG, Hansadhwani or Shankara
+GSnDP, Kalavati
+GSnDd, Kalavati
 GSNPm, Amritvarshini
-GSNdm, Lalat
-GSNdP, Basant or Bhairav or Jogiya or Kalingada or Natabhairava or Poorvi or Ramakali
-GSNdn, Jogkauns
-GSNdN, Paraj
 GSNDM, Bhinna Shadja
-GSNDm, Hindol or Pooriya or Rajakalyan or Sohani
-GSNDP, Bihag or Bihagda or Hameer or Kedar or Mand or Marubihag or Nand or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-GSNDn, Bilawal or Chhayanat
-GrSrS, Sohani
-GrSrG, Ahir Bhairav or Bhairav or Bhatiyar or Bibhas or Jait or Kalingada
-GrSrM, Jogiya
-GrSrm, Shree
-GrSGM, Ramakali
-GrSGm, Paraj or Sohani
-GrSMG, Basant
-GrSdP, Bibhas
-GrSDP, Jait
-GrSnD, Ahir Bhairav
-GrSNr, Pooriya
-GrSNd, Basant or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-GrSND, Pooriya or Sohani
+GSNDm, Hindol
+GrSND, Pooriya
+GrSNn, Pooriya
 GrGrS, Pooriya
-GrGMG, Ahir Bhairav or Bhairav
-GrGMm, Bhatiyar or Lalat
-GrGMP, Ahir Bhairav or Bhairav or Kalingada
-GrGmr, Pooriya
-GrGmd, Pooriyadhanashree or Poorvi
-GrGmD, Marwa or Pooriya
 GrGPd, Bibhas
 GrGPD, Jait
 GrMPd, Jogiya
 GrmPN, Shree
-GrNdP, Pooriyadhanashree or Shree
 GrNDm, Marwa
 GrNDP, Bhatiyar
-GRSRG, Bhoopali or Charukeshi or Chhayanat or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
-GRSGR, Bilawal
-GRSGM, Bihag or Bihagda or Khamaj or Mand or Natabhairava or Rageshri or Tilanga
-GRSGP, Shankara
-GRSMR, Gaud Malhar
-GRSMG, Marubihag
-GRSDP, Bhoopali or Deshkar
-GRSnP, Gaud Malhar or Tilanga
-GRSnd, Charukeshi
-GRSnD, Janasammohini or Khamaj or Rageshri
-GRSNP, Hansadhwani or Shankara
-GRSNd, Natabhairava
-GRSND, Bihag or Bihagda or Bilawal or Chhayanat or Mand or Marubihag or Rajakalyan or Shuddhakalyan or Yaman or Yaman Kalyan
+GrNDd, Bhatiyar
 GRgRS, Jaijaivanti
-GRgRR, Jaijaivanti
+GRgRr, Jaijaivanti
 GRgRg, Jaijaivanti
 GRgRG, Jaijaivanti
-GRgRM, Jaijaivanti
-GRgRP, Jaijaivanti
-GRgRD, Jaijaivanti
-GRgRn, Jaijaivanti
-GRgRN, Jaijaivanti
-GRGSS, Des
 GRGSR, Des
-GRGSG, Des
-GRGSM, Des
-GRGSP, Des
-GRGSD, Des
 GRGSn, Des
-GRGSN, Des
-GRGRS, Bilawal or Shankara
-GRGRG, Bilawal or Des
-GRGMP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-GRGmD, Rajakalyan or Yaman or Yaman Kalyan
-GRGPS, Bilawal
-GRGPR, Bilawal
-GRGPG, Bilawal
+GRGRS, Shankara
+GRGRr, Shankara
 GRGPM, Bilawal
-GRGPP, Bilawal
-GRGPD, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-GRGPn, Bilawal
-GRGPN, Bilawal or Hansadhwani
-GRMGP, Barawa
-GRMPD, Barawa or Des or Jinjhoti
-GRMPN, Des or Tilakakamod
-GRmPD, Kamod
-GRmPN, Shyamakalyan
-GRPMG, Gaud Malhar
+GRGPN, Hansadhwani
+GRMPN, Des
 GRPMP, Gaud Malhar
-GgSGM, Jog or Jogkauns
-GgSnP, Jog
-GgSNd, Jogkauns
-GgRMG, Barawa
-GgMRS, Ramadasimalhar
-GGSRG, Tilakakamod
-GGSMR, Jinjhoti
-GGRgR, Jaijaivanti
-GGRGS, Des
-GGRGP, Bilawal
-GGMRS, Hameer or Kamod or Shyamakalyan
-GGMGr, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-GGMGR, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-GGMmM, Lalat
-GGMmD, Bhatiyar
-GGMPm, Chhayanat
-GGMPd, Bhairav or Charukeshi or Kalingada or Natabhairava
-GGMPD, Ahir Bhairav or Khamaj or Mand or Nand
-GGMPn, Jog or Ramadasimalhar
-GGMPN, Bihag or Bihagda or Jaijaivanti or Tilanga
-GGMdN, Jogkauns or Ramakali
-GGMDP, Nand
-GGMDn, Rageshri
-GGMDN, Bhinna Shadja
-GGMND, Hameer
-GGmrG, Pooriya
-GGmGr, Basant
-GGmPN, Amritvarshini or Marubihag
-GGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-GGmDN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-GGPRG, Shankara
-GGPGr, Bhatiyar
-GGPMg, Barawa
-GGPmP, Kedar
-GGPdS, Bibhas
-GGPDS, Bhoopali or Deshkar or Jait or Shuddhakalyan
-GGPDP, Gaud Malhar
-GGPDn, Janasammohini or Kalavati
-GGPDN, Bilawal
-GGPNS, Hansadhwani
-GGPND, Shankara
-GMRSS, Hameer or Kamod or Shyamakalyan
-GMRSR, Hameer or Kamod or Shyamakalyan
-GMRSG, Hameer or Kamod or Shyamakalyan
-GMRSM, Hameer or Kamod or Shyamakalyan
-GMRSm, Hameer or Kamod or Shyamakalyan
-GMRSP, Hameer or Kamod or Shyamakalyan
-GMRSD, Hameer or Kamod or Shyamakalyan
-GMRSN, Hameer or Kamod or Shyamakalyan
-GMRmP, Kamod or Shyamakalyan
-GMRPM, Gaud Malhar
-GMgRS, Barawa
-GMGSR, Tilakakamod
-GMGSM, Jinjhoti
-GMGrS, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-GMGrr, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-GMGrG, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-GMGrM, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-GMGrm, Paraj or Poorvi or Ramakali
-GMGrP, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-GMGrd, Bhairav or Paraj or Poorvi or Ramakali
-GMGrD, Ahir Bhairav
-GMGrn, Ahir Bhairav or Ramakali
-GMGrN, Bhairav or Paraj or Poorvi or Ramakali
-GMGRS, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-GMGRR, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
+GMRSG, Hameer
+GMRSD, Kamod
 GMGRg, Jaijaivanti
-GMGRG, Bihag or Bihagda or Des or Natabhairava or Tilanga or Yaman Kalyan
-GMGRM, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-GMGRm, Bihag or Yaman Kalyan
-GMGRP, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-GMGRd, Natabhairava
-GMGRD, Bihag or Bihagda or Yaman Kalyan
-GMGRn, Bihagda or Tilanga
-GMGRN, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-GMGgS, Jog or Jogkauns
-GMGMG, Ahir Bhairav or Bhairav or Bihag or Bihagda or Natabhairava or Paraj or Poorvi or Ramakali or Tilanga or Yaman Kalyan
-GMGMP, Ahir Bhairav or Bhairav or Bihag or Bihagda or Nand or Natabhairava or Tilanga
-GMGMd, Ramakali
+GMGRG, Yaman Kalyan
 GMGMD, Nand
-GMGmP, Marubihag
-GMGmd, Basant or Paraj or Poorvi
-GMGmD, Yaman Kalyan
 GMGPG, Bhatiyar
-GMGPM, Barawa
-GMGPm, Kedar
-GMmMS, Lalat
-GMmMr, Lalat
-GMmMG, Lalat
-GMmMM, Lalat
-GMmMm, Lalat
-GMmMd, Lalat
-GMmMN, Lalat
-GMmdm, Lalat
-GMmDS, Bhatiyar
-GMmDr, Bhatiyar
-GMmDG, Bhatiyar
-GMmDM, Bhatiyar
-GMmDm, Bhatiyar
-GMmDP, Bhatiyar
-GMmDD, Bhatiyar
-GMmDN, Bhatiyar
-GMPgM, Ramadasimalhar
-GMPGM, Bihag or Bihagda or Tilanga
-GMPMR, Nand
-GMPMG, Ahir Bhairav or Bhairav or Charukeshi or Chhayanat or Jaijaivanti or Jog or Kalingada or Khamaj or Mand or Nand or Natabhairava
-GMPmS, Chhayanat
-GMPmR, Chhayanat
-GMPmG, Chhayanat
-GMPmM, Chhayanat
-GMPmm, Chhayanat
-GMPmP, Bihag or Chhayanat
+GMPmP, Chhayanat
 GMPmD, Chhayanat
-GMPmn, Chhayanat
-GMPmN, Chhayanat
-GMPPm, Chhayanat
-GMPdS, Bhairav or Charukeshi or Jogiya or Kalingada or Natabhairava
-GMPdr, Bhairav or Kalingada
-GMPdR, Charukeshi or Natabhairava
-GMPdG, Bhairav or Charukeshi or Kalingada or Natabhairava
-GMPdM, Bhairav or Charukeshi or Kalingada or Natabhairava
-GMPdP, Bhairav or Charukeshi or Kalingada or Natabhairava
-GMPdd, Bhairav or Charukeshi or Kalingada or Natabhairava
 GMPdn, Charukeshi
-GMPdN, Bhairav or Kalingada or Natabhairava
-GMPDS, Ahir Bhairav or Khamaj or Mand or Nand
-GMPDr, Ahir Bhairav
-GMPDR, Khamaj or Mand or Nand
-GMPDG, Ahir Bhairav or Khamaj or Mand or Nand
-GMPDM, Ahir Bhairav or Des or Khamaj or Mand or Nand
-GMPDP, Ahir Bhairav or Khamaj or Mand or Nand
-GMPDD, Ahir Bhairav or Khamaj or Mand or Nand
-GMPDn, Ahir Bhairav or Barawa or Bihagda or Khamaj or Jinjhoti
-GMPDN, Chhayanat or Mand or Nand
-GMPnS, Jog or Ramadasimalhar
-GMPnR, Ramadasimalhar
-GMPng, Jog or Ramadasimalhar
-GMPnG, Jog or Ramadasimalhar
-GMPnM, Jog or Ramadasimalhar
-GMPnP, Jog or Ramadasimalhar
-GMPnD, Gaud Malhar or Ramadasimalhar
-GMPnn, Jog or Ramadasimalhar
-GMPnN, Ramadasimalhar
-GMPNS, Bihag or Bihagda or Des or Jaijaivanti or Tilakakamod or Tilanga
-GMPNR, Bihag or Bihagda or Jaijaivanti or Tilanga
-GMPNg, Jaijaivanti
-GMPNG, Bihag or Bihagda or Jaijaivanti or Tilanga
-GMPNM, Bihag or Bihagda or Jaijaivanti or Tilanga
-GMPNm, Bihag
-GMPNP, Bihag or Bihagda or Jaijaivanti or Tilanga
-GMPND, Bihag or Bihagda or Jaijaivanti
-GMPNn, Bihagda or Jaijaivanti or Tilanga
-GMPNN, Bihag or Bihagda or Jaijaivanti or Tilanga
-GMdPG, Ramakali
-GMdPM, Jogkauns
-GMdPm, Ramakali
-GMdnd, Jogkauns or Ramakali
-GMdNS, Jogkauns or Lalat or Ramakali
-GMdNr, Ramakali
-GMdNg, Jogkauns
-GMdNG, Jogkauns or Ramakali
-GMdNM, Jogkauns or Ramakali
-GMdNm, Ramakali
-GMdNP, Jogkauns or Ramakali
-GMdNd, Jogkauns or Ramakali
-GMdNn, Jogkauns or Ramakali
-GMdNN, Jogkauns or Ramakali
-GMDMG, Bhinna Shadja or Rageshri
+GMPnS, Jog
+GMPnD, Ramadasimalhar
 GMDPS, Nand
-GMDPR, Nand
-GMDPG, Nand
 GMDPM, Nand
-GMDPP, Nand
 GMDPD, Nand
-GMDPN, Nand
 GMDnS, Rageshri
-GMDnR, Rageshri
-GMDnG, Rageshri
-GMDnM, Rageshri
 GMDnD, Rageshri
-GMDnn, Rageshri
 GMDNS, Bhinna Shadja
-GMDNG, Bhinna Shadja
-GMDNM, Bhinna Shadja
-GMDNP, Nand
 GMDND, Bhinna Shadja
-GMDNN, Bhinna Shadja
-GMNDS, Hameer
-GMNDR, Hameer
-GMNDG, Hameer
-GMNDM, Hameer
-GMNDm, Hameer
+GMDNn, Bhinna Shadja
 GMNDP, Hameer
-GMNDD, Hameer
+GMNDd, Hameer
 GMNDN, Hameer
-GmrSN, Pooriya
-GmrGS, Pooriya
+GMNnS, Hameer
+GMNnr, Hameer
+GMNnR, Hameer
+GMNng, Hameer
+GMNnG, Hameer
+GMNnM, Hameer
+GMNnm, Hameer
+GMNnP, Hameer
+GMNnd, Hameer
+GMNnD, Hameer
+GMNnn, Hameer
+GMNnN, Hameer
 GmrGr, Pooriya
-GmrGG, Pooriya
 GmrGm, Pooriya
-GmrGD, Pooriya
-GmrGN, Pooriya
-GmGrS, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-GmGrr, Basant
-GmGrG, Basant
-GmGrM, Basant
-GmGrm, Basant
-GmGrP, Basant
-GmGrd, Basant
-GmGrN, Basant
-GmGRS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-GmGMG, Paraj or Poorvi or Yaman Kalyan
 GmGmr, Pooriya
 GmGmG, Basant
+GmGmM, Basant
 GmGmd, Basant
-GmGmD, Pooriya
-GmMGr, Lalat
-GmMdN, Lalat
-GmPGM, Bihag or Hameer or Shyamakalyan
-GmPMG, Chhayanat
-GmPmG, Amritvarshini or Marubihag
-GmPdn, Ramakali
-GmPDP, Kamod or Kedar
-GmPDN, Chhayanat
-GmPNS, Amritvarshini or Kedar or Marubihag or Shree or Shyamakalyan
-GmPNR, Marubihag
-GmPNG, Amritvarshini or Marubihag
-GmPNM, Marubihag
-GmPNm, Amritvarshini or Marubihag
-GmPNP, Amritvarshini or Marubihag
+GmPNP, Amritvarshini
 GmPND, Marubihag
-GmPNN, Amritvarshini or Marubihag
-GmdmM, Lalat
-GmdPm, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNS, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNr, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNG, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNM, Basant or Paraj or Poorvi
-GmdNm, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNP, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNd, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmdNN, Basant or Paraj or Pooriyadhanashree or Poorvi
-GmDmG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-GmDPm, Chhayanat or Yaman or Yaman Kalyan
-GmDNS, Bhatiyar or Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-GmDNr, Marwa or Pooriya or Sohani
-GmDNR, Rajakalyan or Yaman or Yaman Kalyan
-GmDNG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-GmDNM, Yaman Kalyan
-GmDNm, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-GmDNP, Yaman or Yaman Kalyan
-GmDND, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-GmDNN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-GPRGS, Shankara
+GmPNn, Marubihag
 GPRGR, Shankara
-GPRGG, Shankara
+GPRGg, Shankara
 GPRGP, Shankara
-GPRGD, Shankara
-GPRGN, Shankara
-GPgRS, Barawa
 GPgRM, Barawa
-GPgMR, Ramadasimalhar
-GPGrS, Bhatiyar or Bibhas or Jait
-GPGrr, Bhatiyar
 GPGrG, Bhatiyar
-GPGrM, Bhatiyar
-GPGrm, Bhatiyar
-GPGrP, Bhatiyar
-GPGrD, Bhatiyar
 GPGrN, Bhatiyar
-GPGRS, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-GPGMR, Hameer or Kamod or Shyamakalyan
-GPGMG, Bihag or Bihagda or Ramakali or Tilanga
-GPGMm, Bhatiyar
 GPGPR, Shankara
-GPGPG, Bhatiyar
 GPGPD, Gaud Malhar
-GPGPN, Shankara
-GPMRS, Kedar or Nand
-GPMgS, Barawa
+GPMRS, Kedar
+GPMRr, Kedar
 GPMgR, Barawa
-GPMgg, Barawa
-GPMgG, Barawa
-GPMgM, Barawa
-GPMgP, Barawa
-GPMgD, Barawa
-GPMgn, Barawa
-GPMGr, Jogiya or Kalingada
-GPMGR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-GPMGg, Jog or Jogkauns
-GPMGM, Ahir Bhairav or Bhairav or Nand or Natabhairava
-GPMGP, Barawa or Bhatiyar
-GPMPD, Barawa
+GPMGP, Bhatiyar
 GPMPn, Gaud Malhar
-GPmGS, Amritvarshini
-GPmGr, Pooriyadhanashree
-GPmGR, Marubihag or Shuddhakalyan or Yaman
-GPmGM, Paraj or Poorvi or Yaman Kalyan
-GPmGm, Basant
-GPmPS, Kedar
-GPmPR, Kedar
-GPmPG, Bihag or Hameer or Kedar or Shyamakalyan
-GPmPM, Chhayanat or Kedar
+GPmGR, Shuddhakalyan
+GPmGg, Shuddhakalyan
+GPmPM, Kedar
 GPmPm, Kedar
-GPmPP, Kedar
-GPmPd, Ramakali
-GPmPD, Chhayanat or Kedar
+GPmPD, Kedar
 GPmPN, Kedar
-GPmDP, Chhayanat
-GPPmD, Chhayanat
-GPdSS, Bibhas
 GPdSr, Bibhas
-GPdSG, Bibhas
-GPdSP, Bibhas
 GPdSd, Bibhas
-GPdmG, Shree
-GPdPG, Bibhas
-GPdnS, Charukeshi
-GPdnd, Ramakali
-GPdNS, Bhairav or Kalingada or Natabhairava
-GPDSS, Bhoopali or Deshkar or Jait or Shuddhakalyan
 GPDSr, Jait
-GPDSR, Bhoopali or Deshkar or Shuddhakalyan
-GPDSG, Bhoopali or Deshkar or Jait or Shuddhakalyan
-GPDSm, Shuddhakalyan
-GPDSP, Bhoopali or Deshkar or Jait or Shuddhakalyan
-GPDSD, Bhoopali or Deshkar or Jait or Shuddhakalyan
 GPDSN, Shuddhakalyan
-GPDMG, Des or Tilakakamod
-GPDPS, Gaud Malhar
-GPDPR, Gaud Malhar
-GPDPG, Bhoopali or Deshkar or Gaud Malhar or Janasammohini or Jait or Kalavati
-GPDPM, Bilawal or Gaud Malhar or Kedar
-GPDPm, Kedar or Shuddhakalyan
-GPDPP, Gaud Malhar
+GPDPG, Gaud Malhar
 GPDPD, Gaud Malhar
 GPDPn, Gaud Malhar
-GPDPN, Gaud Malhar or Kamod
-GPDnS, Ahir Bhairav or Janasammohini or Kalavati or Khamaj
-GPDnR, Janasammohini
-GPDnG, Janasammohini or Kalavati
-GPDnP, Janasammohini or Kalavati
-GPDnD, Barawa or Bihagda or Bilawal or Janasammohini or Kalavati or Jinjhoti
-GPDnn, Janasammohini or Kalavati
-GPDNS, Bilawal or Chhayanat or Gaud Malhar or Mand
-GPDNR, Bilawal
-GPDNG, Bilawal
-GPDNM, Bilawal
-GPDNP, Bilawal or Nand
+GPDNS, Bilawal
 GPDND, Bilawal
 GPDNn, Bilawal
-GPDNN, Bilawal
-GPnDN, Gaud Malhar or Ramadasimalhar
-GPNSS, Hansadhwani
+GPnDN, Gaud Malhar
 GPNSR, Hansadhwani
-GPNSG, Hansadhwani
-GPNSP, Hansadhwani
 GPNSN, Hansadhwani
-GPNPG, Hansadhwani or Shankara
 GPNDS, Shankara
-GPNDR, Shankara
-GPNDG, Shankara
-GPNDP, Shankara
-GPNDD, Shankara
-GPNDN, Shankara
-GdmGr, Shree
-GdmMG, Lalat
-Gdmdm, Lalat
-GdPGr, Bibhas
-GdPGM, Ramakali
-GdPMG, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-GdPmG, Basant or Paraj or Pooriyadhanashree or Poorvi
-GdPmP, Ramakali
-GdPdm, Shree
-GdndP, Jogkauns or Ramakali
-GdNdS, Paraj
-GdNdP, Paraj
-GDMGS, Bhinna Shadja or Tilakakamod or Jinjhoti
-GDMGR, Des or Rageshri
-GDMPD, Des
-GDmGS, Hindol
-GDmGr, Marwa or Sohani
-GDmGR, Rajakalyan
-GDmGm, Pooriya
-GDPgR, Barawa
-GDPGS, Kalavati
-GDPGr, Jait
-GDPGR, Bhoopali or Deshkar or Janasammohini
-GDPGM, Bihagda or Kamod
-GDPMR, Kedar or Nand
-GDPMG, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-GDPmG, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-GDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-GDPPm, Chhayanat
-GDPDn, Bihagda
-GDPNS, Kamod
-GDnDS, Barawa or Jinjhoti
-GDnDP, Bihagda or Bilawal or Chhayanat
-GDNSr, Sohani
-GDNrS, Marwa or Pooriya
-GDNPS, Nand
-GnPgM, Ramadasimalhar
-GnPGM, Tilanga
-GnPGP, Gaud Malhar
-GnPMG, Jog
-GndPG, Ramakali
-GndPM, Charukeshi or Jogkauns
-GnDMG, Rageshri or Jinjhoti
-GnDMP, Des
-GnDPg, Barawa
-GnDPG, Bihagda or Janasammohini or Kalavati
-GnDPM, Ahir Bhairav or Bilawal or Jaijaivanti or Khamaj
-GnDPP, Chhayanat
-GnDNS, Gaud Malhar or Ramadasimalhar
-GNSrS, Sohani
-GNrGM, Lalat
-GNrGm, Pooriya or Pooriyadhanashree or Poorvi
-GNRGm, Rajakalyan or Yaman or Yaman Kalyan
-GNPGR, Hansadhwani
-GNPGP, Shankara
-GNPmG, Amritvarshini
-GNdmd, Lalat
-GNdPM, Bhairav or Jogiya or Kalingada or Natabhairava
-GNdPm, Basant or Paraj or Pooriyadhanashree or Poorvi or Ramakali
-GNdPd, Shree
-GNdnd, Jogkauns
-GNdNd, Paraj
-GNDMG, Bhinna Shadja
-GNDmG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-GNDPM, Bhatiyar or Mand or Nand
-GNDPm, Bihag or Hameer or Kedar or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-GNDPD, Bihagda
-GNDnD, Bilawal or Chhayanat
-GNDNS, Hameer
-MSrgM, Parameshwari
-MSrgP, Bilaskhani Todi
-MSrGM, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-MSrMP, Bairagi or Gunakali or Jogiya
-MSRgr, Bhairavi
-MSRgM, Abhogi or Kirvani or Shahanakanada
-MSRGS, Tilakakamod
-MSRGM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-MSRMg, Darbari Kanada
-MSRMP, Adana or Barawa or Vrindavani Sarang or Des or Durga or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-MSRMD, Gorakh Kalyan
-MSRmP, Kamod or Shuddhasaranga or Shyamakalyan
-MSgMP, Bhimpalasi or Dhani or Patadeep
-MSgMd, Bhairavi or Chandrakauns or Malakauns
-MSgMD, Bageshree or Bageshrikauns
-MSGRG, Bilawal
-MSGMP, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-MSGMd, Jogkauns or Ramakali
-MSGMD, Bhinna Shadja or Rageshri
-MSGMN, Hameer
-MSGmd, Paraj
-MSMRS, Jinjhoti
-MSMRP, Gaud Malhar or Malhar
-MSMGm, Basant or Marubihag
-MSMGP, Kedar
-MSMPn, Bahaar
-MSPDM, Tilakakamod
-MSdPM, Gunakali
-MSdnP, Adana
-MSDMg, Abhogi
-MSDPG, Kamod
-MSDPM, Durga
-MSnPg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-MSnPG, Gaud Malhar or Tilanga
-MSnPM, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
-MSndM, Malakauns
-MSndP, Bhairavi or Charukeshi or Jaunpuri
-MSndn, Darbari Kanada
-MSnDM, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-MSnDP, Ahir Bhairav or Barawa or Bhimpalasi or Jaijaivanti or Kafi or Khamaj or Soora Malhar or Sorath
-MSNdM, Chandrakauns
-MSNdm, Lalat
-MSNdP, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava or Poorvi or Ramakali
-MSNdn, Jogkauns
-MSNdN, Paraj
-MSNDM, Bhinna Shadja
-MSNDP, Bihag or Bihagda or Hameer or Kedar or Mand or Marubihag or Nand or Patadeep or Shuddhasaranga or Shyamakalyan or Yaman Kalyan
-MSNDn, Bilawal or Chhayanat
-MrSrM, Bairagi or Gunakali
-MrSRg, Bhairavi
-MrSgM, Bhairavi
-MrSdP, Gunakali
-MrSnP, Bairagi
-MrSnd, Bhairavi
-MrgMD, Parameshwari
-MrgPd, Bilaskhani Todi
-MrGMm, Bhatiyar or Lalat
-MrGMP, Ahir Bhairav or Bhairav or Kalingada
-MrGmd, Poorvi
-MrMPd, Gunakali or Jogiya
+MrMPd, Gunakali
 MrMPn, Bairagi
-MrndM, Bilaskhani Todi
-MrNDP, Bhatiyar
-MRSRg, Shahanakanada
-MRSRG, Ramadasimalhar
-MRSRM, Adana or Vrindavani Sarang or Darbari Kanada or Durga or Gorakh Kalyan or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Jinjhoti
-MRSRm, Kamod or Shuddhasaranga or Shyamakalyan
-MRSGM, Hameer or Nand
-MRSMR, Malhar or Jinjhoti
-MRSMG, Kedar
-MRSMP, Bahaar
-MRSdn, Adana
-MRSDP, Durga or Kamod
-MRSnP, Bahaar or Vrindavani Sarang or Madmaad Sarang or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-MRSnd, Darbari Kanada
-MRSnD, Gorakh Kalyan or Soora Malhar or Sorath or Jinjhoti
-MRSND, Hameer or Kedar or Nand or Shuddhasaranga or Shyamakalyan
-MRgrS, Bhairavi
-MRgRS, Jaijaivanti
-MRgMR, Shahanakanada
-MRgMP, Kirvani or Shahanakanada
-MRgMD, Abhogi or Shahanakanada
-MRGMP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-MRGmD, Yaman Kalyan
-MRGPD, Bilawal
-MRMRS, Gorakh Kalyan
-MRMRM, Gorakh Kalyan
+MRgMP, Shahanakanada
+MRGMP, Ramadasimalhar
 MRMgM, Darbari Kanada
-MRMGP, Barawa
-MRMPS, Gorakh Kalyan
-MRMPR, Gorakh Kalyan
 MRMPM, Gorakh Kalyan
-MRMPP, Gorakh Kalyan
-MRMPd, Adana or Jaunpuri
-MRMPD, Barawa or Durga or Gorakh Kalyan or Kafi or Soora Malhar or Jinjhoti
-MRMPn, Gorakh Kalyan or Madmaad Sarang or Nayakikanada
-MRMPN, Vrindavani Sarang or Des or Soora Malhar or Sorath or Tilakakamod
-MRMDM, Gorakh Kalyan
+MRMPd, Adana
 MRMDn, Gorakh Kalyan
-MRmPG, Shyamakalyan
 MRmPD, Kamod
-MRmPN, Shuddhasaranga or Shyamakalyan
-MRPgM, Malhar
-MRPGP, Gaud Malhar
-MRPMS, Gaud Malhar
 MRPMR, Gaud Malhar
 MRPMG, Gaud Malhar
-MRPMM, Gaud Malhar
 MRPMP, Gaud Malhar
-MRPMD, Gaud Malhar
-MRPMn, Gaud Malhar
-MRPMN, Gaud Malhar
-MRPDP, Gaud Malhar
-MRPnS, Malhar
-MRPnR, Malhar
-MRPng, Malhar
-MRPnM, Malhar
 MRPnP, Malhar
-MRPnD, Gaud Malhar or Malhar
-MRPnn, Malhar
-MRPnN, Malhar
-MgSgM, Bageshrikauns or Chandrakauns or Dhani or Malakauns
-MgSnP, Dhani
-MgSnd, Malakauns
-MgSnD, Bageshrikauns
-MgSNd, Chandrakauns
-MgrSS, Bilaskhani Todi or Parameshwari
-MgrSr, Bilaskhani Todi or Parameshwari
-MgrSg, Bilaskhani Todi or Parameshwari
-MgrSM, Bilaskhani Todi or Parameshwari
-MgrSP, Bilaskhani Todi
-MgrSd, Bilaskhani Todi
-MgrSD, Parameshwari
-MgrSn, Bilaskhani Todi or Parameshwari
-MgrgM, Parameshwari
-MgrgP, Bilaskhani Todi
-Mgrnd, Bilaskhani Todi
-MgRSS, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-MgRSR, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-MgRSg, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-MgRSG, Barawa
-MgRSM, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-MgRSP, Bageshree or Barawa or Kafi or Kirvani or Patadeep
-MgRSd, Kirvani
-MgRSD, Abhogi or Bageshree or Barawa or Kafi or Patadeep
-MgRSn, Bageshree or Barawa or Kafi
-MgRSN, Kirvani or Patadeep
-MgRgM, Abhogi or Kirvani
-MgRMg, Barawa
+MRPnD, Malhar
+MgrSn, Parameshwari
+MgRSD, Abhogi
 MgRMG, Barawa
-MgRMP, Barawa or Kafi
-MgMrS, Bhairavi
-MgMRS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-MgMRM, Darbari Kanada
-MgMgM, Darbari Kanada
-MgMPS, Darbari Kanada
-MgMPR, Darbari Kanada
-MgMPg, Darbari Kanada or Shahanakanada
-MgMPM, Darbari Kanada
-MgMPP, Darbari Kanada
-MgMPd, Darbari Kanada or Kirvani
-MgMPn, Bhimpalasi or Darbari Kanada or Dhani
+MgRMP, Barawa
+MgMRS, Darbari Kanada
+MgMRr, Darbari Kanada
+MgMPg, Darbari Kanada
+MgMPn, Dhani
 MgMPN, Patadeep
-MgMdn, Bhairavi or Malakauns
+MgMdn, Malakauns
 MgMdN, Chandrakauns
 MgMDS, Abhogi
-MgMDn, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
 MgPdS, Bilaskhani Todi
-MGSRS, Tilakakamod
-MGSRR, Tilakakamod
 MGSRG, Tilakakamod
-MGSRM, Tilakakamod or Jinjhoti
-MGSRP, Tilakakamod
-MGSRD, Tilakakamod
-MGSRN, Tilakakamod
-MGSGM, Bhinna Shadja
-MGSMS, Jinjhoti
+MGSRM, Tilakakamod
 MGSMR, Jinjhoti
 MGSMG, Jinjhoti
-MGSMM, Jinjhoti
 MGSMP, Jinjhoti
-MGSMD, Jinjhoti
-MGSMn, Jinjhoti
-MGSPD, Tilakakamod
-MGSnD, Jinjhoti
-MGSND, Bhinna Shadja
-MGrSS, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MGrSr, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MGrSG, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MGrSM, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MGrSm, Lalat or Paraj or Poorvi or Ramakali
-MGrSP, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Paraj or Poorvi or Ramakali
-MGrSd, Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MGrSD, Ahir Bhairav
-MGrSn, Ahir Bhairav or Ramakali
-MGrSN, Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MGrGM, Ahir Bhairav or Bhairav or Kalingada or Lalat
-MGrGm, Poorvi
-MGrMP, Jogiya
-MGRSS, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-MGRSR, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-MGRSG, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-MGRSM, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-MGRSm, Bihag or Chhayanat or Yaman Kalyan
-MGRSP, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Tilanga or Yaman Kalyan
-MGRSd, Charukeshi or Natabhairava
-MGRSD, Bihag or Bihagda or Bilawal or Chhayanat or Gaud Malhar or Khamaj or Mand or Rageshri or Yaman Kalyan
-MGRSn, Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Rageshri or Tilanga
-MGRSN, Bihag or Bihagda or Bilawal or Chhayanat or Gaud Malhar or Mand or Natabhairava or Tilanga or Yaman Kalyan
-MGRgS, Jaijaivanti
+MGrSn, Ahir Bhairav
+MGRSM, Gaud Malhar
 MGRgR, Jaijaivanti
-MGRgg, Jaijaivanti
-MGRgG, Jaijaivanti
-MGRgM, Jaijaivanti
-MGRgP, Jaijaivanti
-MGRgD, Jaijaivanti
-MGRgn, Jaijaivanti
-MGRgN, Jaijaivanti
 MGRGS, Des
-MGRGR, Bilawal or Des
-MGRGG, Des
-MGRGM, Charukeshi or Chhayanat or Des or Jaijaivanti
-MGRGm, Yaman Kalyan
-MGRGP, Bilawal or Des
-MGRGD, Des
-MGRGn, Des
-MGRGN, Des
-MGRMP, Des
-MGRPM, Gaud Malhar
-MGgSS, Jog or Jogkauns
-MGgSg, Jog or Jogkauns
-MGgSG, Jog or Jogkauns
-MGgSM, Jog or Jogkauns
-MGgSP, Jog or Jogkauns
-MGgSd, Jogkauns
-MGgSn, Jog or Jogkauns
-MGgSN, Jogkauns
-MGMRS, Hameer or Kamod or Nand or Shyamakalyan
-MGMGS, Ahir Bhairav or Bhairav or Natabhairava
-MGMGr, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-MGMGR, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-MGMGG, Ahir Bhairav or Bhairav or Natabhairava
-MGMGM, Ahir Bhairav or Bhairav or Nand or Natabhairava
-MGMGP, Ahir Bhairav or Bhairav or Natabhairava
-MGMGd, Bhairav or Natabhairava
-MGMGD, Ahir Bhairav
-MGMGn, Ahir Bhairav
-MGMGN, Bhairav or Natabhairava
-MGMmM, Lalat
-MGMmD, Bhatiyar
-MGMPS, Nand
-MGMPM, Ahir Bhairav or Bhairav or Nand or Natabhairava
+MGRGR, Des
+MGRGg, Des
+MGRGP, Bilawal
 MGMPm, Chhayanat
-MGMPd, Bhairav or Charukeshi or Kalingada or Natabhairava
-MGMPD, Ahir Bhairav or Khamaj or Mand or Nand
-MGMPn, Jog or Ramadasimalhar
-MGMPN, Bihag or Bihagda or Jaijaivanti or Tilanga
-MGMdN, Jogkauns or Ramakali
-MGMDS, Nand
-MGMDR, Nand
-MGMDG, Nand
-MGMDM, Nand
+MGMPn, Jog
 MGMDP, Nand
-MGMDD, Nand
+MGMDd, Nand
 MGMDn, Rageshri
-MGMDN, Bhinna Shadja or Nand
-MGMND, Hameer
 MGmGr, Basant
-MGmGR, Marubihag
 MGmGm, Basant
-MGmPS, Marubihag
-MGmPR, Marubihag
-MGmPG, Marubihag
-MGmPM, Marubihag
 MGmPm, Marubihag
-MGmPP, Marubihag
-MGmPD, Marubihag
 MGmPN, Marubihag
-MGmdS, Basant
-MGmdr, Basant
-MGmdG, Basant
-MGmdM, Basant
-MGmdm, Basant
 MGmdP, Basant
-MGmdd, Basant
-MGmdN, Basant or Paraj or Poorvi
 MGmDN, Yaman Kalyan
-MGPgR, Barawa
-MGPGS, Bhatiyar
 MGPGr, Bhatiyar
-MGPGG, Bhatiyar
 MGPGM, Bhatiyar
-MGPGm, Bhatiyar
 MGPGP, Bhatiyar
-MGPGD, Bhatiyar
-MGPGN, Bhatiyar
-MGPMS, Barawa
-MGPMR, Barawa or Kedar
 MGPMg, Barawa
-MGPMG, Barawa or Bhatiyar
-MGPMM, Barawa
+MGPMG, Barawa
 MGPMP, Barawa
-MGPMD, Barawa
-MGPMn, Barawa
-MGPmS, Kedar
-MGPmR, Kedar
-MGPmG, Kedar
-MGPmM, Kedar
-MGPmm, Kedar
 MGPmP, Kedar
-MGPmD, Kedar
-MGPmN, Kedar
-MGPDP, Gaud Malhar or Kedar
-MGPDn, Barawa
+MGPDP, Gaud Malhar
+MGPDd, Gaud Malhar
 MGPDN, Bilawal
-MGPNS, Kedar
-MMrSS, Bairagi
 MMrSr, Bairagi
-MMrSM, Bairagi
-MMrSP, Bairagi
 MMrSn, Bairagi
-MMrMP, Bairagi
-MMRMP, Gorakh Kalyan
-MMRPM, Gaud Malhar
-MMRPn, Malhar
-MMgrS, Bilaskhani Todi or Parameshwari
-MMgRS, Abhogi or Bageshree or Barawa or Kafi or Kirvani or Patadeep
-MMgMP, Darbari Kanada
-MMGSR, Tilakakamod
-MMGSM, Jinjhoti
-MMGrS, Ahir Bhairav or Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-MMGRS, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Mand or Natabhairava or Rageshri or Tilanga or Yaman Kalyan
-MMGRg, Jaijaivanti
-MMGRG, Des
-MMGgS, Jog or Jogkauns
-MMGMG, Ahir Bhairav or Bhairav or Natabhairava
-MMGMD, Nand
-MMGmP, Marubihag
-MMGmd, Basant
-MMGPG, Bhatiyar
-MMGPM, Barawa
-MMGPm, Kedar
 MMMrS, Bairagi
-MMmMd, Lalat
-MMmDN, Bhatiyar
-MMPgR, Bhimpalasi or Jaunpuri
-MMPgM, Bhairavi or Shahanakanada
-MMPMR, Gorakh Kalyan
-MMPmP, Chhayanat
-MMPdS, Gunakali or Jogiya
-MMPdn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-MMPdN, Bhairav or Kalingada or Kirvani or Natabhairava
-MMPDS, Durga
-MMPDM, Bageshree or Des
-MMPDn, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MMPDN, Mand or Nand
-MMPnS, Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
-MMPnD, Bahaar or Gaud Malhar or Ramadasimalhar
-MMPNS, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-MMdnS, Bhairavi or Malakauns
-MMdNS, Chandrakauns or Jogkauns or Lalat or Ramakali
-MMDPM, Nand
-MMDnS, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
-MMDNS, Bhinna Shadja
-MMNDN, Hameer
-MmGrS, Basant
-MmGRS, Marubihag
-MmGMG, Paraj or Poorvi or Yaman Kalyan
-MmGmG, Basant
-MmMGr, Lalat
-MmMGM, Lalat
-MmMmM, Lalat
-MmMdS, Lalat
-MmMdr, Lalat
-MmMdG, Lalat
-MmMdM, Lalat
-MmMdm, Lalat
-MmMdd, Lalat
-MmMdN, Lalat
-MmPGM, Bihag or Hameer or Shyamakalyan
-MmPMG, Chhayanat
-MmPdn, Ramakali
-MmPDP, Kamod or Kedar
-MmPDN, Chhayanat
-MmPNS, Kedar or Marubihag or Shuddhasaranga or Shyamakalyan
-MmdmM, Lalat
-Mmdmd, Lalat
-MmdNS, Basant or Poorvi
-MmdNd, Paraj
-MmDPM, Bhatiyar
-MmDPm, Chhayanat
-MmDNS, Bhatiyar or Yaman Kalyan
-MmDNr, Bhatiyar
-MmDNG, Bhatiyar
-MmDNM, Bhatiyar
-MmDNm, Bhatiyar
-MmDNP, Bhatiyar
-MmDND, Bhatiyar
-MmDNN, Bhatiyar
-MPgrS, Bhairavi
-MPgRS, Barawa or Bhimpalasi or Jaunpuri
-MPgRR, Bhimpalasi or Jaunpuri
-MPgRg, Bhimpalasi or Jaunpuri
-MPgRM, Barawa or Bhimpalasi or Jaunpuri
-MPgRP, Bhimpalasi or Jaunpuri
-MPgRd, Jaunpuri
-MPgRD, Bhimpalasi
-MPgRn, Bhimpalasi or Jaunpuri
-MPgMS, Bhairavi or Shahanakanada
+MMPnS, Bairagi
 MPgMr, Bhairavi
-MPgMR, Adana or Bahaar or Bhairavi or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-MPgMg, Bhairavi or Shahanakanada
-MPgMM, Bhairavi or Shahanakanada
-MPgMP, Bhairavi or Bhimpalasi or Darbari Kanada or Shahanakanada
 MPgMd, Bhairavi
 MPgMD, Shahanakanada
-MPgMn, Bhairavi or Shahanakanada
-MPGrS, Bhatiyar
-MPGMR, Hameer or Kamod or Shyamakalyan
-MPGMG, Bihag or Bihagda or Ramakali or Tilanga
-MPGMP, Bihag or Bihagda or Tilanga
 MPGPD, Gaud Malhar
 MPMrS, Gunakali
-MPMRS, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-MPMRR, Gorakh Kalyan
 MPMRM, Gorakh Kalyan
-MPMRP, Gorakh Kalyan
-MPMRD, Gorakh Kalyan
-MPMRn, Gorakh Kalyan
 MPMgS, Dhani
-MPMgR, Barawa or Kafi or Kirvani or Patadeep
-MPMGr, Ahir Bhairav or Bhairav or Jogiya or Kalingada
-MPMGR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Natabhairava
-MPMGg, Jog or Jogkauns
-MPMGM, Ahir Bhairav or Bhairav or Nand or Natabhairava
-MPMGP, Bhatiyar
 MPMMr, Bairagi
-MPMPg, Bhairavi or Bhimpalasi
-MPMPM, Gorakh Kalyan
-MPMPn, Bhimpalasi or Gaud Malhar
-MPMDn, Gorakh Kalyan
-MPmGR, Marubihag
-MPmGM, Paraj or Poorvi or Yaman Kalyan
-MPmGm, Basant
-MPmPS, Chhayanat
-MPmPR, Chhayanat
-MPmPG, Bihag or Chhayanat or Hameer or Shyamakalyan
+MPMPn, Gaud Malhar
+MPmPG, Bihag
 MPmPM, Chhayanat
 MPmPm, Chhayanat
 MPmPP, Chhayanat
-MPmPd, Ramakali
-MPmPD, Chhayanat or Kedar
-MPmPn, Chhayanat
-MPmPN, Chhayanat or Kedar
+MPmPD, Chhayanat
 MPmDP, Chhayanat
-MPmDn, Chhayanat
-MPmDN, Chhayanat
-MPPmP, Chhayanat
+MPmDd, Chhayanat
 MPPmD, Chhayanat
-MPdSS, Gunakali or Jogiya
-MPdSr, Gunakali or Jogiya
-MPdSG, Jogiya
-MPdSM, Gunakali or Jogiya
-MPdSP, Gunakali or Jogiya
-MPdSd, Gunakali or Jogiya
+MPdSd, Gunakali
 MPdSN, Jogiya
 MPdMP, Jaunpuri
-MPdPM, Bhairav or Charukeshi or Gunakali or Jogiya or Kalingada or Kirvani or Natabhairava
-MPdPd, Jaunpuri
-MPdnS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-MPdnR, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-MPdng, Adana or Darbari Kanada or Jaunpuri
-MPdnG, Charukeshi
-MPdnM, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-MPdnP, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-MPdnd, Adana or Charukeshi or Darbari Kanada or Jaunpuri or Ramakali
-MPdnn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-MPdNS, Bhairav or Kalingada or Kirvani or Natabhairava
-MPdNr, Bhairav or Kalingada
-MPdNR, Kirvani or Natabhairava
-MPdNg, Kirvani
-MPdNG, Bhairav or Kalingada or Natabhairava
-MPdNM, Bhairav or Kalingada or Kirvani or Natabhairava
-MPdNP, Bhairav or Kalingada or Kirvani or Natabhairava
-MPdNd, Bhairav or Kalingada or Kirvani or Natabhairava
-MPdNN, Bhairav or Kalingada or Kirvani or Natabhairava
-MPDSS, Durga
 MPDSR, Durga
-MPDSM, Durga
-MPDSP, Durga
 MPDSD, Durga
-MPDMS, Bageshree or Des
-MPDMR, Bageshree or Des or Sorath
+MPDMR, Sorath
 MPDMg, Bageshree
-MPDMG, Des or Tilakakamod or Jinjhoti
-MPDMM, Bageshree or Des
-MPDMP, Bageshree or Des or Soora Malhar
-MPDMD, Bageshree or Des
-MPDMn, Bageshree or Des
-MPDMN, Des
-MPDPg, Barawa
-MPDPM, Ahir Bhairav or Durga or Gaud Malhar or Kafi or Kedar or Khamaj or Mand or Nand or Soora Malhar
-MPDPN, Kamod
-MPDnS, Ahir Bhairav or Bageshree or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MPDnr, Ahir Bhairav
-MPDnR, Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MPDng, Barawa or Kafi
-MPDnG, Ahir Bhairav or Barawa or Khamaj or Jinjhoti
-MPDnM, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MPDnP, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MPDnD, Ahir Bhairav or Barawa or Bihagda or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MPDnn, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-MPDnN, Soora Malhar
-MPDNS, Bilawal or Chhayanat or Mand or Nand
-MPDNR, Mand or Nand
-MPDNG, Mand or Nand
-MPDNM, Mand or Nand
-MPDNP, Mand or Nand
-MPDND, Mand or Nand
-MPDNN, Mand or Nand
-MPnSS, Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
+MPDMD, Bageshree
+MPDPM, Gaud Malhar
+MPDNP, Nand
 MPnSr, Bairagi
-MPnSR, Bhimpalasi or Madmaad Sarang or Nayakikanada
-MPnSg, Bhimpalasi or Dhani or Jog or Nayakikanada
 MPnSG, Jog
-MPnSM, Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
-MPnSP, Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
-MPnSD, Bhimpalasi
-MPnSn, Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
-MPnPg, Bahaar or Nayakikanada or Ramadasimalhar
-MPnPG, Gaud Malhar
-MPnPM, Bairagi or Dhani or Jog or Madmaad Sarang
-MPnDS, Bahaar or Gaud Malhar or Ramadasimalhar
-MPnDR, Bahaar or Gaud Malhar or Ramadasimalhar
-MPnDg, Bahaar or Ramadasimalhar
-MPnDG, Gaud Malhar or Ramadasimalhar
-MPnDM, Bahaar or Gaud Malhar or Ramadasimalhar
-MPnDP, Bahaar or Bhimpalasi or Gaud Malhar or Ramadasimalhar
-MPnDD, Bahaar or Gaud Malhar or Ramadasimalhar
-MPnDn, Bahaar or Gaud Malhar or Ramadasimalhar
-MPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-MPNSS, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-MPNSR, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-MPNSg, Jaijaivanti or Patadeep
-MPNSG, Bihag or Bihagda or Des or Jaijaivanti or Tilakakamod or Tilanga
-MPNSM, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-MPNSm, Bihag
-MPNSP, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-MPNSD, Bihag or Bihagda or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod
-MPNSn, Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Soora Malhar or Sorath or Tilanga
-MPNSN, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-MPNDP, Bihag or Bihagda or Patadeep
-MdMgS, Chandrakauns or Malakauns
-MdMgr, Bilaskhani Todi
-MdMPg, Jaunpuri
-MdmMG, Lalat
-MdmMd, Lalat
+MPnDP, Gaud Malhar
+MPnDd, Gaud Malhar
+MPNSg, Patadeep
+MPNSP, Tilakakamod
 Mdmdm, Lalat
 MdPGM, Ramakali
-MdPMr, Gunakali
-MdPMg, Kirvani
-MdPMG, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
+MdPMG, Jogkauns
 MdPMP, Bhairavi
-MdPmG, Basant or Paraj or Poorvi
 MdPmP, Ramakali
-MdPdM, Jaunpuri
-MdnSS, Bhairavi or Malakauns
-MdnSr, Bhairavi
 MdnSR, Bhairavi
-MdnSg, Bhairavi or Malakauns
-MdnSM, Bhairavi or Malakauns
-MdnSP, Bhairavi
-MdnSd, Bhairavi or Malakauns
-MdnSn, Bhairavi or Malakauns
-MdnPg, Adana or Darbari Kanada
-MdndM, Malakauns
-MdndP, Bhairavi or Jogkauns or Ramakali
-MdNSS, Chandrakauns or Jogkauns or Lalat or Ramakali
-MdNSr, Lalat or Ramakali
-MdNSg, Chandrakauns or Jogkauns
-MdNSG, Jogkauns or Lalat or Ramakali
-MdNSM, Chandrakauns or Jogkauns or Lalat or Ramakali
-MdNSm, Lalat or Ramakali
-MdNSP, Jogkauns or Ramakali
-MdNSd, Chandrakauns or Jogkauns or Lalat or Ramakali
-MdNSn, Jogkauns or Ramakali
-MdNSN, Chandrakauns or Jogkauns or Lalat or Ramakali
-MdNrG, Lalat
-MdNdS, Paraj
-MdNdM, Chandrakauns
-MdNdm, Lalat
-MdNdP, Paraj or Ramakali
-MdNdn, Jogkauns
-MDSRg, Abhogi
-MDSDM, Abhogi
-MDMRS, Gorakh Kalyan or Sorath
+MdNSg, Chandrakauns
 MDMRM, Gorakh Kalyan
 MDMgS, Bageshrikauns
 MDMgr, Parameshwari
-MDMgR, Abhogi or Bageshree
-MDMGS, Bhinna Shadja or Tilakakamod or Jinjhoti
-MDMGR, Des or Rageshri
-MDMPD, Bageshree or Des
-MDMPN, Soora Malhar
-MDPgR, Barawa
-MDPGM, Bihagda or Kamod
-MDPMS, Nand
-MDPMR, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-MDPMg, Kafi or Patadeep
-MDPMG, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-MDPMM, Nand
-MDPMP, Bhimpalasi or Nand
+MDMGS, Bhinna Shadja
+MDMGR, Rageshri
+MDMGg, Rageshri
+MDMPD, Bageshree
+MDPMR, Nand
+MDPMG, Nand
+MDPMP, Nand
 MDPMD, Nand
-MDPMN, Nand
-MDPmG, Marubihag or Yaman Kalyan
-MDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-MDPPm, Chhayanat
-MDPDM, Sorath
-MDPDn, Bihagda
-MDPDN, Nand
-MDPNS, Kamod
-MDnSS, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
 MDnSr, Parameshwari
-MDnSR, Bageshree or Gorakh Kalyan or Rageshri or Shahanakanada
-MDnSg, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
 MDnSG, Rageshri
-MDnSM, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
-MDnSP, Bageshree or Gorakh Kalyan or Shahanakanada
-MDnSD, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
-MDnSn, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
-MDnPg, Shahanakanada
-MDnDS, Barawa or Kafi or Jinjhoti
-MDnDM, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Soora Malhar
-MDnDP, Bihagda or Bilawal or Chhayanat
-MDNSS, Bhinna Shadja
 MDNSG, Bhinna Shadja
-MDNSM, Bhinna Shadja
-MDNSD, Bhinna Shadja
 MDNSN, Bhinna Shadja
 MDNPS, Nand
-MDNDM, Bhinna Shadja
-MnSRg, Bhairavi
-MnPgM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-MnPGM, Tilanga
-MnPGP, Gaud Malhar
-MnPMR, Vrindavani Sarang or Madmaad Sarang
-MnPMg, Dhani
-MnPMG, Jog
-MnPMM, Bairagi
-MndMg, Bilaskhani Todi or Malakauns
-MndPG, Ramakali
-MndPM, Bhairavi or Charukeshi or Jogkauns
-MndPd, Jaunpuri
-MndnP, Darbari Kanada
-MnDMR, Gorakh Kalyan
-MnDMg, Bageshrikauns or Parameshwari
-MnDMG, Rageshri or Jinjhoti
-MnDMP, Bageshree or Des or Soora Malhar
-MnDPg, Barawa
-MnDPG, Bihagda
-MnDPM, Ahir Bhairav or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-MnDPP, Chhayanat
-MnDPD, Sorath
-MnDNS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-MNrGM, Lalat
-MNrGm, Poorvi
-MNRGm, Yaman Kalyan
-MNdMg, Chandrakauns
-MNdmd, Lalat
-MNdPM, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-MNdPm, Basant or Paraj or Poorvi or Ramakali
-MNdnd, Jogkauns
-MNdNd, Paraj
-MNDMG, Bhinna Shadja
-MNDPG, Hameer
-MNDPM, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-MNDPm, Bihag or Hameer or Kedar or Marubihag or Shyamakalyan or Yaman Kalyan
-MNDPD, Bihagda
-MNDnD, Bilawal or Chhayanat
+MNDPm, Hameer
 MNDNS, Hameer
-MNDNR, Hameer
-MNDNG, Hameer
-MNDNM, Hameer
-MNDNm, Hameer
-MNDNP, Hameer
 MNDND, Hameer
-MNDNN, Hameer
-mSrgm, Gujari Todi or Todi
-mSrGM, Bhatiyar
-mSrmP, Shree
-mSRGM, Chhayanat
-mSRGP, Shuddhakalyan
-mSRmP, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-mSgmP, Madhukauns or Madhuvanti or Multani
-mSGMP, Bihag
-mSGMd, Ramakali
-mSGMN, Hameer
-mSGmP, Amritvarshini
-mSGmd, Paraj
-mSGmD, Hindol or Sohani
-mSMGm, Basant or Marubihag
-mSMGP, Kedar
-mSDPG, Kamod
-mSnPm, Madhukauns
-mSnDP, Saraswati
-mSNPm, Amritvarshini
-mSNdm, Gujari Todi or Lalat
-mSNdP, Basant or Multani or Poorvi or Ramakali or Todi
-mSNdN, Paraj
-mSNDm, Hindol or Pooriya or Rajakalyan or Sohani
-mSNDP, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-mSNDn, Chhayanat
+MNDNn, Hameer
 mrSND, Pooriya
-mrgmd, Gujari Todi or Todi
+mrSNn, Pooriya
 mrGrS, Pooriya
-mrGrr, Pooriya
 mrGrG, Pooriya
-mrGrm, Pooriya
-mrGrD, Pooriya
-mrGrN, Pooriya
-mrGMm, Bhatiyar or Lalat
 mrGmr, Pooriya
-mrGmG, Pooriya
-mrGmd, Pooriyadhanashree or Poorvi
-mrGmD, Marwa or Pooriya
-mrmPN, Shree
-mrNdP, Pooriyadhanashree or Shree
-mrNDm, Marwa
-mrNDP, Bhatiyar
-mRSRm, Saraswati
-mRSnD, Saraswati
-mRGMP, Chhayanat
-mRGmD, Rajakalyan or Yaman or Yaman Kalyan
-mRGPD, Shuddhakalyan
-mRmPD, Kamod or Saraswati
-mRmPN, Shuddhasaranga or Shyamakalyan
-mgSgm, Madhukauns
-mgSnP, Madhukauns
-mgrSS, Gujari Todi or Multani or Todi
-mgrSr, Gujari Todi or Multani or Todi
-mgrSg, Gujari Todi or Multani or Todi
-mgrSm, Gujari Todi or Multani or Todi
-mgrSP, Multani or Todi
-mgrSd, Gujari Todi or Multani or Todi
-mgrSN, Gujari Todi or Multani or Todi
-mgrgm, Gujari Todi or Todi
-mgRSS, Madhuvanti
-mgRSR, Madhuvanti
+mrGmD, Pooriya
+mRmPD, Saraswati
+mgrSg, Multani
 mgRSg, Madhuvanti
-mgRSm, Madhuvanti
-mgRSP, Madhuvanti
-mgRSD, Madhuvanti
 mgRSN, Madhuvanti
+mgRrS, Madhuvanti
+mgRrr, Madhuvanti
+mgRrR, Madhuvanti
+mgRrg, Madhuvanti
+mgRrG, Madhuvanti
+mgRrM, Madhuvanti
+mgRrm, Madhuvanti
+mgRrP, Madhuvanti
+mgRrd, Madhuvanti
+mgRrD, Madhuvanti
+mgRrn, Madhuvanti
+mgRrN, Madhuvanti
 mgmPn, Madhukauns
-mgmPN, Madhuvanti or Multani
-mgmdN, Gujari Todi or Todi
-mGSGm, Amritvarshini or Hindol
-mGSNP, Amritvarshini
-mGSND, Hindol
-mGrSS, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-mGrSr, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-mGrSG, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
+mGrSG, Sohani
 mGrSM, Basant
-mGrSm, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-mGrSP, Basant or Pooriyadhanashree or Shree
-mGrSd, Basant or Pooriyadhanashree or Shree
-mGrSD, Marwa or Sohani
-mGrSN, Basant or Marwa or Pooriya or Pooriyadhanashree or Shree or Sohani
-mGrGm, Marwa or Pooriyadhanashree
-mGrmP, Shree
-mGrNd, Pooriyadhanashree or Shree
-mGrND, Marwa
-mGRSS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-mGRSR, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-mGRSG, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
+mGRSR, Shuddhakalyan
 mGRSM, Marubihag
-mGRSm, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-mGRSP, Marubihag or Shuddhakalyan or Yaman
-mGRSD, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-mGRSN, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-mGRGm, Rajakalyan or Yaman
-mGRGP, Shuddhakalyan
-mGMRS, Hameer or Kamod or Shyamakalyan
-mGMGS, Paraj or Poorvi or Yaman Kalyan
-mGMGr, Paraj or Poorvi or Ramakali
-mGMGR, Bihag or Yaman Kalyan
-mGMGG, Paraj or Poorvi or Yaman Kalyan
-mGMGM, Paraj or Poorvi or Yaman Kalyan
-mGMGm, Paraj or Poorvi or Yaman Kalyan
-mGMGP, Paraj or Poorvi or Yaman Kalyan
-mGMGd, Paraj or Poorvi
-mGMGD, Yaman Kalyan
-mGMGN, Paraj or Poorvi or Yaman Kalyan
-mGMmM, Lalat
-mGMmD, Bhatiyar
-mGMPm, Chhayanat
-mGMPN, Bihag
-mGMdN, Ramakali
-mGMND, Hameer
+mGMGR, Yaman Kalyan
+mGMGg, Yaman Kalyan
 mGmrS, Pooriya
-mGmrr, Pooriya
 mGmrG, Pooriya
-mGmrm, Pooriya
-mGmrD, Pooriya
-mGmrN, Pooriya
-mGmGS, Basant
 mGmGr, Basant
-mGmGG, Basant
-mGmGM, Basant
-mGmGm, Basant or Pooriya
-mGmGP, Basant
-mGmGd, Basant
-mGmGN, Basant
-mGmPN, Amritvarshini or Marubihag
-mGmdP, Basant
-mGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-mGmDm, Pooriya
-mGmDN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mGPGr, Bhatiyar
-mGPmP, Kedar
+mGmGm, Basant
 mGPDS, Shuddhakalyan
-mMGrS, Lalat or Paraj or Poorvi or Ramakali
-mMGrr, Lalat
-mMGrG, Lalat
-mMGrM, Lalat
-mMGrm, Lalat
-mMGrd, Lalat
-mMGrN, Lalat
-mMGRS, Bihag or Chhayanat or Yaman Kalyan
-mMGMm, Lalat
-mMGmP, Marubihag
-mMGmd, Basant
-mMGPG, Bhatiyar
-mMGPm, Kedar
-mMmMG, Lalat
-mMmMd, Lalat
-mMmDN, Bhatiyar
-mMPmP, Chhayanat
-mMPNS, Bihag
-mMdmM, Lalat
-mMdmd, Lalat
-mMdNS, Lalat or Ramakali
-mMdNr, Lalat
-mMdNG, Lalat
-mMdNM, Lalat
-mMdNm, Lalat
-mMdNd, Lalat
-mMdNN, Lalat
-mMNDN, Hameer
-mmrGr, Pooriya
-mmgrS, Gujari Todi or Multani or Todi
-mmgRS, Madhuvanti
-mmGrS, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-mmGRS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-mmGMG, Paraj or Poorvi or Yaman Kalyan
-mmGmr, Pooriya
-mmGmG, Basant
-mmMGr, Lalat
-mmMdN, Lalat
-mmPGM, Bihag or Hameer or Shyamakalyan
-mmPMG, Chhayanat
-mmPdn, Ramakali
-mmPDS, Saraswati
-mmPDP, Kamod or Kedar
-mmPDN, Chhayanat
-mmPnS, Madhukauns
-mmPNS, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-mmdmM, Lalat
-mmdNS, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-mmdNd, Paraj
-mmDPm, Chhayanat
-mmDNS, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mmDNr, Marwa or Pooriya
-mPGrS, Bhatiyar
-mPGRS, Bihag
-mPGMS, Bihag or Hameer or Shyamakalyan
-mPGMR, Bihag or Hameer or Kamod or Shyamakalyan
-mPGMG, Bihag or Hameer or Ramakali or Shyamakalyan
-mPGMM, Bihag or Hameer or Shyamakalyan
-mPGMm, Bihag or Hameer or Shyamakalyan
-mPGMP, Bihag or Hameer or Shyamakalyan
-mPGMd, Ramakali
-mPGMD, Bihag or Hameer or Shyamakalyan
-mPGMN, Bihag or Hameer or Shyamakalyan
-mPMRS, Kedar or Shuddhasaranga
-mPMGS, Chhayanat
+mPGMP, Bihag
+mPGMN, Hameer
 mPMGR, Chhayanat
-mPMGG, Chhayanat
+mPMGg, Chhayanat
 mPMGM, Chhayanat
-mPMGm, Chhayanat
-mPMGP, Bhatiyar or Chhayanat
-mPMGD, Chhayanat
-mPMGn, Chhayanat
-mPMGN, Chhayanat
-mPMPm, Chhayanat
 mPmRS, Saraswati
+mPmRr, Saraswati
 mPmgS, Madhukauns
-mPmgr, Multani or Todi
+mPmgr, Multani
 mPmgR, Madhuvanti
 mPmGS, Amritvarshini
-mPmGr, Pooriyadhanashree
-mPmGR, Marubihag or Shuddhakalyan or Yaman
-mPmGM, Paraj or Poorvi or Yaman Kalyan
-mPmGm, Basant
-mPmPG, Bihag or Hameer or Shyamakalyan
+mPmGR, Marubihag
+mPmGg, Marubihag
 mPmPM, Chhayanat
 mPmPd, Ramakali
-mPmPD, Chhayanat or Kedar
-mPmPN, Kedar or Shyamakalyan
+mPmPN, Kedar
 mPmDP, Chhayanat
-mPPmP, Chhayanat
+mPmDd, Chhayanat
 mPPmD, Chhayanat
 mPdmG, Shree
-mPdPG, Ramakali
-mPdPm, Ramakali
-mPdnS, Ramakali
-mPdnr, Ramakali
-mPdnG, Ramakali
-mPdnM, Ramakali
-mPdnm, Ramakali
-mPdnP, Ramakali
+mPdmM, Shree
 mPdnd, Ramakali
-mPdnn, Ramakali
-mPdnN, Ramakali
-mPdNS, Ramakali
-mPDSS, Saraswati
 mPDSR, Saraswati
-mPDSm, Saraswati
-mPDSP, Saraswati
-mPDSD, Saraswati
 mPDSn, Saraswati
-mPDPS, Kamod or Kedar
-mPDPR, Kamod or Kedar
-mPDPG, Kamod or Kedar
-mPDPM, Kamod or Kedar
-mPDPm, Chhayanat or Kamod or Kedar or Saraswati
-mPDPP, Chhayanat or Kamod or Kedar
-mPDPD, Kamod or Kedar
-mPDPN, Kamod or Kedar
-mPDnD, Chhayanat
+mPDPG, Kamod
+mPDPM, Kedar
+mPDPm, Kedar
 mPDNS, Chhayanat
-mPDNR, Chhayanat
-mPDNG, Chhayanat
-mPDNM, Chhayanat
-mPDNm, Chhayanat
-mPDNP, Chhayanat
 mPDND, Chhayanat
 mPDNn, Chhayanat
-mPDNN, Chhayanat
-mPnSS, Madhukauns
 mPnSg, Madhukauns
-mPnSm, Madhukauns
-mPnSP, Madhukauns
 mPnSn, Madhukauns
-mPnPm, Madhukauns
-mPNSS, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-mPNSr, Multani or Shree
-mPNSR, Kedar or Madhuvanti or Marubihag or Shuddhasaranga or Shyamakalyan
-mPNSg, Madhuvanti or Multani
-mPNSG, Amritvarshini or Kedar or Marubihag or Shree or Shyamakalyan
-mPNSM, Kedar or Marubihag or Shuddhasaranga or Shyamakalyan
-mPNSm, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-mPNSP, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-mPNSd, Multani or Shree
-mPNSD, Kedar or Madhuvanti or Marubihag or Shuddhasaranga or Shyamakalyan
-mPNSN, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-mPNPm, Amritvarshini
-mPNdP, Multani or Shree
-mPNDP, Kedar or Madhuvanti or Marubihag or Shuddhasaranga or Shyamakalyan
+mPNSr, Shree
+mPNSG, Amritvarshini
 mdmgr, Gujari Todi
-mdmGr, Shree
-mdmMS, Lalat
-mdmMr, Lalat
-mdmMG, Lalat
-mdmMM, Lalat
-mdmMm, Lalat
-mdmMd, Lalat
-mdmMN, Lalat
 mdmdm, Lalat
-mdmdN, Lalat
-mdPGM, Ramakali
-mdPmg, Multani or Todi
-mdPmG, Basant or Paraj or Pooriyadhanashree or Poorvi
-mdPmP, Ramakali
-mdPdm, Shree
-mdndP, Ramakali
-mdNSS, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-mdNSr, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-mdNSg, Gujari Todi or Todi
-mdNSG, Basant or Pooriyadhanashree or Poorvi
-mdNSM, Basant or Poorvi
-mdNSm, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-mdNSP, Basant or Pooriyadhanashree or Poorvi or Todi
-mdNSd, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-mdNSN, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-mdNrG, Pooriyadhanashree or Poorvi
+mdPmg, Todi
+mdNSM, Basant
 mdNdS, Paraj
-mdNdr, Paraj
-mdNdG, Paraj
-mdNdM, Paraj
-mdNdm, Gujari Todi or Paraj
-mdNdP, Basant or Paraj or Pooriyadhanashree or Poorvi or Todi
-mdNdd, Paraj
+mdNdP, Paraj
 mdNdN, Paraj
 mDmGS, Hindol
-mDmGr, Marwa or Sohani
 mDmGR, Rajakalyan
+mDmGg, Rajakalyan
 mDmGm, Pooriya
-mDPGM, Kamod
-mDPMR, Kedar or Shuddhasaranga
-mDPMG, Bhatiyar or Chhayanat
-mDPmS, Chhayanat
-mDPmR, Chhayanat or Saraswati
-mDPmg, Madhuvanti
-mDPmG, Chhayanat or Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-mDPmM, Chhayanat
-mDPmm, Chhayanat
-mDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
+mDPMG, Bhatiyar
+mDPmP, Chhayanat
 mDPmD, Chhayanat
-mDPmn, Chhayanat
-mDPmN, Chhayanat
-mDPPM, Chhayanat
 mDPPm, Chhayanat
-mDPPP, Chhayanat
-mDPPD, Chhayanat
-mDPDN, Chhayanat
-mDPNS, Kamod
 mDnDP, Chhayanat
-mDNSS, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mDNSr, Bhatiyar or Sohani
-mDNSR, Rajakalyan or Yaman or Yaman Kalyan
-mDNSG, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mDNSM, Bhatiyar or Yaman Kalyan
-mDNSm, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mDNSP, Bhatiyar or Yaman or Yaman Kalyan
-mDNSD, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mDNSN, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-mDNrS, Marwa or Pooriya
-mDNrr, Marwa or Pooriya
-mDNrG, Marwa or Pooriya
-mDNrm, Marwa or Pooriya
-mDNrD, Marwa or Pooriya
-mDNrN, Marwa or Pooriya
-mDNRG, Rajakalyan or Yaman or Yaman Kalyan
-mDNDm, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-mDNDP, Bhatiyar or Yaman or Yaman Kalyan
-mnPmg, Madhukauns
-mndPG, Ramakali
-mnDPm, Saraswati
-mnDPP, Chhayanat
-mNSrS, Sohani
-mNrGM, Lalat
-mNrGm, Pooriya or Pooriyadhanashree or Poorvi
-mNRGm, Rajakalyan or Yaman or Yaman Kalyan
-mNPmG, Amritvarshini
-mNdmg, Gujari Todi
-mNdmd, Lalat
-mNdPm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-mNdPd, Shree
-mNdNd, Paraj
-mNDmG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-mNDPM, Bhatiyar or Shuddhasaranga
-mNDPm, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-mNDnD, Chhayanat
-mNDNS, Hameer
-PSrgm, Todi
-PSrgP, Bhoopali Todi or Bilaskhani Todi or Salag Varali
-PSrGM, Ahir Bhairav or Bhairav or Bhatiyar or Kalingada
-PSrGP, Bibhas or Jait
-PSrMP, Bairagi or Gunakali or Jogiya
-PSrmP, Shree
-PSRgr, Bhairavi
-PSRgM, Kirvani or Shahanakanada
-PSRgP, Kolahas or Shivaranjani
-PSRGS, Tilakakamod
-PSRGM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-PSRGP, Bhoopali or Deshkar or Hansadhwani or Janasammohini or Shuddhakalyan
-PSRMg, Darbari Kanada
-PSRMP, Adana or Barawa or Vrindavani Sarang or Des or Durga or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-PSRMD, Gorakh Kalyan
-PSRmP, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-PSgMP, Bhimpalasi or Dhani or Patadeep
-PSgMd, Bhairavi
-PSgMD, Bageshree
-PSgmP, Madhukauns or Madhuvanti or Multani
-PSGRG, Bilawal
-PSGMP, Bihag or Bihagda or Jog or Khamaj or Mand or Nand or Natabhairava or Tilanga
-PSGMd, Jogkauns or Ramakali
-PSGMD, Nand
-PSGMN, Hameer
-PSGmP, Amritvarshini
-PSGmd, Paraj
-PSGPD, Kalavati
-PSGPN, Shankara
-PSMRS, Jinjhoti
-PSMRP, Gaud Malhar or Malhar
-PSMGm, Basant or Marubihag
-PSMGP, Kedar
-PSMPn, Bahaar
-PSPDM, Tilakakamod
-PSdPg, Bhoopali Todi
-PSdPG, Bibhas
-PSdPM, Gunakali
-PSdnP, Adana
-PSDPg, Shivaranjani
-PSDPG, Bhoopali or Deshkar or Jait or Kamod
-PSDPM, Durga
-PSnPg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PSnPG, Gaud Malhar or Tilanga
-PSnPM, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
-PSnPm, Madhukauns
-PSndP, Bhairavi or Charukeshi or Jaunpuri
-PSndn, Darbari Kanada
-PSnDM, Bageshree or Des or Gorakh Kalyan or Jinjhoti
-PSnDP, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-PSNPG, Hansadhwani or Shankara
-PSNPm, Amritvarshini
-PSNdP, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Todi
-PSNdn, Jogkauns
-PSNdN, Paraj
-PSNDP, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-PSNDn, Bilawal or Chhayanat
-Prgmd, Todi
-PrgPd, Bhoopali Todi or Bilaskhani Todi
-PrgPD, Salag Varali
-PrGMm, Bhatiyar
-PrGMP, Ahir Bhairav or Bhairav or Kalingada
-PrGmd, Pooriyadhanashree or Poorvi
-PrGPd, Bibhas
-PrGPD, Jait
-PrMPd, Gunakali or Jogiya
-PrMPn, Bairagi
-PrmPN, Shree
-PrndM, Bilaskhani Todi
-PrNdP, Pooriyadhanashree or Shree
-PrNDP, Bhatiyar
-PRgrS, Bhairavi
-PRgRS, Jaijaivanti
-PRgMP, Kirvani or Shahanakanada
-PRgPD, Kolahas or Shivaranjani
+mDnDd, Chhayanat
+mDNrN, Marwa
+PSGMP, Nand
+PSNDP, Nand
+PSNDd, Nand
 PRGRS, Shankara
-PRGRR, Shankara
+PRGRr, Shankara
 PRGRG, Shankara
-PRGRP, Shankara
-PRGRD, Shankara
-PRGRN, Shankara
-PRGMP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-PRGmD, Yaman or Yaman Kalyan
-PRGPR, Shankara
-PRGPD, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-PRGPN, Hansadhwani or Shankara
-PRMgM, Darbari Kanada
-PRMGP, Barawa
-PRMPM, Gorakh Kalyan
-PRMPd, Adana or Jaunpuri
-PRMPD, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-PRMPn, Madmaad Sarang or Nayakikanada
-PRMPN, Vrindavani Sarang or Des or Sorath or Tilakakamod
-PRMDn, Gorakh Kalyan
-PRmPD, Kamod or Saraswati
-PRmPN, Shuddhasaranga or Shyamakalyan
-PRPMP, Gaud Malhar
-PRPnD, Malhar
-PgrSS, Bhoopali Todi or Salag Varali
-PgrSr, Bhoopali Todi or Salag Varali
-PgrSg, Bhoopali Todi or Salag Varali
-PgrSP, Bhoopali Todi or Salag Varali
 PgrSd, Bhoopali Todi
-PgrSD, Salag Varali
 PgrSn, Salag Varali
-PgrgP, Bhoopali Todi or Salag Varali
-PgRSS, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-PgRSR, Barawa or Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-PgRSg, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-PgRSM, Bhimpalasi or Jaunpuri
-PgRSP, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-PgRSd, Jaunpuri
-PgRSD, Bhimpalasi or Kolahas or Shivaranjani
-PgRSn, Barawa or Bhimpalasi or Jaunpuri or Kolahas
-PgRgP, Kolahas or Shivaranjani
-PgRMS, Barawa
-PgRMR, Barawa
+PgRSg, Bhimpalasi
+PgRSD, Shivaranjani
 PgRMg, Barawa
 PgRMG, Barawa
-PgRMM, Barawa
-PgRMP, Barawa or Jaunpuri
-PgRMD, Barawa
-PgRMn, Barawa
+PgRMP, Barawa
 PgMrS, Bhairavi
-PgMrr, Bhairavi
-PgMrR, Bhairavi
-PgMrg, Bhairavi
-PgMrM, Bhairavi
-PgMrP, Bhairavi
-PgMrd, Bhairavi
-PgMrn, Bhairavi
-PgMRS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PgMRR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PgMRg, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
+PgMRg, Shahanakanada
 PgMRG, Ramadasimalhar
-PgMRM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PgMRP, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PgMRd, Adana or Darbari Kanada
-PgMRD, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-PgMRn, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PgMRN, Bahaar or Malhar or Ramadasimalhar
-PgMgM, Darbari Kanada
-PgMPg, Bhairavi or Bhimpalasi or Darbari Kanada or Shahanakanada
-PgMPd, Adana or Darbari Kanada or Kirvani
-PgMPn, Bahaar or Bhimpalasi or Dhani or Nayakikanada or Ramadasimalhar
-PgMPN, Patadeep
-PgMdP, Bhairavi
+PgMRP, Malhar
+PgMPg, Shahanakanada
+PgMPd, Darbari Kanada
+PgMPn, Bhimpalasi
 PgMdn, Bhairavi
-PgMDS, Shahanakanada
-PgMDR, Shahanakanada
-PgMDg, Shahanakanada
-PgMDM, Shahanakanada
-PgMDP, Shahanakanada
-PgMDD, Shahanakanada
-PgMDn, Bageshree or Shahanakanada
-PgmPn, Madhukauns
-PgmPN, Madhuvanti or Multani
-PgmdN, Todi
-PgPdS, Bhoopali Todi or Bilaskhani Todi
+PgMDn, Shahanakanada
+PgPdS, Bhoopali Todi
 PgPDS, Shivaranjani
-PgPDn, Kolahas or Salag Varali
-PGSRG, Tilakakamod
-PGSGP, Kalavati
-PGSMR, Jinjhoti
-PGSnD, Kalavati
-PGrSS, Bhatiyar or Bibhas or Jait
-PGrSr, Bhatiyar or Bibhas or Jait
-PGrSG, Bhatiyar or Bibhas or Jait
-PGrSM, Bhatiyar
-PGrSm, Bhatiyar
-PGrSP, Bhatiyar or Bibhas or Jait
 PGrSd, Bibhas
-PGrSD, Bhatiyar or Jait
-PGrSN, Bhatiyar
-PGrGM, Bhatiyar
-PGrGP, Bibhas or Jait
-PGrND, Bhatiyar
-PGRSS, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-PGRSR, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-PGRSG, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-PGRSP, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-PGRSD, Bhoopali or Deshkar or Janasammohini
+PGrSD, Jait
 PGRSn, Janasammohini
 PGRSN, Hansadhwani
-PGRgR, Jaijaivanti
-PGRGS, Des
-PGRGP, Bhoopali or Bilawal or Deshkar or Hansadhwani or Janasammohini
-PGMRS, Hameer or Kamod or Shyamakalyan
-PGMRR, Hameer or Kamod or Shyamakalyan
-PGMRG, Hameer or Kamod or Shyamakalyan
-PGMRM, Hameer or Kamod or Shyamakalyan
-PGMRm, Hameer or Kamod or Shyamakalyan
-PGMRP, Hameer or Kamod or Shyamakalyan
-PGMRD, Hameer or Kamod or Shyamakalyan
-PGMRN, Hameer or Kamod or Shyamakalyan
-PGMGS, Bihag or Bihagda or Ramakali or Tilanga
-PGMGr, Ahir Bhairav or Bhairav or Paraj or Poorvi or Ramakali
-PGMGR, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-PGMGG, Bihag or Bihagda or Ramakali or Tilanga
-PGMGM, Bihag or Bihagda or Ramakali or Tilanga
-PGMGm, Bihag or Ramakali
-PGMGP, Bihag or Bihagda or Ramakali or Tilanga
-PGMGd, Ramakali
-PGMGD, Bihag or Bihagda
-PGMGn, Bihagda or Ramakali or Tilanga
-PGMGN, Bihag or Bihagda or Ramakali or Tilanga
-PGMmD, Bhatiyar
-PGMPG, Bihag or Bihagda or Tilanga
-PGMPm, Bihag or Chhayanat
-PGMPd, Bhairav or Charukeshi or Kalingada or Natabhairava
-PGMPD, Ahir Bhairav or Bihagda or Khamaj or Mand or Nand
-PGMPn, Jog or Ramadasimalhar
-PGMPN, Bihag or Bihagda or Jaijaivanti or Tilanga
-PGMdP, Ramakali
-PGMdn, Ramakali
-PGMdN, Jogkauns or Ramakali
-PGMDP, Nand
-PGMNS, Hameer
+PGRrS, Hansadhwani
+PGRrr, Hansadhwani
+PGRrR, Hansadhwani
+PGRrg, Hansadhwani
+PGRrG, Hansadhwani
+PGRrM, Hansadhwani
+PGRrm, Hansadhwani
+PGRrP, Hansadhwani
+PGRrd, Hansadhwani
+PGRrD, Hansadhwani
+PGRrn, Hansadhwani
+PGRrN, Hansadhwani
+PGMGr, Ramakali
+PGMdN, Ramakali
 PGMND, Hameer
-PGmGr, Basant
-PGmPN, Amritvarshini or Marubihag
-PGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-PGmDN, Yaman or Yaman Kalyan
+PGMNn, Hameer
 PGPRS, Shankara
-PGPRR, Shankara
+PGPRr, Shankara
 PGPRG, Shankara
-PGPRP, Shankara
-PGPRD, Shankara
-PGPRN, Shankara
 PGPGr, Bhatiyar
-PGPGP, Gaud Malhar or Shankara
-PGPMg, Barawa
-PGPMG, Gaud Malhar
-PGPMP, Gaud Malhar
-PGPmP, Kedar
 PGPdS, Bibhas
-PGPDS, Bhoopali or Deshkar or Gaud Malhar or Jait or Shuddhakalyan
-PGPDR, Gaud Malhar
-PGPDG, Gaud Malhar
-PGPDM, Gaud Malhar
 PGPDP, Gaud Malhar
-PGPDD, Gaud Malhar
-PGPDn, Gaud Malhar or Janasammohini or Kalavati
-PGPDN, Bilawal or Gaud Malhar
-PGPnD, Gaud Malhar
+PGPDd, Gaud Malhar
+PGPDN, Gaud Malhar
 PGPNS, Hansadhwani
-PGPNP, Shankara
 PGPND, Shankara
-PMrSS, Gunakali
+PGPNn, Shankara
 PMrSr, Gunakali
-PMrSM, Gunakali
-PMrSP, Gunakali
 PMrSd, Gunakali
-PMrMP, Gunakali
-PMRSS, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-PMRSR, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-PMRSG, Kedar or Nand
-PMRSM, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-PMRSm, Kedar or Shuddhasaranga
-PMRSP, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-PMRSD, Durga or Gorakh Kalyan or Kedar or Nand or Shuddhasaranga or Soora Malhar
-PMRSn, Vrindavani Sarang or Gorakh Kalyan or Madmaad Sarang or Soora Malhar
-PMRSN, Vrindavani Sarang or Kedar or Nand or Shuddhasaranga or Soora Malhar
-PMRMR, Gorakh Kalyan
-PMRMP, Vrindavani Sarang or Durga or Gorakh Kalyan or Madmaad Sarang or Soora Malhar
+PMRSG, Nand
+PMRSM, Kedar
+PMRSD, Durga
+PMRMP, Gorakh Kalyan
 PMRMD, Gorakh Kalyan
-PMRmP, Shuddhasaranga
 PMRPM, Gaud Malhar
-PMRPn, Malhar
-PMgSS, Dhani
 PMgSg, Dhani
-PMgSM, Dhani
-PMgSP, Dhani
 PMgSn, Dhani
-PMgrS, Bilaskhani Todi
-PMgRS, Bageshree or Barawa or Kafi or Kirvani or Patadeep
-PMgRR, Barawa or Kafi or Kirvani or Patadeep
-PMgRg, Barawa or Kafi or Kirvani or Patadeep
-PMgRG, Barawa
-PMgRM, Barawa or Kafi or Kirvani or Patadeep
-PMgRP, Barawa or Kafi or Kirvani or Patadeep
-PMgRd, Kirvani
-PMgRD, Barawa or Kafi or Patadeep
-PMgRn, Barawa or Kafi
-PMgRN, Kirvani or Patadeep
-PMgMP, Darbari Kanada or Dhani or Kirvani or Patadeep
-PMGSR, Tilakakamod
-PMGSM, Jinjhoti
-PMGrS, Ahir Bhairav or Bhairav or Bhatiyar or Jogiya or Kalingada or Paraj or Poorvi or Ramakali
-PMGrr, Jogiya or Kalingada
-PMGrG, Ahir Bhairav or Bhairav or Jogiya or Kalingada
-PMGrM, Jogiya or Kalingada
-PMGrP, Jogiya or Kalingada
-PMGrd, Jogiya or Kalingada
-PMGrN, Jogiya or Kalingada
-PMGRS, Bihag or Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Natabhairava or Tilanga or Yaman Kalyan
-PMGRR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
+PMgRg, Kirvani
+PMGrG, Kalingada
+PMGrM, Jogiya
 PMGRg, Jaijaivanti
-PMGRG, Bilawal or Charukeshi or Chhayanat or Des or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-PMGRM, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-PMGRm, Chhayanat
-PMGRP, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-PMGRd, Charukeshi
-PMGRD, Bilawal or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-PMGRn, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj
-PMGRN, Bilawal or Chhayanat or Gaud Malhar or Jaijaivanti or Mand
-PMGgS, Jog or Jogkauns
-PMGgg, Jog or Jogkauns
-PMGgG, Jog or Jogkauns
-PMGgM, Jog or Jogkauns
-PMGgP, Jog or Jogkauns
-PMGgd, Jogkauns
-PMGgn, Jog or Jogkauns
-PMGgN, Jogkauns
-PMGMS, Ahir Bhairav or Bhairav or Nand or Natabhairava
-PMGMr, Ahir Bhairav or Bhairav
-PMGMR, Nand or Natabhairava
-PMGMG, Ahir Bhairav or Bhairav or Nand or Natabhairava
-PMGMM, Ahir Bhairav or Bhairav or Nand or Natabhairava
-PMGMm, Bhatiyar
-PMGMP, Ahir Bhairav or Bhairav or Charukeshi or Chhayanat or Jaijaivanti or Jog or Kalingada or Khamaj or Mand or Nand or Natabhairava
-PMGMd, Bhairav or Jogkauns or Natabhairava
-PMGMD, Ahir Bhairav or Nand
-PMGMn, Ahir Bhairav
-PMGMN, Bhairav or Nand or Natabhairava
-PMGmP, Marubihag
-PMGmd, Basant
-PMGPS, Bhatiyar
-PMGPr, Bhatiyar
+PMGRP, Gaud Malhar
+PMGMR, Nand
+PMGMD, Nand
 PMGPG, Bhatiyar
-PMGPM, Barawa or Bhatiyar
-PMGPm, Bhatiyar or Kedar
-PMGPP, Bhatiyar
-PMGPD, Bhatiyar or Bilawal or Gaud Malhar
-PMGPN, Bhatiyar
+PMGPm, Kedar
 PMMrS, Bairagi
-PMMrr, Bairagi
 PMMrM, Bairagi
-PMMrP, Bairagi
-PMMrn, Bairagi
-PMMMr, Bairagi
-PMMPn, Bairagi
-PMmDN, Bhatiyar
-PMPgS, Bhairavi or Bhimpalasi
 PMPgr, Bhairavi
-PMPgR, Bhairavi or Bhimpalasi or Jaunpuri
-PMPgg, Bhairavi or Bhimpalasi
-PMPgM, Bhairavi or Bhimpalasi or Shahanakanada
-PMPgP, Bhairavi or Bhimpalasi
-PMPgd, Bhairavi
-PMPgD, Bhimpalasi
-PMPgn, Bhairavi or Bhimpalasi
-PMPGP, Gaud Malhar
+PMPgR, Bhimpalasi
 PMPMR, Gorakh Kalyan
-PMPMG, Gaud Malhar
-PMPMP, Bhairavi or Bhimpalasi or Gaud Malhar
 PMPmP, Chhayanat
-PMPmD, Chhayanat
-PMPdS, Gunakali or Jogiya
-PMPdn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PMPdN, Bhairav or Kalingada or Kirvani or Natabhairava
+PMPdn, Charukeshi
 PMPDS, Durga
-PMPDM, Bageshree or Des
-PMPDP, Gaud Malhar
-PMPDn, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-PMPDN, Mand or Nand
-PMPnS, Bairagi or Bhimpalasi or Dhani or Gaud Malhar or Jog or Madmaad Sarang or Nayakikanada
-PMPnR, Gaud Malhar
-PMPnG, Gaud Malhar
-PMPnM, Gaud Malhar
 PMPnP, Gaud Malhar
-PMPnD, Bahaar or Bhimpalasi or Gaud Malhar or Ramadasimalhar
-PMPnn, Gaud Malhar
-PMPnN, Gaud Malhar
-PMPNS, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
+PMPnD, Gaud Malhar
 PMdnS, Bhairavi
-PMdNS, Jogkauns or Ramakali
+PMdNS, Jogkauns
 PMDPM, Nand
-PMDnS, Bageshree or Gorakh Kalyan or Shahanakanada
-PMNDN, Hameer
-PmRSS, Saraswati
+PMDnS, Gorakh Kalyan
 PmRSR, Saraswati
-PmRSm, Saraswati
-PmRSP, Saraswati
-PmRSD, Saraswati
 PmRSn, Saraswati
-PmRmP, Saraswati
-PmgSS, Madhukauns
 PmgSg, Madhukauns
-PmgSm, Madhukauns
-PmgSP, Madhukauns
 PmgSn, Madhukauns
-PmgrS, Multani or Todi
-Pmgrr, Multani or Todi
-Pmgrg, Multani or Todi
-Pmgrm, Multani or Todi
-PmgrP, Multani or Todi
-Pmgrd, Multani or Todi
-PmgrN, Multani or Todi
+Pmgrg, Todi
 PmgRS, Madhuvanti
-PmgRR, Madhuvanti
-PmgRg, Madhuvanti
-PmgRm, Madhuvanti
-PmgRP, Madhuvanti
-PmgRD, Madhuvanti
-PmgRN, Madhuvanti
-PmgmP, Madhukauns or Madhuvanti or Multani
-Pmgmd, Todi
-PmGSS, Amritvarshini
+PmgRr, Madhuvanti
 PmGSG, Amritvarshini
-PmGSm, Amritvarshini
-PmGSP, Amritvarshini
 PmGSN, Amritvarshini
-PmGrS, Basant or Paraj or Pooriyadhanashree or Poorvi or Shree
-PmGrr, Pooriyadhanashree
 PmGrG, Pooriyadhanashree
-PmGrm, Pooriyadhanashree
-PmGrP, Pooriyadhanashree
-PmGrd, Pooriyadhanashree
 PmGrN, Pooriyadhanashree
-PmGRS, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-PmGRR, Marubihag or Shuddhakalyan or Yaman
-PmGRG, Marubihag or Shuddhakalyan or Yaman
-PmGRM, Marubihag
-PmGRm, Marubihag or Shuddhakalyan or Yaman
-PmGRP, Marubihag or Shuddhakalyan or Yaman
-PmGRD, Marubihag or Shuddhakalyan or Yaman
-PmGRN, Marubihag or Shuddhakalyan or Yaman
-PmGMS, Paraj or Poorvi or Yaman Kalyan
-PmGMr, Paraj or Poorvi
-PmGMR, Yaman Kalyan
-PmGMG, Paraj or Poorvi or Yaman Kalyan
-PmGMM, Paraj or Poorvi or Yaman Kalyan
-PmGMm, Paraj or Poorvi or Yaman Kalyan
-PmGMP, Paraj or Poorvi or Yaman Kalyan
-PmGMd, Paraj or Poorvi
-PmGMD, Yaman Kalyan
-PmGMN, Paraj or Poorvi or Yaman Kalyan
-PmGmS, Basant
-PmGmr, Basant
 PmGmG, Basant
 PmGmM, Basant
-PmGmm, Basant
-PmGmP, Amritvarshini or Basant or Marubihag
-PmGmd, Basant or Paraj or Pooriyadhanashree or Poorvi
-PmGmD, Yaman or Yaman Kalyan
-PmGmN, Basant
-PmGPD, Shuddhakalyan
-PmPGS, Bihag or Hameer or Shyamakalyan
-PmPGR, Bihag or Hameer or Shyamakalyan
-PmPGG, Bihag or Hameer or Shyamakalyan
-PmPGM, Bihag or Hameer or Ramakali or Shyamakalyan
-PmPGm, Bihag or Hameer or Shyamakalyan
-PmPGP, Bihag or Hameer or Shyamakalyan
-PmPGD, Bihag or Hameer or Shyamakalyan
-PmPGN, Bihag or Hameer or Shyamakalyan
-PmPMS, Chhayanat
-PmPMR, Chhayanat or Kedar
+PmGmd, Basant
+PmPGR, Bihag
+PmPGg, Bihag
 PmPMG, Chhayanat
-PmPMM, Chhayanat
-PmPMm, Chhayanat
 PmPMP, Chhayanat
-PmPMD, Chhayanat
-PmPMn, Chhayanat
-PmPMN, Chhayanat
-PmPmP, Bihag or Chhayanat or Hameer or Kedar or Ramakali or Shyamakalyan
-PmPmD, Chhayanat
-PmPPm, Chhayanat
-PmPdS, Ramakali
-PmPdr, Ramakali
-PmPdG, Ramakali
-PmPdM, Ramakali
-PmPdm, Ramakali
 PmPdP, Ramakali
-PmPdd, Ramakali
 PmPdn, Ramakali
 PmPdN, Ramakali
-PmPDS, Chhayanat or Kedar or Saraswati
-PmPDR, Chhayanat or Kedar
-PmPDG, Chhayanat or Kedar
-PmPDM, Chhayanat or Kedar
-PmPDm, Chhayanat or Kedar
-PmPDP, Chhayanat or Kamod or Kedar
-PmPDD, Chhayanat or Kedar
+PmPDS, Saraswati
 PmPDn, Chhayanat
-PmPDN, Chhayanat or Kedar
+PmPDN, Chhayanat
 PmPnS, Madhukauns
-PmPNS, Amritvarshini or Bihag or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-PmPNR, Kedar
-PmPNG, Kedar
-PmPNM, Kedar
-PmPNm, Kedar
-PmPNP, Kedar
-PmPND, Kedar or Shyamakalyan
-PmPNN, Kedar
-PmdNS, Basant or Pooriyadhanashree or Poorvi or Todi
+PmPND, Kedar
+PmPNn, Kedar
 PmdNd, Paraj
-PmDPS, Chhayanat
-PmDPR, Chhayanat
-PmDPG, Chhayanat
 PmDPM, Chhayanat
 PmDPm, Chhayanat
 PmDPP, Chhayanat
 PmDPD, Chhayanat
-PmDPn, Chhayanat
-PmDPN, Chhayanat
-PmDnD, Chhayanat
-PmDNS, Bhatiyar or Chhayanat or Yaman or Yaman Kalyan
-PPRGR, Shankara
-PPgrS, Bhoopali Todi or Salag Varali
-PPgRS, Bhimpalasi or Jaunpuri or Kolahas or Shivaranjani
-PPgRM, Barawa
-PPgMr, Bhairavi
-PPgMR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PPgMD, Shahanakanada
-PPGrS, Bhatiyar or Bibhas or Jait
-PPGRS, Bhoopali or Deshkar or Hansadhwani or Janasammohini
-PPGMR, Hameer or Kamod or Shyamakalyan
-PPGMG, Bihag or Bihagda or Ramakali or Tilanga
-PPGPR, Shankara
-PPGPD, Gaud Malhar
-PPMrS, Gunakali
-PPMRS, Vrindavani Sarang or Durga or Gorakh Kalyan or Kedar or Madmaad Sarang or Nand or Shuddhasaranga or Soora Malhar
-PPMgS, Dhani
-PPMgR, Barawa or Kafi or Kirvani or Patadeep
-PPMGr, Jogiya or Kalingada
-PPMGR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand
-PPMGg, Jog or Jogkauns
-PPMGM, Ahir Bhairav or Bhairav or Nand or Natabhairava
-PPMGP, Bhatiyar
-PPMMr, Bairagi
-PPMPg, Bhairavi or Bhimpalasi
-PPMPn, Gaud Malhar
-PPmRS, Saraswati
-PPmgS, Madhukauns
-PPmgr, Multani or Todi
-PPmgR, Madhuvanti
-PPmGS, Amritvarshini
-PPmGr, Pooriyadhanashree
-PPmGR, Marubihag or Shuddhakalyan or Yaman
-PPmGM, Paraj or Poorvi or Yaman Kalyan
-PPmGm, Basant
-PPmPG, Bihag or Hameer or Shyamakalyan
+PPMGR, Chhayanat
+PPMGg, Chhayanat
 PPmPM, Chhayanat
-PPmPm, Chhayanat
-PPmPP, Chhayanat
-PPmPd, Ramakali
-PPmPD, Chhayanat or Kedar
-PPmPN, Kedar
-PPmDS, Chhayanat
-PPmDR, Chhayanat
-PPmDG, Chhayanat
-PPmDM, Chhayanat
-PPmDm, Chhayanat
+PPmPD, Chhayanat
 PPmDP, Chhayanat
-PPmDD, Chhayanat
+PPmDd, Chhayanat
 PPmDn, Chhayanat
 PPmDN, Chhayanat
-PPPmP, Chhayanat
 PPPmD, Chhayanat
-PPdMP, Jaunpuri
-PPdmG, Shree
-PPdnS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PPdnd, Ramakali
-PPdNS, Bhairav or Kalingada or Kirvani or Natabhairava
-PPDMR, Sorath
-PPDMg, Bageshree
-PPDMG, Des or Tilakakamod
-PPDPM, Gaud Malhar or Kedar
-PPDPN, Kamod
-PPDnS, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-PPDnD, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-PPDNS, Bilawal or Chhayanat or Mand
-PPDNP, Nand
-PPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PPNDS, Shankara
-PdSrg, Bhoopali Todi or Bilaskhani Todi
-PdSrG, Bibhas
-PdSrM, Gunakali or Jogiya
-PdSdP, Bhoopali Todi or Bibhas or Gunakali
-PdSNd, Jogiya
+PPDNS, Chhayanat
 PdMgr, Bilaskhani Todi
-PdMPS, Jaunpuri
-PdMPR, Jaunpuri
 PdMPg, Jaunpuri
-PdMPM, Jaunpuri
-PdMPP, Jaunpuri
 PdMPd, Jaunpuri
-PdMPn, Jaunpuri
-PdmGS, Shree
 PdmGr, Shree
-PdmGG, Shree
-PdmGm, Shree
-PdmGP, Shree
-PdmGd, Shree
-PdmGN, Shree
-PdmPN, Shree
 PdPgr, Bhoopali Todi
 PdPGr, Bibhas
 PdPGM, Ramakali
 PdPMr, Gunakali
 PdPMg, Kirvani
-PdPMG, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-PdPMP, Bhairavi
-PdPmg, Multani or Todi
-PdPmG, Basant or Paraj or Pooriyadhanashree or Poorvi
 PdPmP, Ramakali
 PdPdM, Jaunpuri
 PdPdm, Shree
-PdPdn, Jaunpuri
-PdnSS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PdnSR, Adana or Bhairavi or Charukeshi or Darbari Kanada or Jaunpuri
-PdnSg, Adana or Darbari Kanada or Jaunpuri
-PdnSG, Charukeshi
-PdnSM, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PdnSP, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PdnSd, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PdnSn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-PdnPg, Adana or Darbari Kanada
-PdnPd, Adana or Darbari Kanada
-PdndS, Ramakali
-Pdndr, Ramakali
-PdndG, Ramakali
-PdndM, Ramakali
-Pdndm, Ramakali
-PdndP, Charukeshi or Jogkauns or Jaunpuri or Ramakali
-Pdndd, Ramakali
-Pdndn, Darbari Kanada or Ramakali
+PdnSd, Adana
+PdndP, Ramakali
+Pdndn, Ramakali
 PdndN, Ramakali
-PdNSS, Bhairav or Kalingada or Kirvani or Natabhairava
-PdNSr, Bhairav or Kalingada
-PdNSR, Kirvani or Natabhairava
-PdNSg, Kirvani
-PdNSG, Bhairav or Kalingada or Natabhairava
-PdNSM, Bhairav or Kalingada or Kirvani or Natabhairava
-PdNSP, Bhairav or Kalingada or Kirvani or Natabhairava
-PdNSd, Bhairav or Kalingada or Kirvani or Natabhairava
-PdNSN, Bhairav or Kalingada or Kirvani or Natabhairava
-PdNdS, Paraj
-PdNdP, Bhairav or Kalingada or Kirvani or Natabhairava or Paraj
-PDSrG, Jait
-PDSRg, Shivaranjani
-PDSRG, Bhoopali or Deshkar or Shuddhakalyan
-PDSRM, Durga
-PDSRm, Saraswati
-PDSDP, Bhoopali or Deshkar or Durga or Jait or Shivaranjani
-PDSnD, Saraswati
-PDSND, Shuddhakalyan
+PdNSR, Kirvani
+PdNSG, Natabhairava
 PDMRS, Sorath
-PDMRR, Sorath
-PDMRM, Gorakh Kalyan or Sorath
-PDMRP, Sorath
-PDMRD, Sorath
-PDMRn, Sorath
-PDMRN, Sorath
-PDMgS, Bageshree
+PDMRr, Sorath
+PDMRM, Sorath
 PDMgR, Bageshree
-PDMgg, Bageshree
 PDMgM, Bageshree
-PDMgP, Bageshree
-PDMgD, Bageshree
-PDMgn, Bageshree
-PDMGS, Des or Tilakakamod or Jinjhoti
-PDMGR, Des or Tilakakamod
-PDMGG, Des or Tilakakamod
-PDMGM, Des or Tilakakamod
-PDMGP, Des or Tilakakamod
-PDMGD, Des or Tilakakamod
-PDMGn, Des
-PDMGN, Des or Tilakakamod
-PDMPD, Bageshree or Des or Soora Malhar
-PDMPN, Des or Soora Malhar or Sorath or Tilakakamod
-PDMDn, Bageshree
+PDMGR, Des
+PDMGg, Des
 PDPgr, Salag Varali
-PDPgR, Barawa or Kolahas or Shivaranjani
 PDPGS, Kalavati
 PDPGr, Jait
-PDPGR, Bhoopali or Deshkar or Janasammohini
-PDPGM, Bihagda or Kamod
-PDPGP, Gaud Malhar
-PDPMS, Gaud Malhar or Kedar
-PDPMR, Durga or Gaud Malhar or Kedar or Nand or Shuddhasaranga or Soora Malhar
-PDPMg, Kafi or Patadeep
-PDPMG, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Kedar or Khamaj or Mand or Nand
-PDPMM, Gaud Malhar or Kedar
-PDPMm, Kedar
-PDPMP, Bhimpalasi or Gaud Malhar or Kedar
-PDPMD, Gaud Malhar or Kedar
-PDPMn, Gaud Malhar
-PDPMN, Gaud Malhar or Kedar
+PDPMg, Kafi
+PDPMP, Gaud Malhar
 PDPmR, Saraswati
-PDPmg, Madhuvanti
-PDPmG, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-PDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-PDPmD, Chhayanat
+PDPmG, Shuddhakalyan
+PDPmM, Shuddhakalyan
 PDPPm, Chhayanat
 PDPDM, Sorath
-PDPDP, Gaud Malhar or Kamod or Kedar
 PDPDn, Bihagda
-PDPnD, Gaud Malhar
-PDPNS, Kamod or Kedar
-PDPNR, Kamod
-PDPNG, Kamod
-PDPNM, Kamod
-PDPNm, Kamod
-PDPNP, Kamod
-PDPND, Kamod
-PDPNN, Kamod
-PDnSS, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-PDnSr, Ahir Bhairav or Salag Varali
-PDnSR, Janasammohini or Khamaj or Kolahas
-PDnSg, Kolahas or Salag Varali
-PDnSG, Ahir Bhairav or Janasammohini or Kalavati or Khamaj
-PDnSM, Ahir Bhairav or Khamaj
-PDnSP, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-PDnSD, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-PDnSn, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-PDnDS, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-PDnDR, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-PDnDg, Barawa or Kafi
-PDnDG, Barawa or Bihagda or Jinjhoti
-PDnDM, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-PDnDP, Ahir Bhairav or Barawa or Bihagda or Bilawal or Chhayanat or Janasammohini or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Soora Malhar or Jinjhoti
-PDnDD, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-PDnDn, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-PDnDN, Bihagda or Soora Malhar
-PDNSS, Bilawal or Chhayanat or Mand
-PDNSR, Bilawal or Chhayanat or Mand
-PDNSG, Bilawal or Chhayanat or Mand
-PDNSM, Bilawal or Chhayanat or Mand
-PDNSm, Chhayanat
-PDNSP, Bilawal or Chhayanat or Mand
-PDNSD, Bilawal or Chhayanat or Mand
-PDNSn, Bilawal or Chhayanat
-PDNSN, Bilawal or Chhayanat or Mand
+PDPNS, Kamod
+PDNSR, Chhayanat
 PDNPS, Nand
-PDNPR, Nand
-PDNPG, Nand
 PDNPM, Nand
-PDNPP, Nand
 PDNPD, Nand
-PDNPN, Nand
-PDNDP, Mand or Nand
-PDNDn, Bilawal or Chhayanat
-PnSrM, Bairagi
-PnSRg, Bhairavi
-PnSRM, Madmaad Sarang or Nayakikanada
-PnSgM, Bhimpalasi or Dhani
-PnSgm, Madhukauns
-PnSGM, Jog
-PnSnP, Bairagi or Dhani or Jog or Madmaad Sarang or Madhukauns or Nayakikanada
-PnSnD, Bhimpalasi
-PnPgM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-PnPGM, Tilanga
 PnPGP, Gaud Malhar
-PnPMR, Vrindavani Sarang or Madmaad Sarang
+PnPMR, Madmaad Sarang
 PnPMg, Dhani
 PnPMG, Jog
 PnPMM, Bairagi
+PnPMm, Bairagi
 PnPmg, Madhukauns
-PndMg, Bilaskhani Todi
-PndPG, Ramakali
-PndPM, Bhairavi or Charukeshi or Jogkauns
-PndPd, Jaunpuri
-PndnP, Darbari Kanada
-PnDMR, Gorakh Kalyan
-PnDMG, Jinjhoti
-PnDMP, Bageshree or Des or Soora Malhar
-PnDPg, Barawa or Kolahas or Salag Varali
-PnDPG, Bihagda or Janasammohini or Kalavati
-PnDPM, Ahir Bhairav or Bhimpalasi or Bilawal or Gaud Malhar or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-PnDPm, Saraswati
-PnDPP, Chhayanat
-PnDPD, Sorath
-PnDNS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PnDNR, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PnDNg, Bahaar or Malhar or Ramadasimalhar
-PnDNG, Gaud Malhar or Ramadasimalhar
-PnDNM, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PnDNP, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PnDND, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PnDNn, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PnDNN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-PNSrm, Shree
-PNSRG, Hansadhwani or Jaijaivanti or Tilakakamod
-PNSRM, Vrindavani Sarang or Des or Soora Malhar or Sorath or Tilakakamod
-PNSRm, Kamod or Shuddhasaranga or Shyamakalyan
-PNSgM, Patadeep
-PNSgm, Madhuvanti or Multani
-PNSGM, Bihag or Bihagda or Tilanga
-PNSGm, Amritvarshini
-PNSMG, Kedar or Marubihag
-PNSPD, Tilakakamod
-PNSDP, Kamod
-PNSnP, Vrindavani Sarang or Tilanga
-PNSnD, Des or Jaijaivanti or Soora Malhar or Sorath
-PNSNP, Amritvarshini or Hansadhwani
-PNSNd, Multani
-PNSND, Bihag or Bihagda or Kedar or Madhuvanti or Marubihag or Patadeep or Shuddhasaranga or Shyamakalyan
-PNrGm, Pooriyadhanashree or Poorvi
-PNRGm, Yaman or Yaman Kalyan
+PnDPM, Bhimpalasi
 PNPGR, Hansadhwani
+PNPGg, Hansadhwani
 PNPGP, Shankara
 PNPmG, Amritvarshini
-PNdPM, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-PNdPm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
+PNPmM, Amritvarshini
+PNdPm, Multani
 PNdPd, Shree
-PNdnd, Jogkauns
-PNdNd, Paraj
-PNDSS, Shankara
-PNDSR, Shankara
 PNDSG, Shankara
-PNDSP, Shankara
-PNDSD, Shankara
 PNDSN, Shankara
-PNDPG, Bihagda
-PNDPM, Bhatiyar or Kedar or Mand or Nand or Patadeep or Shuddhasaranga
-PNDPm, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
 PNDPD, Bihagda
-PNDnD, Bilawal or Chhayanat
-PNDNS, Hameer
-dSrgm, Gujari Todi or Todi
-dSrgP, Bhoopali Todi or Bilaskhani Todi
-dSrGM, Bhairav or Kalingada
 dSrGP, Bibhas
-dSrMP, Gunakali or Jogiya
-dSrmP, Shree
-dSRgr, Bhairavi
-dSRgM, Kirvani
-dSRGM, Charukeshi
-dSRMg, Darbari Kanada
-dSRMP, Adana or Jaunpuri
-dSgMd, Bhairavi or Chandrakauns or Malakauns
-dSgmP, Multani
-dSGMP, Natabhairava
-dSGMd, Jogkauns or Ramakali
 dSGmd, Paraj
-dSMGm, Basant
 dSdPg, Bhoopali Todi
 dSdPG, Bibhas
 dSdPM, Gunakali
-dSdnP, Adana
-dSndM, Malakauns
-dSndP, Bhairavi or Charukeshi or Jaunpuri
-dSndn, Darbari Kanada
-dSNdS, Paraj
-dSNdM, Chandrakauns
-dSNdm, Gujari Todi or Lalat
-dSNdP, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Paraj or Poorvi or Ramakali or Todi
-dSNdn, Jogkauns
+dSNdP, Jogiya
 dSNdN, Paraj
-drgmd, Gujari Todi or Todi
-drgPd, Bhoopali Todi or Bilaskhani Todi
-drGMm, Lalat
-drGMP, Bhairav or Kalingada
-drGmd, Pooriyadhanashree or Poorvi
-drGPd, Bibhas
-drMPd, Gunakali or Jogiya
-drmPN, Shree
-drndM, Bilaskhani Todi
-drNdP, Pooriyadhanashree or Shree
-dRgrS, Bhairavi
-dRgMP, Kirvani
-dRGMP, Charukeshi
-dRMgM, Darbari Kanada
-dRMPd, Adana or Jaunpuri
-dgMrS, Bhairavi
-dgMRS, Adana or Darbari Kanada
-dgMPd, Darbari Kanada or Kirvani
-dgMdn, Bhairavi or Malakauns
-dgMdN, Chandrakauns
-dgmPN, Multani
-dgmdN, Gujari Todi or Todi
-dgPdS, Bhoopali Todi or Bilaskhani Todi
-dGMGr, Bhairav or Paraj or Poorvi or Ramakali
-dGMGR, Natabhairava
-dGMmM, Lalat
-dGMPd, Bhairav or Charukeshi or Kalingada or Natabhairava
-dGMdN, Jogkauns or Ramakali
-dGmGr, Basant
-dGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-dGPdS, Bibhas
-dMgSS, Chandrakauns or Malakauns
-dMgSg, Chandrakauns or Malakauns
-dMgSM, Chandrakauns or Malakauns
-dMgSd, Chandrakauns or Malakauns
 dMgSn, Malakauns
 dMgSN, Chandrakauns
 dMgrS, Bilaskhani Todi
-dMgrr, Bilaskhani Todi
 dMgrg, Bilaskhani Todi
-dMgrM, Bilaskhani Todi
-dMgrP, Bilaskhani Todi
-dMgrd, Bilaskhani Todi
 dMgrn, Bilaskhani Todi
-dMgRS, Kirvani
-dMgMP, Darbari Kanada
-dMgMd, Chandrakauns or Malakauns
-dMgPd, Bilaskhani Todi
-dMGrS, Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-dMGRS, Charukeshi or Natabhairava
-dMGgS, Jogkauns
-dMGMG, Bhairav or Natabhairava
-dMGmd, Basant
-dMmMd, Lalat
-dMPgS, Jaunpuri
 dMPgR, Jaunpuri
-dMPgg, Jaunpuri
-dMPgM, Bhairavi or Jaunpuri
-dMPgP, Jaunpuri
-dMPgd, Jaunpuri
-dMPgn, Jaunpuri
-dMPdS, Gunakali or Jogiya
 dMPdM, Jaunpuri
-dMPdP, Jaunpuri
-dMPdn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-dMPdN, Bhairav or Kalingada or Kirvani or Natabhairava
-dMdnS, Bhairavi or Malakauns
-dMdNS, Chandrakauns or Jogkauns or Lalat or Ramakali
-dmgrS, Gujari Todi or Multani or Todi
-dmgrr, Gujari Todi
+dMPdn, Jaunpuri
+dMdnS, Malakauns
+dMdNS, Chandrakauns
+dmgrS, Gujari Todi
 dmgrg, Gujari Todi
-dmgrm, Gujari Todi
-dmgrd, Gujari Todi
-dmgrN, Gujari Todi
-dmgmd, Gujari Todi
-dmGrS, Basant or Pooriyadhanashree or Shree
-dmGrr, Shree
-dmGrG, Shree
+dmGrS, Shree
 dmGrm, Shree
-dmGrP, Shree
-dmGrd, Shree
 dmGrN, Shree
-dmGMG, Paraj or Poorvi
-dmGmG, Basant
-dmMGS, Lalat
-dmMGr, Lalat
-dmMGG, Lalat
-dmMGM, Lalat
-dmMGm, Lalat
-dmMGd, Lalat
-dmMGN, Lalat
-dmMmM, Lalat
-dmMdm, Lalat
-dmMdN, Lalat
-dmPdn, Ramakali
-dmPNS, Multani or Shree
-dmdmS, Lalat
-dmdmr, Lalat
-dmdmG, Lalat
-dmdmM, Lalat
-dmdmm, Lalat
+dmPNS, Shree
 dmdmd, Lalat
-dmdmN, Lalat
-dmdNS, Basant or Gujari Todi or Lalat or Pooriyadhanashree or Poorvi or Todi
-dmdNd, Paraj
+dmdNS, Gujari Todi
 dPgrS, Bhoopali Todi
-dPgrr, Bhoopali Todi
 dPgrg, Bhoopali Todi
-dPgrP, Bhoopali Todi
-dPgrd, Bhoopali Todi
 dPgRS, Jaunpuri
+dPgRr, Jaunpuri
 dPgMr, Bhairavi
-dPgMR, Adana or Darbari Kanada
-dPgMd, Bhairavi
-dPgPd, Bhoopali Todi
-dPGrS, Bibhas or Ramakali
-dPGrr, Bibhas
+dPGrS, Bibhas
 dPGrG, Bibhas
-dPGrP, Bibhas
-dPGrd, Bibhas
-dPGMS, Ramakali
-dPGMr, Ramakali
 dPGMG, Ramakali
-dPGMM, Ramakali
-dPGMm, Ramakali
-dPGMP, Ramakali
 dPGMd, Ramakali
-dPGMn, Ramakali
-dPGMN, Ramakali
-dPGPd, Bibhas
-dPMrS, Bhairavi or Gunakali
-dPMrr, Gunakali
+dPMrS, Gunakali
 dPMrM, Gunakali
-dPMrP, Gunakali
-dPMrd, Gunakali
-dPMgS, Kirvani
 dPMgR, Kirvani
-dPMgg, Kirvani
 dPMgM, Kirvani
-dPMgP, Kirvani
-dPMgd, Kirvani
-dPMgN, Kirvani
-dPMGS, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-dPMGr, Bhairav or Jogiya or Kalingada
-dPMGR, Charukeshi or Natabhairava
-dPMGg, Jogkauns
-dPMGG, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-dPMGM, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-dPMGP, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-dPMGd, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-dPMGn, Charukeshi or Jogkauns
-dPMGN, Bhairav or Jogkauns or Jogiya or Kalingada or Natabhairava
-dPMPS, Bhairavi
-dPMPr, Bhairavi
-dPMPR, Bhairavi
 dPMPg, Bhairavi
 dPMPM, Bhairavi
-dPMPP, Bhairavi
-dPMPd, Bhairav or Bhairavi or Charukeshi or Gunakali or Jogiya or Kalingada or Kirvani or Natabhairava
-dPMPn, Bhairavi
-dPMdn, Bhairavi
-dPMdN, Jogkauns
-dPmgS, Multani or Todi
-dPmgr, Multani or Todi
-dPmgg, Multani or Todi
-dPmgm, Multani or Todi
-dPmgP, Multani or Todi
-dPmgd, Multani or Todi
-dPmgN, Multani or Todi
-dPmGS, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmGr, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmGG, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmGM, Basant or Paraj or Poorvi
-dPmGm, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmGP, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmGd, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmGN, Basant or Paraj or Pooriyadhanashree or Poorvi
-dPmPS, Ramakali
-dPmPr, Ramakali
 dPmPG, Ramakali
-dPmPM, Ramakali
 dPmPm, Ramakali
-dPmPP, Ramakali
 dPmPd, Ramakali
-dPmPn, Ramakali
-dPmPN, Multani or Ramakali
-dPmdN, Basant or Paraj or Pooriyadhanashree or Poorvi or Todi
-dPdMS, Jaunpuri
-dPdMR, Jaunpuri
-dPdMg, Jaunpuri
-dPdMM, Jaunpuri
 dPdMP, Jaunpuri
-dPdMd, Jaunpuri
-dPdMn, Jaunpuri
-dPdmS, Shree
-dPdmr, Shree
 dPdmG, Shree
-dPdmm, Shree
+dPdmM, Shree
 dPdmP, Shree
-dPdmd, Shree
-dPdmN, Shree
-dPdPd, Jaunpuri or Shree
-dPdnS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-dPdnd, Jaunpuri or Ramakali
-dPdNS, Bhairav or Kalingada or Kirvani or Natabhairava
-ddMgS, Chandrakauns or Malakauns
-ddMgr, Bilaskhani Todi
-ddMPg, Jaunpuri
-ddmgr, Gujari Todi
-ddmGr, Shree
-ddmMG, Lalat
-ddmdm, Lalat
-ddPgr, Bhoopali Todi
-ddPGr, Bibhas
-ddPGM, Ramakali
-ddPMr, Gunakali
-ddPMg, Kirvani
-ddPMG, Bhairav or Charukeshi or Jogkauns or Jogiya or Kalingada or Natabhairava
-ddPMP, Bhairavi
-ddPmg, Multani or Todi
-ddPmG, Basant or Paraj or Pooriyadhanashree or Poorvi
-ddPmP, Ramakali
-ddPdM, Jaunpuri
-ddPdm, Shree
-ddnSR, Bhairavi
-ddnPg, Adana or Darbari Kanada
-ddndP, Jogkauns or Ramakali
-ddNdS, Paraj
-ddNdP, Paraj
-dnSRS, Bhairavi
-dnSRr, Bhairavi
-dnSRR, Bhairavi
+dPdnd, Ramakali
 dnSRg, Bhairavi
-dnSRG, Charukeshi
-dnSRM, Adana or Bhairavi or Darbari Kanada or Jaunpuri
-dnSRP, Bhairavi
-dnSRd, Bhairavi
-dnSRn, Bhairavi
-dnSgM, Bhairavi or Malakauns
-dnSdn, Adana
-dnSnd, Bhairavi or Charukeshi or Darbari Kanada or Jaunpuri or Malakauns
-dnPgS, Adana or Darbari Kanada
-dnPgR, Adana or Darbari Kanada
-dnPgg, Adana or Darbari Kanada
-dnPgM, Adana or Darbari Kanada
-dnPgP, Adana or Darbari Kanada
-dnPgd, Adana or Darbari Kanada
-dnPgn, Adana or Darbari Kanada
-dnPdn, Adana or Darbari Kanada
-dndMg, Bilaskhani Todi or Malakauns
-dndPS, Jogkauns or Ramakali
-dndPr, Ramakali
-dndPg, Jogkauns
-dndPG, Jogkauns or Ramakali
-dndPM, Bhairavi or Charukeshi or Jogkauns or Ramakali
+dndMg, Malakauns
+dndPG, Ramakali
 dndPm, Ramakali
-dndPP, Jogkauns or Ramakali
-dndPd, Jogkauns or Jaunpuri or Ramakali
-dndPn, Jogkauns or Ramakali
-dndPN, Jogkauns or Ramakali
-dndnS, Darbari Kanada
 dndnP, Darbari Kanada
-dndnd, Jogkauns or Ramakali
-dndNS, Jogkauns or Ramakali
-dNSrg, Gujari Todi or Todi
-dNSrG, Bhairav or Kalingada
-dNSRg, Kirvani
-dNSgM, Chandrakauns
-dNSGM, Jogkauns or Natabhairava or Ramakali
-dNSMG, Basant
-dNSNd, Basant or Bhairav or Chandrakauns or Gujari Todi or Jogkauns or Kalingada or Kirvani or Lalat or Natabhairava or Poorvi or Ramakali or Todi
 dNrGM, Lalat
-dNrGm, Pooriyadhanashree or Poorvi
-dNdSS, Paraj
-dNdSr, Paraj
 dNdSG, Paraj
-dNdSM, Paraj
-dNdSm, Paraj
-dNdSP, Paraj
-dNdSd, Paraj
 dNdSN, Paraj
 dNdMg, Chandrakauns
 dNdmg, Gujari Todi
-dNdmM, Lalat
 dNdmd, Lalat
-dNdPS, Paraj
-dNdPr, Paraj
-dNdPG, Paraj or Ramakali
-dNdPM, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava or Paraj
-dNdPm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-dNdPP, Paraj
-dNdPd, Paraj or Shree
-dNdPN, Paraj
 dNdnd, Jogkauns
 dNdNd, Paraj
-DSrgM, Parameshwari
-DSrgP, Salag Varali
-DSrGM, Ahir Bhairav or Bhatiyar
 DSrGP, Jait
-DSRgM, Abhogi or Shahanakanada
-DSRgP, Kolahas or Shivaranjani
-DSRGS, Tilakakamod
-DSRGM, Chhayanat or Jaijaivanti or Ramadasimalhar
-DSRGP, Bhoopali or Deshkar or Janasammohini or Shuddhakalyan
-DSRMG, Barawa
-DSRMP, Barawa or Des or Durga or Kafi or Soora Malhar or Sorath or Tilakakamod or Jinjhoti
-DSRMD, Gorakh Kalyan
-DSRmP, Kamod or Saraswati or Shuddhasaranga or Shyamakalyan
-DSgMP, Bhimpalasi or Patadeep
-DSgMD, Bageshree or Bageshrikauns
-DSgmP, Madhuvanti
-DSGRG, Bilawal
-DSGMP, Bihag or Bihagda or Khamaj or Mand or Nand
-DSGMD, Bhinna Shadja or Rageshri
-DSGMN, Hameer
-DSGmD, Hindol or Sohani
-DSGPR, Shankara
-DSGPD, Kalavati
+DSRgM, Abhogi
+DSRgP, Shivaranjani
+DSRmP, Saraswati
 DSGPN, Shankara
 DSMRS, Jinjhoti
-DSMRP, Gaud Malhar or Malhar
-DSMGm, Marubihag
-DSMGP, Kedar
-DSMPn, Bahaar
-DSPDM, Tilakakamod
+DSMRr, Jinjhoti
 DSDMg, Abhogi
 DSDPg, Shivaranjani
-DSDPG, Bhoopali or Deshkar or Jait or Kamod
 DSDPM, Durga
-DSnPg, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-DSnPG, Gaud Malhar
-DSnDS, Barawa or Kafi or Jinjhoti
-DSnDM, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-DSnDP, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
+DSnDM, Jinjhoti
 DSNPG, Shankara
-DSNDM, Bhinna Shadja
-DSNDm, Hindol or Pooriya or Rajakalyan or Sohani
-DSNDP, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-DSNDn, Bilawal or Chhayanat
-DrSND, Pooriya
-DrgMD, Parameshwari
-DrgPD, Salag Varali
-DrGrS, Pooriya
-DrGMm, Bhatiyar
-DrGMP, Ahir Bhairav
-DrGmD, Marwa or Pooriya
-DrGPD, Jait
-DrNDm, Marwa
-DrNDP, Bhatiyar
-DRgRS, Jaijaivanti
-DRgMP, Shahanakanada
-DRgMD, Abhogi
-DRgPD, Kolahas or Shivaranjani
-DRGRS, Shankara
-DRGMP, Chhayanat or Jaijaivanti or Ramadasimalhar
-DRGmD, Rajakalyan or Yaman or Yaman Kalyan
-DRGPD, Bhoopali or Bilawal or Deshkar or Janasammohini or Shuddhakalyan
-DRMGP, Barawa
-DRMPM, Gorakh Kalyan
-DRMPD, Barawa or Durga or Kafi or Soora Malhar or Jinjhoti
-DRMPN, Des or Sorath or Tilakakamod
-DRMDn, Gorakh Kalyan
-DRmPD, Kamod or Saraswati
-DRmPN, Shuddhasaranga or Shyamakalyan
-DRPMP, Gaud Malhar
-DRPnD, Malhar
-DgRMG, Barawa
-DgMRS, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-DgMPg, Shahanakanada
-DgMPn, Bhimpalasi
-DgMPN, Patadeep
-DgMDS, Abhogi
-DgMDn, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-DgmPN, Madhuvanti
-DgPDS, Shivaranjani
-DgPDn, Kolahas or Salag Varali
-DGSRG, Tilakakamod
-DGSMR, Jinjhoti
-DGRgR, Jaijaivanti
-DGRGS, Des
-DGRGP, Bilawal
-DGMRS, Hameer or Kamod or Shyamakalyan
-DGMGr, Ahir Bhairav
-DGMGR, Bihag or Bihagda or Yaman Kalyan
-DGMmD, Bhatiyar
-DGMPm, Chhayanat
-DGMPD, Ahir Bhairav or Khamaj or Mand or Nand
-DGMPn, Ramadasimalhar
-DGMPN, Bihag or Bihagda or Jaijaivanti
-DGMDP, Nand
-DGMDn, Rageshri
-DGMDN, Bhinna Shadja
-DGMND, Hameer
-DGmrG, Pooriya
-DGmPN, Marubihag
-DGmDN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-DGPRG, Shankara
-DGPGr, Bhatiyar
-DGPMg, Barawa
-DGPmP, Kedar
-DGPDS, Bhoopali or Deshkar or Jait or Shuddhakalyan
-DGPDP, Gaud Malhar
-DGPDn, Janasammohini or Kalavati
-DGPDN, Bilawal
-DGPND, Shankara
-DMRSS, Sorath
-DMRSR, Gorakh Kalyan or Sorath
-DMRSM, Sorath
-DMRSP, Sorath
-DMRSD, Sorath
-DMRSn, Gorakh Kalyan or Sorath
-DMRSN, Sorath
-DMRMS, Gorakh Kalyan
+DSNDP, Shuddhakalyan
+DSNDd, Shuddhakalyan
+DMRSR, Sorath
+DMRSn, Sorath
 DMRMR, Gorakh Kalyan
-DMRMM, Gorakh Kalyan
-DMRMP, Gorakh Kalyan or Sorath
+DMRMP, Gorakh Kalyan
 DMRMD, Gorakh Kalyan
-DMRMn, Gorakh Kalyan
-DMRPM, Gaud Malhar
-DMRPn, Malhar
-DMgSS, Bageshrikauns
 DMgSg, Bageshrikauns
-DMgSM, Bageshrikauns
-DMgSD, Bageshrikauns
 DMgSn, Bageshrikauns
 DMgrS, Parameshwari
-DMgrr, Parameshwari
 DMgrg, Parameshwari
-DMgrM, Parameshwari
-DMgrD, Parameshwari
-DMgrn, Parameshwari
-DMgRS, Abhogi or Bageshree or Barawa or Kafi or Patadeep
-DMgRR, Abhogi or Bageshree
-DMgRg, Abhogi or Bageshree
-DMgRM, Abhogi or Bageshree
-DMgRP, Bageshree
-DMgRD, Abhogi or Bageshree
-DMgRn, Bageshree
-DMgMD, Abhogi or Bageshree or Bageshrikauns or Parameshwari
-DMGSS, Bhinna Shadja or Tilakakamod or Jinjhoti
-DMGSR, Tilakakamod or Jinjhoti
-DMGSG, Bhinna Shadja or Tilakakamod or Jinjhoti
-DMGSM, Bhinna Shadja or Tilakakamod or Jinjhoti
-DMGSP, Tilakakamod or Jinjhoti
-DMGSD, Bhinna Shadja or Tilakakamod or Jinjhoti
+DMgRg, Abhogi
+DMGSG, Bhinna Shadja
+DMGSM, Jinjhoti
+DMGSP, Tilakakamod
 DMGSn, Jinjhoti
-DMGSN, Bhinna Shadja or Tilakakamod
-DMGrS, Ahir Bhairav
-DMGRS, Bihag or Bihagda or Bilawal or Chhayanat or Des or Gaud Malhar or Khamaj or Mand or Rageshri or Yaman Kalyan
-DMGRR, Des or Rageshri
-DMGRg, Jaijaivanti
-DMGRG, Des or Rageshri
-DMGRM, Des or Rageshri
-DMGRP, Des
-DMGRD, Des or Rageshri
-DMGRn, Des or Rageshri
-DMGRN, Des
-DMGMG, Ahir Bhairav
-DMGMD, Bhinna Shadja or Nand or Rageshri
-DMGmP, Marubihag
-DMGPG, Bhatiyar
-DMGPM, Barawa
-DMGPm, Kedar
-DMmDN, Bhatiyar
-DMPgR, Bhimpalasi
-DMPgM, Shahanakanada
-DMPMR, Gorakh Kalyan or Soora Malhar
-DMPmP, Chhayanat
-DMPDS, Bageshree or Des or Durga
-DMPDR, Bageshree or Des
-DMPDg, Bageshree
-DMPDG, Des
-DMPDM, Bageshree or Des or Soora Malhar
-DMPDP, Bageshree or Des or Soora Malhar
-DMPDD, Bageshree or Des
-DMPDn, Ahir Bhairav or Bageshree or Barawa or Des or Kafi or Khamaj or Soora Malhar or Jinjhoti
-DMPDN, Des or Mand or Nand
-DMPnS, Bhimpalasi
-DMPnD, Bahaar or Gaud Malhar or Ramadasimalhar
-DMPNS, Bihag or Bihagda or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod
-DMPNR, Soora Malhar
-DMPNM, Soora Malhar
-DMPNP, Soora Malhar
-DMPND, Soora Malhar
-DMPNn, Soora Malhar
-DMPNN, Soora Malhar
-DMDPM, Nand
-DMDnS, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
+DMGSN, Bhinna Shadja
+DMGRS, Rageshri
+DMGRr, Rageshri
+DMGRG, Des
+DMGRM, Des
+DMPMR, Gorakh Kalyan
 DMDNS, Bhinna Shadja
-DMNDN, Hameer
 DmrGr, Pooriya
-DmrGm, Pooriya
-DmgRS, Madhuvanti
-DmGSS, Hindol
 DmGSG, Hindol
-DmGSm, Hindol
-DmGSD, Hindol
 DmGSN, Hindol
-DmGrS, Marwa or Pooriya or Sohani
-DmGrr, Marwa or Sohani
-DmGrG, Marwa or Sohani
-DmGrm, Marwa or Sohani
-DmGrD, Marwa or Sohani
-DmGrN, Marwa or Sohani
-DmGRS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-DmGRR, Rajakalyan
+DmGrG, Marwa
+DmGrN, Marwa
+DmGRS, Rajakalyan
+DmGRr, Rajakalyan
 DmGRG, Rajakalyan
-DmGRm, Rajakalyan
-DmGRD, Rajakalyan
-DmGRN, Rajakalyan
-DmGMG, Yaman Kalyan
-DmGmS, Pooriya
 DmGmr, Pooriya
 DmGmG, Pooriya
-DmGmm, Pooriya
-DmGmD, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-DmGmN, Pooriya
-DmPGM, Bihag or Hameer or Shyamakalyan
-DmPMG, Chhayanat
-DmPDS, Saraswati
-DmPDP, Kamod or Kedar
-DmPDN, Chhayanat
-DmPNS, Kedar or Madhuvanti or Marubihag or Shuddhasaranga or Shyamakalyan
-DmDPm, Chhayanat
-DmDNS, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-DmDNr, Marwa or Pooriya
-DPRGR, Shankara
+DmGmM, Pooriya
+DmGmD, Pooriya
 DPgrS, Salag Varali
-DPgrr, Salag Varali
 DPgrg, Salag Varali
-DPgrP, Salag Varali
-DPgrD, Salag Varali
-DPgrn, Salag Varali
-DPgRS, Barawa or Bhimpalasi or Kolahas or Shivaranjani
-DPgRR, Barawa or Kolahas or Shivaranjani
-DPgRg, Barawa or Kolahas or Shivaranjani
-DPgRG, Barawa
 DPgRM, Barawa
-DPgRP, Barawa or Kolahas or Shivaranjani
-DPgRD, Barawa or Kolahas or Shivaranjani
-DPgRn, Barawa or Kolahas
-DPgMR, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-DPgMD, Shahanakanada
-DPgPD, Kolahas or Salag Varali or Shivaranjani
-DPGSS, Kalavati
 DPGSG, Kalavati
-DPGSP, Kalavati
-DPGSD, Kalavati
 DPGSn, Kalavati
-DPGrS, Bhatiyar or Jait
-DPGrr, Jait
 DPGrG, Jait
-DPGrP, Jait
-DPGrD, Jait
-DPGRS, Bhoopali or Bihagda or Deshkar or Janasammohini
-DPGRR, Bhoopali or Deshkar or Janasammohini
-DPGRG, Bhoopali or Deshkar or Janasammohini
-DPGRP, Bhoopali or Deshkar or Janasammohini
-DPGRD, Bhoopali or Deshkar or Janasammohini
-DPGRn, Janasammohini
-DPGMS, Bihagda or Kamod
-DPGMR, Bihagda or Hameer or Kamod or Shyamakalyan
-DPGMG, Bihag or Bihagda or Kamod
-DPGMM, Bihagda or Kamod
-DPGMm, Kamod
-DPGMP, Bihag or Bihagda or Kamod
-DPGMD, Bihagda or Kamod
-DPGMn, Bihagda
-DPGMN, Bihagda or Hameer or Kamod
-DPGPR, Shankara
-DPGPD, Bhoopali or Deshkar or Gaud Malhar or Janasammohini or Jait or Kalavati
-DPMRS, Durga or Gorakh Kalyan or Kedar or Nand or Shuddhasaranga or Soora Malhar
-DPMRR, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-DPMRG, Kedar or Nand
-DPMRM, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-DPMRm, Kedar or Shuddhasaranga
-DPMRP, Durga or Gaud Malhar or Kedar or Nand or Shuddhasaranga or Soora Malhar
-DPMRD, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-DPMRn, Soora Malhar
-DPMRN, Kedar or Nand or Shuddhasaranga or Soora Malhar
-DPMgS, Kafi or Patadeep
-DPMgR, Barawa or Kafi or Patadeep
-DPMgg, Kafi or Patadeep
-DPMgM, Kafi or Patadeep
-DPMgP, Kafi or Patadeep
-DPMgD, Kafi or Patadeep
-DPMgn, Kafi
-DPMgN, Patadeep
-DPMGS, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-DPMGr, Ahir Bhairav or Bhatiyar
-DPMGR, Bilawal or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-DPMGg, Jaijaivanti
-DPMGG, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-DPMGM, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-DPMGm, Bhatiyar
-DPMGP, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Kedar or Khamaj or Mand or Nand
-DPMGD, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-DPMGn, Ahir Bhairav or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj
-DPMGN, Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Mand or Nand
-DPMmD, Bhatiyar
-DPMPS, Bhimpalasi
-DPMPR, Bhimpalasi
+DPGMP, Bihagda
+DPGPD, Gaud Malhar
+DPMRm, Shuddhasaranga
+DPMgM, Patadeep
 DPMPg, Bhimpalasi
-DPMPG, Gaud Malhar
-DPMPM, Bhimpalasi or Gaud Malhar
-DPMPP, Bhimpalasi
-DPMPD, Ahir Bhairav or Bhimpalasi or Durga or Gaud Malhar or Kafi or Khamaj or Mand or Nand or Soora Malhar
-DPMPn, Bhimpalasi or Gaud Malhar
-DPMPN, Jaijaivanti or Patadeep or Soora Malhar
-DPMDP, Nand
+DPMPM, Bhimpalasi
 DPmRS, Saraswati
-DPmRR, Saraswati
+DPmRr, Saraswati
 DPmRm, Saraswati
-DPmRP, Saraswati
-DPmRD, Saraswati
-DPmRn, Saraswati
-DPmgS, Madhuvanti
 DPmgR, Madhuvanti
-DPmgg, Madhuvanti
 DPmgm, Madhuvanti
-DPmgP, Madhuvanti
-DPmgD, Madhuvanti
-DPmgN, Madhuvanti
-DPmGS, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmGR, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmGG, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmGM, Marubihag or Yaman Kalyan
-DPmGm, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmGP, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmGD, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmGN, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DPmPS, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DPmPR, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DPmPG, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DPmPM, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DPmPm, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DPmPP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DPmPD, Bihag or Chhayanat or Hameer or Kedar or Saraswati or Shyamakalyan
-DPmPn, Chhayanat
-DPmPN, Bihag or Chhayanat or Hameer or Kedar or Madhuvanti or Marubihag or Shyamakalyan
+DPmGM, Yaman Kalyan
+DPmGP, Shuddhakalyan
+DPmPP, Chhayanat
 DPmDP, Chhayanat
-DPmDn, Chhayanat
-DPmDN, Chhayanat or Yaman or Yaman Kalyan
-DPPMG, Chhayanat
-DPPmS, Chhayanat
-DPPmR, Chhayanat
-DPPmG, Chhayanat
-DPPmM, Chhayanat
-DPPmm, Chhayanat
+DPmDd, Chhayanat
 DPPmP, Chhayanat
 DPPmD, Chhayanat
-DPPmn, Chhayanat
-DPPmN, Chhayanat
-DPPPm, Chhayanat
-DPPDN, Chhayanat
-DPDMS, Sorath
 DPDMR, Sorath
-DPDMg, Bageshree
-DPDMG, Des or Tilakakamod
-DPDMM, Sorath
 DPDMP, Sorath
-DPDMD, Sorath
-DPDMn, Sorath
-DPDMN, Sorath
-DPDPG, Bihagda or Kamod
-DPDPM, Gaud Malhar or Kedar
-DPDPm, Kedar
-DPDPD, Bihagda or Sorath
 DPDPN, Kamod
-DPDnS, Ahir Bhairav or Bihagda or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-DPDnR, Bihagda
-DPDnG, Bihagda
-DPDnM, Bihagda
-DPDnP, Bihagda
-DPDnD, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-DPDnn, Bihagda
-DPDnN, Bihagda
-DPDNS, Bilawal or Chhayanat or Mand
+DPDdS, Kamod
+DPDdr, Kamod
+DPDdR, Kamod
+DPDdg, Kamod
+DPDdG, Kamod
+DPDdM, Kamod
+DPDdm, Kamod
+DPDdP, Kamod
+DPDdd, Kamod
+DPDdD, Kamod
+DPDdn, Kamod
+DPDdN, Kamod
 DPDNP, Nand
-DPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-DPNSS, Kamod
+DPnDN, Gaud Malhar
 DPNSR, Kamod
-DPNSG, Kamod
-DPNSM, Kamod
-DPNSm, Kamod
-DPNSP, Kamod
 DPNSD, Kamod
-DPNSN, Kamod
-DPNDS, Shankara
-DDMRS, Sorath
-DDMRM, Gorakh Kalyan
-DDMgS, Bageshrikauns
-DDMgr, Parameshwari
-DDMgR, Abhogi or Bageshree
-DDMGS, Bhinna Shadja or Tilakakamod or Jinjhoti
-DDMGR, Des or Rageshri
-DDMPD, Bageshree or Des
-DDMPN, Soora Malhar
-DDmGS, Hindol
-DDmGr, Marwa or Sohani
-DDmGR, Rajakalyan
-DDmGm, Pooriya
-DDPgr, Salag Varali
-DDPgR, Barawa or Kolahas or Shivaranjani
-DDPGS, Kalavati
-DDPGr, Jait
-DDPGR, Bhoopali or Deshkar or Janasammohini
-DDPGM, Bihagda or Kamod
-DDPMR, Durga or Kedar or Nand or Shuddhasaranga or Soora Malhar
-DDPMg, Kafi or Patadeep
-DDPMG, Ahir Bhairav or Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Khamaj or Mand or Nand
-DDPMP, Bhimpalasi
-DDPmR, Saraswati
-DDPmg, Madhuvanti
-DDPmG, Marubihag or Shuddhakalyan or Yaman or Yaman Kalyan
-DDPmP, Bihag or Chhayanat or Hameer or Kedar or Shyamakalyan
-DDPPm, Chhayanat
-DDPDM, Sorath
-DDPDn, Bihagda
-DDPNS, Kamod
-DDnDS, Barawa or Kafi or Jinjhoti
-DDnDM, Soora Malhar
-DDnDP, Bihagda or Bilawal or Chhayanat
-DDNSr, Sohani
-DDNrS, Marwa or Pooriya
-DDNPS, Nand
-DnSrg, Parameshwari or Salag Varali
-DnSrG, Ahir Bhairav
-DnSRg, Kolahas or Shahanakanada
-DnSRG, Janasammohini
-DnSRM, Gorakh Kalyan
-DnSgM, Bageshree or Bageshrikauns
-DnSGM, Khamaj or Rageshri
-DnSGP, Kalavati
-DnSnP, Shahanakanada
-DnSnD, Ahir Bhairav or Bageshree or Bageshrikauns or Gorakh Kalyan or Janasammohini or Kalavati or Khamaj or Kolahas or Parameshwari or Rageshri or Salag Varali
-DnPgM, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-DnPGP, Gaud Malhar
-DnDSS, Barawa or Kafi or Jinjhoti
-DnDSR, Barawa or Kafi or Jinjhoti
-DnDSg, Barawa or Kafi
-DnDSG, Barawa or Jinjhoti
-DnDSM, Barawa or Kafi or Jinjhoti
-DnDSP, Barawa or Kafi or Jinjhoti
-DnDSD, Barawa or Kafi or Jinjhoti
-DnDSn, Barawa or Kafi or Jinjhoti
-DnDMS, Soora Malhar
-DnDMR, Gorakh Kalyan or Soora Malhar or Jinjhoti
-DnDMg, Bageshree or Bageshrikauns or Parameshwari
-DnDMG, Rageshri or Jinjhoti
-DnDMM, Soora Malhar
-DnDMP, Bageshree or Des or Soora Malhar or Jinjhoti
-DnDMD, Soora Malhar
-DnDMn, Soora Malhar
-DnDMN, Soora Malhar
-DnDPS, Bihagda or Bilawal or Chhayanat
-DnDPR, Bihagda or Bilawal or Chhayanat
-DnDPg, Barawa or Kolahas or Salag Varali
-DnDPG, Bihagda or Bilawal or Chhayanat or Janasammohini or Kalavati
-DnDPM, Ahir Bhairav or Barawa or Bhimpalasi or Bihagda or Bilawal or Chhayanat or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-DnDPm, Chhayanat or Saraswati
-DnDPP, Bihagda or Bilawal or Chhayanat
-DnDPD, Barawa or Bihagda or Bilawal or Chhayanat or Kafi or Soora Malhar or Sorath
-DnDPn, Bihagda or Bilawal or Chhayanat
-DnDPN, Bihagda or Bilawal or Chhayanat or Soora Malhar
-DnDnD, Barawa or Bihagda or Bilawal or Chhayanat or Kafi or Soora Malhar or Jinjhoti
-DnDNS, Bahaar or Bilawal or Chhayanat or Gaud Malhar or Malhar or Ramadasimalhar
+DnPgM, Shahanakanada
+DnDSM, Jinjhoti
+DnDPm, Chhayanat
+DnDPP, Chhayanat
+DnDPN, Bihagda
+DnDdS, Bihagda
+DnDdr, Bihagda
+DnDdR, Bihagda
+DnDdg, Bihagda
+DnDdG, Bihagda
+DnDdM, Bihagda
+DnDdm, Bihagda
+DnDdP, Bihagda
+DnDdd, Bihagda
+DnDdD, Bihagda
+DnDdn, Bihagda
+DnDdN, Bihagda
 DNSrS, Sohani
-DNSrr, Sohani
-DNSrG, Bhatiyar or Sohani
-DNSrm, Sohani
-DNSrD, Sohani
-DNSrN, Sohani
-DNSRG, Chhayanat or Ramadasimalhar
-DNSGR, Bilawal
-DNSGM, Bhinna Shadja or Hameer or Mand
-DNSGm, Hindol or Sohani
-DNSMR, Gaud Malhar or Malhar
-DNSMP, Bahaar
-DNSnP, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-DNSND, Bhinna Shadja or Bilawal or Chhayanat or Hameer or Hindol or Mand or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-DNrSS, Marwa or Pooriya
-DNrSr, Marwa or Pooriya
-DNrSG, Marwa or Pooriya
-DNrSm, Marwa or Pooriya
-DNrSD, Marwa or Pooriya
-DNrSN, Marwa or Pooriya
+DNrSN, Pooriya
 DNrGr, Pooriya
-DNrGm, Marwa or Pooriya
-DNrND, Marwa
-DNRGm, Rajakalyan or Yaman or Yaman Kalyan
-DNPSS, Nand
-DNPSR, Nand
+DNrGm, Pooriya
 DNPSG, Nand
-DNPSM, Nand
-DNPSP, Nand
-DNPSD, Nand
 DNPSN, Nand
-DNPGP, Shankara
-DNPMR, Nand
-DNPMG, Nand
-DNPDN, Nand
 DNDMG, Bhinna Shadja
-DNDmG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-DNDPM, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-DNDPm, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-DNDPD, Bihagda
-DNDnD, Bilawal or Chhayanat
 DNDNS, Hameer
 nSrgM, Parameshwari
-nSrgP, Bilaskhani Todi or Salag Varali
+nSrgP, Salag Varali
 nSrGM, Ahir Bhairav
 nSrMP, Bairagi
-nSRgS, Bhairavi
 nSRgr, Bhairavi
-nSRgR, Bhairavi
-nSRgg, Bhairavi
-nSRgM, Bhairavi or Shahanakanada
-nSRgP, Bhairavi or Kolahas
-nSRgd, Bhairavi
-nSRgn, Bhairavi
-nSRGM, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
+nSRgP, Kolahas
+nSRGM, Charukeshi
 nSRGP, Janasammohini
 nSRMg, Darbari Kanada
-nSRMP, Adana or Barawa or Vrindavani Sarang or Des or Gorakh Kalyan or Jaunpuri or Kafi or Madmaad Sarang or Nayakikanada or Soora Malhar or Sorath or Jinjhoti
 nSRMD, Gorakh Kalyan
-nSRmP, Saraswati
-nSgMr, Bhairavi
-nSgMP, Bhimpalasi or Dhani
-nSgMd, Bhairavi or Malakauns
-nSgMD, Bageshree or Bageshrikauns
 nSgmP, Madhukauns
-nSGRG, Bilawal
-nSGMP, Bihagda or Jog or Khamaj or Tilanga
-nSGMd, Jogkauns or Ramakali
 nSGMD, Rageshri
 nSGPD, Kalavati
-nSMRS, Jinjhoti
-nSMRP, Gaud Malhar or Malhar
-nSMPn, Bahaar
-nSdnS, Adana
 nSdnP, Adana
-nSnPg, Bahaar or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nSnPG, Gaud Malhar or Tilanga
-nSnPM, Bairagi or Vrindavani Sarang or Dhani or Jog or Madmaad Sarang
 nSnPm, Madhukauns
 nSndM, Malakauns
-nSndP, Bhairavi or Charukeshi or Jaunpuri
 nSndn, Darbari Kanada
-nSnDM, Bageshree or Bageshrikauns or Des or Gorakh Kalyan or Parameshwari or Rageshri or Jinjhoti
-nSnDP, Ahir Bhairav or Barawa or Bhimpalasi or Janasammohini or Jaijaivanti or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Saraswati or Soora Malhar or Sorath
-nSNdP, Ramakali
-nSNdn, Jogkauns
-nSNDP, Bihagda
-nSNDn, Bilawal or Chhayanat
-nrgMD, Parameshwari
-nrgPd, Bilaskhani Todi
-nrgPD, Salag Varali
-nrGMP, Ahir Bhairav
-nrMPn, Bairagi
-nrndM, Bilaskhani Todi
-nRgrS, Bhairavi
-nRgRS, Jaijaivanti
-nRgMP, Shahanakanada
-nRgPD, Kolahas
-nRGMP, Charukeshi or Chhayanat or Jaijaivanti or Ramadasimalhar
-nRGPD, Bilawal or Janasammohini
-nRMgM, Darbari Kanada
-nRMGP, Barawa
-nRMPM, Gorakh Kalyan
-nRMPd, Adana or Jaunpuri
-nRMPD, Barawa or Kafi or Soora Malhar or Jinjhoti
-nRMPn, Madmaad Sarang or Nayakikanada
-nRMPN, Vrindavani Sarang or Des or Sorath
-nRMDn, Gorakh Kalyan
-nRmPD, Saraswati
-nRPMP, Gaud Malhar
-nRPnD, Malhar
-ngRMG, Barawa
-ngMrS, Bhairavi
-ngMRS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-ngMPg, Shahanakanada
-ngMPd, Darbari Kanada
-ngMPn, Bhimpalasi or Dhani
-ngMdn, Bhairavi or Malakauns
-ngMDn, Bageshree or Bageshrikauns or Parameshwari or Shahanakanada
-ngmPn, Madhukauns
-ngPdS, Bilaskhani Todi
-ngPDn, Kolahas or Salag Varali
-nGSMR, Jinjhoti
-nGRgR, Jaijaivanti
-nGRGS, Des
-nGRGP, Bilawal
-nGMGr, Ahir Bhairav or Ramakali
-nGMGR, Bihagda or Tilanga
-nGMPm, Chhayanat
-nGMPd, Charukeshi
-nGMPD, Ahir Bhairav or Khamaj
-nGMPn, Jog or Ramadasimalhar
-nGMPN, Bihagda or Jaijaivanti or Tilanga
-nGMdN, Jogkauns or Ramakali
-nGMDn, Rageshri
-nGPMg, Barawa
-nGPDP, Gaud Malhar
-nGPDn, Janasammohini or Kalavati
-nGPDN, Bilawal
-nMRMP, Gorakh Kalyan
-nMRPM, Gaud Malhar
-nMRPn, Malhar
-nMgrS, Bilaskhani Todi or Parameshwari
-nMgRS, Bageshree or Barawa or Kafi
-nMgMP, Darbari Kanada
-nMGSM, Jinjhoti
-nMGrS, Ahir Bhairav or Ramakali
-nMGRS, Bihagda or Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Khamaj or Rageshri or Tilanga
-nMGRg, Jaijaivanti
-nMGRG, Des
-nMGgS, Jog or Jogkauns
-nMGMG, Ahir Bhairav
-nMGPM, Barawa
-nMMrS, Bairagi
-nMPgR, Bhimpalasi or Jaunpuri
-nMPgM, Bhairavi or Shahanakanada
-nMPMR, Gorakh Kalyan
-nMPmP, Chhayanat
-nMPdn, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-nMPDM, Bageshree or Des
-nMPDn, Ahir Bhairav or Barawa or Kafi or Khamaj or Soora Malhar or Jinjhoti
-nMPnS, Bairagi or Bhimpalasi or Dhani or Jog or Madmaad Sarang or Nayakikanada
-nMPnD, Bahaar or Gaud Malhar or Ramadasimalhar
-nMPNS, Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Soora Malhar or Sorath or Tilanga
-nMdnS, Bhairavi or Malakauns
-nMdNS, Jogkauns or Ramakali
-nMDnS, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri or Shahanakanada
-nmPMG, Chhayanat
-nmPdn, Ramakali
-nmPDS, Saraswati
-nmPDN, Chhayanat
-nmPnS, Madhukauns
-nmDPm, Chhayanat
-nPgrS, Salag Varali
-nPgRS, Bhimpalasi or Jaunpuri or Kolahas
-nPgRM, Barawa
-nPgMS, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nPgMr, Bhairavi
-nPgMR, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nPgMg, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nPgMG, Ramadasimalhar
-nPgMM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nPgMP, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nPgMd, Adana or Darbari Kanada
-nPgMD, Bahaar or Malhar or Ramadasimalhar or Shahanakanada
-nPgMn, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nPgMN, Bahaar or Malhar or Ramadasimalhar
-nPGRS, Gaud Malhar or Janasammohini or Tilanga
-nPGMS, Tilanga
-nPGMR, Tilanga
-nPGMG, Bihagda or Ramakali or Tilanga
-nPGMM, Tilanga
+nPgMg, Darbari Kanada
+nPgMD, Shahanakanada
+nPGMG, Tilanga
 nPGMP, Tilanga
-nPGMn, Tilanga
-nPGMN, Tilanga
-nPGPS, Gaud Malhar
-nPGPR, Gaud Malhar
 nPGPG, Gaud Malhar
 nPGPM, Gaud Malhar
-nPGPP, Gaud Malhar
 nPGPD, Gaud Malhar
 nPGPn, Gaud Malhar
-nPGPN, Gaud Malhar
-nPMrS, Bairagi
-nPMRS, Vrindavani Sarang or Gorakh Kalyan or Madmaad Sarang or Soora Malhar
-nPMRR, Vrindavani Sarang or Madmaad Sarang
-nPMRM, Vrindavani Sarang or Madmaad Sarang
-nPMRP, Vrindavani Sarang or Madmaad Sarang
-nPMRn, Vrindavani Sarang or Madmaad Sarang
-nPMRN, Vrindavani Sarang
 nPMgS, Dhani
-nPMgR, Barawa or Kafi
-nPMgg, Dhani
 nPMgM, Dhani
-nPMgP, Dhani
-nPMgn, Dhani
-nPMGS, Jog
-nPMGR, Bilawal or Charukeshi or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj
-nPMGg, Jog or Jogkauns
-nPMGG, Jog
-nPMGM, Ahir Bhairav or Jog
-nPMGP, Jog
-nPMGn, Jog
-nPMMS, Bairagi
+nPMGR, Gaud Malhar
+nPMGg, Gaud Malhar
+nPMGM, Jog
 nPMMr, Bairagi
 nPMMM, Bairagi
+nPMMm, Bairagi
 nPMMP, Bairagi
-nPMMn, Bairagi
-nPMPg, Bhairavi or Bhimpalasi
-nPMPn, Bairagi or Dhani or Gaud Malhar or Jog or Madmaad Sarang
-nPMPN, Vrindavani Sarang
-nPmRS, Saraswati
+nPMPn, Gaud Malhar
 nPmgS, Madhukauns
-nPmgg, Madhukauns
 nPmgm, Madhukauns
-nPmgP, Madhukauns
-nPmgn, Madhukauns
-nPmPM, Chhayanat
-nPmPd, Ramakali
-nPmPD, Chhayanat
-nPmPn, Madhukauns
-nPmDP, Chhayanat
-nPPmD, Chhayanat
-nPdMP, Jaunpuri
-nPdnS, Adana or Charukeshi or Darbari Kanada or Jaunpuri
-nPdnP, Adana or Darbari Kanada
-nPdnd, Ramakali
-nPDMR, Sorath
-nPDMg, Bageshree
-nPDMG, Des
 nPDPM, Gaud Malhar
-nPDnS, Ahir Bhairav or Janasammohini or Kalavati or Khamaj or Kolahas or Salag Varali
-nPDnD, Barawa or Bihagda or Kafi or Soora Malhar or Jinjhoti
-nPDNS, Bilawal or Chhayanat
-nPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-ndMgS, Bilaskhani Todi or Malakauns
+ndMgS, Malakauns
 ndMgr, Bilaskhani Todi
-ndMgg, Bilaskhani Todi or Malakauns
-ndMgM, Bilaskhani Todi or Malakauns
+ndMgM, Malakauns
 ndMgP, Bilaskhani Todi
-ndMgd, Bilaskhani Todi or Malakauns
-ndMgn, Bilaskhani Todi or Malakauns
 ndMPg, Jaunpuri
-ndMPd, Jaunpuri
-ndMdn, Malakauns
-ndPgR, Jaunpuri
-ndPgM, Bhairavi
-ndPGS, Ramakali
 ndPGr, Ramakali
-ndPGG, Ramakali
 ndPGM, Ramakali
-ndPGm, Ramakali
-ndPGP, Ramakali
-ndPGd, Ramakali
-ndPGn, Ramakali
-ndPGN, Ramakali
-ndPMS, Bhairavi or Charukeshi or Jogkauns
 ndPMr, Bhairavi
-ndPMR, Bhairavi or Charukeshi
-ndPMg, Bhairavi or Jogkauns
-ndPMG, Charukeshi or Jogkauns
-ndPMM, Bhairavi or Charukeshi or Jogkauns
-ndPMP, Bhairavi or Charukeshi or Jogkauns
-ndPMd, Bhairavi or Charukeshi or Jogkauns
-ndPMn, Bhairavi or Charukeshi or Jogkauns
-ndPMN, Jogkauns
 ndPmP, Ramakali
-ndPdS, Jaunpuri
-ndPdR, Jaunpuri
-ndPdg, Jaunpuri
 ndPdM, Jaunpuri
 ndPdP, Jaunpuri
-ndPdd, Jaunpuri
-ndPdn, Charukeshi or Jaunpuri or Ramakali
-ndnSR, Bhairavi or Darbari Kanada
-ndnSn, Darbari Kanada
-ndnPS, Darbari Kanada
-ndnPR, Darbari Kanada
-ndnPg, Adana or Darbari Kanada
-ndnPM, Darbari Kanada
-ndnPP, Darbari Kanada
+ndPdn, Jaunpuri
+ndnSR, Bhairavi
+ndnPg, Darbari Kanada
 ndnPd, Darbari Kanada
-ndnPn, Darbari Kanada
-ndndP, Jogkauns or Ramakali
-ndndn, Darbari Kanada
-nDSRM, Barawa or Kafi or Jinjhoti
-nDSMR, Jinjhoti
-nDSnD, Barawa or Kafi or Jinjhoti
-nDMRS, Gorakh Kalyan or Soora Malhar or Sorath or Jinjhoti
-nDMRR, Gorakh Kalyan
 nDMRM, Gorakh Kalyan
-nDMRP, Gorakh Kalyan
-nDMRD, Gorakh Kalyan
-nDMRn, Gorakh Kalyan
-nDMgS, Bageshrikauns or Parameshwari
+nDMgS, Bageshrikauns
 nDMgr, Parameshwari
 nDMgR, Bageshree
-nDMgg, Bageshrikauns or Parameshwari
-nDMgM, Bageshree or Bageshrikauns or Parameshwari
-nDMgD, Bageshrikauns or Parameshwari
-nDMgn, Bageshrikauns or Parameshwari
-nDMGS, Des or Rageshri or Jinjhoti
-nDMGR, Des or Rageshri or Jinjhoti
-nDMGG, Rageshri or Jinjhoti
-nDMGM, Rageshri or Jinjhoti
-nDMGP, Jinjhoti
-nDMGD, Rageshri or Jinjhoti
-nDMGn, Rageshri or Jinjhoti
-nDMPS, Bageshree or Des or Soora Malhar
-nDMPR, Bageshree or Des or Soora Malhar
-nDMPg, Bageshree
-nDMPG, Des
-nDMPM, Bageshree or Des or Gorakh Kalyan or Soora Malhar
-nDMPP, Bageshree or Des or Soora Malhar
-nDMPD, Bageshree or Des or Soora Malhar or Jinjhoti
-nDMPn, Bageshree or Des or Soora Malhar
-nDMPN, Des or Soora Malhar
-nDMDn, Bageshree or Bageshrikauns or Gorakh Kalyan or Parameshwari or Rageshri
-nDPgS, Barawa or Kolahas or Salag Varali
+nDMGS, Jinjhoti
+nDMGM, Rageshri
+nDMPM, Soora Malhar
 nDPgr, Salag Varali
-nDPgR, Barawa or Bhimpalasi or Kolahas
-nDPgg, Barawa or Kolahas or Salag Varali
-nDPgG, Barawa
-nDPgM, Barawa
-nDPgP, Barawa or Kolahas or Salag Varali
-nDPgD, Barawa or Kolahas or Salag Varali
-nDPgn, Barawa or Kolahas or Salag Varali
-nDPGS, Bihagda or Janasammohini or Kalavati
-nDPGR, Bihagda or Janasammohini
-nDPGG, Bihagda or Janasammohini or Kalavati
+nDPGS, Kalavati
 nDPGM, Bihagda
-nDPGP, Bihagda or Janasammohini or Kalavati
-nDPGD, Bihagda or Janasammohini or Kalavati
-nDPGn, Bihagda or Janasammohini or Kalavati
-nDPGN, Bihagda
-nDPMS, Ahir Bhairav or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nDPMr, Ahir Bhairav
-nDPMR, Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nDPMg, Barawa or Bhimpalasi or Jaijaivanti or Kafi
-nDPMG, Ahir Bhairav or Bilawal or Chhayanat or Gaud Malhar or Jaijaivanti or Khamaj
-nDPMM, Ahir Bhairav or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nDPMP, Ahir Bhairav or Bhimpalasi or Bilawal or Gaud Malhar or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nDPMD, Ahir Bhairav or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nDPMn, Ahir Bhairav or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nDPMN, Bilawal or Jaijaivanti or Soora Malhar
-nDPmS, Saraswati
+nDPMR, Soora Malhar
+nDPMg, Kafi
 nDPmR, Saraswati
-nDPmm, Saraswati
-nDPmP, Chhayanat or Saraswati
-nDPmD, Chhayanat or Saraswati
-nDPmn, Saraswati
-nDPPS, Chhayanat
-nDPPR, Chhayanat
-nDPPG, Chhayanat
+nDPmD, Chhayanat
 nDPPM, Chhayanat
 nDPPm, Chhayanat
 nDPPP, Chhayanat
 nDPPD, Chhayanat
-nDPPn, Chhayanat
-nDPPN, Chhayanat
-nDPDS, Saraswati or Sorath
-nDPDR, Sorath
 nDPDM, Sorath
-nDPDP, Bihagda or Sorath
-nDPDD, Sorath
-nDPDn, Ahir Bhairav or Barawa or Bihagda or Janasammohini or Kafi or Kalavati or Khamaj or Kolahas or Salag Varali or Soora Malhar or Sorath
-nDPDN, Bilawal or Chhayanat or Sorath
-nDPnS, Bhimpalasi
-nDPNS, Bihagda or Jaijaivanti or Soora Malhar or Sorath
-nDnDS, Barawa or Kafi or Jinjhoti
-nDnDM, Soora Malhar or Jinjhoti
-nDnDP, Barawa or Bihagda or Bilawal or Chhayanat or Kafi or Soora Malhar
-nDNSS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nDNSR, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nDNSg, Bahaar or Malhar or Ramadasimalhar
-nDNSG, Gaud Malhar or Ramadasimalhar
-nDNSM, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nDNSP, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nDNSD, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nDNSn, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nDNSN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nnSRg, Bhairavi
-nnPgM, Adana or Bahaar or Darbari Kanada or Malhar or Nayakikanada or Ramadasimalhar or Shahanakanada
-nnPGM, Tilanga
-nnPGP, Gaud Malhar
-nnPMR, Vrindavani Sarang or Madmaad Sarang
-nnPMg, Dhani
-nnPMG, Jog
-nnPMM, Bairagi
-nnPmg, Madhukauns
-nndMg, Bilaskhani Todi or Malakauns
-nndPG, Ramakali
-nndPM, Bhairavi or Charukeshi or Jogkauns
-nndPd, Jaunpuri
-nndnP, Darbari Kanada
-nnDMR, Gorakh Kalyan
-nnDMg, Bageshrikauns or Parameshwari
-nnDMG, Rageshri or Jinjhoti
-nnDMP, Bageshree or Des or Soora Malhar
-nnDPg, Barawa or Kolahas or Salag Varali
-nnDPG, Bihagda or Janasammohini or Kalavati
-nnDPM, Ahir Bhairav or Bhimpalasi or Bilawal or Jaijaivanti or Kafi or Khamaj or Soora Malhar
-nnDPm, Saraswati
-nnDPP, Chhayanat
-nnDPD, Sorath
-nnDNS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-nNdPm, Ramakali
-nNdnd, Jogkauns
-nNDPD, Bihagda
-nNDnD, Bilawal or Chhayanat
-NSrSS, Sohani
+nDPDP, Sorath
+nDPDd, Sorath
+nDPDn, Bihagda
+nDnDM, Soora Malhar
+nDNSR, Ramadasimalhar
 NSrSr, Sohani
 NSrSG, Sohani
-NSrSm, Sohani
-NSrSD, Sohani
 NSrSN, Sohani
-NSrgm, Gujari Todi or Todi
-NSrGM, Bhairav or Bhatiyar or Kalingada
-NSrMP, Jogiya
 NSrmP, Shree
 NSRgM, Kirvani
 NSRGS, Tilakakamod
-NSRGM, Chhayanat or Jaijaivanti or Ramadasimalhar
-NSRGP, Hansadhwani or Shuddhakalyan
-NSRMP, Vrindavani Sarang or Des or Soora Malhar or Sorath or Tilakakamod
-NSRmP, Kamod or Shuddhasaranga or Shyamakalyan
+NSRGP, Hansadhwani
 NSgMP, Patadeep
 NSgMd, Chandrakauns
-NSgmP, Madhuvanti or Multani
-NSGRS, Bilawal
 NSGRG, Bilawal
-NSGMR, Hameer
-NSGMG, Bihag or Bihagda or Natabhairava or Ramakali or Tilanga
-NSGMP, Bihag or Bihagda or Mand or Nand or Natabhairava or Tilanga
-NSGMd, Jogkauns or Ramakali
 NSGMD, Bhinna Shadja
 NSGMN, Hameer
 NSGmP, Amritvarshini
-NSGmd, Paraj
-NSGmD, Hindol or Sohani
-NSGPN, Shankara
-NSMRS, Malhar
-NSMRP, Gaud Malhar or Malhar
-NSMGm, Basant or Marubihag
 NSMGP, Kedar
 NSMPn, Bahaar
 NSPDM, Tilakakamod
 NSDPG, Kamod
-NSDPN, Kamod
-NSnPg, Bahaar or Malhar or Ramadasimalhar
-NSnPG, Gaud Malhar or Tilanga
 NSnPM, Vrindavani Sarang
-NSnDM, Des or Soora Malhar
-NSnDP, Jaijaivanti or Soora Malhar or Sorath
-NSNPG, Hansadhwani or Shankara
+NSnDM, Des
+NSNPG, Hansadhwani
 NSNPm, Amritvarshini
 NSNdM, Chandrakauns
-NSNdm, Gujari Todi or Lalat
-NSNdP, Basant or Bhairav or Jogiya or Kalingada or Kirvani or Multani or Natabhairava or Poorvi or Ramakali or Todi
 NSNdn, Jogkauns
-NSNdN, Paraj
 NSNDM, Bhinna Shadja
-NSNDm, Hindol or Pooriya or Rajakalyan or Sohani
-NSNDP, Bihag or Bihagda or Hameer or Kedar or Madhuvanti or Mand or Marubihag or Nand or Patadeep or Shuddhakalyan or Shuddhasaranga or Shyamakalyan or Yaman or Yaman Kalyan
-NSNDn, Bilawal or Chhayanat
-NSNDN, Hameer
-NrSNr, Pooriya
 NrSND, Pooriya
-Nrgmd, Gujari Todi or Todi
-NrGrS, Lalat or Pooriya or Pooriyadhanashree or Poorvi
-NrGrG, Pooriya
-NrGMS, Lalat
-NrGMr, Lalat
-NrGMG, Lalat or Poorvi
-NrGMM, Lalat
-NrGMm, Bhatiyar or Lalat
-NrGMP, Bhairav or Kalingada
+NrSNn, Pooriya
+NrGrS, Pooriya
+NrGMG, Lalat
 NrGMd, Lalat
-NrGMN, Lalat
-NrGmS, Pooriya or Pooriyadhanashree or Poorvi
-NrGmr, Pooriya or Pooriyadhanashree or Poorvi
-NrGmG, Pooriya or Pooriyadhanashree or Poorvi
-NrGmM, Poorvi
-NrGmm, Pooriya or Pooriyadhanashree or Poorvi
-NrGmP, Pooriyadhanashree or Poorvi
-NrGmd, Pooriyadhanashree or Poorvi
-NrGmD, Marwa or Pooriya
-NrGmN, Pooriya or Pooriyadhanashree or Poorvi
-NrMPd, Jogiya
-NrmPN, Shree
-NrNdP, Pooriyadhanashree or Shree
+NrGmr, Pooriya
+NrNdP, Pooriyadhanashree
 NrNDm, Marwa
-NrNDP, Bhatiyar
-NRgRS, Jaijaivanti
-NRgMP, Kirvani
-NRGRS, Rajakalyan or Shankara or Yaman or Yaman Kalyan
-NRGMG, Yaman Kalyan
-NRGMP, Chhayanat or Jaijaivanti or Ramadasimalhar
-NRGmS, Rajakalyan or Yaman or Yaman Kalyan
-NRGmR, Rajakalyan or Yaman or Yaman Kalyan
-NRGmG, Rajakalyan or Yaman or Yaman Kalyan
-NRGmM, Yaman Kalyan
-NRGmm, Rajakalyan or Yaman or Yaman Kalyan
-NRGmP, Yaman or Yaman Kalyan
-NRGmD, Rajakalyan or Yaman or Yaman Kalyan
-NRGmN, Rajakalyan or Yaman or Yaman Kalyan
-NRGPD, Bilawal or Shuddhakalyan
-NRGPN, Hansadhwani
-NRMPD, Soora Malhar
-NRMPN, Vrindavani Sarang or Des or Sorath or Tilakakamod
-NRmPD, Kamod
-NRmPN, Shuddhasaranga or Shyamakalyan
-NRPMP, Gaud Malhar
-NRPnD, Malhar
-NgMRS, Bahaar or Malhar or Ramadasimalhar
-NgMPd, Kirvani
-NgMPN, Patadeep
-NgMdN, Chandrakauns
-NgmPN, Madhuvanti or Multani
-NgmdN, Gujari Todi or Todi
-NGSRG, Tilakakamod
-NGRgR, Jaijaivanti
-NGRGS, Des
-NGRGP, Bilawal
-NGMRS, Hameer or Kamod or Shyamakalyan
-NGMGr, Bhairav or Paraj or Poorvi or Ramakali
-NGMGR, Bihag or Bihagda or Natabhairava or Tilanga or Yaman Kalyan
-NGMmM, Lalat
-NGMmD, Bhatiyar
-NGMPm, Chhayanat
-NGMPd, Bhairav or Kalingada or Natabhairava
-NGMPD, Mand or Nand
-NGMPn, Ramadasimalhar
-NGMPN, Bihag or Bihagda or Jaijaivanti or Tilanga
-NGMdN, Jogkauns or Ramakali
-NGMDP, Nand
-NGMDN, Bhinna Shadja
-NGMND, Hameer
-NGmrG, Pooriya
-NGmGr, Basant
-NGmPN, Amritvarshini or Marubihag
-NGmdN, Basant or Paraj or Pooriyadhanashree or Poorvi
-NGmDN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-NGPRG, Shankara
-NGPGr, Bhatiyar
-NGPmP, Kedar
-NGPDS, Shuddhakalyan
-NGPDP, Gaud Malhar
-NGPDN, Bilawal
-NGPNS, Hansadhwani
-NGPND, Shankara
-NMRPM, Gaud Malhar
-NMRPn, Malhar
-NMgRS, Kirvani or Patadeep
-NMGSR, Tilakakamod
-NMGrS, Bhairav or Jogiya or Kalingada or Lalat or Paraj or Poorvi or Ramakali
-NMGRS, Bihag or Bihagda or Bilawal or Chhayanat or Gaud Malhar or Mand or Natabhairava or Tilanga or Yaman Kalyan
-NMGRg, Jaijaivanti
-NMGRG, Des
-NMGgS, Jogkauns
-NMGMG, Bhairav or Natabhairava
-NMGMD, Nand
-NMGmP, Marubihag
-NMGmd, Basant
-NMGPG, Bhatiyar
-NMGPm, Kedar
-NMmMd, Lalat
-NMmDN, Bhatiyar
-NMPmP, Chhayanat
-NMPdS, Jogiya
-NMPdN, Bhairav or Kalingada or Kirvani or Natabhairava
-NMPDM, Des
-NMPDn, Soora Malhar
-NMPDN, Mand or Nand
-NMPnD, Bahaar or Gaud Malhar or Ramadasimalhar
-NMPNS, Bihag or Bihagda or Vrindavani Sarang or Des or Jaijaivanti or Patadeep or Soora Malhar or Sorath or Tilakakamod or Tilanga
-NMdNS, Chandrakauns or Jogkauns or Lalat or Ramakali
-NMDPM, Nand
-NMDNS, Bhinna Shadja
-NMNDN, Hameer
-NmrGr, Pooriya
-NmgrS, Gujari Todi or Multani or Todi
-NmgRS, Madhuvanti
-NmGrS, Basant or Marwa or Pooriyadhanashree or Shree or Sohani
-NmGRS, Marubihag or Rajakalyan or Shuddhakalyan or Yaman
-NmGMG, Paraj or Poorvi or Yaman Kalyan
-NmGmr, Pooriya
-NmGmG, Basant
-NmMGr, Lalat
-NmMdN, Lalat
-NmPGM, Bihag or Hameer or Shyamakalyan
-NmPMG, Chhayanat
-NmPdn, Ramakali
-NmPDP, Kamod or Kedar
-NmPDN, Chhayanat
-NmPNS, Amritvarshini or Kedar or Madhuvanti or Marubihag or Multani or Shree or Shuddhasaranga or Shyamakalyan
-NmdmM, Lalat
-NmdNS, Basant or Gujari Todi or Pooriyadhanashree or Poorvi or Todi
-NmdNd, Paraj
-NmDPm, Chhayanat
-NmDNS, Bhatiyar or Hindol or Rajakalyan or Sohani or Yaman or Yaman Kalyan
-NmDNr, Marwa or Pooriya
-NPSGM, Nand
-NPSND, Nand
 NPRGR, Shankara
-NPgMR, Bahaar or Malhar or Ramadasimalhar
-NPGrS, Bhatiyar
-NPGRS, Hansadhwani or Shankara
-NPGRR, Hansadhwani
+NPRGg, Shankara
+NPGRS, Hansadhwani
+NPGRr, Hansadhwani
 NPGRG, Hansadhwani
-NPGRP, Hansadhwani
-NPGRN, Hansadhwani
-NPGMR, Hameer or Kamod or Shyamakalyan
-NPGMG, Bihag or Bihagda or Ramakali or Tilanga
-NPGPS, Shankara
 NPGPR, Shankara
 NPGPG, Shankara
-NPGPP, Shankara
-NPGPD, Gaud Malhar or Shankara
-NPGPN, Hansadhwani or Shankara
-NPMRS, Vrindavani Sarang or Kedar or Nand or Shuddhasaranga or Soora Malhar
-NPMgR, Kirvani or Patadeep
-NPMGr, Jogiya or Kalingada
-NPMGR, Bilawal or Chhayanat or Gaud Malhar or Jaijaivanti or Mand
-NPMGg, Jogkauns
-NPMGM, Bhairav or Nand or Natabhairava
-NPMGP, Bhatiyar
-NPMPn, Gaud Malhar
-NPmgr, Multani or Todi
-NPmgR, Madhuvanti
+NPGPN, Shankara
+NPMRS, Nand
+NPMRr, Nand
+NPMGM, Nand
 NPmGS, Amritvarshini
-NPmGr, Pooriyadhanashree
-NPmGR, Marubihag or Shuddhakalyan or Yaman
-NPmGG, Amritvarshini
-NPmGM, Paraj or Poorvi or Yaman Kalyan
-NPmGm, Amritvarshini or Basant
-NPmGP, Amritvarshini
-NPmGN, Amritvarshini
-NPmPG, Bihag or Hameer or Shyamakalyan
-NPmPM, Chhayanat
-NPmPd, Ramakali
-NPmPD, Chhayanat or Kedar
-NPmPN, Amritvarshini or Kedar
-NPmDP, Chhayanat
-NPPmD, Chhayanat
-NPdmG, Shree
-NPdnd, Ramakali
-NPdNS, Bhairav or Kalingada or Kirvani or Natabhairava
-NPDMR, Sorath
-NPDMG, Des or Tilakakamod
-NPDPM, Gaud Malhar or Kedar
-NPDPN, Kamod
-NPDnD, Bihagda or Soora Malhar
-NPDNS, Bilawal or Chhayanat or Mand
+NPmGm, Amritvarshini
 NPDNP, Nand
-NPnDN, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
 NPNDS, Shankara
-NdSGm, Paraj
-NdSNd, Paraj
 NdMgS, Chandrakauns
-NdMgg, Chandrakauns
 NdMgM, Chandrakauns
-NdMgd, Chandrakauns
-NdMgN, Chandrakauns
-NdMdN, Chandrakauns
-NdmgS, Gujari Todi
 Ndmgr, Gujari Todi
-Ndmgg, Gujari Todi
 Ndmgm, Gujari Todi
-Ndmgd, Gujari Todi
-NdmgN, Gujari Todi
 NdmGr, Shree
-NdmMG, Lalat
-NdmMm, Lalat
-NdmMd, Lalat
-NdmdS, Lalat
-Ndmdr, Lalat
-NdmdG, Lalat
-NdmdM, Lalat
 Ndmdm, Lalat
-Ndmdd, Lalat
-NdmdN, Gujari Todi or Lalat
-NdPGr, Ramakali
+NdmdN, Lalat
 NdPGM, Ramakali
-NdPMS, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-NdPMr, Bhairav or Jogiya or Kalingada
-NdPMR, Kirvani or Natabhairava
 NdPMg, Kirvani
-NdPMG, Bhairav or Jogkauns or Jogiya or Kalingada or Natabhairava
-NdPMM, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-NdPMP, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-NdPMd, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-NdPMN, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-NdPmS, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NdPmr, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NdPmg, Multani or Todi
-NdPmG, Basant or Paraj or Pooriyadhanashree or Poorvi or Ramakali
-NdPmM, Basant or Paraj or Poorvi or Ramakali
-NdPmm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NdPmP, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NdPmd, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NdPmn, Ramakali
-NdPmN, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NdPdS, Jogiya or Shree
-NdPdr, Shree
-NdPdG, Shree
 NdPdm, Shree
 NdPdP, Shree
-NdPdd, Shree
-NdPdn, Ramakali
-NdPdN, Bhairav or Kalingada or Kirvani or Natabhairava or Shree
-NdPNS, Multani or Shree
-NdndS, Jogkauns
-Ndndg, Jogkauns
-NdndG, Jogkauns
-NdndM, Jogkauns
-NdndP, Jogkauns or Ramakali
-Ndndd, Jogkauns
 Ndndn, Jogkauns
 NdndN, Jogkauns
 NdNdS, Paraj
-NdNdr, Paraj
-NdNdG, Paraj
-NdNdM, Paraj
-NdNdm, Paraj
 NdNdP, Paraj
-NdNdd, Paraj
 NdNdN, Paraj
-NDSGP, Shankara
-NDSNP, Shankara
-NDMRS, Sorath
-NDMGS, Bhinna Shadja or Tilakakamod
-NDMGR, Des
-NDMGG, Bhinna Shadja
+NDMGS, Bhinna Shadja
 NDMGM, Bhinna Shadja
-NDMGD, Bhinna Shadja
-NDMGN, Bhinna Shadja
-NDMPD, Des
-NDMPN, Soora Malhar
-NDMDN, Bhinna Shadja
-NDmrG, Pooriya
-NDmGS, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NDmGr, Marwa or Pooriya or Sohani
+NDmGS, Hindol
 NDmGR, Rajakalyan
-NDmGG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NDmGm, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NDmGD, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NDmGN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NDmDN, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NDPGr, Bhatiyar
-NDPGR, Bihagda
-NDPGM, Bihag or Bihagda or Hameer or Kamod or Shyamakalyan
-NDPMS, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-NDPMr, Bhatiyar
-NDPMR, Kedar or Mand or Nand or Patadeep or Shuddhasaranga or Soora Malhar
+NDmGg, Rajakalyan
+NDPGM, Bihagda
 NDPMg, Patadeep
-NDPMG, Bhatiyar or Bilawal or Gaud Malhar or Jaijaivanti or Kedar or Mand or Nand
-NDPMM, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-NDPMm, Bhatiyar or Shuddhasaranga
-NDPMP, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-NDPMD, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-NDPMN, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-NDPmS, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-NDPmR, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
+NDPMD, Nand
 NDPmg, Madhuvanti
-NDPmG, Bihag or Hameer or Kedar or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-NDPmM, Bihag or Hameer or Kedar or Marubihag or Shyamakalyan or Yaman Kalyan
-NDPmm, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-NDPmP, Bihag or Chhayanat or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-NDPmD, Bihag or Chhayanat or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-NDPmN, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
 NDPPm, Chhayanat
-NDPDS, Bihagda or Shuddhakalyan
-NDPDR, Bihagda
-NDPDG, Bihagda
-NDPDM, Bihagda or Sorath
-NDPDP, Bihagda or Kedar
-NDPDD, Bihagda
+NDPDP, Bihagda
+NDPDd, Bihagda
 NDPDn, Bihagda
-NDPDN, Bihagda or Mand or Nand
-NDPNS, Bihag or Bihagda or Kamod or Kedar or Madhuvanti or Marubihag or Patadeep or Shuddhasaranga or Shyamakalyan
-NDnDS, Bilawal or Chhayanat
-NDnDR, Bilawal or Chhayanat
-NDnDG, Bilawal or Chhayanat
-NDnDM, Bilawal or Chhayanat or Soora Malhar
-NDnDm, Chhayanat
-NDnDP, Bihagda or Bilawal or Chhayanat
-NDnDD, Bilawal or Chhayanat
-NDnDn, Bilawal or Chhayanat
-NDnDN, Bilawal or Chhayanat
-NDNSS, Hameer
 NDNSr, Sohani
-NDNSR, Hameer
 NDNSG, Hameer
-NDNSM, Hameer
-NDNSm, Hameer
-NDNSP, Hameer
-NDNSD, Hameer
 NDNSN, Hameer
-NDNrS, Marwa or Pooriya
-NDNrG, Pooriya
 NDNPS, Nand
-NDNDP, Hameer
-NDNDN, Hameer
-NnPgM, Bahaar or Malhar or Ramadasimalhar
-NnPGM, Tilanga
-NnPGP, Gaud Malhar
-NnPMR, Vrindavani Sarang
-NndPG, Ramakali
-NndPM, Jogkauns
-NnDMP, Des or Soora Malhar
-NnDPG, Bihagda
-NnDPM, Bilawal or Jaijaivanti or Soora Malhar
-NnDPP, Chhayanat
-NnDPD, Sorath
-NnDNS, Bahaar or Gaud Malhar or Malhar or Ramadasimalhar
-NNSrS, Sohani
-NNrGM, Lalat
-NNrGm, Pooriya or Pooriyadhanashree or Poorvi
-NNRGm, Rajakalyan or Yaman or Yaman Kalyan
-NNPGR, Hansadhwani
-NNPGP, Shankara
-NNPmG, Amritvarshini
-NNdMg, Chandrakauns
-NNdmg, Gujari Todi
-NNdmd, Lalat
-NNdPM, Bhairav or Jogiya or Kalingada or Kirvani or Natabhairava
-NNdPm, Basant or Multani or Paraj or Pooriyadhanashree or Poorvi or Ramakali or Todi
-NNdPd, Shree
-NNdnd, Jogkauns
-NNdNd, Paraj
-NNDMG, Bhinna Shadja
-NNDmG, Hindol or Marwa or Pooriya or Rajakalyan or Sohani
-NNDPM, Bhatiyar or Mand or Nand or Patadeep or Shuddhasaranga
-NNDPm, Bihag or Hameer or Kedar or Madhuvanti or Marubihag or Shuddhakalyan or Shyamakalyan or Yaman or Yaman Kalyan
-NNDPD, Bihagda
-NNDnD, Bilawal or Chhayanat
-NNDNS, Hameer

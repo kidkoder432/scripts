@@ -1,6 +1,6 @@
 def tri(n): #triangular number calculator
     t = 0
-    for i in range(n + 1):
+    for i in range(n):
         t += i
     return t
 def loadDictionary(): # open raga database
@@ -12,7 +12,7 @@ def loadDictionary(): # open raga database
     return englishWords    
 def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
     SAPTAKS = data
-    for x in range(1, len(message)):
+    for x in range(2, len(message)):
         for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
                 if ''.join(message[i:i + x]) in saptak[saptak.index(': '):]:
@@ -39,7 +39,7 @@ def main():   # main interface
         phrase.replace('-', '')
     if len(phrase) < 5:
         return 'Your phrase is too short. Please enter a longer phrase.'
-    guesses = getRagas(SAPTAKS, ''.join(tuple(phrase)), threshold, '/')
+    guesses = getRagas(SAPTAKS, phrase, threshold, '/')
     if guesses:
         print('I think your phrase is a ' + guesses + ' phrase.')
     else:

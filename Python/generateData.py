@@ -1,11 +1,20 @@
+def conv(phrase):
+    t = 0
+    multiplier = 10 ** (len(phrase) - 1)
+    notes = ['','S','r','R','g','G','M','m','P','d','D','n','N']
+    for n in phrase:
+        t += notes.index(n) * multiplier
+        multiplier /= 10
+    return t
+
 print('Phase 1: Generating data...')
 import platform, os
 from guessRaga import getRagas, loadDictionary
-def isRaga(phrase, raga):
-	if raga.lower() in getRagas(phrase, 0.72, '/').lower():
-		return True
-	else:
-		return False
+def isValid(phrase):
+    for x in range(len(phrase) - 1):
+        if phrase[x].lower() == phrase[x+1].lower() and ((phrase[x].islower() and phrase[x+1].isupper()) or (phrase[x].isupper() and phrase[x+1].islower())):
+            return False
+    return True
 DATA = {}
 threshold = 0.7
 import itertools
@@ -15,8 +24,10 @@ for i in range(5,6):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         SAPTAKS = loadDictionary()
         print('Evaluating phrase: ' + ''.join(p))
-        guesses = getRagas(SAPTAKS, p, threshold)
-        if guesses:
+    
+        if isValid(''.join(p)):
+            guesses = getRagas(SAPTAKS, p, threshold)
+        if guesses and len(guesses.split(' or ')) == 1:
             DATA[p] = guesses
 print('Writing data...')
 f = open('data.csv', 'w+')
@@ -26,28 +37,22 @@ for k in list(DATA.keys()):
 f.close()
 print('Done.')
 print('Collected ' + str(len(DATA)) + ' entries')
-# print('Phase 2: Updating index...')
-# f = open('data.csv', 'r')
-# fi = open('raga-index.txt')
-# ALL_RAGAS = str(fi.read()).split('\n')
-# fi.close()
-# content = str(f.read())
-# RAGA_INDEX = ALL_RAGAS
-# content = content.split('\n')
-# del content[-1]
-# for r in content:
-#     phrase = r.split(', ')[0]
-#     ragas = r.split(', ')[1].split('/')
-#     for raga in ragas:
-#         for scale in ALL_RAGAS:
-#             if raga == scale[:scale.index(':')]:
-#                 RAGA_INDEX[ALL_RAGAS.index(scale)]  += (' ' + phrase)
-# fi = open('saptaks.txt', 'w')
-# for r in RAGA_INDEX:
-#     print(len(r.split(' ')))
-# print(len(''.join(RAGA_INDEX).split(' ')))
-# fi.write('\n'.join(RAGA_INDEX))
-# fi.close()
-# print('Finished operations.')
-# f.close()
+for raga in list(SAPTAKS.keys()):
+    print('Writing data...')
+    fname = 'is' + raga[:raga.index(':')] + '.csv'
+    f = open(fname, 'w+')
+    for k in list(DATA.keys()):
+        print(DATA[k], raga[:raga.index(':')])
+        if raga[:raga.index(':')] in DATA[k]:
+            f.write(str(conv(''.join(k))) + ', ' + '1')
+        else:
+            f.write(str(conv(''.join(k))) + ', ' + '0')
+        f.write('\n')
 
+
+
+
+    f.close()
+    print('Done.')
+    print('Collected ' + str(len(DATA)) + ' entries')
+print('Finished operations.')
