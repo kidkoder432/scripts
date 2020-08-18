@@ -1,3 +1,4 @@
+
 def conv(phrase):
     t = 0
     multiplier = 10 ** (len(phrase) - 1)
@@ -24,7 +25,6 @@ for i in range(5,6):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
         SAPTAKS = loadDictionary()
         print('Evaluating phrase: ' + ''.join(p))
-    
         if isValid(''.join(p)):
             guesses = getRagas(SAPTAKS, p, threshold)
         if guesses and len(guesses.split(' or ')) == 1:
