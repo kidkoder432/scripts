@@ -55,20 +55,20 @@ Lalat: NrGMmMdNS SNdmdmMGrS
 Madmaad Sarang: SRMPnS SnPMRS
 Madhukauns: SgmPnS SnPmgS
 Madhuvanti: SgmPNS SNDPmgRS
-Malakauns: SgMdnS SndMgS
+Malkauns: SgMdnS SndMgS
 Malhar: SMRPnDNS SnPgMRS
 Mand: SGMPDNS SNDPMGRS
 Marwa: rGmDNrS rNDmGrS
 Marubihag: SMGmPNS SNDPmGRS
 Multani: SgmPNS SNdPmgrS
 Nand: SGMPDNPS SNDPMGMDPMRS
-Natabhairava: SGMPdNS SNdPMGMGRS
-Nayakikanada: SRMPnS SnPgMRS
+Nat Bhairav: SGMPdNS SNdPMGMGRS
+Nayaki Kanada: SRMPnS SnPgMRS
 Paraj: SGmdNdS SNdNdPmGMGrS
 Parameshwari: SrgMDnS SnDMgrS
 Patadeep: SgMPNS SNDPMgRS
 Pooriya: NrGmDNrS rSNDmGmrGrS
-Pooriyadhanashree: NrGmdNS rNdPmGrS
+Pooriya Dhanashree: NrGmdNS rNdPmGrS
 Poorvi: NrGmdNS SNdPmGMGrS
 Rageshri: SGMDnS SnDMGRS
 Rajakalyan: NRGmDNS SNDmGRS
@@ -80,9 +80,9 @@ Shahanakanada: SRgMPgMDnS SnPgMRS
 Shankara: SGPNDS SNPGPRGRS
 Shivaranjani: SRgPDS SDPgRS
 Shree: SrmPNS rNdPdmGrS
-Shuddhakalyan: SRGPDS SNDPmGRS
-Shuddhasaranga: SRmPNS SNDPMRS
-Shyamakalyan: SRmPNS SNDPmPGMRS
+Shuddha Kalyan: SRGPDS SNDPmGRS
+Shuddha Sarang: SRmPNS SNDPMRS
+Shyam Kalyan: SRmPNS SNDPmPGMRS
 Sohani: SGmDNSrS SNDmGrS
 Soora Malhar: SRMPDnDMPNS SnDPMRS
 Sorath: SRMPNS SnDPDMRS

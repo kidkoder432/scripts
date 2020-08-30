@@ -10,9 +10,9 @@ def loadDictionary(): # open raga database
         englishWords[word] = 0
     dictionaryFile.close()
     return englishWords    
-def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
-    SAPTAKS = data
-    for x in range(2, 5):
+def getRagas(message, threshold=0.5, joiner=' or '): # guessing code
+    SAPTAKS = loadDictionary()
+    for x in range(2, 4):
         for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
                 if ''.join(message[i:i + x]) in saptak[saptak.index(': '):]:
@@ -29,7 +29,7 @@ def getRagas(data, message, threshold=0.5, joiner=' or '): # guessing code
 def main():   # main interface
     SAPTAKS = loadDictionary()
     phrase = input('Enter a phrase and I will guess what raga it is in! > ')  
-    threshold = 0.72 # threshold at which guesser algorithm starts guessing ragas
+    threshold = 0.7 # threshold at which guesser algorithm starts guessing ragas
     if len(phrase) == 0:
         return 'Your phrase is empty.'
     for note in phrase:
