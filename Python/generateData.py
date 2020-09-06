@@ -23,10 +23,10 @@ phrases = []
 print("Generating phrases...")
 for i in range(5,6):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-        SAPTAKS = loadDictionary()
+        
         print('Evaluating phrase: ' + ''.join(p))
         if isValid(''.join(p)):
-            guesses = getRagas(SAPTAKS, p, threshold)
+            guesses = getRagas(p, threshold)
         if guesses and len(guesses.split(' or ')) == 1:
             DATA[p] = guesses
 print('Writing data...')
@@ -37,22 +37,19 @@ for k in list(DATA.keys()):
 f.close()
 print('Done.')
 print('Collected ' + str(len(DATA)) + ' entries')
-for raga in list(SAPTAKS.keys()):
-    print('Writing data...')
-    fname = 'is' + raga[:raga.index(':')] + '.csv'
-    f = open(fname, 'w+')
-    for k in list(DATA.keys()):
-        print(DATA[k], raga[:raga.index(':')])
-        if raga[:raga.index(':')] in DATA[k]:
-            f.write(str(conv(''.join(k))) + ', ' + '1')
-        else:
-            f.write(str(conv(''.join(k))) + ', ' + '0')
-        f.write('\n')
+# for raga in list(SAPTAKS.keys()):
+#     print('Writing data...')
+#     fname = 'is' + raga[:raga.index(':')] + '.csv'
+#     f = open(fname, 'w+')
+#     for k in list(DATA.keys()):
+#         print(DATA[k], raga[:raga.index(':')])
+#         if raga[:raga.index(':')] in DATA[k]:
+#             f.write(str(conv(''.join(k))) + ', ' + '1')
+#         else:
+#             f.write(str(conv(''.join(k))) + ', ' + '0')
+#         f.write('\n')
 
-
-
-
-    f.close()
-    print('Done.')
-    print('Collected ' + str(len(DATA)) + ' entries')
-print('Finished operations.')
+#     f.close()
+#     print('Done.')
+#     print('Collected ' + str(len(DATA)) + ' entries')
+# print('Finished operations.')
