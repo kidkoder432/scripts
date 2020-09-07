@@ -23,10 +23,9 @@ phrases = []
 print("Generating phrases...")
 for i in range(5,6):
     for p in itertools.product(['S', 'r', 'R', 'g', 'G', 'M', 'm', 'P', 'd', 'D', 'n', 'N'], repeat=i):
-        SAPTAKS = loadDictionary()
         print('Evaluating phrase: ' + ''.join(p))
         if isValid(''.join(p)):
-            guesses = getRagas(SAPTAKS, p, threshold)
+            guesses = getRagas(p, threshold)
         if guesses and len(guesses.split(' or ')) == 1:
             DATA[p] = guesses
 print('Writing data...')
