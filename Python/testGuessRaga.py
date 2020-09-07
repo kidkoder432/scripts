@@ -27,20 +27,9 @@ try:
             phrase = []
             continue
         print('Phrase # %s: %s' %(phrasesTested + 1, ''.join(phrase)))
-        guesses = getRagas(SAPTAKS, phrase)
-        high = 0
-        guesses = []
-        for freq in list(SAPTAKS.values()):
-            if freq > high:
-                high = freq
-        keys = list(SAPTAKS.keys())
-        for i in keys:
-            guess = i
-            accuracy = SAPTAKS[guess] / tri(len(phrase))
-            if accuracy >= threshold:
-                guesses.append(guess[:guess.index(':')])
+        # guesses = getRagas(phrase)
         if guesses:
-            print('I think your phrase is a ' + ' or '.join(guesses) + ' phrase.')
+            print('I think your phrase is a ' + guesses + ' phrase.')
             userGuesses = input('Which ragas is it really in? Enter your guesses seperated by "&" > ')
             for g in userGuesses.split('&'):
                 if g in guesses:

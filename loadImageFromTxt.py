@@ -1,7 +1,7 @@
 from PIL import Image
 import time
-now = time.time()
 import gzip, saveImageAsText#, pyperclip
+now = time.time()
 print('Loading image...')
 f = gzip.open('imageBytes.txt', 'r')
 content = f.read().decode('utf-8')
