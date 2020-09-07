@@ -1,3 +1,9 @@
+RAGAS = []
+f = open('raga-index.txt')
+c = str(f.read())
+for x in c.split('\n'):
+    if x:
+        RAGAS.append(x[:x.index(':')])
 def tri(n): #triangular number calculator
     t = 0
     for i in range(n):
@@ -12,7 +18,7 @@ def loadDictionary(): # open raga database
     return englishWords    
 def getRagas(message, threshold=0.5, joiner=' or '): # guessing code
     SAPTAKS = loadDictionary()
-    for x in range(2, 4):
+    for x in range(2, len(message)):
         for i in range(len(message) - x + 1):
             for saptak in list(SAPTAKS.keys()):
                 if ''.join(message[i:i + x]) in saptak[saptak.index(': '):]:
