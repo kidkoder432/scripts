@@ -18,11 +18,22 @@ SCALE = {'S': 208,
 'd': 330, 	
 'D': 349, 	
 'n': 370, 	
-'N': 392}
+'N': 392,
+' ': 0}
+sys = input('Which OS? ')
+
 def play(f, d):
     '''f: frequency in Hz\n
     d: duration in milliseconds'''
-    os.system('play -n --no-show-progress synth %s sin %s' % (d / 1000, f))
+    if f == 0:
+        time.sleep(d)
+        return
+    
+    if sys == 'linux':
+        os.system('play -n --no-show-progress synth %s sin %s' % (d / 1000, f))
+    else: 
+        import winsound
+        winsound.Beep(f,d)
 
 def musicMaker():
     print('''Welcome to MusicMaker!
@@ -35,8 +46,10 @@ def musicMaker():
             print(n)
             play(SCALE.get(n), 1000)
     while True:
-        seq = mlinput('Please enter a sequence of notes. >>> ')
-        print(seq)
+        seq = input('Please enter a sequence of notes. >>> ')
+        for note in list(seq):
+            play(SCALE.get(note), 300)
+
 musicMaker()        
     
     
