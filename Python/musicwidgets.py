@@ -48,7 +48,7 @@ def musicMaker():
     while True:
         seq = input('Please enter a sequence of notes. >>> ')
         for note in list(seq):
-            play(SCALE.get(note), 300)
+            play(SCALE.get(note), 60000/80)
 
 musicMaker()        
     
