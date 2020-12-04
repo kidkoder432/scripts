@@ -1,22 +1,38 @@
 import pygame, random, time
 from pygame.locals import *
 pygame.init()
+intelligence = random.randint(1, 100)
 d = 0
-py, cy = 0, 0
+py = 0
 ps, cs = 0, 0
 pu, pd = False, False
 x = 250
 y = 250
+cy = 0
 screen = pygame.display.set_mode([500, 500])
 playerPaddle = pygame.draw.rect(screen, (128, 0, 0), (485, py, 10, 140))
-compPaddle = pygame.draw.rect(screen, (128, 0, 0), (485, cy, 10, 140))
+computerPaddle = pygame.draw.rect(screen, (128, 0, 0), (5, 0, 10, 140))
 ball = pygame.draw.circle(screen, (0, 0, 255), (x, y), 10)
 font = pygame.font.SysFont(None, 30)
-xa, ya = random.randint(1, 10000) / 10000, random.randint(1, 10000) / 10000
+xa, ya = [(random.randint(0, 6000) - 3000) / 10000] * 2
 
+def physics(p, b, c):
 
-def physics(p, b):
-    global x, y, xa, ya, ps, cs, d
+    t = 100
+    global x, y, xa, ya, ps, cs, d, intelligence
+    if x < t:
+        if x == 99:
+            intelligence = random.randint(1, 100)
+        if intelligence < 80:
+            c.centery = y
+        else:
+            pass
+    
+    if b.colliderect(c):
+        xa = abs(xa)
+        x = 26
+        t = 25
+    
     if b.colliderect(p):
         xa = abs(xa) * -1
         x = 474
@@ -66,18 +82,26 @@ while True:
             py += 0.2
     if pu:
             py -= 0.2
-    physics(playerPaddle, ball)
+    #Clear screen
+    physics(playerPaddle, ball, computerPaddle)
+
     screen.fill((255,255,255))
     playerPaddle = pygame.draw.rect(screen, (128, 0, 0), (485, py, 10, 140))
+    computerPaddle = pygame.draw.rect(screen, (128, 0, 0), (5, computerPaddle.centery - 70, 10, 140))
     ball = pygame.draw.circle(screen, (0, 0, 255), (x, y), 10)
     text = font.render('Score: ' + str(ps), True, (255,255,255), (0,0,0))
     text.get_rect().centery = screen.get_rect().centery - 170
     text.get_rect().centerx = screen.get_rect().centerx
     screen.blit(text, text.get_rect())
-    time.sleep(d)
+
+
+    #draw objects
+
+    pygame.display.flip()
     if d:
-        xa, ya = random.randint(1, 10000) / 10000, random.randint(1, 10000) / 10000
+        time.sleep(d)
+        xa, ya = [(random.randint(0, 6000) - 3000) / 10000] * 2
     d = 0
     x += xa
     y += ya
-    pygame.display.flip()
+    
