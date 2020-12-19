@@ -21,7 +21,7 @@ def physics(p, b, c):
     t = 100
     global x, y, xa, ya, ps, cs, d, intelligence
     if x < t:
-        if x == 99:
+        if 99 < x < 100:
             intelligence = random.randint(1, 100)
         if intelligence < 80:
             c.centery = y

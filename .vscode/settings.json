@@ -1,4 +1,5 @@
 {
     "editor.autoSave": "on",
-    "python.pythonPath": "c:\\program files\\python38\\python.exe"
+    "python.pythonPath": "C:\\Users\\findp\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true
 }

@@ -1,7 +1,7 @@
 import heapq
 RAGAS = []
 NOTES = list('SRGMPDNrgmdn')
-f = open('raga-index.txt')
+f = open('ri.txt')
 c = str(f.read())
 for x in c.split('\n'):
     if x:
@@ -12,7 +12,7 @@ def tri(n): #triangular number calculator
         t += i
     return t
 def loadDictionary(): # open raga database
-    dictionaryFile = open("raga-index.txt")
+    dictionaryFile = open("ri.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
@@ -37,7 +37,7 @@ def getRagas(message, threshold=0.5, joiner=' or '): # guessing code
     keys = list(SAPTAKS.keys())
     for guess in keys:
         # print(guess, SAPTAKS[guess] / tri(len(message)))
-        if SAPTAKS[guess] / tri(len(message)) >= threshold and guess in heapq.nlargest(3, SAPTAKS, SAPTAKS.get):
+        if SAPTAKS[guess] / tri(len(message)) >= threshold and guess in heapq.nlargest(1, SAPTAKS, SAPTAKS.get):
             guesses.append(guess[:guess.index(':')])
     guesses = joiner.join(guesses)        
     return guesses
