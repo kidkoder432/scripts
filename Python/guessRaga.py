@@ -1,7 +1,7 @@
 import heapq
 RAGAS = []
 NOTES = list('SRGMPDNrgmdn')
-f = open('ri.txt')
+f = open('raga-index.txt')
 c = str(f.read())
 for x in c.split('\n'):
     if x:
@@ -12,7 +12,7 @@ def tri(n): #triangular number calculator
         t += i
     return t
 def loadDictionary(): # open raga database
-    dictionaryFile = open("ri.txt")
+    dictionaryFile = open("raga-index.txt")
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = 0
