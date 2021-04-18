@@ -1,5 +1,4 @@
 def average(numbers):
-    numbers = numbers.split()
     listlen = len(numbers)
     global avg
     avg = 0
@@ -7,9 +6,9 @@ def average(numbers):
     for i in numbers:
         total += float(i)
     avg = total / listlen
+    return avg
 
 while True:
-    print('Please enter a group of numbers seperated by spaces.')
-    numbers = input()
-    average(numbers)
-    print('The average is %s' %(avg))
+    l = [-7897, 2, 78]
+    l.append(0)
+    print(average(l), end='\r')
