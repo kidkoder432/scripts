@@ -21,7 +21,7 @@ def physics(p, b, c):
     t = 100
     global x, y, xa, ya, ps, cs, d, intelligence
     if x < t:
-        if x == 99:
+        if 99 < x < 100:
             intelligence = random.randint(1, 100)
         if intelligence < 80:
             c.centery = y
@@ -79,12 +79,11 @@ while True:
             elif event.key == K_DOWN:
                 pd = False
     if pd:
-            py += 0.2
+        py += 0.2
     if pu:
-            py -= 0.2
+        py -= 0.2
     #Clear screen
     physics(playerPaddle, ball, computerPaddle)
-
     screen.fill((255,255,255))
     playerPaddle = pygame.draw.rect(screen, (128, 0, 0), (485, py, 10, 140))
     computerPaddle = pygame.draw.rect(screen, (128, 0, 0), (5, computerPaddle.centery - 70, 10, 140))

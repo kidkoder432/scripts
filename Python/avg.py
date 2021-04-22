@@ -5,7 +5,7 @@ def average(numbers):
     avg = 0
     total = 0
     for i in numbers:
-        total += int(i)
+        total += float(i)
     avg = total / listlen
 
 while True:

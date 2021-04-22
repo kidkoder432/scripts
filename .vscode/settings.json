@@ -1,4 +1,9 @@
 {
     "editor.autoSave": "on",
+<<<<<<< HEAD
     "python.pythonPath": "/home/gitpod/.pyenv/shims/python"
+=======
+    "python.pythonPath": "C:\\Users\\findp\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true
+>>>>>>> 1e5a89efa41439316f63f4b1b0cfcf00183e03aa
 }
